@@ -1,0 +1,221 @@
+body {
+	background-color: #5f0403;
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position: center center;
+	
+
+}
+h1 {
+	color: #6699FF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: big;
+	text-align: center;
+	margin: 0 0 10px 8px;
+	padding:0;
+}
+img {
+	border: 0;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+
+#A:link {text-decoration:none; color:#748e94;}
+A:link {text-decoration:none; color:#FFFFFF;}
+A:visited {text-decoration:none; color:#FFFFFF;}
+A:hover {  text-decoration:none;  color:#FF0000;}
+a:active { color: #FFFFFF; text-decoration :none; }
+
+.textbox {
+	border: 1px solid #BB0000;
+	font-family : Arial; 
+	color : #FFFFFF; 
+	background : #5f0403;
+
+}
+
+.listbox {
+	border: 1px solid #BB0000;
+	padding: 0px;
+	margin: 0px;
+	font-family : Arial; 
+	font-size: 9pt;
+	color : #FFFFFF; 
+	background : #5f0403;
+	overflow:auto;
+}
+
+#container {
+	width: auto;
+	margin-top:0in;
+	margin-left:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	padding: 0px;
+	background-color:transparent;
+}
+
+
+
+#container directory{
+float:left;
+  width:150px;
+  margin-left:0px;
+  position:relative;
+}
+
+#listingcontainer1 {
+	background-image: url('mylist_image.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 0px;
+	background-color:transperent;
+	width: 450px;
+	height: 500px;
+	
+}
+
+#listing1 {
+	position: center center;
+	width: 430px;
+	height: 472px;
+	overflow:auto;
+	
+}
+
+#listing1 a {
+	display:block;
+	padding: 0px 0px 0px 0px;
+	font-size:9pt;
+	color: white;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	width:0px;
+	text-align:left;
+	white-space:nowrap;
+}
+#listing1 a:hover {
+	color: #ff0000;
+	text-decoration:none;
+}
+
+#listingcontainer {
+	background-image: url('list_image.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 0px;
+	background-color:transperent;
+	width: 996px;
+	height: 405px;
+
+	
+}
+
+#listing {
+	position: center center;
+	width: 875px;
+	height: 375px;
+	overflow:auto;
+	
+}
+
+#listing a {
+	display:block;
+	padding: 0px 0px 0px 0px;
+	font-size:9pt;
+	color: white;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	width:0px;
+	text-align:left;
+	white-space:nowrap;
+}
+
+#listing a:hover {
+	color: #ff0000;
+	text-decoration:none;
+}
+
+#listing a em {
+	float: left;
+	width: 75px;
+	text-align:right;
+	cursor:hand;
+	cursor:pointer;
+}
+
+#listing a span img {
+	width: 150px;
+	background-color:#CCCCCC;
+	visibility: hidden;
+}
+
+#listing a:hover span img {
+	border: 1px solid #6699FF;
+	visibility: visible;
+}
+
+#footer1{
+	height:1px;
+	position: absolute;
+	left:215px;
+	top:750px;
+	font-size:9pt;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:transparent;
+}
+
+
+#footer{
+	height:1px;
+	position: absolute;
+	left:90px;
+	top:790px;
+	font-size:9pt;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:transparent;
+	border-top-width: thin;
+	border-top-color: #008090;
+	border-top-style: solid;
+
+}
+
+.btn_1 {
+	font-family: "Arial","돋움";
+	font-size: 10pt;
+	color: #FFFFFF;
+#	border: 1px solid #050922;
+	border: none;
+	line-height:17px;
+	height:20px; 
+	padding:0 ;
+#	background-image:  url();
+#	background-color:#67BDB2;
+	background-color:transparent;
+	cursor:hand;
+}
+
+.btn_1:hover {
+	color: #FF0000;
+	text-decoration:none;
+}
+
+
+.btn_2 {
+	font-family: "Arial","돋움";
+	font-size: 12px;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	line-height:17px;
+	height:20px; 
+	padding:0 ;
+#	background-image:  url('button_bg.jpg');	
+	background-color:#390000;
+	cursor:hand;
+}

@@ -1,0 +1,87 @@
+html {
+    overflow: -moz-scrollbars-vertical;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-family: Arial;		        	
+}
+
+#progressImg
+{
+	position: absolute;
+	display:none;	
+} 
+
+#nowplaying
+{
+	position:absolute;
+	top: 229px;
+	left: 0px;
+	width: 320px;
+	text-align:center;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 11px;	
+}
+
+#nowplaying a
+{
+	text-decoration: none;	
+	color: #ffffff;
+}
+
+#nowplaying a:active, #nowplaying a:hover
+{
+	font-size: 12px;	
+}
+
+#cover
+{
+	position:absolute;
+	top: 126px;
+	left: 10px;
+	width: 147px;	
+	height: 213px;
+}
+
+#nowplayingproperties
+{
+	position:absolute;
+	top: 126px;
+	left: 167px;
+	width: 150px;
+	color: #ffffff;		
+	font-size: 12px;
+}
+
+#nowplayingproperties .ttl
+{
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#searchbox
+{
+	position:absolute;
+	top: 314px;
+	left: 48px;		
+}
+
+#searchbox input
+{
+	background: url('../images/search_bg.png') repeat-x;
+	background-color: #4a4a4a;
+	border-width: 0px;
+	color: #ffffff;	
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	
+}
