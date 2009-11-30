@@ -18,7 +18,9 @@ if($_SESSION['loggedIn'] == 1){
 ?>
 	<tr><td></td><td><font face="Arial" color="white">
 <?
+//	echo $STR_AlreadyLogedIn ." " . $_SESSION['user'];
 	echo $STR_AlreadyLogedIn;
+//	echo '<br>'. $STR_GoTo;
 	echo "<a href=index.php>". $STR_HomePage;
 	exit();
 }
@@ -37,6 +39,8 @@ if (!file_exists($file)) {
 	$username = $_POST['username'];
 	$rawpass = $_POST['password'];
 	$password = crypt(md5($rawpass), md5($username));
+//	$password = crypt(md5($rawpass));
+//echo "<script>alert('$password');</script>";
 	$fp = fopen($file, 'r');
 	$fileData = fread($fp, filesize($file));
 	fclose($fp);
@@ -67,7 +71,9 @@ if (!file_exists($file)) {
 		if ($authed == 1) {
 			$_SESSION['loggedIn'] = 1;
 			$_SESSION['user'] = $username;
+			//echo "<script>document.location.href='index.php'</script>";
 			echo "<script>document.location.href='".$_SESSION['redirect']."'</script>";			
+			//header("Location:index.php");
 			exit;
 		}else {
 		?>

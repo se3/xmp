@@ -22,4 +22,5 @@ if ($result == 1){
   fclose($file);
   echo "<script>parent.window.location.href='setup_live_keyword.php'; </script>";
 }
+	//echo "<script>parent.window.location.href='setup_live_keyword.php'; </script>";
 ?>

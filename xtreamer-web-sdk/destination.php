@@ -89,6 +89,10 @@ function myscan($dir) {
     return $files;
 }
 
+//echo "<div style='width: 450; height: 500; overflow: scroll; border: 1px solid #A7C5FF; background: transparent ;'>";
+
+//echo '<div id="listingcontainer1">';
+
 echo '<div id="listing1">';
 
 if(!$_GET["dir"]==''){
@@ -133,6 +137,7 @@ for ($x=0; $x<sizeof($files); $x++) {
 
 for ($x=0; $x<sizeof($files); $x++) {
 	if (($files[$x] != '.') and ($files[$x] != "..")) {
+		//echo "<div>";
 		if(!is_dir($mydir . "/" . $files[$x])) {
 			 if (($files[$x] != "mylist.All") and ($files[$x] != "mylist.Music") and ($files[$x] != "mylist.Picture") and ($files[$x] != "mylist.Video") and ($files[$x] != "keyword.data")){
 				$ext = strtolower(substr($files[$x], strrpos($files[$x], '.')+1));

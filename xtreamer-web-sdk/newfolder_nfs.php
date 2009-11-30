@@ -44,6 +44,7 @@ if ($exist == 1){
 			echo "<script>alert('$STR_FolderAlreadyExists');</script>";
 }else{
 	if($dirname != ""){
+		//if($aaa!= ""){
 		if($mediapath!= ""){
 			if(mkdir("/tmp/usbmounts" . $mediapath . "/" . $dirname, 0777)){
 				echo "<script>parent.document.location.reload();</script>";

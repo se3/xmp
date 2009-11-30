@@ -17,10 +17,14 @@ if (file_exists($filename)) {
 $line = explode("\n", $fileData);
 
 	$countdata = count($data);	
+//	echo "<script>alert('$countdata');</script>";
 	$countline = count($line);
+//	echo "<script>alert('$countline');</script>";
 	
 	for ($i=0; $i<$countdata; $i++){
 		for ($j=0; $j<$countline-1; $j++){
+			//	echo "<script>alert('$data[$i]');</script>";
+			//	echo "<script>alert('$line[$j]');</script>";
 			if ($data[$i] == $line[$j]){
 				unset($line[$j]);
 			}

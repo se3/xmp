@@ -63,6 +63,7 @@ error_reporting(0);
         <tr><td></td><td><font color="white">
   <?
 	  echo "<script>alert('$STR_UnknownError');</script>";
+	//echo $STR_UnknownError;
   }
   fclose($file);
 

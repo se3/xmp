@@ -11,6 +11,8 @@ if (!file_exists($tempfile)) {
 	echo `mkdir /tmp/hdd/volumes/HDD1/.cached`;
 }
 
+//echo `rm /tmp/hdd/volumes/Copy_Recordings_Here/.cached/lighttpd-upload*`;
+//echo `rm /tmp/hdd/volumes/Copy_Recordings_Here/.cached/php*`;
 shell_exec('rm -rf /tmp/hdd/volumes/HDD1/.cached/*');
 
 $mediapath = $_GET['dir'];
@@ -197,6 +199,10 @@ hr {margin: 0px 0;}
 				<span class="legend"></span>
 			</div>
 
+			<!--input type="file" name="Filedata" id="Filedata" /-->
+			<!--input type="submit" value="Upload" /-->
+
+			<!--div id="divStatus">0 Files Uploaded</div-->
 				<div>
 					<span id="spanButtonPlaceHolder"></span>
 					&nbsp<input id="btnCancel" type="button" class='btn_2' value="<?echo $STR_Cancel;?>" onclick="swfu.cancelQueue();" disabled="disabled"/>
@@ -215,6 +221,7 @@ hr {margin: 0px 0;}
 			</td>
 			<td>
 				<input type=button class='btn_2' name="Button1" value="<?echo $STR_Start;?>" onclick="javascript:stop();";>
+				<!--input type=button class='btn_2' name="Button2" value="<?echo $STR_Stop;?>" onclick="javascript:startps();";-->
 			</td>
 		</tr>
 	</table>		

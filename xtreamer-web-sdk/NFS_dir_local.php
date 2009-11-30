@@ -2,6 +2,7 @@
 header('Content-Type: text/html; charset=utf-8');
 session_start();
 error_reporting(0);
+//include '/tmp/lang.php';
 $mediapath = "/tmp/usbmounts" . $_GET['dir'];
 $m_dir = $_POST['filelist']; 
 $dir = $_GET['dir'];

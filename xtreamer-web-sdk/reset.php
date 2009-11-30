@@ -2,6 +2,14 @@
 header('Content-Type: text/html; charset=utf-8');
 error_reporting(0);
 include '/tmp/lang.php';
+	//Write default data to setup file.
+	//$data = "Mvix=UPnP\n"."Login=false\n"."User=admin".':'.crypt(md5("pass"), md5("admin"))."\n"."Port=80\n"."DDNS=\n"."Lang=english\n"."Region=0\n"."DST=0\n";
+	//$file = "/usr/local/etc/setup.php";
+
+	//$passfile = fopen($file, "w");
+	//fwrite($passfile, $data);
+	//fclose($passfile);
+
 	copy("/sbin/www/setup.php", "/usr/local/etc/setup.php");
 	copy("/sbin/www/stupid-ftpd.conf", "/usr/local/etc/stupid-ftpd.conf");
 	unlink("/usr/local/etc/nfs");

@@ -13,7 +13,11 @@ if (!file_exists($tempfile)) {
 	echo `mkdir /tmp/hdd/volumes/HDD1/.cached`;
 }
 //remove all temporary files
+//if (file_exists('/tmp/hdd/volumes/Copy_Recordings_Here/.cached/*')){
+	//echo `rm /tmp/hdd/volumes/Copy_Recordings_Here/.cached/lighttpd-upload*`;
+	//echo `rm /tmp/hdd/volumes/Copy_Recordings_Here/.cached/php*`;
 	shell_exec('rm -rf /tmp/hdd/volumes/HDD1/.cached/*');
+//}
 ?>
 
 
@@ -65,6 +69,8 @@ function newwindow(w,h,webaddress){
 		</table></td>
 	</tr>
 		
+
+		<!--onMouseOver="document.getElementById('movie').style.color=\'gold\';" onMouseOut="document.getElementById('movie').style.color=\'black\';" -->
 	<tr align="middle">
 		<td colspan="500">
 		  <table bgcolor="#000000" cellspacing="0" cellpadding="0" border="0" align="center" width=100%>

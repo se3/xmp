@@ -7,6 +7,10 @@ include "chooselang.php";
 include '/tmp/lang.php';
 $file1 = "http://".$_SERVER["SERVER_NAME"].'/'. "media" . $_GET["dir"] .'/'. $_GET["file"];
 $file = str_replace(" ", "%20", $file1);
+//echo $file;
+//if (!file_exists($_GET["file"])) {
+//symlink($_GET["dir"].'/'.$_GET["file"],$_GET["file"]);
+//}
 ?>
 
 <HTML>
@@ -18,6 +22,12 @@ $file = str_replace(" ", "%20", $file1);
 
 <TABLE ID="Table1" border="0" cellspacing="0" cellpadding="0" align="center">
 <TR><TD colspan="2">
+<!--
+Insert VideoLAN.VLCPlugin.2 activex control
+codebase="http://downloads.videolan.org/pub/videolan/vlc/0.8.6h/win32/vlc-0.8.6h-win32.exe"
+codebase="http://61.39.153.34:81/Mvix media player"
+codebase="http://live.mvix.net/mvix_vlc/Mvix_media_player.cab"
+-->
 <OBJECT classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921"
 
 	width="100%"
@@ -34,7 +44,9 @@ $file = str_replace(" ", "%20", $file1);
 </OBJECT>
 </TD></TR>
 <TR><TD>
-
+<!--
+Insert MSComctlLib.Slider.2 activex control
+-->
 <OBJECT classid="clsid:F08DF954-8592-11D1-B16A-00C0F0283628"
         width="540"
         height="20"
@@ -82,9 +94,19 @@ for Mozila Firefox
 </TR>
 </TABLE>
 
+<!--script type="text/javascript">
+//if(document.getElementById("vlc").VersionInfo== null)
+//{
+//window.open('http://downloads.videolan.org/pub/videolan/vlc/0.8.6h/win32/vlc-0.8.6h-win32.exe','MyVideo','height=545,width=700,left=350,top=200');
+//}
+</SCRIPT-->
 
 <SCRIPT language="javascript">
 <!--
+//if(document.getElementById("vlc").VersionInfo== null)
+//{
+//  window.open('http://downloads.videolan.org/pub/videolan/vlc/0.8.6h/win32/vlc-0.8.6h-win32.exe','MyVideo','height=545,width=700,left=350,top=200');
+//}
 
 var prevState = 0;
 var monitorTimerId = 0;
@@ -95,9 +117,30 @@ var ignoreSliderChange = false;
    if(document.getElementById("vlc").VersionInfo==null)
     {
 		if(confirm('You need to setup VLC player. Do you want to continue?')){
+			//top.location ="http://downloads.videolan.org/pub/videolan/vlc/0.8.6h/win32/vlc-0.8.6h-win32.exe";
+			//window.open('vlcsetup.php','vlc','height=500,width=550,left=100,top=100, toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,copyhistory=no');
 			this.location.href="vlcsetup.php";
 		}
     }
+
+//function isInstalledActiveX() {
+//        var isInstall = false;
+//        try {
+//            var obj = new ActiveXObject("VideoLAN.VLCPlugin.2");
+
+//            if(obj)
+//                isInstall = true;
+//            else
+//                isInstall = false;
+ //       } catch(e) {
+//            isInstall = false;
+//        }              
+//      
+//        if(isInstall)
+//            alert("ActiveX Control installed");
+ //       else
+ //           alert("ActiveX Control not installed");
+ //   }  
 
 
 function updateVolume(deltaVol)
@@ -181,6 +224,7 @@ function doGo(targetURL)
     var vlc = document.getElementById("vlc");
     var options = new Array(":vout-filter=deinterlace", ":deinterlace-mode=linear");
     vlc.playlist.clear();
+    //vlc.playlist.add(targetURL, null, options);
     vlc.playlist.add(targetURL);
     vlc.playlist.play();
     if( monitorTimerId == 0 )

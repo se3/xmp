@@ -5,6 +5,7 @@ $_SESSION['redirect'] = $_SERVER['REQUEST_URI'];
 include "chooselang.php";
 include '/tmp/lang.php';
 
+//$root = "/tmp/hdd/volumes";  
 $root = "/tmp/usbmounts";
 
 $filetypes = array (
@@ -85,6 +86,10 @@ function setPng24(obj) {
     <div id="container"> 
 	<center>
 	<table width="996" cellspacing="0" cellpadding="0" border="0" valign="middle">
+	   <!--tr>
+			<td width="940" align="right" valign="middle"><font face="Arial" color="#748e94" size="1"><a href="logout.php"><font face="Arial" color="#748e94" size="1"><?echo $STR_Logout;?></a> | <a href="register_form.php"><font face="Arial" color="#748e94" size="1"><?echo $STR_Setup;?></a> </font></td>
+	   </tr-->
+
 	   <tr>
 			<td align="center"><table height="94" background="dlf/top_menu.jpg" width="996" border="0" cellspacing="0" cellpadding="0">
 				<tr>
@@ -99,6 +104,8 @@ function setPng24(obj) {
 
 						<tr>
 							<td width="5" valign="bottom">&nbsp;</td>
+							<!--td height="30" width="40" valign="bottom"><font face="arial" color="white" size="2">
+								<a href="index.php"><?echo $STR_Home;?></a></td-->
 							<td height="30" width="40" valign="bottom"><font face="arial" color="white" size="2">
 								<a href="videolist.php?dir=<?echo $mediapath;?>"><?echo $STR_Video;?></a></td>
 							<td height="30" width="40" valign="bottom">
@@ -112,14 +119,19 @@ function setPng24(obj) {
 							<td height="30" width="40" valign="bottom">
 								<?
 								 //Mylist
+								 //if (strncmp($mediapath, '/Media_Library', 14)){
 									echo"<input type='button' class='btn_1' onMouseOver='this.style.color= \"#ff0000\"' onMouseOut='this.style.color=\"#FFFFFF\"' name='add' value='".$STR_Mylist."' onclick=\"newwindow(987, 675, 'm3uMusic.php');\";>";
+								 //}
 							echo '</td><td height="30" width="40" valign="bottom">';
 								 //Upload
+								 //if (($mediapath != '') and (strncmp($mediapath, '/Media_Library', 14))){
 								if ($mediapath != ''){
+									//echo"<input type='button' class='btn_1' name='upload' value='".$STR_Upload."' onclick=\"window.open('upload.php?dir=$mediapath','MyVideo','height=570,width=467,left=430,top=270');\";>";
 									echo"<input type='button' class='btn_1' onMouseOver='this.style.color= \"#ff0000\"' onMouseOut='this.style.color=\"#FFFFFF\"' name='upload' value='".$STR_Upload."' onclick=\"newwindow(467, 600, 'upload.php?dir=$mediapath');\";>";
 								 }
 							echo '</td><td height="30" width="40" valign="bottom">';
 								 //Filemanager
+								 //if (($mediapath != '') and (strncmp($mediapath, '/Media_Library', 14))){ 
 								if ($mediapath != ''){ ?>
 									<FORM NAME="FileManager">
 									<select name="File_Manager" class="listbox" ONCHANGE="goto(this.form)">
@@ -153,6 +165,8 @@ function setPng24(obj) {
 
 	<tr>
 		<td height=100% align='center' valign='bottom'>
+
+<!--div style='width: 996; height: 405; overflow: scroll; border: none ; background: transparent; background-image:url("dlf/list_image.png") '-->
         <div id="listingcontainer">
 				<table><tr height=12><td></td></tr></table>
 			<div id="listing">
@@ -173,6 +187,7 @@ shell_exec($command);
 
 $file1 = "/tmp/aaa";
 $fp1 = fopen($file1, 'r');
+//$fileData1 = fread($fp1, filesize($file1));
 
 $i=0;
 
@@ -180,17 +195,28 @@ while (!feof($fp1)) {
     $line1[$i++] = fgets($fp1, 4096);
 }
 fclose($fp1);
+//$line1 = preg_split("/\n/", $fileData1);
+
 
 for ($x=0; $x<($i-1); $x++) {
 	if (($files[$x] != '.') and ($files[$x] != "..") and ($files[$x] != "Recycled") and ($files[$x] != "System Volume Information") and (substr($files[$x],0,1) != ".") and ($files[$x] != "lost+found")){
+		//echo "<div>";
+		//if(is_dir($mydir . "/" . $files[$x])) {
 		if (substr($line1[$x],0,1) == 'd'){
 			$files1[$x] = $files[$x];
 			if ($aaa!= ""){
 				$files1[$x] = str_replace("sda", "HDD", $files1[$x]);
+				//$files1[$x] = str_replace("sdb1", "USB1", $files1[$x]);
+				//$files1[$x] = str_replace("sdc1", "USB2", $files1[$x]);
+				//$files1[$x] = str_replace("sdd1", "USB3", $files1[$x]);
 				$files1[$x] = str_replace("sdb", "USB", $files1[$x]);
 				$files1[$x] = str_replace("sdc", "USB", $files1[$x]);
 				$files1[$x] = str_replace("sdd", "USB", $files1[$x]);
 			}else{
+				//$files1[$x] = str_replace("sda1", "USB1", $files1[$x]);
+				//$files1[$x] = str_replace("sdb1", "USB2", $files1[$x]);
+				//$files1[$x] = str_replace("sdc1", "USB3", $files1[$x]);
+				//$files1[$x] = str_replace("sdd1", "USB4", $files1[$x]);
 				$files1[$x] = str_replace("sda", "USB", $files1[$x]);
 				$files1[$x] = str_replace("sdb", "USB", $files1[$x]);
 				$files1[$x] = str_replace("sdc", "USB", $files1[$x]);
@@ -209,6 +235,9 @@ for ($x=0; $x<($i-1); $x++) {
 }
 
 for ($x=0; $x<($i-1); $x++) {
+	//if (($files[$x] != '.') and ($files[$x] != "..")) {
+	//	echo "<div>";
+		//if(is_dir($mydir . "/" . $files[$x])) {
 		if($line1[$x] == NULL)
 			continue;
 
@@ -271,7 +300,14 @@ for ($x=0; $x<($i-1); $x++) {
 						?>
 						<font color= "white" face="Arial" size="2">
 						<?
+						//$i = 0;
+						//while ($i < sizeof($line1)) {
+						//	if($line1[$i] == NULL)
+						//		continue;
+
 							sscanf($line1[$x],"%s %s %s %s %s %s %s %s", $a,$b, $c, $d, $Size, $mnth, $day, $time);
+						//	$Name = substr(strstr($line1[$i],$time),strlen($time)+1);
+						//	if ($Name == $files[$x]) {
 								echo $Size;
 
 								echo "</td></tr> </table>";
@@ -281,6 +317,11 @@ for ($x=0; $x<($i-1); $x++) {
 								echo "<table width='170' height='2' cellspacing='0' cellpadding='0' border='0'> <tr><td>";
 								echo '<font color= "white" face="Arial" size="2">';
 								echo $mnth. ' ' .$day. ' ' .$time;
+						//		$line1[$i] = NULL;
+						//		break;
+						//	}
+						//	$i++;
+						//}	
 
 					echo "</td></tr> </table>";
 					echo "</td>";
@@ -300,6 +341,8 @@ for ($x=0; $x<($i-1); $x++) {
 					echo "</table>";
 				}
 			}
+    //    echo "</div>";
+	//}
 }
                  ?>
         </td>
@@ -353,6 +396,8 @@ for ($x=0; $x<($i-1); $x++) {
 			echo '<tr>';
 				echo '<td width=25></td>';
 				echo '<td ><font face="Arial" color="White" size="1">';
+					//$HDDInfo = shell_exec("df -h|grep /dev/scsi/host1/bus0/target0/lun0/part1");
+					//sscanf($HDDInfo,"%s %s %s %s", $aaa,$HDDTotal, $HDDUsed, $HDDFree);
 					echo "$HDDUsed";
 				echo '</td>';
 
@@ -384,7 +429,7 @@ for ($x=0; $x<($i-1); $x++) {
         <td width=440 valign="middle"><font face="Arial" color="#748e94" size="2"><a href="index.php"><?echo $STR_Home;?></a> | <a href="register_form.php"><?echo $STR_Setup;?></a> | <a href="logout.php"><?echo $STR_Logout;?></a></font></td>
 
 		<td align=right>
-			<table><tr></tr>
+			<table><tr><!--td align=right><font face="Arial" color="#000000" size="1"><b><?echo date('M, d Y | h:i A');?></td--></tr>
 				   <tr><td align=right><font face="Arial" color="#000000" size="1"><b>Copyright ⓒ 2009 Xtreamer.net, All right reserved.</td></tr>
 			</table>
 		</td>

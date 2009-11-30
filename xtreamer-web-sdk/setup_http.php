@@ -54,6 +54,7 @@ function onlyDigits(e) {
 
 function changeport(){
 
+	//var ok = confirm('If you change HTTP Port, Mvix Xtreamer will be Restarted..! \n \t Do you really want to proceed?');
 	if(!document.port.port.value){
 		alert('<?echo $STR_SpecifyPort;?>');
 		document.port.port.focus();
@@ -113,6 +114,9 @@ function changeport(){
 			<td><font face="arial" color="white" size="2">
 				<a href="setup_upnp_boost.php"><b><?echo $STR_NAS_Mode;?></b>
 				<font face="arial" color="white" size="2">|&nbsp</td>
+			<!--td><font face="arial" color="white" size="2">
+				<a href="setup_time.php"><b>Time Server</b>
+				<font face="arial" color="white" size="2">|&nbsp</td-->
 			<td><font face="arial" color="white" size="2">
 				<a href="setup_nfs.php"><b><?echo $STR_NFS_Client;?></b></td>
 		</tr></table>

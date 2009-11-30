@@ -17,9 +17,13 @@ include '/tmp/lang.php';
 <script language="javascript">
 
 function goto(form){
+//	var index=form.language.selectedIndex
+//	if (document.language.selectedLang.value){
 		document.language.target = 'gframe';
 		document.language.action = 'language.php';
 		document.language.submit();
+//		location.reload();
+//	}
 }
 </script>
 
@@ -69,6 +73,9 @@ function goto(form){
 			<td><font face="arial" color="white" size="2">
 				<a href="setup_upnp_boost.php"><b><?echo $STR_NAS_Mode;?></b>
 				<font face="arial" color="white" size="2">|&nbsp</td>
+			<!--td><font face="arial" color="white" size="2">
+				<a href="setup_time.php"><b>Time Server</b>
+				<font face="arial" color="white" size="2">|&nbsp</td-->
 			<td><font face="arial" color="white" size="2">
 				<a href="setup_nfs.php"><b><?echo $STR_NFS_Client;?></b></td>
 		</tr></table>

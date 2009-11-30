@@ -1,10 +1,19 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
 error_reporting(0);
-
+//session_start();
+//$file1 = "http://".$_SERVER["SERVER_NAME"].'/'. "media" . $_GET["dir"] .'/'.$_GET["file"];
+//$file1 =  "http://". $_SERVER['SERVER_NAME'] . "?dir=" . $_GET['dir'] . "/" . $_GET['file'];
 $file= "/tmp/usbmounts" . stripslashes($_GET['dir']) . "/" . stripslashes($_GET['file']);
+//echo "<script>alert('$file');</script>";
+//$file = str_replace(" ", "%20", $file1);
 
+//$file = utf8_encode($file);
 $name="/tmp/usbmounts" . stripslashes($_GET['dir']) . "/" . stripslashes($_GET['file']);
+//echo "<script>alert('$name');</script>";
+//$name = utf8_encode($name);
+//echo "<script>alert('$file');</script>";
+//echo "<script>alert('$name');</script>";
 
 // required for IE, otherwise Content-disposition is ignored
 if(ini_get('zlib.output_compression'))
@@ -30,6 +39,9 @@ $known_mime_types=array(
 	"mp3" => "audio/mpeg");
 
 
+//header("location:".implode("/", array_map("rawurlencode", explode("/", $file1))));
+
+
 header("Pragma: public"); // required
 header("Expires: 0");
 header("Cache-Control: private", false); // required for certain browsers
@@ -52,5 +64,12 @@ header("Content-Transfer-Encoding: binary");
 ob_clean();
 flush();
 readfile("$file");
+//header('Location:' . $file);
+
+//	$fp = fopen($file, "r");
+//	$fpdata = fread($fp, filesize($file));
+//	fclose($fp);
+//	print $fpdata;
+
 exit();
 ?>

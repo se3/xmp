@@ -7,6 +7,7 @@ $filename = $_POST['filelist'];
 $dir = $_GET['dir'];
 
 $countdata = count($filename);
+//echo "<script>alert('$countdata');</script>";
 
 for ($i=0; $i<$countdata; $i++){
 		$filename[$i] = stripslashes($filename[$i]);
@@ -30,6 +31,7 @@ function deleteDir($dir) {
       }
       closedir($dhandle);
     }
+//   echo "<u>Deleting Directory</u>: {$dir} <br />";
    rmdir($dir);
 }
 
@@ -40,6 +42,7 @@ if($countdata == 0){
 	for ($i=0; $i<$countdata; $i++){
 		if (!is_dir($mediapath . "/" . $filename[$i])){			
 			unlink($mediapath . "/" . $filename[$i]);
+			//echo "<u>Deleting Files: {$mediapath}/{$filename[$i]} <br />";
 		}else{
 			deleteDir($mediapath . "/" . $filename[$i]);
 		}

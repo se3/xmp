@@ -31,6 +31,24 @@ if (substr($dir,0,5) == "/sda1"){
 
 	
 
+//	for ($i=0; $i<$countdata; $i++){
+//		for ($j=1; $j<$countline-1; $j++){
+//			echo "<script>alert('$data[$i]');</script>";
+//			echo "<script>alert('$line[$j]');</script>";
+//			if (($countline > 2)and $data[$i] == substr(strrchr($line[$j], '/'),1)){
+//				echo "<script>alert('$data[$i] file already exists!');</script>";
+//
+//			}else{
+//					
+//					$m3ufile = fopen($filename, "a");
+//					fwrite($m3ufile, $dir ."/". $data[$i]."\n");
+//					fclose($m3ufile);
+//					break;
+//
+//			}
+//		}
+//	}
+
 
 $list = array();
 $list = explode("\n",$fileData);
@@ -46,4 +64,10 @@ for ($i=0; $i<$countdata; $i++){
 	}
 }
 		echo "<script>parent.document.location.href = 'm3uMusic.php?dir=$dir';</script>";
+
+//	foreach ($update as $this) {
+//		$m3ufile = fopen($filename, "a");
+//		   fwrite($m3ufile, $dir ."/". $this."\n");
+//		   fclose($m3ufile);
+//		}
 ?>

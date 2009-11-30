@@ -58,6 +58,7 @@ error_reporting(0);
 	echo "<script>alert('$STR_Restart');</script>";
 	sleep(5);
 	shell_exec('reboot');
+//	shell_exec('./restart.sh');
   ?>
         <tr><td></td><td><font color="white">
   <?
@@ -71,6 +72,10 @@ error_reporting(0);
 	echo $STR_UnknownError;
   }
   fclose($file);
+
+//restart lighttpd
+//echo `./restart.sh`;
+//shell_exec(`./restart.sh`);
 ?>
 </body>
 </html>

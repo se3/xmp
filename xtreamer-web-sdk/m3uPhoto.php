@@ -22,6 +22,8 @@ while ($i <= 5) {
         $i++;
 }
 
+//$root = "/tmp/hddmedia/HDD1";  // this will the the root position of this script
+//$root = "/tmp/hdd/volumes";  // this will the the root position of this script
 $root = "/tmp/usbmounts";
 
 //Set our root position and make sure the URL input is not manually manipulated
@@ -182,11 +184,13 @@ function goto(form){
 			<div id="listing1">
 
 <?
+//echo "<div style='width: 450; height: 500; overflow: scroll; border: 1px solid #A7C5FF; background: transparent ;'>";
 echo "<form id='playlist' name='playlist' method='post' enctype='multipart/form-data'>";
 if ($mediapath != ''){
 	echo "<input type='checkbox' name='selectall' onclick='checkedAll(playlist);'><font color= 'white' face='Arial' size='2'>".$STR_SelectAll;
 }
 
+//echo "<div>";
 if(!$_GET["dir"]==''){
 echo '<table width="500" cellspacing="0" cellpadding="0" border="0" onMouseOver="this.style.backgroundImage= \'url(dlf/rollover_bar.png)\'" onMouseOut="this.style.backgroundImage=\'none\'"><tr><td>';
 echo "<table><tr><td><img src='dlf/dirup.png' align='center'>";
@@ -197,6 +201,7 @@ echo "</td></tr></table>";
 
 for ($x=0; $x<sizeof($files); $x++) {
 	if (($files[$x] != '.') and ($files[$x] != "..") and ($files[$x] != "Recycled") and ($files[$x] != "System Volume Information") and (substr($files[$x],0,1) != ".") and ($files[$x] != "lost+found")){
+		//echo "<div>";
 		if(is_dir($mydir . "/" . $files[$x])) {
 			$files1[$x] = $files[$x];
 			if (($aaa!= "") && ($mediapath == "") && (substr($files1[$x],0, 3) == "sda")){
@@ -206,6 +211,7 @@ for ($x=0; $x<sizeof($files); $x++) {
 				echo '<tr><td>';
 				echo "<table cellspacing='1' cellpadding='0' border='0'><tr><td><img src='dlf/folder.png' align='center'>";
 				echo "<td colspan='200'><a href='" . $_SERVER['PHP_SELF'] . "?dir=" . $mediapath . "/" . $files[$x] . "'   class='rollover'>" . $files1[$x] . "</td>";
+				//echo "It works only for Internal HDD.";
 				echo "</tr></table>";
 				echo "</td></tr></table>";
 			}
@@ -216,6 +222,7 @@ for ($x=0; $x<sizeof($files); $x++) {
 				echo '<tr><td>';
 				echo "<table cellspacing='1' cellpadding='0' border='0'><tr><td><img src='dlf/folder.png' align='center'>";
 				echo "<td colspan='200'><a href='" . $_SERVER['PHP_SELF'] . "?dir=" . $mediapath . "/" . $files[$x] . "'   class='rollover'>" . $files1[$x] . "</td>";
+				//echo "It works only for Internal HDD.";
 				echo "</tr></table>";
 				echo "</td></tr></table>";
 			}
@@ -226,6 +233,7 @@ for ($x=0; $x<sizeof($files); $x++) {
 
 for ($x=0; $x<sizeof($files); $x++) {
 	if (($files[$x] != '.') and ($files[$x] != "..")) {
+		//echo "<div>";
 		if(!is_dir($mydir . "/" . $files[$x])) {
 			 if ((strtolower(strrchr($files[$x],'.')) == ".png")||(strtolower(strrchr($files[$x],'.')) == ".jpeg")|| (strtolower(strrchr($files[$x],'.')) == ".jpg")||(strtolower(strrchr($files[$x],'.')) == ".bmp")||(strtolower(strrchr($files[$x],'.')) == ".gif")||(strtolower(strrchr($files[$x],'.')) == ".tif")){
 
@@ -237,6 +245,7 @@ for ($x=0; $x<sizeof($files); $x++) {
 				echo "</td></tr></table>";
 			} 							
 		}
+		//echo "</div>";
 	}
 
 }
@@ -267,6 +276,8 @@ for ($x=0; $x<sizeof($files); $x++) {
 	<?
 	echo '<div id="listing1">';
 
+	//echo "<div style='width: 450; height: 500; overflow: scroll; border: 1px solid #A7C5FF; background: transparent ;'>";
+
 	echo "<input type='checkbox' name='selectall' onclick='checkAllmylist(playlist);'><font color='white' face='Arial' size='2'>" . $STR_SelectAll;
 
 					$filename = "/usr/local/etc/mylist.Picture";
@@ -276,6 +287,7 @@ for ($x=0; $x<sizeof($files); $x++) {
 						fclose($fp);
 					}else{
 						$fp = fopen($filename, 'w');
+						//fwrite($fp, "#My List\n");
 						$fileData = fread($fp, filesize($filename));
 						fclose($fp);
 					}

@@ -13,6 +13,10 @@ for ($i=0; $i<$countdata; $i++){
 		$oldname[$i] = stripslashes($oldname[$i]);
 }
 
+//echo "<script>alert('$countdata');</script>";
+//echo "<script>alert('new = $newname');</script>";
+//echo "<script>alert('old = $oldname');</script>";
+
 $root = "/tmp/usbmounts";  // this will the the root position of this script
 
 //Set our root position and make sure the URL input is not manually manipulated
@@ -54,6 +58,8 @@ if($countdata == 0){
 	echo "<script>alert('$STR_CheckOnlyOne');</script>";
 }else{
 	for ($i=0; $i<$countdata; $i++){
+		//echo "<script>alert('old = $oldname[$i]');</script>";
+		//echo "<script>alert('new = $newname');</script>";
 		if ($exist == 1){
 			echo "<script>alert('$STR_FileAlreadyExists');</script>";
 			break;

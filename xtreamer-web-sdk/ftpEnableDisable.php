@@ -7,6 +7,7 @@ include '/tmp/lang.php';
 		//already running....
 ?>
 		<script language=javascript>
+			//parent.document.FTPservice.start.value="<?echo $STR_Stop;?>";
 			parent.document.FTPservice.start.disabled=true;
 			parent.document.FTPservice.stop.disabled=false;
 			parent.document.ftpport.ftpport.disabled=false;
@@ -15,6 +16,7 @@ include '/tmp/lang.php';
 		</script>
 <? }else{ ?>
 		<script language=javascript>
+			//parent.document.FTPservice.start.value="<?echo $STR_Start;?>";
 			parent.document.FTPservice.start.disabled=false;
 			parent.document.FTPservice.stop.disabled=true;
 			parent.document.ftpport.ftpport.disabled=true;

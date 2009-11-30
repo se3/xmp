@@ -11,6 +11,9 @@ $link = $_POST['new_path1'];
 
 $countdata = count($source);
 
+//echo "<script>alert('$mediapath');</script>";
+//echo "<script>alert('$newpath');</script>";
+
 for ($i=0; $i<$countdata; $i++){
 		$source[$i] = stripslashes($source[$i]);
 }
@@ -49,7 +52,7 @@ if($mediapath == $newpath){
 
 	$_SESSION['newpath'] = $link;
 	echo "<script>parent.document.location.href = 'copy.php?dir=$dir';</script>";
-
+	//	echo "<script>parent.document.getElementById('tree').src = 'destination.php?dir=$link';</script>";
 	
 }
 ?> 

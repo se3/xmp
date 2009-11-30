@@ -23,6 +23,7 @@ while ($i <= 5) {
         $i++;
 }
 
+//$root = "/tmp/hddmedia/HDD1";  // this will the the root position of this script
 $root = "/tmp/usbmounts";  // this will the the root position of this script
 
 //Set our root position and make sure the URL input is not manually manipulated
@@ -87,15 +88,17 @@ function change(){
 	if(ok){
 		document.filelist.target = 'gframe';
 		document.filelist.action = 'delete_file.php?dir=<? echo $mediapath;?>';
+//		document.filelist.action = window.open('delete_file.php?dir=<? echo $mediapath;?>','Playlist','height=300,width=987,left=150,top=200');
 		document.filelist.submit();
 	}
 }
-
+//window.open('m3uMusic.php','Playlist','height=675,width=987,left=150,top=200');\";>";
 </script>
 
 
 <HTML>
 <head>
+    <!--meta http-equiv="Content-Type" content="text/html; charset=utf-8" /-->
     <title> <?echo $STR_DeleteTitle;?></title>
 	<link rel="stylesheet" type="text/css" href="dlf/styles.css" />
 </head>
@@ -120,6 +123,7 @@ function change(){
 	<div id="listing1">
 
 <?
+//echo "<div style='width: 850; height: 520; overflow: scroll; border: 1px solid #A7C5FF; background: transparent ;'>";
 if(!$_GET["dir"]==''){
 	echo '<table width="500" cellspacing="0" cellpadding="0" border="0" onMouseOver="this.style.backgroundImage= \'url(dlf/rollover_bar.png)\'" onMouseOut="this.style.backgroundImage=\'none\'"><tr><td>';
 	echo "<table><tr><td><img src='dlf/dirup.png' align='center'>";
@@ -129,6 +133,7 @@ if(!$_GET["dir"]==''){
 
 echo "<form id='filelist' name='filelist' method='post' action='javascript:change();'>";
 if ($mediapath != ''){
+//	echo "&nbsp";
 	echo "<input type='checkbox' name='selectall' onclick='checkedAll(filelist);'><font face='Arial' color='white' size='2'>" . $STR_SelectAll;
 }
 
@@ -165,6 +170,7 @@ for ($x=0; $x<sizeof($files); $x++) {
 
 for ($x=0; $x<sizeof($files); $x++) {
 	if (($files[$x] != '.') and ($files[$x] != "..")) {
+		//echo "<div>";
 		if(!is_dir($mydir . "/" . $files[$x])) {
 			 if (($files[$x] != "mylist.All") and ($files[$x] != "mylist.Music") and ($files[$x] != "mylist.Picture") and ($files[$x] != "mylist.Video") and ($files[$x] != "keyword.data")){
 
@@ -176,6 +182,7 @@ for ($x=0; $x<sizeof($files); $x++) {
 				echo "</td></tr></table>";
 			}
 		}
+		//echo "</div>";
 	}
 
 }

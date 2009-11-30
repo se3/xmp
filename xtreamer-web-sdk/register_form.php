@@ -63,6 +63,17 @@ while ($i <= 5) {
 <tr><td width=350>&nbsp</td>
 	<td width=620 valign="top">
 
+<?
+//function checklogin(){
+//	if ($loginoption == true){
+//		echo "<script>document.getElementById('chkbox').chaked = true;</script>";
+//	}else{
+//		echo "<script>document.getElementById('chkbox').chaked = false;</script>";
+//	}
+//}
+?>
+
+	
 	<table width=540 height="100"  cellspacing="0" cellpadding="0" border="0">
 	<tr><td height=40></td></tr>
 	<tr><td>
@@ -97,6 +108,9 @@ while ($i <= 5) {
 			<td><font face="arial" color="white" size="2">
 				<a href="setup_upnp_boost.php"><b><?echo $STR_NAS_Mode;?></b>
 				<font face="arial" color="white" size="2">|&nbsp</td>
+			<!--td><font face="arial" color="white" size="2">
+				<a href="setup_time.php"><b>Time Server</b>
+				<font face="arial" color="white" size="2">|&nbsp</td-->
 			<td><font face="arial" color="white" size="2">
 				<a href="setup_nfs.php"><b><?echo $STR_NFS_Client;?></b></td>
 		</tr></table>

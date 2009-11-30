@@ -49,9 +49,11 @@ if ($exist == 1){
 			echo "<script>parent.document.location.href='upload.php?dir=$newdir'</script>";
 		}else{
 			echo "<script>alert('$STR_FolderNameInvalid')</script>";
+//			echo "<script>parent.document.location.href='upload.php?dir=$mediapath'</script>";
 		}
 	}else{
 		echo "<script>alert('$STR_EnterFolderName')</script>";
+//		echo "<script>parent.document.location.href='upload.php?dir=$mediapath'</script>";
 	}
 }
 ?>

@@ -15,6 +15,7 @@ fclose($fp);
 $line = explode("\n", $fileData);
 $dataPair = explode("\t", $line[1]);
 $live_ip = $dataPair[0];
+//echo "<script>alert('$live_ip');</script>";
 if($live_ip == "210.109.97.109")
 	$live_ip = "";	
 ?>
@@ -36,6 +37,38 @@ function defaultip(){
 }
 
 function changeip(){
+/*errorString = "";
+theName = "IPaddress";
+IPvalue = document.live.ip.value;
+
+var ipPattern = /^(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})$/;
+var ipArray = IPvalue.match(ipPattern);
+
+if (IPvalue == "0.0.0.0")
+	errorString = errorString + theName + ': '+IPvalue+' is a special IP address and cannot be used here.';
+else if (IPvalue == "255.255.255.255")
+	errorString = errorString + theName + ': '+IPvalue+' is a special IP address and cannot be used here.';
+if (ipArray == null)
+	errorString = errorString + theName + ': '+IPvalue+' is not a valid IP address.';
+else {
+	for (i = 0; i < 5; i++) {
+		//alert(ipArray[i]);
+		thisSegment = ipArray[i];
+		if (thisSegment > 255) {
+			errorString = errorString + theName + ': '+IPvalue+' is not a valid IP address.';
+		i = 5;
+		}
+		if ((i == 0) && (thisSegment > 255)) {
+			errorString = errorString + theName + ': '+IPvalue+' is a special IP address and cannot be used here.';
+			i = 5;
+	    }
+    }
+}
+extensionLength = 3;
+if (errorString != "")
+	alert (errorString);
+else{*/
+
 	if(!document.live.ip.value){
 		alert('Please enter your live server URL');
 		document.live.ip.focus();
@@ -49,6 +82,7 @@ function changeip(){
 		document.live.action = 'live_ip.php';
 		document.live.submit();
 	}
+ //}
 }
 </script>
 
@@ -99,6 +133,9 @@ function changeip(){
 			<td><font face="arial" color="white" size="2">
 				<a href="setup_upnp_boost.php"><b><?echo $STR_NAS_Mode;?></b>
 				<font face="arial" color="white" size="2">|&nbsp</td>
+			<!--td><font face="arial" color="white" size="2">
+				<a href="setup_time.php"><b>Time Server</b>
+				<font face="arial" color="white" size="2">|&nbsp</td-->
 			<td><font face="arial" color="white" size="2">
 				<a href="setup_nfs.php"><b><?echo $STR_NFS_Client;?></b></td>
 		</tr></table>

@@ -22,6 +22,8 @@ while ($i <= 5) {
         $i++;
 }
 
+//$root = "/tmp/hddmedia/HDD1";  // this will the the root position of this script
+//$root = "/tmp/hdd/volumes";  // this will the the root position of this script
 $root = "/tmp/usbmounts";
 
 //Set our root position and make sure the URL input is not manually manipulated
@@ -187,6 +189,7 @@ if ($mediapath != ''){
 	echo "<input type='checkbox' name='selectall' onclick='checkedAll(playlist);'><font color= 'white' face='Arial' size='2'>".$STR_SelectAll;
 }
 
+//echo "<div>";
 if(!$_GET["dir"]==''){
 	echo '<table width="500" cellspacing="0" cellpadding="0" border="0" onMouseOver="this.style.backgroundImage= \'url(dlf/rollover_bar.png)\'" onMouseOut="this.style.backgroundImage=\'none\'"><tr><td>';
 	echo "<table><tr><td><img src='dlf/dirup.png' align='center'>";
@@ -225,6 +228,7 @@ for ($x=0; $x<sizeof($files); $x++) {
 
 for ($x=0; $x<sizeof($files); $x++) {
 	if (($files[$x] != '.') and ($files[$x] != "..")) {
+		//echo "<div>";
 		if(!is_dir($mydir . "/" . $files[$x])) {
 			 if ((strtolower(strrchr($files[$x],'.')) == ".wma")||(strtolower(strrchr($files[$x],'.')) == ".mp3")||(strtolower(strrchr($files[$x],'.')) == ".wav")||(strtolower(strrchr($files[$x],'.')) == ".mp2")||(strtolower(strrchr($files[$x],'.')) == ".aac")||(strtolower(strrchr($files[$x],'.')) == ".ac3")||(strtolower(strrchr($files[$x],'.')) == ".dts") ||(strtolower(strrchr($files[$x],'.')) == ".flac")){
 
@@ -267,6 +271,7 @@ for ($x=0; $x<sizeof($files); $x++) {
 	<?
 	echo '<div id="listing1">';
 
+//	echo "&nbsp";
 	echo "<input type='checkbox' name='selectall' onclick='checkAllmylist(playlist);'><font color='white' face='Arial' size='2'>" . $STR_SelectAll;
 
 					$filename = "/usr/local/etc/mylist.Music";
@@ -276,6 +281,7 @@ for ($x=0; $x<sizeof($files); $x++) {
 						fclose($fp);
 					}else{
 						$fp = fopen($filename, 'w');
+						//fwrite($fp, "#My List\n");
 						$fileData = fread($fp, filesize($filename));
 						fclose($fp);
 					}

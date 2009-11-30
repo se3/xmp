@@ -22,9 +22,11 @@ function EnableDisable(){
 
 function stopTV(){
 	document.write_form.Button1.disabled=true;
+	//document.write_form.Button2.disabled=false;
 	document.write_form.target = 'gframe';
 	document.write_form.action = 'stop.php';
 	document.write_form.submit();
+	//document.gframe.location.href = 'stop.php';
 }
 
 function startTV(){
@@ -33,6 +35,7 @@ function startTV(){
 	document.write_form.target = 'gframe';
 	document.write_form.action = 'start.php';
 	document.write_form.submit();
+	//document.gframe.location.href = 'start.php';
 }
 
 </script>
@@ -83,6 +86,9 @@ function startTV(){
 			<td><a href="setup_upnp_boost.php">
 				<font face="arial" color="#ff0000" size="2"><b><u><?echo $STR_NAS_Mode;?></u> </b>
 				<font face="arial" color="white" size="2">|&nbsp</td>
+			<!--td><font face="arial" color="white" size="2">
+				<a href="setup_time.php"><b>Time Server</b>
+				<font face="arial" color="white" size="2">|&nbsp</td-->
 			<td><font face="arial" color="white" size="2">
 				<a href="setup_nfs.php"><b><?echo $STR_NFS_Client;?></b></td>
 		</tr></table>

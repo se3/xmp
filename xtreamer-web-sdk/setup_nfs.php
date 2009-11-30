@@ -103,6 +103,9 @@ function delmont(){
 			<td><font face="arial" color="white" size="2">
 				<a href="setup_upnp_boost.php"><b><?echo $STR_NAS_Mode;?></b>
 				<font face="arial" color="white" size="2">|&nbsp</td>
+			<!--td><font face="arial" color="white" size="2">
+				<a href="setup_time.php"><b>Time Server</b>
+				<font face="arial" color="white" size="2">|&nbsp</td-->
 			<td><a href="setup_nfs.php">
 				<font face="arial" color="#ff0000" size="2"><b><u><?echo $STR_NFS_Client;?></u></b></td>
 		</tr></table>
@@ -152,6 +155,7 @@ function delmont(){
 					$line1[$i] = str_replace("/tmp/usbmounts/sdb", "/USB", $line1[$i]);
 					$line1[$i] = str_replace("/tmp/usbmounts/sdc", "/USB", $line1[$i]);
 				}
+				//$line1[$i] = str_replace("/tmp/usbmounts/sda", "/HDD", $line1[$i]);
 				echo '<table width=750 cellspacing="0" cellpadding="0" border="0" >';
 				echo "<tr> <td>";
 				if($line1[$i] != ""){

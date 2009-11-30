@@ -30,12 +30,14 @@ if (ctype_alnum($ddnsInput)){
 
 	// Add new DDNS:
 	  $cmd = "./ddns_client " . $ddnsInput.".myxtreamer.net";
+	  //$cmd = "/sbin/www/ddns_client " . $ddnsInput.".mvix.net";
 	  exec($cmd);
 
 	  $ddnsfile = "/tmp/ddns.result";
       $fp1 = fopen($ddnsfile, 'r');
       $fileData1 = fgets($fp1);
       fclose($fp1);
+	  //echo strlen($fileData1)-1;
 	  if((!strncmp($fileData1, "NS_UPDATE_PASS", strlen($fileData1)-1)) || (!strncmp($fileData1, "NS_REGISTER_PASS", strlen($fileData1)-1)) || (!strncmp($fileData1, $ddnsInput.".myxtreamer.net", strlen($fileData1)-1))){
 		  $file = fopen("/usr/local/etc/setup.php", "w");
 		  if (fwrite($file, $data)) {
@@ -50,6 +52,7 @@ if (ctype_alnum($ddnsInput)){
 		  fclose($file);
 	  }else if(!strncmp($fileData1, "NS_NAMEXIST", strlen($fileData1)-1)){
 		    echo "<script>alert('$STR_DDNSExists');</script>";
+			//echo "<script>parent.document.location.href='register_form.php'</script>";
 			echo "<script>parent.document.forms.ddns.ddns.focus();</script>";
 	  }else{
 			echo "<script>alert('$STR_NetworkError');</script>";

@@ -11,10 +11,16 @@
 	$l_mount = str_replace(" ","\ ", $l_mount);
 	$r_mount = str_replace(" ","\ ", $r_mount);
 
+	//if (substr($l_mount, 0, 13) == "/tmp/nfsmount"){
+	//	$l_mount1 = str_replace("/tmp/nfsmount", "", $l_mount);
+	//}else{
+	//	$l_mount1 = $l_mount;
+	//}
 
 	$data = $l_mount."->".$r_mount." -o ".$m_option;
+	
 	$command = "mount -t nfs ".$r_mount ." ".$l_mount." -o nolock,".$m_option;
-
+	//echo "<script>alert('$command');</script>";
 	
 	$filename = "/usr/local/etc/nfs";
 	$fp = fopen($filename, 'r');
@@ -31,6 +37,7 @@
 			$count1 += 1;
 	}
 
+	//echo "<script>alert('$count1');</script>";
 
 	if($count1 <10){
 		exec("$command",$result,$output);

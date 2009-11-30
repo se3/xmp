@@ -2,6 +2,44 @@
 header('Content-Type: text/html; charset=utf-8');
 error_reporting(0);
 include '/tmp/lang.php';
+//to apply login option.........
+/*if ($_POST['chkbox']){
+	if(isset($_POST['login']))
+	{	$login = "true";}
+	else
+	{	$login = "false";}
+
+	// Change login option:
+	$file = "/usr/local/etc/setup.php";
+	$fp = fopen($file, 'r');
+	$fileData = fread($fp, filesize($file));
+	fclose($fp);
+	$line = explode("\n", $fileData);
+	$data = "";
+	$i = 0;
+	while ($i <=5) {
+			$dataPair = explode('=', $line[$i]);
+			if ($dataPair[0] == "Login") {
+					$dataPair[1]= $login;
+					$data = $data. $dataPair[0].'='.$dataPair[1]."\n";
+			}
+			else{
+					$data = $data. $dataPair[0].'='.$dataPair[1]."\n";
+			}
+			$i++;
+	  }
+
+	$fp = fopen($file, 'w');
+	if (fwrite($fp, $data)) {
+		echo "<script>alert('$STR_LoginOptionChanged');</script>";
+		echo "<script>document.location.href='register_form.php'</script>";
+	  }
+	fclose($fp);
+	*/
+
+//to change user info.....
+//}elseif ($_POST['submit']){
+
 	if(isset($_POST['login']))
 	{	$login = "true";}
 	else
@@ -13,7 +51,14 @@ include '/tmp/lang.php';
   $passwordConfirm = $_POST['passwordConfirm'];
   $error = null;
 
+  // Check for blank fields:
+//  if ($username == null || $username == '')
+//  	$error = $error . $STR_InvalidUsername . '<br>';
+//  if ($password == null || $password == '')
+//	$error = $error . $STR_InvalidPassword . '<br>';
+	
 
+  // Check for unmatching passwords:
   if (md5($password) != md5($passwordConfirm)) {
 	$error = $error . $STR_PasswordMismatch . '<br>';
   }

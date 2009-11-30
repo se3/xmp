@@ -64,7 +64,12 @@ while ($i <= 5) {
 }
 
 include '/tmp/lang.php';
-shell_exec('rm -rf /tmp/hdd/volumes/HDD1/.cached/*');
+
+//if (file_exists('/tmp/hdd/volumes/Copy_Recordings_Here/cached/lighttpd-upload*')){
+	//echo `rm /tmp/hdd/volumes/Copy_Recordings_Here/.cached/lighttpd-upload*`;
+	//echo `rm /tmp/hdd/volumes/Copy_Recordings_Here/.cached/php*`;
+	shell_exec('rm -rf /tmp/hdd/volumes/HDD1/.cached/*');
+//}
 ?>
 
 <html>

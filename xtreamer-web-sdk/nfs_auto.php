@@ -27,6 +27,7 @@ if(file_exists($filename)){
 		}
 
 		$command = "mount -t nfs ".$r_mount ." ".$l_mount." -o nolock,".$m_option;
+		//echo $command;
 		$j = 0;
 		while($j < 3){
 			exec("$command",$result,$output);

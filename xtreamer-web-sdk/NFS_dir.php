@@ -131,6 +131,7 @@ if(!$_GET["dir"]==''){
 }
 
 echo "<form name='filelist' method='post' action='javascript:change();'>";
+		//	echo '<a href=#" onclick="javascript:alert(this.parentNode.name)">Test</a>';
 
 for ($x=0; $x<sizeof($files); $x++) {
 	if (($files[$x] != '.') and ($files[$x] != "..") and ($files[$x] != "Recycled") and ($files[$x] != "System Volume Information") and (substr($files[$x],0,1) != ".") and ($files[$x] != "lost+found")) {
@@ -139,6 +140,23 @@ for ($x=0; $x<sizeof($files); $x++) {
 			if (($aaa!= "") && ($mediapath == "") && (substr($files1[$x],0, 3) == "sda")){
 				$files1[$x] = str_replace("sda", "HDD", $files1[$x]);
 			
+			
+			/*if ($aaa!= ""){
+				$files1[$x] = str_replace("sda", "HDD", $files1[$x]);
+				$files1[$x] = str_replace("sdb1", "USB1", $files1[$x]);
+				$files1[$x] = str_replace("sdc1", "USB2", $files1[$x]);
+				$files1[$x] = str_replace("sdd1", "USB3", $files1[$x]);
+				$files1[$x] = str_replace("sdb", "USB", $files1[$x]);
+				$files1[$x] = str_replace("sdc", "USB", $files1[$x]);
+			}else{
+				$files1[$x] = str_replace("sda1", "USB1", $files1[$x]);
+				$files1[$x] = str_replace("sdb1", "USB2", $files1[$x]);
+				$files1[$x] = str_replace("sdc1", "USB3", $files1[$x]);
+				$files1[$x] = str_replace("sdd1", "USB4", $files1[$x]);
+				$files1[$x] = str_replace("sdb", "USB", $files1[$x]);
+				$files1[$x] = str_replace("sdc", "USB", $files1[$x]);
+			}*/
+
 			echo '<table width="500" height="3" cellspacing="0" cellpadding="0" border="0" onMouseOver="this.style.backgroundImage= \'url(dlf/rollover_bar.png)\'" onMouseOut="this.style.backgroundImage=\'none\'">';
 				echo "<tr> <td>";
 				echo "<table cellspacing='1' cellpadding='0'><tr><td>";
@@ -205,6 +223,7 @@ for ($x=0; $x<sizeof($files); $x++) {
 ?>
 
 	<tr>
+		<!--td><font color=white face='Arial' size='2'>&nbsp <input name="path" type="text" class="textbox" size="32" value="<?echo $currentpath;?>"  maxlength="255"-->
 		<td width=340>&nbsp <font color=white face='Arial' size='2'><?echo $currentpath; ?>/</td>
 		<?if($_GET["dir"]!=''){?>
 		<td align=right><input type=button class='btn_2' onclick="javascript:change()" class="web-button" value="<?echo $STR_Apply;?>"> </td>

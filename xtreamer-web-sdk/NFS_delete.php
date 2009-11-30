@@ -27,10 +27,22 @@ $line = explode("\n", $fileData);
 				
 				$command = "umount -f ".$dataset[0];
 				exec($command,$output,$result);
+
+				//if (substr($dataset[0], 0, 13) == "/tmp/nfsmount"){
+				//	rmdir(str_replace("\ "," ", $dataset[0]));
+				//	if ($files = @scandir('/tmp/nfsmount') && (count($files) < 3))  
+				//		rmdir('/tmp/nfsmount');
+				//}
+
 				rmdir(str_replace("\ "," ", $dataset[0]));
 				rmdir('/tmp/nfsmount');
 
-				unset($line[$j]);
+				//if($result == 0){
+					unset($line[$j]);
+				//}else{
+				//	echo "<script>alert('$STR_delete_failed');</script>";
+				//}
+				
 			}
 		}
 	}

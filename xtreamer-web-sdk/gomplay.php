@@ -6,7 +6,9 @@ $_SESSION['redirect'] = $_SERVER['REQUEST_URI'];
 include "chooselang.php";
 include '/tmp/lang.php';
 $file = "http://".$_SERVER["SERVER_NAME"].'/'. "media" . $_GET["dir"] .'/'.$_GET["file"]; 
-
+#if (!file_exists($_GET["file"])) {
+#symlink($_GET["dir"].'/'.$_GET["file"],$_GET["file"]);
+#}
 ?>
 <HTML>
 
@@ -27,6 +29,8 @@ $file = "http://".$_SERVER["SERVER_NAME"].'/'. "media" . $_GET["dir"] .'/'.$_GET
  <BODY bgcolor="#7B68EE">
 
 <OBJECT ID="GomX1" WIDTH=600 HEIGHT=600 CLASSID="CLSID:632CC9D6-5602-4854-AFD2-6EFC59177DE5" CODEBASE="http://app.gomlab.com/eng/gom/GOMPLAYERENSETUP.EXE">
+
+<!--OBJECT ID="GomX1" WIDTH=600 HEIGHT=400 CLASSID="CLSID:632CC9D6-5602-4854-AFD2-6EFC59177DE5" CODEBASE="http://app.ipop.co.kr/gom/GOMPLAYERSETUP.EXE"-->
 
 <PARAM NAME="AutoStart" VALUE="1">
 

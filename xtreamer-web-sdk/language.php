@@ -76,4 +76,5 @@
 	fclose($file);
 	
 	echo "<script>parent.window.location.href='setup_language.php'; </script>";
+//	echo "<script>parent.window.location.reload(); </script>";
 ?>

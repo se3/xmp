@@ -280,6 +280,7 @@ for ($x=0; $x<sizeof($files); $x++) {
 		$currentpath = $mediapath1;
 	}
 
+	//session_destroy();
 	$_SESSION['newpath'] = "";
 
 ?>

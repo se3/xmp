@@ -102,6 +102,10 @@ include '/tmp/lang.php';
                         break;
                 }
         }
+//        if (!$is_valid_extension) {
+//                HandleError("Invalid file extension");
+//                exit(0);
+//        }
 
 // Process the file
         //sleep(50);

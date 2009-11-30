@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Xtreamer</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta names="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="statics/styles/general.css" rel="stylesheet" type="text/css" />
+    <script src="statics/scripts/panel_funcs.js"></script>    
+    <script src="statics/scripts/global.js"></script> 
+</head>
+<body>
+    <img id="progressImg" src="statics/images/wifi_icon.png" />
+    <map name="nowplayingPage">
+        <area shape="rect" coords="112,1,2,63" title="Sub Panel" href="#" onclick="goTo('fGotosub')">
+        <area shape="rect" coords="317,2,205,65" title="Main" href="#" onclick="goTo('fShowMainControl')">
+        <area shape="rect" coords="200,0,116,117" title="Main" href="#" onclick="goTo('fShowMainControl')">
+        <area shape="rect" coords="42,68,-1,113" title="All" href="#" onclick="goTo('fAll')">
+        <area shape="rect" coords="111,66,44,115" title="Movies" href="#" onclick="goTo('fMovies')">
+        <area shape="rect" coords="261,67,205,115" title="Music" href="#" onclick="goTo('fMusic')">
+        <area shape="rect" coords="318,69,263,115" title="Pictures" href="#" onclick="goTo('fPictures')">       
+    </map>
+    <img src="statics/images/nowplaying.png" border="0" usemap="#nowplayingPage"/> 
+    <div id="cover">
+        <img src="dynamics/images/coverArt_pic.jpg" width="147px" height="213px" alt="Spiderman 3" border="0" />
+    </div>
+    <div id="nowplayingproperties">
+        <div class="ttl">Title:</div>
+        <div id="npName">Spiderman 3</div>
+        <br />
+        <br />
+        <div class="ttl">Time:</div>
+        <div id="nptime">00:15:34/01:31:14</div>        
+    
+    </div>
+<iframe name='gframe' width=0 height=0 style="display:none"></iframe>
+</body>
+</html>

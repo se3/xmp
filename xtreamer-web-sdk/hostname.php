@@ -5,7 +5,7 @@ include '/tmp/lang.php';
 
 $hostInput = $_POST['host'];
 $firstchar = substr($hostInput, 0, 1);
-
+//echo "<script>alert('$hh');</script>";
 
 if (ctype_alnum($hostInput)){
 	if (!is_numeric($firstchar)){

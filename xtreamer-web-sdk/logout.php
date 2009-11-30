@@ -33,6 +33,7 @@ session_destroy();
 <tr><td></td><td><font face="Arial" color="white">
 <?
 echo $STR_loggedOut. ' <br>';
+//echo $STR_GoBack . ' <a href="login_form.php">'. $STR_LoginPage . '</a>.';
 echo '<a href="login_form.php">'. $STR_LoginPage . '</a>.';
 echo "<script>document.location.href='login_form.php';</script>";
 ?>
