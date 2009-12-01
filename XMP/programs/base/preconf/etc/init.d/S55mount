@@ -1,0 +1,6 @@
+#!/bin/sh
+
+sleep 30
+mkdir /tmp/usbmounts/sda3
+mount /dev/sda3 /tmp/usbmounts/sda3
+ln -s /tmp/usbmounts/sda3 /tmp/ramfs/volumes/

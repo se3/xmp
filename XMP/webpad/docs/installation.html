@@ -1,0 +1,239 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>webpad Installation &amp; Configuration</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../css/docs.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<a name="top"></a>
+<h1>webpad Installation &amp; Configuration</h1>
+<ol type="I" id="toc">
+  <li><a href="#requirements">Requirements</a> 
+    <ol>
+      <li><a href="#server_requirements">Server requirements</a></li>
+      <li><a href="#client_browser_requirements">Client (browser) requirements</a></li>
+    </ol>
+  </li>
+  <li><a href="#downloading_webpad">Downloading webpad</a></li>
+  <li><a href="#installing_on_your_server">Installing On Your Server</a></li>
+  <li><a href="#configuring_permissions">Configuring Permissions</a></li>
+  <li><a href="#configuring_your_settings">Configuring Your Settings </a> 
+    <ol>
+      <li><a href="#basic_settings">Basic settings</a></li>
+      <li><a href="#ftp_servers">FTP servers (optional)</a></li>
+      <li><a href="#plugins">Plugins (optional)</a></li>
+      <li><a href="#system_settings">System settings (optional)</a></li>
+    </ol>
+  </li>
+  <li><a href="#testing_webpad">Testing webpad</a></li>
+</ol>
+<hr>
+<h2><a name="requirements"></a>Requirements</h2>
+<h3><a name="server_requirements"></a>Server requirements</h3>
+<p>webpad is pretty light on your server, and doesn't require too many additional 
+  modules, but there are some that you will need. These tend to be very common, 
+  so if you don't know, then give it a try and you probably have them already!</p>
+<ul>
+  <li>Apache (tested on 1.34 only) or IIS</li>
+  <li>PHP4 (most recent versions will be fine), running either in CGI mode, or 
+    as a server module.</li>
+  <li>cURL (for blogging, and opening the source of webpages).</li>
+  <li>expat (xml functions, again for blogging. These should be enabled by default, 
+    so unless they've been disabled, you should be fine).</li>
+  <li>FTP functions (some web hosts disable these functions for security reasons, 
+    but generally you should be fine).</li>
+</ul>
+<h3><a name="client_browser_requirements"></a>Client (browser) requirements</h3>
+<p>webpad currently supports the following browsers/platforms. It <em>may</em> 
+  support others, but due to the complexity of some of the JavaScript used (specifically 
+  for the HTML tools), it may not perform entirely as expected. All browsers will 
+  need <strong>JavaScript, cookies and CSS enabled</strong>, and you should <strong>allow 
+  popups</strong> for the domain you have webpad installed on in any popup blocking 
+  tools you have.</p>
+<ul>
+  <li><strong>Windows 2000/XP</strong> 
+    <ul>
+      <li>Internet Explorer 6.0+</li>
+      <li>Mozilla Firefox 1.0+</li>
+    </ul>
+  </li>
+  <li><strong>Macintosh OS X</strong> 
+    <ul>
+      <li>Mozilla Firefox 1.0+</li>
+      <li>Mozilla Camino 0.8+</li>
+    </ul>
+  </li>
+  <li><strong>Screen Resolution: 1024 x 768+</strong> (there are lots of tools 
+    in the toolbar!)</li>
+</ul>
+<p>Support for other browsers (esp. Safari) and platforms (hopefully Linux) is 
+  hopefully coming in future versions - if you'd like to help then please <a href="mailto:webpad@dentedreality.com.au">get 
+  in touch</a> with me to discuss testing etc. </p>
+<p><strong>NOTE:</strong> Safari on OS X is <strong>not</strong> currently supported 
+  - it has some problems with the HTML tools in webpad that cause them to function 
+  incorrectly. </p>
+<a href="#top" class="b2t">Back to top</a>
+<hr>
+<h2><a name="downloading_webpad"></a>Downloading webpad</h2>
+<p>Download the latest version of webpad from its project page at <a href="http://www.dentedreality.com.au/" target="_blank">Dented 
+  Reality</a>.</p>
+<p><a href="http://www.dentedreality.com.au/" target="_blank"><strong>webpad Project 
+  Page</strong></a></p>
+<p>It should be available in compressed <code>.zip</code> format and <code>.tar.gz</code> 
+  formats, so you can get one that works for you.</p>
+<a href="#top" class="b2t">Back to top</a>
+<hr>
+<h2><a name="installing_on_your_server"></a>Installing On Your Server</h2>
+<p>To 'install' webpad, all you really need to do is copy the files from the download 
+  into a directory on your server which is available from the web. You can uncompress 
+  the file on your machine and then FTP all of the files onto your server, or 
+  if you have shell (SSH/Telnet) access to your server, then it will be quicker 
+  to upload the compressed file, and then decompress it there. If you're uncompressing 
+  the file on your server, you should be able to use something like this (where 
+  &lt;version&gt; is obviously the version of webpad that you have downloaded):</p>
+<pre>tar -xzvf webpad-&lt;version&gt;.tar.gz
+-- OR --
+unzip webpad-&lt;version&gt;.zip</pre>
+<p>webpad will uncompress into its own directory (named <code>webpad-&lt;version&gt;/</code>), 
+  and will create all the files it needs.</p>
+<p>If you're uploading the files individually then just create a directory on 
+  your server and go ahead and upload the contents of the compressed download 
+  into it.</p>
+<p>If you access webpad using a browser right now, it will give you a message 
+  saying that the configuration file is missing - that's coming up soon, but first 
+  we need to check some permissions.</p>
+<a href="#top" class="b2t">Back to top</a> 
+<hr>
+<h2><a name="configuring_permissions"></a>Configuring Permissions</h2>
+<p>webpad will run just fine with PHP in either CGI mode, or installed as a module 
+  within Apache or IIS. It has been most-thoroughly tested on Apache. If you have 
+  CGI mode available to you (for example with the excellent <a href="http://www.dreamhost.com/rewards.cgi?dentedreality" target="_blank">DreamHost</a>), 
+  then I recommend you use that, because it means less hassles with file permissions, 
+  since webpad effectively runs as 'you' (your user).</p>
+<p><strong>NOTE:</strong> If you are running PHP in CGI mode, then it will run 
+  as your user, so you shouldn't need to change any permissions. This is the recommended 
+  mode to run PHP in for using webpad.</p>
+<p>If you (or your host) are running PHP as a module, then you should be aware 
+  that all file access is based on the user that the web-server is running as 
+  (normally www, apache or IUSR_something). Because of this, you must give that 
+  user access to the files/directories that you wish to edit using webpad. On 
+  a *NIX/BSD machine (including OSX), you can do this at a shell prompt using 
+  a command like this:</p>
+<pre>chmod 777 *</pre>
+<p>or, if you'd like to give webpad to a home directory and all subdirectories 
+  (assuming the home directory is called <code>home_dir</code>, then change into 
+  the directory above <code>home_dir</code>, and enter this:</p>
+<pre>chmod -R 777 home_dir/</pre>
+<p>You should be able to do the same thing in most FTP programs using a &quot;Change 
+  Permissions&quot; option of some sort. If you are doing this, then you want 
+  to give read, write and execute permissions to &quot;user, group and all&quot;.</p>
+<p><strong>NOTE:</strong> Changing permissions to '777' gives all users full access 
+  to your files. You should obviously <strong>not</strong> do this to any sensitive 
+  files. If you are in a position to do so, you might consider adding your user 
+  to the same user as the web server and only allowing that group access, or configuring 
+  your server somehow else to avoid this problem. This is where running PHP in 
+  CGI mode is handy!</p>
+<p>Once you've configured those permissions, you also need to check webpad's <code>/temp/</code> 
+  directory. Even if you don't give webpad the ability to edit itself (a good 
+  idea security-wise), you need to allow it full access to its <code>/temp/</code> 
+  directory to temporarily store files from places like FTP servers and uploads. 
+  Do this (from inside the directory you installed webpad in, from the shell prompt) 
+  like so:</p>
+<pre>chmod -R 777 temp/</pre>
+<p> As with the other permissions, you can also do this from your FTP client if 
+  it has the option to change permissions on the server.</p>
+<p><strong>NOTE:</strong> Your configuration settings are stored in the file <code>/admin/configuration.php</code>;by 
+  default, this file is accessible via the web, although it should be parsed as 
+  a PHP file (and produce no visual output). I've included a <code>.htaccess</code> 
+  file to prevent direct access to all files in the <code>/admin/</code> directory 
+  except for <code>hash.php</code> (for creating a password hash). You should 
+  confirm that this restriction works properly on your webserver and if not, implement 
+  your own protection to prevent people accessing <code>configuration.php</code> 
+  directly.</p>
+<p>Now on to configuring your specific settings for webpad!</p>
+<a href="#top" class="b2t">Back to top</a> 
+<hr>
+<h2><a name="configuring_your_settings"></a>Configuring Your Settings</h2>
+<p>The first time you attempt to access webpad, you will be asked to configure 
+  it, and be directed straight to the 'Settings' page. From there, you can adjust 
+  all of the settings required to make webpad work just the way you want it to.</p>
+<p>Make sure you enter a username to access webpad, and then specify a password 
+  (and confirm it in the box next to that) to secure your installation. By default, 
+  the Settings page will suggest the directory that webpad is installed in as 
+  your home directory; you can change that to anything else you like. Once you've 
+  entered a directory, you should click the 'Test' button to make sure webpad 
+  can access it properly.</p>
+<p>Some sections (Email, FTP and Plugins) need to be enabled (by checking the 
+  checkbox next to the title) before you can change any of their settings.</p>
+<p>When you are done configuring all your settings, click 'Save' and then you 
+  can click the link to go back to webpad. If this was your first time entering 
+  any configuration details, then you will need to log in using the username and 
+  password you just set first.</p>
+<h3><a name="system_settings"></a>System settings (optional)</h3>
+<p>Now that you're done configuring your plugins, there are a collection of optional 
+  settings that you may like to tweak as well. These settings are more 'system 
+  level', so you definitely shouldn't <strong>need</strong> to change them, but 
+  you can if you like. You can modify these in the <code>/admin/webpad_conf.php</code> 
+  file if you need to.</p>
+<pre>$config['mycomputer_icon'] = 'mycomputer.gif';<br>$config['mycomputer_label'] = 'My Computer';
+
+$config['myserver_icon'] = 'myserver.gif';
+$config['myserver_label'] = 'My Server';
+
+$config['ftpserver_icon'] = 'ftpserver.gif';
+$config['ftpserver_label'] = 'FTP Server';
+
+$config['plugins_icon'] = 'plugins.gif';
+$config['plugins_label'] = 'My Plugins';
+
+$config['webpage_icon'] = 'webpage.gif';
+$config['webpage_label'] = 'Webpage';</pre>
+<p>These settings all control the icons and labels that appear in the Locations 
+  Bar. If you'd like to change them, go ahead, but keep in mind that the labels 
+  have to fit into a narrow bar, so they can't be too long. You can either copy 
+  your own icons over the ones specified here, or enter a new filename. The icon 
+  is expected to be in the <code>/images/</code> directory within webpad's installation, 
+  and should be a 35 x 35px transparent-background <code>.gif</code> file, done 
+  over a matte of hex code <code>#265997</code>.</p>
+<pre>$file_types = array();<br>$file_types['css'] = 'Cascading Style Sheet (*.css)';<br>$file_types['html'] = 'Hypertext Document (*.html)';<br>$file_types['js'] = 'JavaScript Source File (*.js)';<br>$file_types['php'] = 'PHP Script File (*.php)';<br>$file_types['sql'] = 'SQL Dump File (*.sql)';<br>$file_types['txt'] = 'Text File (*.txt)';<br>$file_types['xml'] = 'XML Document (*.xml)';
+
+$file_types['all_files'] = 'All File Types (*.*)';</pre>
+<p>The <code>$file_types</code> array contains all of the recognized file formats 
+  to display as options when saving a file to the client. This is simple used 
+  to auto-complete the filename if the user forgets to put it when the type a 
+  name. Set the array with the extension (no dot) as the key, and the label you'd 
+  like to appear for that file type as the value.</p>
+<pre>
+$config['restrict_files'] = array('jpg', 'gif', 'png', 
+                                  'xls', 'pdf', 'tar', 
+                                  'gz', 'zip', 'ico', 
+                                  'exe', 'swf', 'rar');</pre>
+<p>This array restricts access to that users don't open files that webpad can't 
+  handle. If any file with one of the extensions in this array is encountered 
+  in a server or FTP listing, it will be avoided (and webpad will not allow access 
+  to it).</p>
+<a href="#top" class="b2t">Back to top</a> 
+<hr>
+<h2><a name="testing_webpad"></a>Testing webpad</h2>
+<p>Now that you have configured webpad, if you haven't already done so, you may 
+  log in and try it out.</p>
+<p>Point your browser to the directory you installed webpad in (e.g. <code>http://www.yourserver.com/webpad/</code>) 
+  and you should get the login screen.</p>
+<p>If you get an error message of some sort, it should tell you what you need 
+  to do to fix it, so go back, take care of that, then come back to here and try 
+  again.</p>
+<p>Assuming you get the page asking you to log in, enter the username you specified, 
+  and the password you specified on the Settings page. Click 'Log In' and you 
+  should be taken directly to webpad.</p>
+<p>Now you can try opening some files from around the place and make sure everything 
+  works. If something doesn't appear to work, it's normally because the permissions 
+  on your server are wrong. Go back, check all your settings, make sure the permissions 
+  on your server are set correctly and then try again.</p>
+<p>Now you'll want to know what all those cool-looking buttons and things do, 
+  just jump over to the <a href="user_manual.html">User Manual</a> and find out!</p>
+<a href="#top" class="b2t">Back to top</a> 
+<hr>
+</body>
+</html>

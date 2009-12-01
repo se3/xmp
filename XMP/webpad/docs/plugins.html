@@ -1,0 +1,251 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>webpad Plugin Documentation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../css/docs.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<a name="top"></a>
+<h1>webpad Plugin Documentation</h1>
+<ol type="I" id="toc">
+  <li><a href="#about_webpad_plugins">About webpad plugins</a></li>
+  <li><a href="#installing_a_new_plugin">Installing a plugin</a></li>
+  <li><a href="#configuring_a_plugin">Configuring a plugin</a></li>
+  <li><a href="#writing_your_own_plugin">Writing your own plugin</a> 
+    <ol type="a">
+      <li><a href="#required_functions_files">Required functions/files</a></li>
+      <li><a href="#functions_and_variables">Functions and variables</a></li>
+      <li><a href="#common_items_operations_to_implement">Common items/operations 
+        to implement</a></li>
+      <li><a href="#accessing_the_plugins_toolbar">Accessing the plugins toolbar</a></li>
+    </ol>
+  </li>
+</ol>
+<hr>
+<h2><a name="about_webpad_plugins"></a>About webpad plugins</h2>
+<p>Blogging support in webpad is provided through a collection of plugins. You 
+  can write your own plugins for webpad to access other sources of information. 
+  Some ideas might be:</p>
+<ul>
+  <li>Access information stored in a company database for editing,</li>
+  <li>Access email stored on your server in IMAP mailboxes,</li>
+  <li>Extend the blogging support to other blogging platforms,</li>
+  <li>Automatically check a file out from CVS and edit it, then check it back 
+    in when you save it.</li>
+</ul>
+<p>All plugins work in a similar fashion - they provide access to a listing of 
+  some sort, allow the user to select a specific 'file', then trigger an 'open' 
+  sequence to load that 'file' into the edit window. If the user clicks 'Save', 
+  it saves back to the plugin's data source. Plugins should also allow a user 
+  to save back to them, using the normal 'Save/Save As' operations within webpad.</p>
+<p>All plugins are stored in the <code>/plugins/</code> directory in webpad's 
+  installation directory, and are accessed through the 'My Plugins' option in 
+  the Locations Bar in 'Open File' and 'Save' windows.</p>
+<a href="#top" class="b2t">Back to top</a>
+<hr>
+<h2><a name="installing_a_new_plugin"></a>Installing a new plugin</h2>
+<p>Installing a plugin within webpad is just a simple process of copying the files 
+  to the right location, and putting a single entry in the <code>configuration.php</code> 
+  file.</p>
+<p>All plugins should be installed in the <code>/plugins/</code> directory inside 
+  webpad, within a directory of their own:</p>
+<pre>
+webpad_install/
+     plugins/
+          plugin1/
+          plugin2/
+</pre>
+<p>The name you use for the directory within <code>/plugins/</code> is important. 
+  It should be unique, and preferably short and easy to use in a number of locations 
+  (See: <a href="#writing_your_own_plugin">Writing your own plugin</a> for more 
+  reasons why). Inside your plugin directory, there will need to be at least 2 
+  files:</p>
+<pre>code.php
+icon.gif
+</pre>
+<p>Each of these files is used by webpad for different things, and is required 
+  for the plugin to work properly. webpad uses <code>icon.gif</code> as the icon 
+  to display next to the plugin in the 'My Plugins' listing. <code>code.php</code> 
+  should contain all core operational functions for the plugin (See: <a href="#writing_your_own_plugin">Writing 
+  your own plugin</a> for more details).</p>
+<p>Additional files for the plugin may be installed into this directory, or if 
+  a collection of plugins are going to use common files, then another directory 
+  at the plugins level may optionally be created. For example, the pre-installed 
+  blogging plugins share a number of files, located in the <code>/plugins/_blogging/</code> 
+  directory. <strong>Directories which are not an actual plugin (such as shared 
+  code directories) should be prefixed with an underscore (_) to prevent them 
+  from being listed as an available plugin.</strong></p>
+<a href="#top" class="b2t">Back to top</a> 
+<hr>
+<h2><a name="configuring_a_plugin"></a>Configuring a plugin</h2>
+<p>All plugins provide the information required to configure them directly to 
+  the Settings page. This process is described in<a href="#required_functions_files"> 
+  Writing your own plugin</a>. Once a plugin is installed, accessing the Settings 
+  page should give you the option to 'Add' a new plugin configuration, and then 
+  enter your settings for that particular plugin.</p>
+<a href="#top" class="b2t">Back to top</a> 
+<hr>
+<h2><a name="writing_your_own_plugin"></a>Writing your own plugin</h2>
+<p>webpad's plugin architecture allows you to easily add your own plugins for 
+  accessing data from other sources. As mentioned in <a href="#about_webpad_plugins">About 
+  webpad plugins</a>, there are a number of different ways you might choose to 
+  use this functionality, or I'm sure you can come up with your own.</p>
+<p>For the sake of the following section, assume we're dealing with a plugin called 
+  &quot;myPlugin&quot; (so all files for the plugin should be in <code>/plugins/myPlugin/</code>)</p>
+<p><strong>NOTE:</strong> In all plugin files, you should always use <code>dirname(__FILE__)</code> 
+  for your <code>include</code> and <code>require</code> statements to avoid relative 
+  directory name problems during operation.</p>
+<h3><a name="required_functions_files"></a>Required functions/files</h3>
+<p>Every plugin <strong>must</strong> have the following files in its directory:</p>
+<pre>code.php
+icon.gif
+</pre>
+<h4>code.php</h4>
+<p>This file contains the main code of the plugin. Required functions in this 
+  file are:</p>
+<pre>myPlugin_validate_plugin($plugin)</pre>
+<p>Accepts a single parameter <code>$plugin</code>, which is the array of configuration 
+  options from <code>$config['plugins']</code> for this specific plugin. This 
+  function should confirm that the <code>$plugin</code> array contains all the 
+  information it needs to operate, and then return <code>true</code> if it does, 
+  or <code>false</code> if it doesn't. If it returns <code>false</code>, the plugin 
+  will not be listed as available.</p>
+<pre>myPlugin_get_fields()</pre>
+<p>Returns an array detailing what fields are required to configure this plugin. 
+  This function is called by the Settings page to determine what fields are displayed 
+  as part of the configuration for this plugin. The array passed back should look 
+  something like this;</p>
+<pre>
+$fields = array();
+$fields[] = array('name'=&gt;'nameOfField', 
+                  'type'=&gt;['text' | 'password' | 'checkbox' | 'radio' | 'select'], 
+                  'options'=&gt;[false | array('val1'=&gt;'LabelOne', 'val2=&gt;'LabelTwo')] );
+</pre>
+<p><code>options</code> are only required for <code>checkbox</code>, <code>radio</code> 
+  and <code>select</code> field types, for <code>text</code> and <code>password</code>, 
+  it should be set to <code>false</code>. The function should simply define the 
+  array, and then <code>return</code> it; the Settings interface will handle everything 
+  from there.</p>
+<pre>myPlugin_get_title($plugin)</pre>
+<p>This function accepts the same complete array of plugin configuration information, 
+  and should return a string containing the title to be displayed in the listing 
+  of available plugins. Keep in mind that multiple copies of the same plugin may 
+  be configured, so you should return a unique title, based on the specific configuration 
+  in the <code>$plugin</code> array.</p>
+<pre>myPlugin_listing($plugin, $id)</pre>
+<p>This function is responsible for generating a complete listing of available 
+  'files' within this plugin, and is called from <code>browse_plugin.php</code> 
+  for a specific plugin/configuration. Based on the details in <code>$plugin</code>, 
+  which is plugin number <code>$id</code> to be configured, it should generate 
+  a listing, and <code>return</code> the HTML to display details for this plugin. 
+  See <a href="#common_items_operations_to_implement">Common items/operations 
+  to implement</a> for more details on what you should be aiming to implement 
+  here.</p>
+<pre>myPlugin_open()</pre>
+<p>This function takes no parameters, so it should rely solely on <code>$_SESSION</code> 
+  variables to determine which file was requested and other details. It should 
+  return a string containing the entire file to be loaded into webpad. If you'd 
+  like to pass a message back to the user upon success/failure, declare <code>global 
+  $javascript_msg;</code> and set it to a string containing your message. If it 
+  starts with a &quot;@&quot;, then it is an error message. It will be <code>alert</code>'ed 
+  (without the @) and used as the <code>window.status</code>.</p>
+<pre>myPlugin_save($name, $str)</pre>
+<p>This function takes 2 parameters, which should be enough, when combined with 
+  the available <code>$_SESSION</code> variables, to save the contents of the 
+  edit window to the specified destination with this plugin. Once the item is 
+  saved, this function should return the new filename for this file (or the old 
+  one if it hasn't changed). If you'd like to pass a message back to the user 
+  upon success/failure, declare <code>global $javascript_msg;</code> and set it 
+  to a string containing your message. If it starts with a &quot;@&quot;, then 
+  it is an error message. It will be <code>alert</code>'ed (without the @) and 
+  used as the <code>window.status</code>.</p>
+<h4>icon.gif</h4>
+<p>This is the icon used in the 'My Plugins' listing of available plugins. The 
+  image should be 18 x 18 px, on a white background. If you like, a 2px drop shadow 
+  done at 120<sup>o</sup> in black, at 75% opacity may also be added.</p>
+<h3><a name="functions_and_variables" id="functions_and_variables"></a>Functions 
+  and variables</h3>
+<ul>
+  <li>All functions should be prefixed with the plugin's name (e.g. <code>myPlugin_my_function_to_do_something()</code>)</li>
+  <li>If you need to use additional <code>$_SESSION</code> variables, they should 
+    be named like this to avoid naming conflicts: <code>$_SESSION['plugin_myPlugin_*']</code></li>
+  <li>There are some global variables that you might need to access, especially 
+    in opening and saving data to/from your plugin: 
+    <ul>
+      <li><code>$_SESSION['filename']</code> contains the actual filename of the 
+        current file, including any relevant path information.</li>
+      <li><code>$_SESSION['display_filename']</code> contains the name used to 
+        display in the window title. This is normally just the actual file name 
+        (no path information)</li>
+      <li><code>$_SESSION['plugin_identifier']</code> is the best place to store 
+        your information if you don't need additional variables. This variable 
+        is made available purely for the active plugin to manipulate. You can 
+        use an internal string separator to store multiple things in there at 
+        once.</li>
+      <li><code>$_SESSION['plugin']</code> should always contain the index number 
+        of the active plugin (the index for its configuration within <code>$config['plugins']</code>)</li>
+      <li><code>$config</code> (you will need to declare this as <code>global</code> 
+        within your functions) contains all configuration data for webpad</li>
+      <li><code>$config['plugins'][$_SESSION['plugin']]</code> should contain 
+        all configuration data for the active plugin</li>
+    </ul>
+  </li>
+</ul>
+<h3><a name="common_items_operations_to_implement"></a>Common items/operations 
+  to implement</h3>
+<ul>
+  <li>Server and FTP Server files are listed with the icon <code>/images/files_file.gif</code> 
+    which is 19 x 18 px on a white background, and has <code>align=&quot;absmiddle&quot;</code> 
+    applied to it.</li>
+  <li>You should be able to open a 'file' using a double-click of the mouse. This 
+    is triggered using the <code>ondblclick</code> event handler to select the 
+    file and trigger a form submission at the same time.</li>
+  <li>You can include the colored selection code in your listings using the JavaScript 
+    samples in <code>/js/files.js</code></li>
+  <li>To access the plugins toolbar (See: <a href="#accessing_the_plugins_toolbar">Accessing 
+    the plugins toolbar</a> for more info), you should include <code>/js/plugins.js</code> 
+    in any additional plugin pages you create.</li>
+  <li>To make any additional plugin browsing pages look like other file-listing 
+    pages, you can include <code>/css/files.css</code></li>
+  <li>It's a good idea to update the 'active plugin' value yourself using something 
+    like this (where x is the <em>numbered index</em> of this plugin):<br>
+    <code>parent.document.file.plugin.value = x; </code></li>
+  <li>You can (and should) update the 'current directory' box above the browse 
+    window using JavaScript like this:<br>
+    <code>parent.document.file.current_dir.value = 'Current Directory Title Here'; 
+    </code></li>
+  <li>If you don't want the user to be able to edit the filename in a save or 
+    open operation, you can make the filename field read only using this:<br>
+    <code>parent.document.file.filename.readOnly = true;</code></li>
+  <li> To reference the content of the active file, you need to access this:<br>
+    <code>top.opener.parent.frames.wp_edit.document.edit.wp_document.value</code></li>
+</ul>
+<h3><a name="accessing_the_plugins_toolbar" id="accessing_the_plugins_toolbar"></a>Accessing 
+  the plugins toolbar</h3>
+<p>You can modify the contents of the toolbar on the plugins browse window. There 
+  is room for up to 3 additional tools (you can't modify the far-left icon, which 
+  is for changing the active plugin). The following JavaScript functions are available 
+  if you include <code>/js/plugins.js</code> in your plugins pages (it is already 
+  included when <code>myPlugin_listing()</code> is called).</p>
+<pre>add_plugin_tool(icon, href, tooltip, position)</pre>
+<p>Using this function, you can add a tool to the toolbar for interacting with 
+  your plugin. <code>icon</code> is a filename for the icon to use in the toolbar. 
+  The image should be a transparent background gif, over a matte to the hex code 
+  <code>#3A85E1</code>. It should be 25 x 25px. <code>href</code> is the exact 
+  <code>HREF</code> to apply as a link to the icon (probably something like <code>javascript:do_something();</code>). 
+  <code>tooltip</code> will become the <code>TITLE</code> attribute of the link, 
+  and will appear if the user hovers over it for a second. <code>position</code> 
+  is a number from 1 to 3, representing the position to place this tool at. 1 
+  is closest to the 'Change Active Plugin' tool (far left) and 3 is far right.</p>
+<pre>remove_plugin_tool(position)</pre>
+<p>This will remove (clear) the tool at <code>position</code>. position should 
+  be a number from 1 to 3 representing which tool to remove.</p>
+<pre>clear_plugin_tools()</pre>
+<p>This function will simply clear all plugin tools (positions 1 - 3).</p>
+<a href="#top" class="b2t">Back to top</a> 
+<hr>
+
+</body>
+</html>

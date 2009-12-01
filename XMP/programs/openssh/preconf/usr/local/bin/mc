@@ -1,0 +1,5 @@
+#!/bin/sh
+
+export TERM=xterm
+#PATH=$PATH:/opt/bin:/opt/sbin
+/opt/bin/mc -c

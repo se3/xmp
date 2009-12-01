@@ -1,0 +1,64 @@
+body {
+	background: #FFFFFF;
+	color: #000000;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 0.9em;
+	margin: 0;
+	padding: 1em;
+	border: 0;
+}
+
+h1 {
+	background: #265997;
+	color: #FFFFFF;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 1.5em;
+	font-weight: 600;
+	padding: 0.3em;
+	margin: 0;
+	text-align: center;
+}
+
+h2, h3, h4 {
+	color: #265997;
+}
+
+a {
+	color: #0000FF;
+}
+
+a.b2t {
+	font-size: 80%;
+}
+
+p {
+	margin-left: 2em;
+}
+
+h4 {
+	margin-left: 2em;
+}
+
+li {
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+#toc li {
+	margin-bottom: 0;
+	margin-left: 1em;
+}
+
+pre {
+	margin-left: 3em;
+	border-left: solid 3px #3A85E1;
+	background: #EEEEEE;
+	padding: 1em;
+	width: auto;
+	font-family: Fixedsys, Andale, Monaco, Courier, Fixed-width;
+}
+
+code {
+	font-family: Fixedsys, Andale, Monaco, Courier, Fixed-width;
+	background: #EEEEEE;
+}

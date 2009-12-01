@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sleep 55
+/opt/bin/ntpdate -t 25 pool.ntp.org >> /tmp/ntpdate.log

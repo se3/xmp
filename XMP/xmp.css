@@ -1,0 +1,56 @@
+input {
+ background-color: #999;
+ color: DfD;
+ cursor: pointer;
+}
+
+input[disabled='disabled'] {
+  background: #888;
+  color: #AAA;
+  cursor:default;
+}
+
+body,td,th {
+	font-size: 14px;
+	color: #BBB;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+}
+a {
+	font-size: 14px;
+	color: #900;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #900;
+}
+a:hover {
+	text-decoration: underline;
+	color: #F00;
+}
+a:active {
+	text-decoration: none;
+}
+
+#leftFrame {
+ background-color: #200;
+}
+#mainFrame {
+ background-color: #000;
+}
+#bottomFrame {
+ background-color: #100;
+}
+
+
+#borderFrame {
+ background-color: #333;
+}
+
+#border2Frame {
+ background-color: #333;
+}
+                                                                                                                                                                                                      

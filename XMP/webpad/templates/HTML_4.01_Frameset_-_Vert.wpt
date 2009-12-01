@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+"http://www.w3.org/TR/html4/frameset.dtd">
+
+<html>
+<head>
+<title>Untitled Document</title>
+</head>
+
+<frameset cols="*,*" frameborder="no" border="0" framespacing="0">
+  <frame src="" name="leftframe">
+  <frame src="" name="rightframe">
+
+
+  <noframes>
+  <body>
+  <!-- place alternative information for accessibility purposes here -->
+  </body>
+  </noframes>
+
+</frameset>
+</html>

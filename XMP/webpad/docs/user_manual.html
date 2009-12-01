@@ -1,0 +1,460 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>webpad Help Manual</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../css/docs.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<a name="top"></a>
+<h1>webpad Help Manual</h1>
+<ol type="I" id="toc">
+  <li><a href="#using_webpad">Using webpad</a> 
+    <ol type="a">
+      <li><a href="#launching_webpad_normally">Launching webpad normally</a></li>
+      <li><a href="#launching_webpad_in_a_new_window">Launching webpad in a new 
+        window</a></li>
+      <li><a href="#launching_webpad_from_a_bookmarklet">Launching webpad from 
+        a bookmarklet</a></li>
+      <li><a href="#loading_a_file_from_a_link">Loading a file from a link</a></li>
+    </ol>
+  </li>
+  <li><a href="#working_with_files">Working With Files</a> 
+    <ol type="a">
+      <li><a href="#creating_a_new_file">Creating a new file</a></li>
+      <li><a href="#on_your_computer">On your computer</a></li>
+      <li><a href="#on_the_server_webpad_is_on">On the server webpad is on</a></li>
+      <li><a href="#via_ftp">Via FTP</a></li>
+      <li><a href="#using_plugins">Using plugins</a></li>
+      <li><a href="#loading_the_source_of_a_webpage">Loading the source of a webpage</a></li>
+    </ol>
+  </li>
+  <li><a href="#webpad_tools">webpad Tools</a> 
+    <ol type="a">
+      <li><a href="#uploading_files_to_the_server">Uploading files to the server</a></li>
+      <li><a href="#emailling_a_file">Emailing a file</a></li>
+      <li><a href="#printing_a_file">Printing a file</a></li>
+      <li><a href="#go_to_line">Go to line</a></li>
+      <li><a href="#find_and_find_next">Find &amp; Find Next</a></li>
+      <li><a href="#find_and_replace">Find &amp; Replace</a></li>
+      <li><a href="#html_tools">HTML tools</a></li>
+      <li><a href="#previewing_a_file_as_html">Previewing a file as HTML</a></li>
+    </ol>
+  </li>
+  <li><a href="#extras">Extras</a> 
+    <ol type="a">
+      <li><a href="#keyboard_shortcuts">Keyboard shortcuts</a></li>
+      <li><a href="#webpad_templates">webpad templates</a></li>
+      <li><a href="#webpad_plugins">webpad plugins</a></li>
+    </ol>
+  </li>
+  <li><a href="#more_information">More Information</a> 
+    <ol type="a">
+      <li><a href="#about_webpad">About webpad</a></li>
+      <li><a href="#about_the_developer">About the developer</a></li>
+    </ol>
+  </li>
+</ol>
+<a href="#top" class="b2t">Back to top</a>
+<hr>
+<h2><a name="using_webpad"></a>Using webpad</h2>
+<h3><a name="launching_webpad_normally"></a>Launching webpad normally</h3>
+<p>To access webpad normally, all you need to do is 'hit' the URL of the directory 
+  where it is installed. For example, if you copied the webpad files into the 
+  <code>/webpad/</code> directory on your server, then you would need to access 
+  <code>http://www.yourserver.com/webpad/</code>.</p>
+<p>You will be presented with a screen asking you to log in. Enter the username 
+  and password you specified during installation/configuration and hit the 'Log 
+  In' button. webpad will load up with a new file and you can start using it. 
+</p>
+<h3><a name="launching_webpad_in_a_new_window"></a>Launching webpad in a new window</h3>
+<p>If you'd like to load webpad into a new window sized just right for it, then 
+  you can easily do so. Just point your browser to the directory that you installed 
+  webpad in, and then add <code>launch.php</code> to that. For example, if you 
+  installed webpad at <code>http://www.yourserver.com/webpad/</code> then you 
+  would want to access <code>http://www.yourserver.com/webpad/launch.php</code></p>
+<p>webpad will load into a new window, and the current browser will be sent back 
+  to the last page that you were at. If you need to log in to webpad, then you 
+  will be asked to do so, otherwise it will load completely.</p>
+<h3><a name="launching_webpad_from_a_bookmarklet"></a>Launching webpad from a 
+  bookmarklet</h3>
+<p>A really handy way to load webpad is using a shortcut from your browser's 'Links' 
+  or 'Bookmarks' toolbar. This is called a 'bookmarklet', and you can load webpad 
+  just like this really easily.</p>
+<p>All you need to do is copy the link below into your toolbar (you can normally 
+  just drag the link to the toolbar and it will copy). From then on, you can easily 
+  click the bookmarklet and webpad will launch. You will even get an option to 
+  load the source code of the page you're currently viewing (when you click the 
+  link), or you can just load webpad in a console.</p>
+<p> 
+  <script language="JavaScript">
+<!--
+document.writeln("<a href=\"javascript:if(currentURL=escape(location.href)){Xsize=370;Ysize=150;locateX=(screen.width-Xsize)/2;locateY=(screen.height*0.9-Ysize)/2;void(webpad_launched=window.open('" + document.location.href.substring(0, document.location.href.lastIndexOf("/")) + "/../launch.php?u='+currentURL,'webpad','width='+Xsize+',height='+Ysize+',left='+locateX+',top='+locateY+',screenX='+locateX+',screenY='+locateY+',toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=yes,copyhistory=no'));}\"><strong>webpad</strong></a>");
+// -->
+</script>
+</p>
+<h3><a name="loading_a_file_from_a_link"></a>Loading a file from a link</h3>
+<p>webpad also supports opening a file directly from a link. This is useful for 
+  web-based file management integration, where you'd like to provide a direct 
+  link to edit the contents of a file on the server that webpad is installed on.</p>
+<p>To create a link directly to webpad, you need to put together the following 
+  pieces;</p>
+<ol>
+  <li>The URL to webpad</li>
+  <li>A 'type' (<code>?t=</code>) of either 'server' (to open a file on your server) 
+    or 'http' (to open the source of a webpage)</li>
+  <li>The full path (or URL) to the file you want to open (<code>&amp;f=</code>)</li>
+</ol>
+<p>For example, to open the file <code>/usr/home/webpad/file.html</code> from 
+  the server, assuming you installed webpad at <code>http://www.yourserver.com/webpad/</code>; 
+  you would create a link pointing to the following;</p>
+<p><code>http://www.yourserver.com/webpad/?t=server&amp;f=/usr/home/webpad/file.html</code></p>
+<p>There are a few things you should be aware of:</p>
+<ol>
+  <li>You need to be logged into webpad already; otherwise it will force you to 
+    log in and will discard the request for a file.</li>
+  <li>If you request a file from the server, it must fall somewhere inside your 
+    webpad home directory or a security violation will be triggered and webpad 
+    will close</li>
+  <li>You should encode special characters in the filename to avoid problems. 
+    You can do this using something like <code>str.escape()</code> (in JavaScript) 
+    or <code>urlencode($str)</code> (in PHP).</li>
+</ol>
+<a href="#top" class="b2t">Back to top</a>
+<hr>
+<h2><a name="working_with_files"></a>Working With Files</h2>
+<h3><a name="creating_a_new_file"></a>Creating a new file</h3>
+<p>Click the 'New File' icon in webpad's toolbar to create a new file. If you 
+  have any templates installed (See: <a href="#webpad_templates">webpad templates</a> 
+  for more info), then you'll get an option to open a template to work from (using 
+  the keyboard shortcut bypasses the template option).</p>
+<p>You can pick a template from the list of available ones, or pick 'Blank File' 
+  to load an empty file and start from scratch. Click 'New' when you've made your 
+  choice and webpad will open the requested file.</p>
+<h3><a name="on_your_computer"></a>On your computer</h3>
+<h4><a name="opening_files_on_your_computer"></a>Opening files on your computer</h4>
+<p>To open any text-based file from your computer, just click the 'Open File' 
+  icon in webpad's toolbar, and then if it's not already selected, click the 'My 
+  Computer' icon in the Locations Bar on the left of the Open File window. On 
+  the left, you will see a box marked 'File:' with a 'Browse' button next to it. 
+  Click the button.</p>
+<p>This should open a window where you can browse the files on your computer and 
+  select the one you would like to edit in webpad. Once you have located the file 
+  to open, select it and click 'Open'. Now click 'Open' in webpad's window as 
+  well.</p>
+<p>The file will be uploaded to webpad's server and stored temporarily while you 
+  edit it (don't worry; it gets deleted when you're done).</p>
+<h4><a name="saving_files_to_your_computer"></a>Saving files to your computer</h4>
+<p>You can also save any file you are editing in webpad directly to your computer 
+  (including opens you opened from your server, a remote FTP server or anywhere 
+  else). To do this, just click 'Save As' in the toolbar, and then select 'My 
+  Computer' in the Locations Bar on the left of the File Save window.</p>
+<p>Now you can enter a name for the file, and pick what type it is. Once you're 
+  done, click 'Save'. webpad will tell your browser to download the file, so you 
+  will get a window asking you if you'd like to open or save the file. Select 
+  'Save to disk' (or similar) and click 'Ok'. Now you will need to browse to where 
+  you'd like to save the file on your computer, and then click 'Ok' again. The 
+  file will save and you can go back to editing in webpad.</p>
+<h3><a name="on_the_server_webpad_is_on"></a>On the server webpad is on</h3>
+<h4><a name="opening_files_from_the_server_webpad_is_on"></a>Opening files from 
+  the server webpad is on</h4>
+<p>webpad is perfect for making changes to your website without having to download 
+  and upload files all over the place. It accesses the files directly on your 
+  server, so you can see your changes immediately once you save the file. To open 
+  a file on the webpad server, just click the 'Open File' icon in the toolbar, 
+  and then select 'My Server' in the Locations Bar.</p>
+<p>Now you will see a window where you can browse the contents of your server, 
+  starting at your home directory (you can't go outside of that directory and 
+  its sub-directories for security reasons). Browse to different directories by 
+  clicking once on a directory name. If you don't have permission to access a 
+  file or directory, then you won't be able to click on it.</p>
+<p>Once you find the file you would like to edit, you can either double-click 
+  it, or click it once, then click the 'Open' button to open it in webpad.</p>
+<h4><a name="saving_files_to_the_server_webpad_is_on"></a>Saving files to the 
+  server webpad is on</h4>
+<p>Any file that you have open can be saved directly to your server. All you need 
+  to do is click 'Save As' in the toolbar then click 'My Server' in the Locations 
+  Bar'. Now you can navigate the directory where you'd like to save the file.</p>
+<p>Once you're in the right directory, you can either enter a name for the file, 
+  or select an existing file to overwrite. If you are going to overwrite a file, 
+  you'll need to confirm that that's really what you want to do. After entering 
+  a name (or selecting a file), just click the 'Save' button and the file will 
+  be saved and you'll be returned to webpad.</p>
+<h4><a name="extra_server_file_management_tools"></a>Extra server file-management 
+  tools</h4>
+<p>webpad has a few extra tools to help you manage the files on your server. These 
+  tools are available from the File window, either when you Open or Save a file 
+  to the webpad server.</p>
+<ul>
+  <li><strong>Home</strong><br>
+    Takes you back to your home directory.</li>
+  <li><strong>New Directory</strong><br>
+    Click this once, then enter the name of a new directory to create it within 
+    the current directory.</li>
+  <li><strong>Delete Selected File</strong><br>
+    Select a file, and then click this icon to delete that file permanently. You 
+    will be asked to confirm just to make sure.</li>
+  <li><strong>Rename Selected File</strong><br>
+    To rename a file, just select it, and then click this icon. You will be prompted 
+    for a new name for the file.</li>
+</ul>
+<h3><a name="via_ftp"></a>Via FTP</h3>
+<h4><a name="opening_files_from_an_ftp_server"></a>Opening files from an FTP server</h4>
+<p>If you have configured access to a remote FTP server (or multiple servers) 
+  you will be able to open and save files to and from the server just like anywhere 
+  else. Click 'Open File' in the toolbar and then select 'FTP Server' in the Locations 
+  Bar. If you have more than one server configured, you'll need to pick which 
+  one you'd like to open a file from, otherwise the only one configured will be 
+  assumed.</p>
+<p>Once you are logged into your FTP server, you can browse around just like accessing 
+  files on the webpad server (albeit a little slower normally). Once you find 
+  the file you're looking for, double-click it, or click it, then click 'Open' 
+  to open it in webpad.</p>
+<h4><a name="saving_files_to_an_ftp_server"></a>Saving files to an FTP server</h4>
+<p>Saving a file to FTP works just like saving to the webpad server. Click 'Save 
+  As', select 'FTP Server' in the Locations Bar, then navigate to where you'd 
+  like to save the file. Enter a name and click 'Save' and you're done! As with 
+  the webpad server, you'll need to confirm it if you want to save over a file 
+  that's already there.</p>
+<h4><a name="extra_ftp_server_tools"></a>Extra FTP server tools</h4>
+<ul>
+  <li><strong>Change Active Server</strong><br>
+    Clicking this will take you back to the list of available FTP servers so you 
+    can choose which one to work with. This option will disappear if you only 
+    have one server configured.</li>
+  <li><strong>FTP Home Directory</strong><br>
+    This will take you back to the home directory of the active FTP account.</li>
+</ul>
+<h3><a name="using_plugins"></a>Using plugins</h3>
+<h4><a name="opening_a_file_from_a_plugin"></a>Opening a file from a plugin</h4>
+<p>Plugins give webpad the ability to access other locations to load files from. 
+  webpad Personal and Enterprise come pre-loaded with plugins to handle the following 
+  blogging platforms:</p>
+<ul>
+  <li><a href="http://www.blosxom.com/" target="_blank">blosxom</a></li>
+  <li><a href="http://www.blogger.com/" target="_blank">Blogger.com</a></li>
+  <li><a href="http://www.sixapart.com/livejournal/" target="_blank">LiveJournal</a></li>
+  <li><a href="http://www.sixapart.com/movabletype/" target="_blank">MovableType</a></li>
+  <li><a href="http://www.sixapart.com/typepad/" target="_blank">TypePad</a></li>
+  <li><a href="http://www.wordpress.org/" target="_blank">WordPress</a></li>
+</ul>
+<p>You will need to configure your details for each of these platforms during 
+  installation/configuration, so please have a look at the <a href="installation.html">Installation 
+  Instructions</a> for more details on this.</p>
+<p>Once you have your blogs configured, you can access the directly through webpad, 
+  as if they were any other file. Just click 'Open File' and then click 'Plugins' 
+  in the Location Bar. Now you will see a list of available plugins to select 
+  from. Click on one of the plugins and you will go to a listing for that plugin. 
+  For some blogging platforms, you will get a list of available blogs, for others 
+  you will go straight to the entries. If you only have one blog available, you 
+  will also go straight to the entries.</p>
+<p>Once you locate the file/entry you'd like to edit, select it by either double-clicking, 
+  or click it once, then click the 'Open' button. It should now open directly 
+  in webpad where you can edit it.</p>
+<p><strong>NOTE:</strong> Blog entries open in webpad with the title on the first 
+  line. Whatever is entered on the first line will be used as the title of the 
+  entry when it is published on your blog!</p>
+<h4><a name="saving_a_file_to_a_plugin"></a>Saving a file to a plugin</h4>
+<p>As with other file-types, just click 'Save As' and then select 'Plugins' in 
+  the Locations Bar. Navigate to the plugin you'd like to save this file using, 
+  and then enter a name and click 'Save'</p>
+<p><strong>NOTE:</strong> When saving a blog entry (except for blosxom), the first 
+  line of the file is used as a title automatically, and you don't need to specify 
+  a file name. With blosxom, you will need to enter a file name just like saving 
+  to your server.</p>
+<h4><a name="extra_plugin_tools"></a>Extra plugin tools</h4>
+<p>Some plugins will load additional tools into the plugin toolbar while you are 
+  accessing them. All of the blogging plugins will give you the option to delete 
+  entries. Just select an entry and then click the 'Delete Selected Entry' button 
+  to delete it permanently.</p>
+<h3><a name="loading_the_source_of_a_webpage"></a>Loading the source of a webpage</h3>
+<p>webpad can load the source code of a webpage so you can check it out, or save 
+  a copy for yourself. All you need to do is click 'Open File' in the toolbar, 
+  and then select 'Webpage' from the Locations Bar. Enter the URL of the page 
+  you'd like to open, and then click 'Open' to load it directly into webpad.</p>
+<p><strong>NOTE:</strong> You can't save a file directly to a URL - that wouldn't 
+  make any sense!</p>
+<a href="#top" class="b2t">Back to top</a>
+<hr>
+<h2><a name="webpad_tools"></a>webpad Tools</h2>
+<h3><a name="uploading_files_to_the_server"></a>Uploading files to the server</h3>
+<p>If you have configured webpad to allow file uploads, then you can upload any 
+  file to your server using the 'Upload File' button in the toolbar. Just click 
+  it to open the 'Upload File' window. With the window open, click the 'Browse' 
+  button to locate the file you'd like to upload from your computer. Once you've 
+  found it, click 'Open', then click 'Upload' in webpad's upload window.</p>
+<p>The file will upload to a temporary location on your server, and then webpad 
+  will prompt you for a location to save it too permanently. Browse to a location 
+  on your server; enter a filename and click 'Save'.</p>
+<h3><a name="emailling_a_file"></a>Emailing a file</h3>
+<p>You can send a copy of any open file via email if you have configured webpad 
+  to allow emailing. With a file open, just click the 'Send File As Email' button 
+  in the toolbar. This will open the 'Send File As Email' window, where you should 
+  enter an email address to send the file to (you can enter more than one, just 
+  separate them with a comma - ','). Enter a subject for the email, and then click 
+  'Send'. The email will appear to come from the name and email address displayed 
+  in the window (which was configured as part of <a href="installation.html">installation/configuration</a>). 
+  If your document contains &quot;&lt;html&gt;&quot; then it will automatically 
+  be sent as an HTML-formatted email message, otherwise it will be sent as plain 
+  text.</p>
+<h3><a name="printing_a_file"></a>Printing a file</h3>
+<p>If you'd like to print a file you are editing in webpad, you should use webpad's 
+  'Print File' button. When you click the button, a new window will open, with 
+  your file formatted for printing. The print operation will be triggered automatically, 
+  so you'll just need to confirm that you'd like to print and it will begin.</p>
+<h3><a name="go_to_line"></a>Go to line</h3>
+<p>Often, you will need to jump directly to a specific line in a file (especially 
+  if you're debugging some code). To do this, just click the 'Go To Line' button 
+  in the toolbar. You will be asked which line you'd like to go to. Enter a number, 
+  and then click 'Ok' and you will jump straight to the start of that line.</p>
+<h3><a name="find_and_find_next"></a>Find &amp; Find Next</h3>
+<p>Using the 'Find' button, you can locate any text in your file. Click the button, 
+  and then enter the text you're looking for and click 'Ok'. You will jump to 
+  the next occurrence of that string, and it will be highlighted to show you where 
+  it is. If you'd like to keep finding more occurrences, just keep clicking the 
+  'Find Next' button next to it in the toolbar.</p>
+<h3><a name="find_and_replace"></a>Find &amp; Replace</h3>
+<p>You can replace all occurrences of a string with another one using the 'Find 
+  &amp; Replace' window. Click the 'Find &amp; Replace' button in the toolbar, 
+  and then enter the text you're looking for in the 'Find:' box. Enter what you'd 
+  like to replace it with in the 'Replace:' box. If you only want to match the 
+  same upper/lower case text, then check the 'Match Case?' box. Now click 'Replace 
+  All' to replace all occurrences of the string with the replacement.</p>
+<h3><a name="html_tools"></a>HTML tools</h3>
+<p>webpad comes with a collection of useful HTML tools for editing and creating 
+  HTML files. Here's a brief outline of what's available:</p>
+<ul>
+  <li><strong>Bold</strong> (ctrl/opt-shift-b)<br>
+    Select some text and click this to wrap it in &lt;strong&gt; tags, or click 
+    it without a selection to insert the tags into your file.</li>
+  <li><strong>Italics</strong> (ctrl/opt-shift-i)<br>
+    Select some text and click this to wrap it in &lt;em&gt; tags, or click it 
+    without a selection to insert the tags into your file. </li>
+  <li><strong>Insert Link</strong> (ctrl/opt-shift-a)<br>
+    Click this button and then enter the details to insert an &lt;a href&gt; tag 
+    into your file.</li>
+  <li><strong>Insert Image</strong><br>
+    Click this button and then enter the details to insert an &lt;img&gt; tag 
+    into your file. </li>
+  <li><strong>Increase Indent</strong><br>
+    Select some text and click this to wrap it in tags that will add a left margin, 
+    or click it without a selection to insert the tags into your file. </li>
+  <li><strong>Blockquote</strong><br>
+    Select some text and click this to wrap it in &lt;blockquote&gt; tags, or 
+    click it without a selection to insert the tags into your file. </li>
+  <li><strong>Left Align</strong> (ctrl/opt-shift-l)<br>
+    Select some text and click this to wrap it a &lt;p align=&quot;left&quot;&gt; 
+    tag, or click it without a selection to insert the tags into your file. </li>
+  <li><strong>Center Align</strong> (ctrl/opt-shift-e)<br>
+    Select some text and click this to wrap it a &lt;p align=&quot;center&quot;&gt; 
+    tag, or click it without a selection to insert the tags into your file. </li>
+  <li><strong>Right Align</strong> (ctrl/opt-shift-r)<br>
+    Select some text and click this to wrap it a &lt;p align=&quot;right&quot;&gt; 
+    tag, or click it without a selection to insert the tags into your file. </li>
+  <li><strong>Justify</strong> (ctrl/opt-shift-j)<br>
+    Select some text and click this to wrap it a &lt;p align=&quot;justify&quot;&gt; 
+    tag, or click it without a selection to insert the tags into your file. </li>
+  <li><strong>Insert Color (Hex code)</strong><br>
+    Click this and then pick a color from the palette. The hex code for that color 
+    will be inserted into your file.</li>
+  <li><strong>Insert Table</strong><br>
+    Enter the number of rows and columns, plus some other details, to insert the 
+    skeleton of an empty table into your file.</li>
+  <li><strong>Insert List</strong><br>
+    Pick which type of list you'd like (bullets, numbers, different styles), then 
+    enter each of the items. When you're done, click 'Insert' to insert the HTML 
+    required to create the list into your file.</li>
+</ul>
+<h3><a name="previewing_a_file_as_html"></a>Previewing a file as HTML</h3>
+<p>If you're editing an HTML file, you can use the 'Preview As HTML' button to 
+  load the contents of your file into a new window, and render it as a webpage. 
+  This is a good way to get a quick preview and see how it looks. Keep in mind 
+  that unless you are using absolute addresses to things like CSS and JavaScript 
+  files and images, then most of them will appear broken.</p>
+<a href="#top" class="b2t">Back to top</a>
+<hr>
+<h2><a name="extras"></a>Extras</h2>
+<h4><a name="keyboard_shortcuts"></a>Keyboard shortcuts</h4>
+<p>webpad supports a number of keyboard shortcuts to make your life easier. In 
+  addition to the HTML Tools (See: <a href="#html_tools">HTML Tools</a> for details), 
+  the following shortcuts are also available:</p>
+<ul>
+  <li><strong>ctrl/opt-shift-q</strong><br>
+    Insert a Tab into your file</li>
+  <li><strong>ctrl/opt-shift-n</strong><br>
+    Create a new file (ignores template settings and just creates a new file straight 
+    away) </li>
+  <li><strong>ctrl/opt-shift-o</strong><br>
+    Open a file</li>
+  <li><strong>ctrl/opt-shift-s</strong><br>
+    Save the current file to its current location</li>
+  <li><strong>ctrl/opt-shift-g</strong><br>
+    Go to a line in this file</li>
+  <li><strong>ctrl/opt-shift-f</strong><br>
+    Find text in this file</li>
+  <li><strong>ctrl/opt-shift-h</strong><br>
+    Find &amp; replace text in this file</li>
+  <li><strong>ctrl/opt-shift-p</strong><br>
+    Preview the current file as HTML (See: <a href="#previewing_a_file_as_html">Previewing 
+    a file as HTML</a> for more information) </li>
+</ul>
+<p><strong>NOTE:</strong> All shortcuts are available on Windows machines (using 
+  the Control key) and on Macintosh (using the Option key).</p>
+<h4><a name="webpad_templates"></a>webpad templates</h4>
+<p>You can install any number of templates in webpad so that you can easily create 
+  a new instance of that file from the 'New File' window. To create a webpad template, 
+  just create a normal text-based file, and then save it to the <code>/templates/</code> 
+  directory inside webpad's install directory with the <code>.wpt</code> extension.</p>
+<p>When they are loaded, the filenames of all <code>*.wpt</code> files in the 
+  /templates/ directory are 'prettied up'. Underscores (_) are converted to spaces 
+  and the <code>.wpt</code> is stripped from the end. For example, <code>This_is_a_webpad_template.wpt</code> 
+  will become &quot;This is a webpad template&quot; in the template selection 
+  box.</p>
+<p>webpad comes packaged with a number of sample templates for HTML and XHTML-compliant 
+  documents. </p>
+<h4><a name="webpad_plugins"></a>webpad plugins</h4>
+<p>Please see the separate <a href="plugins.html">Plugins Documentation</a> for 
+  information about webpad's plugin system.</p>
+<a href="#top" class="b2t">Back to top</a>
+<hr>
+<h2><a name="more_information"></a>More Information</h2>
+<h4><a name="about_webpad"></a>About webpad</h4>
+<p>webpad was written to provide a simple interface for accessing files on a server. 
+  From that origin, it grew to become a single spot to accessing all sorts of 
+  files which are online, in a number of formats and locations. webpad is written 
+  using a combination of <a href="http://www.php.net/" target="_blank">PHP</a>, 
+  <a href="http://wp.netscape.com/eng/mozilla/3.0/handbook/javascript/" target="_blank">JavaScript</a> 
+  and <a href="http://www.w3.org/Style/CSS/" target="_blank">Cascading Style sheets</a>, 
+  with the interface being completely <a href="http://www.w3.org/MarkUp/" target="_blank">HTML</a> 
+  (no plugins required!)</p>
+<p>A few interesting facts about webpad:</p>
+<ul>
+  <li>webpad development started in about 2000.</li>
+  <li>webpad has been downloaded well over 4,000 times from the <a href="http://www.dentedreality.com.au/webpad/" target="_blank">Dented 
+    Reality</a> website. </li>
+  <li>webpad is made up of around 150 files!</li>
+  <li>Apart from some beta testing and a few suggestions here and there, webpad 
+    is entirely developed by <a href="#about_the_developer">Beau Lebens</a></li>
+</ul>
+<p>You can always get the latest version, and read this documentation online at 
+  <a href="http://www.dentedreality.com.au/webpad/" target="_blank">http://www.dentedreality.com.au/webpad/</a></p>
+<h4><a name="about_the_developer"></a>About the developer</h4>
+<p>webpad is developed by me, <a href="mailto:beau@dentedreality.com.au">Beau 
+  Lebens</a>. I'm a web developer who's been creating things online since about 
+  1996. Originally based in Perth, Western Australia, I'm now in the US working 
+  hard as always. I made webpad originally because I wanted a simple way to edit 
+  files quickly on my website, without having to download, edit and then upload 
+  them. In those days it only worked in Internet Explorer, and even there, only 
+  sometimes.</p>
+<p>Since version 1, I've added <strong>stacks</strong> of extra tools and features 
+  to make webpad more useful and powerful, plus I've improved the security and 
+  stability of it, and made it work in browsers other than IE to boot. I maintain 
+  webpad because I find it useful: it's been the main tool in managing all the 
+  websites I have for over 3 years now. If you like it as well, or find it useful, 
+  I'd love to <a href="webpad@dentedreality.com.au">hear about it</a>, so drop 
+  me a line and tell me how you're using it.</p>
+<a href="#top" class="b2t">Back to top</a>
+<hr>
+</body>
+</html>
