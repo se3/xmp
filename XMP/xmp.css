@@ -11,6 +11,7 @@ input[disabled='disabled'] {
 }
 
 body,td,th {
+	background-color: #000;
 	font-size: 14px;
 	color: #BBB;
 	font-weight: bold;
