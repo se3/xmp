@@ -6,6 +6,7 @@
 <link rel="stylesheet" type="text/css" href="xmp.css">
 
 <? 
+   //$xmp_root = getcwd();
    $optdir = file_exists('/opt'); 
    $sshdfile = file_exists('/opt/sbin/sshd');
    $transfile = file_exists('/opt/bin/transmission-daemon');
@@ -88,9 +89,11 @@
   <input type="submit" value="Disable" <?  if ($filen == "644") echo 'disabled="disabled"'; ?> <? if (!$optdir) echo 'disabled="disabled"'; ?>>
 </form></td>
 
-    <td align="center"><form action="programs/cron/crontab_edit.php" method="get" title="Edit crontab." >
-  <input type="submit" value="Edit crontab" <? if (!$optdir) echo 'disabled="disabled"'; ?>>
-</form></td>
+    <td align="center"><form action="webpad" method="get" title="Edit crontab." >
+	  <input type="hidden" name="t" value="server"/>
+	  <input type="hidden" name="f" value="/opt/var/cron/crontabs/root"/>
+       <input type="submit" value="Edit crontab" <? if (!$optdir) echo 'disabled="disabled"'; ?>/>
+      </form></td>
   </tr>
   
 
@@ -203,9 +206,11 @@
     <td align="center"><form action="programs/openssh/bt_stop.php" method="get" target="bottomFrame" title="Disable OpenSSH daemon at boot">
   <input type="submit" value="Disable" <? if ($filen == "644") echo 'disabled="disabled"'; ?> <? if (!$optdir) echo 'disabled="disabled"'; ?> <? if (!$sshdfile) echo 'disabled="disabled"'; ?>>
 </form></td>
-    <td align="center"><form action="programs/openssh/config_edit.php" method="get" title="Edit OpenSSH config. Need to restart the SSH daemon after save your edit." >
-  <input type="submit" value="Edit config" <? if (!$optdir) echo 'disabled="disabled"'; ?> <? if (!$sshdfile) echo 'disabled="disabled"'; ?>>
-</form></td>
+    <td align="center"><form action="webpad" method="get" title="Edit OpenSSH config. Need to restart the SSH daemon after save your edit." >
+    	 <input type="hidden" name="t" value="server"/>
+	 <input type="hidden" name="f" value="/opt/etc/openssh/sshd_config"/>
+      <input type="submit" value="Edit config" <? if (!$optdir) echo 'disabled="disabled"'; ?> <? if (!$sshdfile) echo 'disabled="disabled"'; ?>>
+    </form></td>
   </tr>
 
 
@@ -240,7 +245,9 @@
   <input type="submit" value="Disable" <? if ($filen == "644") echo 'disabled="disabled"'; ?> <? if (!$optdir) echo 'disabled="disabled"'; ?> <? if (!$transfile) echo 'disabled="disabled"'; ?>>
 </form></td>
     <td align="center">
-	<form action="programs/transmission/config_edit.php" method="get" title="Edit Transmission daemon config.">
+	<form action="webpad" method="get" title="Edit Transmission daemon config.">
+	  <input type="hidden" name="t" value="server"/>
+	  <input type="hidden" name="f" value="/root/transmission/settings.json"/>
   <input type="submit" value="Edit config" <? $trfi = exec('ps | grep transmission | grep -v grep'); if (!$trfi == "" || !$transfile) echo 'disabled="disabled"'; ?>>
 </form>
 	</td>
@@ -263,8 +270,10 @@
     <td align="center"><? if ($nzbgetfile) echo "Installed"; else echo "Not installed";?></td>
     <td align="center"></td>
     <td align="center"></td>
-    <td align="center"><form action="programs/nzbget/config_edit.php" method="get" title="Edit NZBGet config." >
-  <input type="submit" value="Edit config" <? if (!$optdir) echo 'disabled="disabled"'; ?> <? if (!$nzbgetfile) echo 'disabled="disabled"'; ?>>
+    <td align="center"><form action="webpad" method="get" title="Edit NZBGet config." >
+    	  <input type="hidden" name="t" value="server"/>
+	  <input type="hidden" name="f" value="/opt/etc/nzbget.conf"/>
+       <input type="submit" value="Edit config" <? if (!$optdir) echo 'disabled="disabled"'; ?> <? if (!$nzbgetfile) echo 'disabled="disabled"'; ?>>
 </form></td>
   </tr>
 

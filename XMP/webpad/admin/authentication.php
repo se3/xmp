@@ -5,9 +5,10 @@ session_start();
 
 // If authentication details are posted to this page, register
 // them into the session and then apply security checks.
-if (isset($_POST['username']) && isset($_POST['password'])) {
-	$_SESSION['username'] = $_POST['username'];
-	$_SESSION['password'] = $_POST['password'];
+//if (isset($_POST['username']) && isset($_POST['password'])) 
+{
+	$_SESSION['username'] = $config['username']; //$_POST['username'];
+	$_SESSION['password'] = $config['password']; //$_POST['password'];
 }
 
 
