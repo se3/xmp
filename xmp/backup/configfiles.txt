@@ -1,0 +1,4 @@
+/usr/local/daemon/samba/lib/smb.conf
+/root/transmission/settings.json
+/sbin/www/stupid-ftpd.conf
+/sbin/www/ushare.conf
