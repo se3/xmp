@@ -299,18 +299,6 @@
 </form></td>
 </tr>
 
-<!-- Table DVD speed -->
-
-<tr>
-<td align="center">Hotplug</td>
-<td align="center"><form action="programs/hotplug/install.php" method="get" target="bottomFrame" title="Install Hotplug file for rewriteable ext3 USB drive.">
-  <input type="submit" value="Install" <? if (!$optdir) echo 'disabled="disabled"'; ?> >
-</form></td>
-<td align="center"><form action="programs/hotplug/restore.php" method="get" target="bottomFrame" title="Restore original hotplug.">
-  <input type="submit" value="Restore" <? if (!$optdir) echo 'disabled="disabled"'; ?> >
-</form></td>
-<td align="center"></td>
-</tr>
 
 <!-- Table horisontal line -->
 
