@@ -5,6 +5,10 @@ PATH="/opt/bin:/opt/sbin:$PATH"
 echo "Be patient the unrar process maybe need lot fo time!"
 echo "You can close this windows, the unrar will done in background."
 
+if [ ! -f /opt/bin/busybox ]; then
+   /opt/bin/ipkg install busybox
+fi
+
 if [ $# -ne 1 ]
 then
   echo "U forgot to enter directory where i should work!"
