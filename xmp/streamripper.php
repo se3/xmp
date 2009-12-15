@@ -9,6 +9,10 @@ $param= $_POST[streamripparam];
 $plspath= $_POST[playlist];
 $streamname= $_POST[streamname];
 if ( "" == $streamname ) { $streamname = "Wellcome to my personal streamripper station (note: Y! mediaplayer work only with mp3 streams, streamripper work with most media streams)"; }
+if ( ! file_exists( $streameripper ) )
+{
+   $streamname = " Install streamripper '/opt/bin install streamripper' in FakeShell if you want rip this stream";   
+}
 
 $stop = $_POST[stop];
 
@@ -21,7 +25,7 @@ if( "stop" == $stop )
 {
    @exec("killall streamripper");
 }
-else
+else if ( file_exists( $streameripper ) )
 {
    # stream rip is ongoing?
    if( "" != $url)
@@ -57,7 +61,13 @@ else
 <script type="text/javascript">
    
    function selectstream( stream, name )
-   {     
+   {
+      <? 
+      if ( ! file_exists( $streameripper ) )
+      {
+         echo 'alert(" Install streamripper \'/opt/bin install streamripper\' if you want rip this stream");';         
+      }
+      ?>
       if( "" == stream || '' == name )
       {
          alert("empty stream, select another...!");
