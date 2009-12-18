@@ -11,7 +11,7 @@ $streamname= $_POST[streamname];
 if ( "" == $streamname ) { $streamname = "Wellcome to my personal streamripper station (note: Y! mediaplayer work only with mp3 streams, streamripper work with most media streams)"; }
 if ( ! file_exists( $streameripper ) )
 {
-   $streamname = " Install streamripper '/opt/bin install streamripper' in FakeShell if you want rip this stream";   
+   $streamname = "type '/opt/bin/ipkg install streamripper' in FakeShell to install streamripper";   
 }
 
 $stop = $_POST[stop];
