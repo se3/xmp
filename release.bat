@@ -1,0 +1,1 @@
+CMD /K xcopy .\xmp\*.* c:\xmp_release\ /S /E
