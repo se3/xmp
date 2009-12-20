@@ -59,12 +59,12 @@ if ( "backup" == $original )
 
 if ( "" != $skin  )
 {
-   echo ' <META HTTP-EQUIV=Refresh CONTENT="10; URL=skins.php">';
+   echo ' <META HTTP-EQUIV=Refresh CONTENT="10; URL=../info.php">';
    if ( file_exists( "$skinpath/$skin/$skin.zip" ) )
    {
       echo '<pre>';
       echo "perform : unzip -o $skinpath/$skin/$skin.zip -d $extractpath<br>\n";
-      system("unzip -o $skinpath/$skin/$skin.zip -d $extractpath", $retval);
+      system("unzip -o '$skinpath/$skin/$skin.zip' -d '$extractpath'", $retval);
       echo '</pre>';
       if ( $retval == "0") echo 'Install done.'; else echo 'Install failed!';
    }
