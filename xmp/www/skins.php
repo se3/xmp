@@ -76,36 +76,43 @@ if ( "" != $skin  )
 else
 {
 
-// check if original backup is too old:
-// cat /usr/local/etc/dvdplayer/XTR_setup.dat
-// // ♥ý VER 2.1.2☺☺dddddddddddd¶☺☺☺☺☺d☺☺☺☺/tmp/usbmounts/sda1/xmp/www
-$versionstring = file_get_contents("/usr/local/etc/dvdplayer/XTR_setup.dat");
-$version = substr($versionstring, strpos($versionstring, "VER")+4, 5);
-
-$backup = 0;
-if ( file_exists( $versionfile ) )
-{
-   $foundversion = rtrim( file_get_contents($versionfile) );
-   if ( $version != $foundversion )
-   {
-      echo "New Version found : $foundversion, expected: $version<br>\n";
-      $backup = 1;      
-   } 
-}
-else
-{
-   echo "versionfile: $versionfile not found!<br>\n";
-   $backup = 1; 
-}
+   // check if original backup is too old:
+   // cat /usr/local/etc/dvdplayer/XTR_setup.dat
+   // // ♥ý VER 2.1.2☺☺dddddddddddd¶☺☺☺☺☺d☺☺☺☺/tmp/usbmounts/sda1/xmp/www
+   $versionstring = file_get_contents("/usr/local/etc/dvdplayer/XTR_setup.dat");
+   $version = substr($versionstring, strpos($versionstring, "VER")+4, 5);
    
-if ( 1 == $backup && "backup" != $original )
-{
-   echo ' <META HTTP-EQUIV=Refresh CONTENT="2; URL=skins.php?original=backup">';
-   echo "Please wait, original skin backup running...it take about 30 seconds<br>\n";  
-}
-else
-{   
-   ?>  
+   $backup = 0;
+   if ( file_exists( $versionfile ) )
+   {
+      $foundversion = rtrim( file_get_contents($versionfile) );
+      if ( $version != $foundversion )
+      {
+         echo "New Version found : $foundversion, expected: $version<br>\n";
+         $backup = 1;      
+      } 
+   }
+   else
+   {
+      echo "versionfile: $versionfile not found!<br>\n";
+      $backup = 1; 
+   }
+      
+   if ( 1 == $backup && "backup" != $original  )
+   {
+      if ( file_exists( "/opt/bin/ipkg" ) && file_exists( "/opt/bin/zip" ) )
+      {
+         echo ' <META HTTP-EQUIV=Refresh CONTENT="2; URL=skins.php?original=backup">';
+         echo "Please wait, original skin backup running...it take about 30 seconds<br>\n";  
+      }
+      else
+      {
+         echo "WARNING: Base install is needed to save the original skin! <a href=\"../programs/base/install.php\">perform Base install</a> !";
+      }
+   }
+   else
+   {   
+      ?>  
       <table align="center">
       <tr>
       <td  align="center"><h1>Skin Browser</h1><br>
@@ -113,7 +120,7 @@ else
       $dir = @ dir("../skins/");
       while (($file = $dir->read()) !== false)
       {
-        if ($file <> ".") if ($file <> "..")
+        if ($file != "." && $file != ".." && file_exists( "../skins/$file/$file.zip" ) )
         {
            echo "<h1>$file</h1>\n<br>\n";
            echo "<a href=\"skins.php?skin=$file\" target=\"bottomFrame\"><img src=\"$skinpath/$file/$file.jpg\" align=\"absmiddle\" /></a>\n<br>\n";
@@ -125,7 +132,7 @@ else
       </tr>
       </table>
    <?
-   }
+  }
 } // 
 
 ?>
