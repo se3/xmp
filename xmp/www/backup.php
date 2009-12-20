@@ -19,7 +19,7 @@ class fakeShell {
 		
 		$this->configpath = $this->path ."/backup/";
 		$this->configfile = $this->configpath.'configfiles.txt';
-		$this->webpad = $this->path.'webpad';
+		$this->webpad = '../webpad';
 
            $this->configitems = explode("\n", file_get_contents($this->configfile) );
 		//$this->configitems = array(  "/usr/local/daemon/samba/lib/smb.conf", "/root/transmission/settings.json", "/sbin/www/stupid-ftpd.conf", "/sbin/www/ushare.conf"  );
