@@ -1,11 +1,9 @@
 <?
-$streameripper = "/opt/bin/streamripper";
-$stream = "http://213.251.169.142:8000";
-$savedir = "-d /tmp/usbmounts/sda1/download";
-$filemax = "-M 500";
+
+$ripstatus = "";
 
 $streamlog = $_POST[streamlog];
-if ( "" == $streamlog ) { $streamlog = "/tmp/usbmounts/sda1/streamer.txt"; }
+if ( "" == $streamlog ) { $streamlog = "/tmp/usbmounts/sda1/streamer.txt"; 
 
 
 if ( file_exists( $streamlog ) )
@@ -28,7 +26,7 @@ else
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Main page</title>
 <META HTTP-EQUIV=Refresh CONTENT="3; URL=streamlog.php">
-<link rel="stylesheet" type="text/css" href="xmp.css">
+<link rel="stylesheet" type="text/css" href="../xmp.css">
 <body bgcolor=black style="margin: 0px;">
  
 <pre style="margin:auto; color:#00FF00;">

@@ -1,52 +1,3 @@
-#!/bin/sh
-#
-# $Id$
-#
-
-PATH="/opt/bin:/opt/sbin:$PATH"
-
-if [ "${BASH_CHECK}" != 1 -a -f /opt/bin/bash ]
-then
-	BASH_CHECK=1; export BASH_CHECK
-	/opt/bin/bash $0
-	exit $$
-fi
-
-showcommand() {
-	NAME=$1
-	shift
-	PROG=$1
-	shift
-	if [ -f ${PROG} ]
-	then
-		echo "<h3>${NAME}</h3>"
-		echo "<pre>"
-		${PROG} "$@"
-		echo "</pre>"
-	fi
-}
-
-showfile() {
-	FILE=$1;
-	BASE=${FILE##*/}
-	shift
-	if [ -f "${FILE}" ]
-	then
-		showcommand "${BASE}" "/bin/cat" "${FILE}"
-	fi
-}
-
-runprog() {
-	PROG=$1;
-	BASE=${PROG##*/}
-	shift
-	showcommand "${BASE}" "${PROG}" "$@"
-}
-
-cd /tmp
-cat << EOF
-Content-type: text/html
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -58,7 +9,7 @@ Content-type: text/html
   
 <style type="text/css">
 
-h2, h1 {
+h3, h2, h1 {
   font-family: Arial, Helvetica, sans-serif;
   color: #FFF;
 }
@@ -172,36 +123,66 @@ a:active {
 <li><a href="#network">Network</a></li>
 <li><a href="#samba">samba</a></li>
 </ol>
-EOF
-echo '<h2>System</h2> <a id="sys" />'
-showfile /etc/motd 
-runprog /opt/bin/uname -a
-showfile /proc/cpuinfo
-showfile /proc/meminfo
-showfile /proc/bus/usb/devices
-runprog /sbin/lsmod
-runprog /bin/ps
-runprog /bin/dmesg
-echo '<h2>Installed software</h2> <a id="soft" />'
-runprog /opt/bin/ipkg list_installed
-echo '<h2>Disks</h2> <a id="disk" />'
-showfile /proc/mounts
-runprog /bin/df
-showcommand "sda" /sbin/fdisk -l /dev/sda
-showcommand "sdb" /sbin/fdisk -l /dev/sdb
-showcommand "sdc" /sbin/fdisk -l /dev/sdc
-showcommand "sdd" /sbin/fdisk -l /dev/sdd
-echo '<h2>Network</h2> <a id="network" />'
-runprog /sbin/ifconfig
-runprog /sbin/route
-showfile /etc/resolv.conf
+<?
+echo '<h2>System</h2> <a id="sys" />';
+echo "<pre>";
+system ("cat /etc/motd ");
+system ("/opt/bin/uname -a");
+system ("cat /proc/cpuinfo");
+system ("cat /proc/meminfo");
+system ("cat /proc/bus/usb/devices");
+system ("/sbin/lsmod");
+system ("/bin/ps");
+system ("/bin/dmesg");
+echo "</pre>";
+
+
+echo '<h2>Installed software</h2> <a id="soft" />';
+echo "<pre>";
+system ("/opt/bin/ipkg list_installed");
+echo "</pre>";
+
+echo '<h2>Disks</h2> <a id="disk" />';
+echo "<pre>";
+system ("cat /proc/mounts");
+system ("/bin/df");
+echo "</pre>";
+echo "<h3>sda</h3>";
+echo "<pre>";
+system ("/sbin/fdisk -l /dev/sda");
+echo "</pre>";
+echo "<h3>sdb</h3>";
+echo "<pre>";
+system ("/sbin/fdisk -l /dev/sdb");
+echo "</pre>";
+echo "<h3>sdc</h3>";
+echo "<pre>";
+system ("/sbin/fdisk -l /dev/sdc");
+echo "</pre>";
+echo "<h3>sdd</h3>";
+echo "<pre>";
+system ("/sbin/fdisk -l /dev/sdd");
+echo "</pre>";
+
+echo '<h2>Network</h2> <a id="network" />';
+echo "<pre>";
+system ("/sbin/ifconfig");
+system ("/sbin/route");
+system ("cat /etc/resolv.conf");
+system ("wget http://ipkg.nslu2-linux.org");
+
 #runprog /opt/bin/host ipkg.nslu2-linux.org
 #runprog /bin/ping -c 2 ipkg.nslu2-linux.org
-runprog /usr/bin/wget http://ipkg.nslu2-linux.org
-echo '<h2>Samba</h2> <a id="samba" />'
-showfile /usr/local/daemon/samba/lib/smb.conf
+echo "</pre>";
+
+echo '<a id="samba" /><h2>Samba</h2> ';
+echo "<pre>";
+
+system ("cat /usr/local/daemon/samba/lib/smb.conf");
 # showfile /etc/samba/user_smb.conf
 #showfile /var/log/samba/log.smbd
 #showfile /var/log/samba/log.nmbd
-echo '</body>'
-echo '</html>'
+
+echo "</pre>";
+
+echo '</body></html>';

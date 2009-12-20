@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Lefty</title>
-<link rel="stylesheet" type="text/css" href="xmp.css">
+<link rel="stylesheet" type="text/css" href="../xmp.css">
 </head>
 
 <body>
@@ -12,10 +12,8 @@
 
 <p><a href="fakeshell.php" target="mainFrame" title="Mavvys original fakeshell">MAVVY FS</a></p>
 
-<p><a href="backup.php" target="mainFrame" title="Backup configuration files">BACKUP</a></p>
-
 <?
-if ( file_exists( "/opt/bin/ipkg" ) && file_exists( "./busybox" )  )
+if ( file_exists( "/opt/bin/ipkg" )  )
 { 
 ?>
    <p><a href="package.php?ipkg=1" target="mainFrame" title="IPKG package installer">IPKG WEB</a></p>
@@ -37,6 +35,7 @@ if ( file_exists( "/opt/bin/transmission-daemon" ) )
 }
 ?>
 
+<p><a href="backup.php" target="mainFrame" title="Backup configuration files">BACKUP</a></p>
 <p>&nbsp;</p>
 
 <p><a href="skins.php" target="mainFrame" title="Skin installer">SKINS</a></p>
@@ -52,16 +51,10 @@ if ( file_exists( "/opt/bin/transmission-daemon" ) )
 <p>&nbsp;</p>
 
 <p><a href="phpinfo.php" title="PHP info" target="mainFrame">PHP INFO</a></p>
-<?
-if ( file_exists( "./busybox" ) )
-{ 
-?>
-   <p><a href="package.php" title="Xtreamer Information" target="mainFrame" >XTREAMER INFO</a></p>
-<?
-}
-?>
 
-<p><a href="../../../" title="Xtreamer Web GUI" target="mainFrame">Xt WEB GUI</a></p>
+<p><a href="xtreaminfo.php" title="Xtreamer Information" target="mainFrame" >XTREAMER INFO</a></p>
+
+<p><a href="../../../../" title="Xtreamer Web GUI" target="mainFrame">Xt WEB GUI</a></p>
 
 
 </body>

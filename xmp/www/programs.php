@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>xmp Programs</title>
-<link rel="stylesheet" type="text/css" href="xmp.css">
+<link rel="stylesheet" type="text/css" href="../xmp.css">
 
 <? 
    //$xmp_root = getcwd();
@@ -43,11 +43,11 @@
 <!-- Table Base Install -->  
   <tr>
     <td align="center">Base install</td>
-    <td align="center"><form action="programs/base/install.php" method="get" target="bottomFrame" title="Start the base install: IPKG, cron, NTP, hdparm, busybox">
+    <td align="center"><form action="../programs/base/install.php" method="get" target="bottomFrame" title="Start the base install: IPKG, cron, NTP, hdparm, busybox">
   <input type="submit" value="Install" <? if ($optdir) echo 'disabled="disabled"'; ?> >
 </form>
 </td>
-    <td align="center"><form action="programs/base/uninstall.php" method="get" target="bottomFrame" title="Full uninstall">
+    <td align="center"><form action="../programs/base/uninstall.php" method="get" target="bottomFrame" title="Full uninstall">
   <input type="submit" value="Uninstall" <? if (!$optdir) echo 'disabled="disabled"'; ?> >
 </form>
 </td>
@@ -82,14 +82,14 @@
 	if ($filen == "0755") echo "+";
 	if ($filen == "0644") echo "-";
 	} else echo "Not installed"; ?></td>
-    <td align="center"><form action="programs/cron/bt_start.php" method="get" target="bottomFrame" title="Enable cCron daemon at boot">
+    <td align="center"><form action="../programs/cron/bt_start.php" method="get" target="bottomFrame" title="Enable cCron daemon at boot">
   <input type="submit" value="Enable" <?  if ($filen == "755") echo 'disabled="disabled"'; if (!$optdir) echo 'disabled="disabled"'; ?> >
 </form></td>
-    <td align="center"><form action="programs/cron/bt_stop.php" method="get" target="bottomFrame" title="Disable cron daemon at boot">
+    <td align="center"><form action="../programs/cron/bt_stop.php" method="get" target="bottomFrame" title="Disable cron daemon at boot">
   <input type="submit" value="Disable" <?  if ($filen == "644") echo 'disabled="disabled"'; ?> <? if (!$optdir) echo 'disabled="disabled"'; ?>>
 </form></td>
 
-    <td align="center"><form action="webpad" method="get" title="Edit crontab." >
+    <td align="center"><form action="../webpad" method="get" title="Edit crontab." >
 	  <input type="hidden" name="t" value="server"/>
 	  <input type="hidden" name="f" value="/opt/var/cron/crontabs/root"/>
        <input type="submit" value="Edit crontab" <? if (!$optdir) echo 'disabled="disabled"'; ?>/>
@@ -113,7 +113,7 @@
 	if ($filen == "0644") echo "-";
 	} else echo "Not installed";
 	?></td>
-    <td colspan=2 align="center"><form action="programs/ntp/sync.php" method="get" target="bottomFrame" title="Manual time synchronize.">
+    <td colspan=2 align="center"><form action="../programs/ntp/sync.php" method="get" target="bottomFrame" title="Manual time synchronize.">
   <input type="submit" value="Manual sync" <? if (!$optdir) echo 'disabled="disabled"'; ?> >
 </form></td>
     <td align="center"></td>
@@ -125,10 +125,10 @@
     <td align="center">Telnet</td>
     <td align="center"></td>
     <td align="center"></td>
-    <td align="center"><form action="programs/telnet/start.php" method="get" target="bottomFrame" title="Start telnet daemon">
+    <td align="center"><form action="../programs/telnet/start.php" method="get" target="bottomFrame" title="Start telnet daemon">
   <input type="submit" value="Start" <? $trfa = exec('ps | grep telnetd | grep -v grep'); if (!$trfa == "") echo 'disabled="disabled"'; ?> >
 </form></td>
-    <td align="center"><form action="programs/telnet/stop.php" method="get" target="bottomFrame" title="Stop telnet daemon">
+    <td align="center"><form action="../programs/telnet/stop.php" method="get" target="bottomFrame" title="Stop telnet daemon">
   <input type="submit" value="Stop" <? if ($trfa == "") echo 'disabled="disabled"'; ?> >
 </form></td>
     <td align="center"><? if ("" == @exec('ps | grep telnetd | grep -v grep')) echo "-"; else echo "Run"; ?></td>
@@ -140,10 +140,10 @@
 	if ($filen == "0644") echo "-";
 	} else echo "Not installed";
 	?></td>
-    <td align="center"><form action="programs/telnet/bt_start.php" method="get" target="bottomFrame" title="Enable telnet daemon at boot">
+    <td align="center"><form action="../programs/telnet/bt_start.php" method="get" target="bottomFrame" title="Enable telnet daemon at boot">
   <input type="submit" value="Enable" <?  if ($filen == "755") echo 'disabled="disabled"'; ?> <? if (!$optdir) echo 'disabled="disabled"'; ?>>
 </form></td>
-    <td align="center"><form action="programs/telnet/bt_stop.php" method="get" target="bottomFrame" title="Disable telnet daemon at boot">
+    <td align="center"><form action="../programs/telnet/bt_stop.php" method="get" target="bottomFrame" title="Disable telnet daemon at boot">
   <input type="submit" value="Disable" <? if ($filen == "644") echo 'disabled="disabled"'; ?> <? if (!$optdir) echo 'disabled="disabled"'; ?>>
 </form></td>
     <td align="center"></td>
@@ -161,10 +161,10 @@
   
   <tr>
     <td align="center">MC</td>
-    <td align="center"><form action="programs/mc/install.php" method="get" target="bottomFrame" title="Midnight Commander install.">
+    <td align="center"><form action="../programs/mc/install.php" method="get" target="bottomFrame" title="Midnight Commander install.">
   <input type="submit" value="Install" <?  if ($mcfile) echo 'disabled="disabled"'; ?> <? if (!$optdir) echo 'disabled="disabled"'; ?>>
 </form></td>
-    <td align="center"><form action="programs/mc/uninstall.php" method="get" target="bottomFrame" title="Midnight Commander Uninstall">
+    <td align="center"><form action="../programs/mc/uninstall.php" method="get" target="bottomFrame" title="Midnight Commander Uninstall">
   <input type="submit" value="Uninstall" <? if (!$mcfile) echo 'disabled="disabled"'; ?> <? if (!$optdir) echo 'disabled="disabled"'; ?> >
 </form></td>
     <td align="center"></td>
@@ -180,16 +180,16 @@
   
   <tr>
     <td align="center">Openssh</td>
-    <td align="center"><form action="programs/openssh/install.php" method="get" target="bottomFrame" title="OpenSSH install">
+    <td align="center"><form action="../programs/openssh/install.php" method="get" target="bottomFrame" title="OpenSSH install">
   <input type="submit" value="Install" <?  if ($sshdfile) echo 'disabled="disabled"'; ?> <? if (!$optdir) echo 'disabled="disabled"'; ?>>
 </form></td>
-    <td align="center"><form action="programs/openssh/uninstall.php" method="get" target="bottomFrame" title="OpenSSH Uninstall">
+    <td align="center"><form action="../programs/openssh/uninstall.php" method="get" target="bottomFrame" title="OpenSSH Uninstall">
   <input type="submit" value="Uninstall" <? if (!$sshdfile) echo 'disabled="disabled"'; ?> <? if (!$optdir) echo 'disabled="disabled"'; ?> >
 </form></td>
-    <td align="center"><form action="programs/openssh/start.php" method="get" target="bottomFrame" title="Start sshd daemon">
+    <td align="center"><form action="../programs/openssh/start.php" method="get" target="bottomFrame" title="Start sshd daemon">
   <input type="submit" value="Start" <? $trfi = exec('ps | grep sshd | grep -v grep'); if (!$trfi == "" || !$sshdfile) echo 'disabled="disabled"'; ?> >
 </form></td>
-    <td align="center"><form action="programs/openssh/stop.php" method="get" target="bottomFrame" title="Stop sshd daemon">
+    <td align="center"><form action="../programs/openssh/stop.php" method="get" target="bottomFrame" title="Stop sshd daemon">
   <input type="submit" value="Stop" <? if ($trfi == "" || !$sshdfile) echo 'disabled="disabled"'; ?> >
 </form></td>
     <td align="center"><? if ("" == @exec('ps | grep sshd | grep -v grep')) echo "-"; else echo "Run"; ?></td>
@@ -200,13 +200,13 @@
 	if ($filen == "0644") echo "-";
 	} else echo "Not installed";
 	?></td>
-    <td align="center"><form action="programs/openssh/bt_start.php" method="get" target="bottomFrame" title="Enable OpenSSH daemon at boot">
+    <td align="center"><form action="../programs/openssh/bt_start.php" method="get" target="bottomFrame" title="Enable OpenSSH daemon at boot">
   <input type="submit" value="Enable" <?  if ($filen == "755") echo 'disabled="disabled"'; ?> <? if (!$optdir) echo 'disabled="disabled"'; ?> <? if (!$sshdfile) echo 'disabled="disabled"'; ?>>
 </form></td>
-    <td align="center"><form action="programs/openssh/bt_stop.php" method="get" target="bottomFrame" title="Disable OpenSSH daemon at boot">
+    <td align="center"><form action="../programs/openssh/bt_stop.php" method="get" target="bottomFrame" title="Disable OpenSSH daemon at boot">
   <input type="submit" value="Disable" <? if ($filen == "644") echo 'disabled="disabled"'; ?> <? if (!$optdir) echo 'disabled="disabled"'; ?> <? if (!$sshdfile) echo 'disabled="disabled"'; ?>>
 </form></td>
-    <td align="center"><form action="webpad" method="get" title="Edit OpenSSH config. Need to restart the SSH daemon after save your edit." >
+    <td align="center"><form action="../webpad" method="get" title="Edit OpenSSH config. Need to restart the SSH daemon after save your edit." >
     	 <input type="hidden" name="t" value="server"/>
 	 <input type="hidden" name="f" value="/opt/etc/openssh/sshd_config"/>
       <input type="submit" value="Edit config" <? if (!$optdir) echo 'disabled="disabled"'; ?> <? if (!$sshdfile) echo 'disabled="disabled"'; ?>>
@@ -218,16 +218,16 @@
   
   <tr>
     <td align="center">Transmission</td>
-    <td align="center"><form action="programs/transmission/install.php" method="get" target="bottomFrame" title="Transmission torrent client install. Please use it only with ext3 particion.">
+    <td align="center"><form action="../programs/transmission/install.php" method="get" target="bottomFrame" title="Transmission torrent client install. Please use it only with ext3 particion.">
   <input type="submit" value="Install" <? if ($transfile) echo 'disabled="disabled"'; ?><? if (!$optdir) echo 'disabled="disabled"'; ?>>
 </form></td>
-    <td align="center"><form action="programs/transmission/uninstall.php" method="get" target="bottomFrame" title="Transmission uninstall">
+    <td align="center"><form action="../programs/transmission/uninstall.php" method="get" target="bottomFrame" title="Transmission uninstall">
   <input type="submit" value="Uninstall" <? if (!$transfile) echo 'disabled="disabled"'; ?>>
 </form></td>
-    <td align="center"><form action="programs/transmission/start.php" method="get" target="bottomFrame" title="Start transmission daemon">
+    <td align="center"><form action="../programs/transmission/start.php" method="get" target="bottomFrame" title="Start transmission daemon">
   <input type="submit" value="Start" <? $trfi = exec('ps | grep transmission | grep -v grep'); if (!$trfi == "" || !$transfile) echo 'disabled="disabled"'; ?> >
 </form></td>
-    <td align="center"><form action="programs/transmission/stop.php" method="get" target="bottomFrame" title="Stop transmission daemon">
+    <td align="center"><form action="../programs/transmission/stop.php" method="get" target="bottomFrame" title="Stop transmission daemon">
   <input type="submit" value="Stop" <? if ($trfi == "" || !$transfile) echo 'disabled="disabled"'; ?> >
 </form></td>
     <td align="center"><? if ("" == @exec('ps | grep transmission | grep -v grep')) echo "-"; else echo "Run"; ?></td>
@@ -238,14 +238,14 @@
 	if ($filen == "0644") echo "-";
 	} else echo "Not installed";
 	?></td>
-    <td align="center"><form action="programs/transmission/bt_start.php" method="get" target="bottomFrame" title="Enable Transmission daemon at boot">
+    <td align="center"><form action="../programs/transmission/bt_start.php" method="get" target="bottomFrame" title="Enable Transmission daemon at boot">
   <input type="submit" value="Enable" <?  if ($filen == "755") echo 'disabled="disabled"'; ?> <? if (!$optdir) echo 'disabled="disabled"'; ?> <? if (!$transfile) echo 'disabled="disabled"'; ?>>
 </form></td>
-    <td align="center"><form action="programs/transmission/bt_stop.php" method="get" target="bottomFrame" title="Disable Transmission daemon at boot">
+    <td align="center"><form action="../programs/transmission/bt_stop.php" method="get" target="bottomFrame" title="Disable Transmission daemon at boot">
   <input type="submit" value="Disable" <? if ($filen == "644") echo 'disabled="disabled"'; ?> <? if (!$optdir) echo 'disabled="disabled"'; ?> <? if (!$transfile) echo 'disabled="disabled"'; ?>>
 </form></td>
     <td align="center">
-	<form action="webpad" method="get" title="Edit Transmission daemon config.">
+	<form action="../webpad" method="get" title="Edit Transmission daemon config.">
 	  <input type="hidden" name="t" value="server"/>
 	  <input type="hidden" name="f" value="/root/transmission/settings.json"/>
   <input type="submit" value="Edit config" <? $trfi = exec('ps | grep transmission | grep -v grep'); if (!$trfi == "" || !$transfile) echo 'disabled="disabled"'; ?>>
@@ -258,10 +258,10 @@
 
   <tr>
     <td align="center">NZBGet</td>
-    <td align="center"><form action="programs/nzbget/install.php" method="get" target="bottomFrame" title="NZBGet install">
+    <td align="center"><form action="../programs/nzbget/install.php" method="get" target="bottomFrame" title="NZBGet install">
   <input type="submit" value="Install" <? if (!$optdir) echo 'disabled="disabled"'; ?> <? if ($nzbgetfile) echo 'disabled="disabled"'; ?> >
 </form></td>
-    <td align="center"><form action="programs/nzbget/uninstall.php" method="get" target="bottomFrame" title="NZBGet uninstall">
+    <td align="center"><form action="../programs/nzbget/uninstall.php" method="get" target="bottomFrame" title="NZBGet uninstall">
   <input type="submit" value="Uninstall" <? if (!$optdir) echo 'disabled="disabled"'; ?> <? if (!$nzbgetfile) echo 'disabled="disabled"'; ?>>
 </form></td>
     <td align="center"></td>
@@ -270,7 +270,7 @@
     <td align="center"><? if ($nzbgetfile) echo "Installed"; else echo "Not installed";?></td>
     <td align="center"></td>
     <td align="center"></td>
-    <td align="center"><form action="webpad" method="get" title="Edit NZBGet config." >
+    <td align="center"><form action="../webpad" method="get" title="Edit NZBGet config." >
     	  <input type="hidden" name="t" value="server"/>
 	  <input type="hidden" name="f" value="/opt/etc/nzbget.conf"/>
        <input type="submit" value="Edit config" <? if (!$optdir) echo 'disabled="disabled"'; ?> <? if (!$nzbgetfile) echo 'disabled="disabled"'; ?>>
@@ -288,13 +288,13 @@
 
 <tr>
 <td align="center">DVD speed</td>
-<td align="center"><form action="programs/hdparm/1.php" method="get" target="bottomFrame" title="Set DVD speed 1x">
+<td align="center"><form action="../programs/hdparm/1.php" method="get" target="bottomFrame" title="Set DVD speed 1x">
   <input type="submit" value="1x" <? if (!$optdir) echo 'disabled="disabled"'; ?> >
 </form></td>
-<td align="center"><form action="programs/hdparm/2.php" method="get" target="bottomFrame" title="Set DVD speed 2x">
+<td align="center"><form action="../programs/hdparm/2.php" method="get" target="bottomFrame" title="Set DVD speed 2x">
   <input type="submit" value="2x" <? if (!$optdir) echo 'disabled="disabled"'; ?> >
 </form></td>
-<td align="center"><form action="programs/hdparm/4.php" method="get" target="bottomFrame" title="Set DVD speed 4x">
+<td align="center"><form action="../programs/hdparm/4.php" method="get" target="bottomFrame" title="Set DVD speed 4x">
   <input type="submit" value="4x" <? if (!$optdir) echo 'disabled="disabled"'; ?> >
 </form></td>
 </tr>
@@ -311,7 +311,7 @@
   
   <tr>
     <td colspan=10 align="center">
-    <form action="programs.php" method="get" target="mainFrame" title="Reload this page.">
+    <form action="" method="get" target="mainFrame" title="Reload this page.">
     <input type="submit" value="Allways need a Refresh after an operation">
 	</td>
   </tr>

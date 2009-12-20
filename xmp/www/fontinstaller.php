@@ -1,6 +1,6 @@
 <?php
 
-$dir = @ dir("./guifont/");
+$dir = @ dir("../guifont/");
 
 while (($file = $dir->read()) !== false)
   {

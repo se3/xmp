@@ -10,10 +10,10 @@ class fakeShell {
 	function fakeShell() {
 
 		$this->version = "1.0.5.1";
-
+		chdir("../");
 		$this->uname = $this->getLinux();
 		$this->path = $this->getPath();
-
+            
 		$this->menu['clear'] = "";
 		$this->menu['telnetd'] = $this->path."/busybox telnetd -l /bin/sh &";
 		$this->menu['processes'] = "ps aux";

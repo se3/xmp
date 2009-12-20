@@ -7,16 +7,19 @@ class fakeShell {
 	var $version;
 	var $uname;
 	var $path;
+	var $webpad;
 
 	function fakeShell() {
 
 		$this->version = "bassed on v1.0.5.1 modified for backup";
 
+		chdir("../");
 		$this->uname = $this->getLinux();
 		$this->path = $this->getPath();
 		
-		$this->configpath = $this->getPath() . "/backup/";
+		$this->configpath = $this->path ."/backup/";
 		$this->configfile = $this->configpath.'configfiles.txt';
+		$this->webpad = $this->path.'webpad';
 
            $this->configitems = explode("\n", file_get_contents($this->configfile) );
 		//$this->configitems = array(  "/usr/local/daemon/samba/lib/smb.conf", "/root/transmission/settings.json", "/sbin/www/stupid-ftpd.conf", "/sbin/www/ushare.conf"  );
@@ -58,15 +61,15 @@ class fakeShell {
 
 	function pasteTabs() {
 		print '<div id="tabs">';
-		print '<a href="#" onclick="document.location.href = \'webpad?t=server&f='.$this->configfile .'\'";">edit configuration file</a><br><br>';
+		print '<a href="#" onclick="document.location.href = \''. $this->webpad .'?t=server&f='.$this->configfile .'\'";">edit configuration file</a><br><br>';
 
 		foreach ($this->configitems as $configitem ) {
 		     $configitem = rtrim($configitem);
 		     print '<ul>';
 			print '<li><a href="#" onclick="document.shell.cmd.value=\'cp '.$configitem.' '.$this->configpath.' | ls -l '.$this->configpath.'\';document.shell.cmd.focus();">save</a></li>';
 			print '<li><a href="#" onclick="document.shell.cmd.value=\' cp '.$this->configpath . basename($configitem).' '.$configitem.' | ls -l '.$this->configpath.'\';document.shell.cmd.focus();">restore</a></li>';
-			print '<li><a href="#" onclick="document.location.href = \'webpad?t=server&f='.$this->configpath . basename($configitem).'\' ";">edit backup</a></li>';
-			print '<li><a href="#" onclick="document.location.href = \'webpad?t=server&f='.$configitem .'\'";">edit local</a></li>';
+			print '<li><a href="#" onclick="document.location.href = \''. $this->webpad .'?t=server&f='.$this->configpath . basename($configitem).'\' ";">edit backup</a></li>';
+			print '<li><a href="#" onclick="document.location.href = \''. $this->webpad .'?t=server&f='.$configitem .'\'";">edit local</a></li>';
 		     print ' '.basename($configitem).'</ul>';
 		}
 		print '</div>';
