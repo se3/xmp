@@ -14,8 +14,9 @@ rm /etc/dctcs.conf
 rm /etc/dctcs.stat
 rm /etc/init.d/S228dctsc
 rm -R /usr/local/torrentgui
-rm /usr/local/bin/ctorrent
 rm /usr/local/bin/dctcs
 rm /usr/local/bin/dctsc
+
+/opt/bin/ipkg remove enhanced-ctorrent
 
 echo "Uninstall done."

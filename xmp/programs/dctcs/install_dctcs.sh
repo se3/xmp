@@ -1,5 +1,8 @@
 #!/bin/sh
    
+   echo "install enhanced-ctorrent"
+   /opt/bin/ipkg install enhanced-ctorrent
+   
    echo "Copy dctcs preconfig."
    cp -R preconf/* /
    
