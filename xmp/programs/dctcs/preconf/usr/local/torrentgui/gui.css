@@ -1,0 +1,298 @@
+body {
+  background-color: #C3D9FF;
+  color: black;
+  font: 13px Arial sans-serif;
+  margin: 0px;
+  cursor: default;
+}
+
+.gwt-Button { 
+  font: 13px Arial sans-serif;
+}
+
+.gwt-PasswordTextBox { 
+  font: 13px Arial sans-serif;
+}            
+
+.gwt-TextBox {
+  font: 13px Arial sans-serif;
+}
+
+.gwt-Label { 
+  font: 13px Arial sans-serif;
+}
+
+.gwt-FileUpload {
+  font: 13px Arial sans-serif;
+}
+
+.gwt-TabPanel {
+  font: 13px Arial sans-serif;
+  padding-top:8px;
+  padding-left:8px;
+}
+
+.gwt-FlexTable {
+    padding-right: 5px;
+    font: 13px Arial sans-serif;
+}
+
+.details-FlexTableHeader {
+    background-image: url(gray_gradient.gif);
+    background-repeat: repeat-x;
+    font-weight: bold;
+}
+
+.status-FlexTableHeader {
+    font-weight: bold;
+}                        
+
+.gwt-TabBar { 
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font: 13px Arial sans-serif;
+}
+
+.gwt-TabBar .gwt-TabBarFirst { }
+
+.gwt-TabBar.gwt-TabBarRest { }
+ 
+.gwt-TabBar .gwt-TabBarItem {
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+}
+
+.gwt-TabBar .gwt-TabBarItem-selected { 
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    color: lime;
+    background-color: black;
+}
+
+.gwt-PopupPanel {
+    padding: 8px;
+    font: 13px Arial sans-serif;
+}
+
+.gwt-PopupPanel-Error {
+    background-color: white;
+    font: 13px Arial sans-serif;
+}
+
+.gwt-Label-Error {
+    font: 13px Arial sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: red;
+}
+
+.gwt-UploadPanel {
+    font: 13px Arial sans-serif;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.gwt-SettingsPanel {
+    font: 13px Arial sans-serif;
+    padding-left: 10px;
+}
+
+.gwt-MenuBar { }
+
+.gwt-MenuBar .gwt-MenuItem {
+    background-color: #A3B9DF;
+    border: 1px solid white;
+    padding-right: 20px;
+    padding-left: 20px;
+    font: 13px Arial sans-serif;
+    color: white;
+}
+
+.gwt-MenuBar .gwt-MenuItem-selected {
+    background-color: #A3B9DF;
+    color: black;
+}
+
+.gwt-MenuBar .gwt-MenuItem-disabled {
+    color: gray;
+}
+
+
+.gwt-DialogBox {
+    font: 13px Arial sans-serif;
+    border: 2px solid black;
+    background-color: #C8ED8F;
+}
+    
+.gwt-DialogBox .Caption {
+  font: 14px Arial sans-serif;
+  background-color: #A3B9DF;
+  padding: 3px;
+  margin: 2px;
+  font-weight: bold;
+}
+
+.titleBar { 
+    font: 13px Arial sans-serif;
+    border-bottom: 1px solid black;
+}
+
+.buttonBar {
+    font: 13px Arial sans-serif;
+}
+.statusBar {
+    border-top: 1px solid black;
+    padding-top: 4px;
+    font: 13px Arial sans-serif;
+}
+
+
+.gwt-ToggleButton {
+    border: 2px solid transparent;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    color: black;
+    background-color: #8399cF;         
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gwt-ToggleButton-down {
+    border: 2px solid transparent;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    color: black;
+    background-color: #8399cF;         
+}
+
+.gwt-ToggleButton-down-hovering {
+    border: 2px solid transparent;
+    border-top: 2px solid  black;
+    border-left: 2px solid  black;
+    background-color: #8399cF;
+    color: white;         
+}
+
+.gwt-ToggleButton-up-hovering {
+    color: white;
+}
+
+.gwt-PushButton {
+    border: 2px solid transparent;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    color: black;
+    background-color: #8399cF;         
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gwt-PushButton-up-hovering {
+    color:white;
+}
+
+.gwt-PushButton-down-hovering {
+    border: 2px solid transparent;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    color: black;
+    background-color: #8399cF;}
+
+.status-SelectedRow {
+    background-image: url(gray_gradient.gif);
+    background-repeat: repeat-x;
+}
+
+.status-cell {
+     padding-right: 5px;
+}
+
+.upload-Err {
+    font: 13px Arial sans-serif;
+    border: 2px solid black;
+    background-color: #A8CD6F;
+}
+
+.upload-Err .Caption {
+    font: 14px Arial sans-serif;
+    background-color: #d91313;
+    padding: 3px;
+    margin: 2px;
+    font-weight: bold;
+}
+
+.upload-Succ {
+    font: 13px Arial sans-serif;
+    border: 2px solid black;
+    background-color: #A8CD6F;
+}
+
+.upload-Succ .Caption {
+    font: 14px Arial sans-serif;
+    background-color: #90A6CB;
+    padding: 3px;
+    margin: 2px;
+    font-weight: bold;
+}
+
+.gwt-RadioButton { 
+    font: 13px Arial sans-serif;
+}
+
+.progressBarBackground {
+    font: 13px Arial sans-serif;
+    background-color: white;
+    border-top: 1px solid black;
+    border-right: 2px solid black;
+    border-bottom: 1px solid black;
+}
+
+.progressBar {
+    font: 13px Arial sans-serif;
+    border-left: 1px solid black;
+}
+
+.progressBar-0 {
+    background-color: lightblue;
+    font: 13px Arial sans-serif;
+}
+
+.progressBar-1 {
+    background-color: orange;
+    font: 13px Arial sans-serif;
+}
+
+.progressBar-2 {
+    background-color: lime;
+    font: 13px Arial sans-serif;
+}
+
+.progressBar-fill {
+    background-color: white;
+    font: 13px Arial sans-serif;
+}
+
+.gwt-StackPanel {
+    font: 13px Arial sans-serif;
+}
+
+.gwt-StackPanel .gwt-StackPanelItem {
+    font: 13px Arial sans-serif;
+    font-weight: bold;
+    background-color: #D8FD9F;
+}
+
+.gwt-StackPanel .gwt-StackPanelItem-selected {
+    font: 13px Arial sans-serif;
+    text-decoration: underline;
+    font-weight:bold;
+}
+
+.gwt-CheckBox { 
+    font: 13px Arial sans-serif;
+}

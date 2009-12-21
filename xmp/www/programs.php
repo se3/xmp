@@ -10,6 +10,7 @@
    $optdir = file_exists('/opt'); 
    $sshdfile = file_exists('/opt/sbin/sshd');
    $transfile = file_exists('/opt/bin/transmission-daemon');
+   $dctcs = file_exists('/usr/local/bin/dctcs');
    $nzbgetfile = file_exists('/opt/bin/nzbget');
    $mcfile = file_exists('/bin/mc');
 ?>
@@ -249,6 +250,45 @@
 	  <input type="hidden" name="t" value="server"/>
 	  <input type="hidden" name="f" value="/root/transmission/settings.json"/>
   <input type="submit" value="Edit config" <? $trfi = exec('ps | grep transmission | grep -v grep'); if (!$trfi == "" || !$transfile) echo 'disabled="disabled"'; ?>>
+</form>
+	</td>
+  </tr>
+  
+<!-- Table DCTCS -->
+  
+  <tr>
+    <td align="center">DCTCS</td>
+    <td align="center"><form action="../programs/dctcs/install.php" method="get" target="bottomFrame" title="DCTCS torrent client install.">
+  <input type="submit" value="Install" <? if ($dctcs) echo 'disabled="disabled"'; ?>>
+</form></td>
+    <td align="center"><form action="../programs/dctcs/uninstall.php" method="get" target="bottomFrame" title="DCTCS uninstall">
+  <input type="submit" value="Uninstall" <? if (!$dctcs) echo 'disabled="disabled"'; ?>>
+</form></td>
+    <td align="center"><form action="../programs/dctcs/start.php" method="get" target="bottomFrame" title="Start DCTCS daemon">
+  <input type="submit" value="Start" <? $trfi = exec('ps | grep dctcs | grep -v grep'); if (!$trfi == "" || !$dctcs) echo 'disabled="disabled"'; ?> >
+</form></td>
+    <td align="center"><form action="../programs/dctcs/stop.php" method="get" target="bottomFrame" title="Stop DCTCS daemon">
+  <input type="submit" value="Stop" <? if ($trfi == "" || !$dctcs) echo 'disabled="disabled"'; ?> >
+</form></td>
+    <td align="center"><? if ("" == @exec('ps | grep dctcs | grep -v grep')) echo "-"; else echo "Run"; ?></td>
+    <td align="center"><? $fn = '/etc/init.d/S228dctcs';
+    if (file_exists($fn) == 'true') {
+	$filen = substr(sprintf('%o', fileperms($fn)), -4);
+	if ($filen == "0755") echo "+";
+	if ($filen == "0644") echo "-";
+	} else echo "Not installed";
+	?></td>
+    <td align="center"><form action="../programs/dctcs/bt_start.php" method="get" target="bottomFrame" title="Enable DCTCS daemon at boot">
+  <input type="submit" value="Enable" <?  if ($filen == "755") echo 'disabled="disabled"'; ?>  <? if (!$dctcs) echo 'disabled="disabled"'; ?>>
+</form></td>
+    <td align="center"><form action="../programs/dctcs/bt_stop.php" method="get" target="bottomFrame" title="Disable DCTCS daemon at boot">
+  <input type="submit" value="Disable" <? if ($filen == "644") echo 'disabled="disabled"'; ?>  <? if (!$dctcs) echo 'disabled="disabled"'; ?>>
+</form></td>
+    <td align="center">
+	<form action="../webpad" method="get" title="Edit dctcs daemon config.">
+	  <input type="hidden" name="t" value="server"/>
+	  <input type="hidden" name="f" value="/etc/dctcs.conf"/>
+  <input type="submit" value="Edit config" <? $trfi = exec('ps | grep dctcs | grep -v grep'); if (!$trfi == "" || !$dctcs) echo 'disabled="disabled"'; ?>>
 </form>
 	</td>
   </tr>
