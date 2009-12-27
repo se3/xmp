@@ -1,9 +1,5 @@
 <?
 $skinpath = "../skins";
-if( ! file_exists( "/opt/bin/zip" ) )
-{
-   system("/opt/bin/ipkg install zip");
-}
 $versionfile ="$skinpath/original/version.txt";
 $extractpath = "/usr/local/bin/Resource/bmp/";
 
@@ -49,8 +45,9 @@ if ( "backup" == $original )
       echo ' <META HTTP-EQUIV=Refresh CONTENT="2; URL=skins.php">';
       echo "<pre>";
       system("rm $skinpath/original/original.zip" );
-      system("/opt/bin/zip $skinpath/original/original.zip /usr/local/bin/Resource/bmp/*.bmp ", $retval );
+      system("./zip $skinpath/original/original.zip /usr/local/bin/Resource/bmp/*.bmp ", $retval );
       if ( $retval == "0") system("echo $version > $skinpath/original/version.txt");
+      else  echo " cmd (\"zip $skinpath/original/original.zip /usr/local/bin/Resource/bmp/*.bmp \"\ failed<br>\n"; 
       echo "</pre>";
        
    }
@@ -64,9 +61,9 @@ if ( "" != $skin  )
    {
       echo '<pre>';
       echo "perform : unzip -o $skinpath/$skin/$skin.zip -d $extractpath<br>\n";
-      system("unzip -o '$skinpath/$skin/$skin.zip' -d '$extractpath'", $retval);
+      system("unzip -o '$skinpath/$skin/$skin.zip' -d $extractpath", $retval);
       echo '</pre>';
-      if ( $retval == "0") echo 'Install done.'; else echo 'Install failed!';
+      if ( $retval == "0") { echo 'Install done.'; }else{ echo 'Install failed!'; }
    }
    else
    {
@@ -100,14 +97,14 @@ else
       
    if ( 1 == $backup && "backup" != $original  )
    {
-      if ( file_exists( "/opt/bin/ipkg" ) && file_exists( "/opt/bin/zip" ) )
+      if ( file_exists( "./zip" ) )
       {
          echo ' <META HTTP-EQUIV=Refresh CONTENT="2; URL=skins.php?original=backup">';
-         echo "Please wait, original skin backup running...it take about 30 seconds<br>\n";  
+         echo "Please wait, original skin backup running...it take about 20 seconds<br>\n";  
       }
       else
       {
-         echo "WARNING: Base install is needed to save the original skin! <a href=\"../programs/base/install.php\">perform Base install</a> !";
+         echo "zip application not found in xmp/www !";
       }
    }
    else
