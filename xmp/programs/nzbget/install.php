@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Xtreamer Mod Pack - Skin</title>
 <link rel="stylesheet" type="text/css" href="../../xmp.css">
-<body>
+<body onload="parent.mainFrame.location.reload();">
 <?php
 echo '<pre>';
 system('./install_nzbget.sh', $retval);

@@ -347,15 +347,6 @@
 </td>
   </tr>
 
-<!-- Table reflesh -->
-  
-  <tr>
-    <td colspan=10 align="center">
-    <form action="" method="get" target="mainFrame" title="Reload this page.">
-    <input type="submit" value="Allways need a Refresh after an operation">
-	</td>
-  </tr>
-
 </table>
 
 <table border="0" align="center">
