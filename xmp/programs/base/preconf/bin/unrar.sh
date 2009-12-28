@@ -5,9 +5,6 @@ PATH="/opt/bin:/opt/sbin:$PATH"
 echo "Be patient the unrar process maybe need lot fo time!"
 echo "You can close this windows, the unrar will done in background."
 
-if [ ! -f /opt/bin/busybox ]; then
-   /opt/bin/ipkg install busybox
-fi
 
 if [ $# -ne 1 ]
 then
@@ -16,8 +13,8 @@ then
 fi
 
 
-#for f in `find $1 -path *.r01 -or -path *.part1.rar -or -path *.part01.rar -or -path *.part001.rar | sed -e 's/ /[SPACE]/g'`
-for f in `find $1 -path *.rar | sed -e 's/ /[SPACE]/g'`
+#for f in `find $1 -name *.r01 -or -name *.part1.rar -or -name *.part01.rar -or -name *.part001.rar | sed -e 's/ /[SPACE]/g'`
+for f in `find $1 -name *.rar | sed -e 's/ /[SPACE]/g'`
 do
 
 f=`echo $f | sed -e 's/\[SPACE\]/ /g'`
