@@ -5,4 +5,5 @@ echo "Transmission uninstall started."
 echo "Transmission uninstall done."
 echo ""
 rm /bin/transmission*
+rm -R /root/
 rm /etc/init.d/S227transmission
