@@ -10,10 +10,11 @@ $skinpage = "http://xtreamer-web-sdk.googlecode.com/svn/trunk/xmp/skins";
 
 function getNewSkins()
 {
-   $retval = "1";
-   system("wget $skinpage -O /dev/null", $retval);
+   @exec("ping google.de", $retval);
+   
+   //echo "------ ". substr_count( $retval[0] , "is alive!") . "-- $retval[0] ----";
 
-   if ( $retval == "0") 
+   if ( substr_count( $retval[0] , "is alive!") == 1) 
    {  
       global $skinpage, $skinpath;
       $filecontent = explode("\n", @file_get_contents( $skinpage ) );
@@ -86,6 +87,7 @@ if ( "" != $skin  )
    $retval = "0";
    if ( "y" == $online )
    {
+      system("mkdir $skinpath/$skin", $retval );
       system("wget '$skinpage/$skin/$skin.zip' -O $skinpath/$skin/$skin.zip", $retval);
    }
 
