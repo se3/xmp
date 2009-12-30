@@ -1,6 +1,7 @@
 <?
 
 $task  = $_GET[task];
+$installed  = $_GET[installed];
 $submit = $_GET[submit];
 $package = $_GET[package];
 $updatedb = $_GET[updatedb];
@@ -38,7 +39,8 @@ th, td {
   border-bottom: 1px solid #eee;
 }
 
-table a {
+
+table a.ins {
   background: #ddd;
   color: #004;
   text-decoration: none;
@@ -46,21 +48,32 @@ table a {
   padding: 2px 4px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 75%;
-}
-
-table a.ins {
   background: #dfd;
   border-left: 1px solid #cec;
   border-bottom: 1px solid #cec;
 }
 
 table a.upd {
+  background: #ddd;
+  color: #004;
+  text-decoration: none;
+  margin: 1px;
+  padding: 2px 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 75%;
   background: #ddf;
   border-left: 1px solid #cce;
   border-bottom: 1px solid #cce;
 }
 
 table a.del {
+  background: #ddd;
+  color: #004;
+  text-decoration: none;
+  margin: 1px;
+  padding: 2px 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 75%;
   background: #fdd;
   border-left: 1px solid #ecc;
   border-bottom: 1px solid #ecc;
@@ -160,6 +173,16 @@ a:active {
 
 
 <?
+if ( "info" == $task  && "" != $package )
+{
+     echo "<h2>Package Info</h2><pre>\n";
+     system("/opt/bin/ipkg info $package");
+     if ( "y" == $installed ) {
+      system("/opt/bin/ipkg files $package");
+     }
+     echo '</pre>';
+}
+
 if ( "y" == $updatedb )
 {
 	echo "<h2>Upgrading package list</h2><pre>\n";
@@ -204,6 +227,7 @@ if ( "" != $submit  ){
    
    foreach ($list as $pack ) {
       $task = "";
+      $info = "";
       $version = "";
       $del = "&nbsp;";
       list($listname , $listversion, $listdescription ) = explode(" - ", $pack );
@@ -211,9 +235,10 @@ if ( "" != $submit  ){
       if ( $listname != "" && $listversion != "" && $listdescription != "" )
       {
          foreach ($listinstalled as $packinstalled ) {
-            list($nameinstalled , $versioninstalled, $descriptioninstalled ) = explode(" - ", $packinstalled );
+            list($nameinstalled , $versioninstalled, $descriptioninstalled ) = explode(" - ", $packinstalled );      
             if ( $nameinstalled == $listname )
             {
+               $info ="<a title=\"package info $nameinstalled\" href='package.php?task=info&installed=y&package=$nameinstalled'>$nameinstalled</a>";
                $del = "<a href='package.php?task=delete&package=$nameinstalled' class='del'>delete</a>";
                if ( $versioninstalled != $listversion )
                {
@@ -230,25 +255,30 @@ if ( "" != $submit  ){
          }
          if ( "" == $task )
          {
-            $task ="<a href='package.php?task=install&package=$listname' class='ins'>install</a>";
+            $task ="<a title=\"package info $listname\" href='package.php?task=install&package=$listname' class='ins'>install</a>";
+         }
+         
+         if ( "" == $info )
+         {
+            $info ="<a href='package.php?task=info&package=$listname'>$listname</a>";
          }
          
         switch ( $typefilter ) 
         {
             case "update":
                if ( $version != "" && $version != $listversion )
-                     echo "<tr><td>$task</td><td>$listname</td><td>$listversion</td><td>$version</td><td>$listdescription</td><td>$del</td></tr>";
+                     echo "<tr><td>$task</td><td>$info</td><td>$listversion</td><td>$version</td><td>$listdescription</td><td>$del</td></tr>\n";
             break;
             case "installed":
                if ( $del != "&nbsp;" )
-                     echo "<tr><td>$task</td><td>$listname</td><td>$listversion</td><td>$version</td><td>$listdescription</td><td>$del</td></tr>";
+                     echo "<tr><td>$task</td><td>$info</td><td>$listversion</td><td>$version</td><td>$listdescription</td><td>$del</td></tr>\n";
             break;
             case "not":
                if ( $task != "&nbsp;" )
-                     echo "<tr><td>$task</td><td>$listname</td><td>$listversion</td><td>$version</td><td>$listdescription</td><td>$del</td></tr>";
+                     echo "<tr><td>$task</td><td>$info</td><td>$listversion</td><td>$version</td><td>$listdescription</td><td>$del</td></tr>\n";
             break;
             default:
-               echo "<tr><td>$task</td><td>$listname</td><td>$listversion</td><td>$version</td><td>$listdescription</td><td>$del</td></tr>";
+               echo "<tr><td>$task</td><td>$info</td><td>$listversion</td><td>$version</td><td>$listdescription</td><td>$del</td></tr>\n";
             
             break;
          }

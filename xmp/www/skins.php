@@ -5,6 +5,33 @@ $extractpath = "/usr/local/bin/Resource/bmp/";
 
 $skin = $_GET[skin];
 $original = $_GET[original];
+$online = $_GET[online];
+$skinpage = "http://xtreamer-web-sdk.googlecode.com/svn/trunk/xmp/skins";
+
+function getNewSkins()
+{
+   $retval = "1";
+   system("wget $skinpage -O /dev/null", $retval);
+
+   if ( $retval == "0") 
+   {  
+      global $skinpage, $skinpath;
+      $filecontent = explode("\n", @file_get_contents( $skinpage ) );
+      
+      foreach( $filecontent as $line ){
+         list($key, $val) = explode("<li><a href=\"", $line );
+         if( $key != "" && $val ){
+            list($skin, $val) = explode("/\"", $val );
+            $skin =str_replace("%20", " ", $skin);
+            if( "" != $skin && ".." != $skin && ! file_exists( "$skinpath/$skin/$skin.zip" ) ) 
+            {
+               echo "***  $skin *** \n<br>";
+               echo "<a href=\"skins.php?skin=$skin&online=y\" target=\"bottomFrame\"><img src=\"$skinpage/$skin/$skin.jpg\" align=\"absmiddle\" /></a>\n<br>\n";
+            }
+         }
+      }
+   }
+}
 
 ?>
 
@@ -56,18 +83,31 @@ if ( "backup" == $original )
 
 if ( "" != $skin  )
 {
-   echo ' <META HTTP-EQUIV=Refresh CONTENT="10; URL=../info.php">';
-   if ( file_exists( "$skinpath/$skin/$skin.zip" ) )
+   $retval = "0";
+   if ( "y" == $online )
    {
-      echo '<pre>';
-      echo "perform : unzip -o $skinpath/$skin/$skin.zip -d $extractpath<br>\n";
-      system("unzip -o '$skinpath/$skin/$skin.zip' -d $extractpath", $retval);
-      echo '</pre>';
-      if ( $retval == "0") { echo 'Install done.'; }else{ echo 'Install failed!'; }
+      system("wget '$skinpage/$skin/$skin.zip' -O $skinpath/$skin/$skin.zip", $retval);
+   }
+
+   if ( $retval == "0") 
+   {  
+      echo ' <META HTTP-EQUIV=Refresh CONTENT="10; URL=../info.php">';
+      if ( file_exists( "$skinpath/$skin/$skin.zip" ) )
+      {
+         echo '<pre>';
+         echo "perform : unzip -o $skinpath/$skin/$skin.zip -d $extractpath<br>\n";
+         system("unzip -o '$skinpath/$skin/$skin.zip' -d $extractpath", $retval);
+         echo '</pre>';
+         if ( $retval == "0") { echo 'Install done.'; }else{ echo 'Install failed!'; }
+      }
+      else
+      {
+         echo "file $skinpath/$skin/$skin.zip not found";
+      }
    }
    else
    {
-      echo "file $skinpath/$skin/$skin.zip not found";
+      echo "file download wget -o '$skinpage/$skin/$skin.zip' -O $skinpath/$skin/$skin.zip failed - $retval";
    }
 }
 else
@@ -97,7 +137,7 @@ else
       
    if ( 1 == $backup && "backup" != $original  )
    {
-      if ( file_exists( "./zip" ) )
+      if ( file_exists( "zip" ) )
       {
          echo ' <META HTTP-EQUIV=Refresh CONTENT="2; URL=skins.php?original=backup">';
          echo "Please wait, original skin backup running...it take about 20 seconds<br>\n";  
@@ -114,6 +154,7 @@ else
       <tr>
       <td  align="center"><h1>Skin Browser</h1><br>
       <?
+      getNewSkins();
       $dir = @ dir("../skins/");
       while (($file = $dir->read()) !== false)
       {
