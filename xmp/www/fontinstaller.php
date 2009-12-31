@@ -5,7 +5,7 @@ $dir = @ dir("../guifont/");
 while (($file = $dir->read()) !== false)
   {
   if ($file <> ".") if ($file <> "..")
-  $menu[$file] = "cp ./guifont/$file /usr/local/bin/Resource/cwheib.ttf";
+  $menu[$file] = "cp ../guifont/$file /usr/local/bin/Resource/cwheib.ttf";
 	
   }
 

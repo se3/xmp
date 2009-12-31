@@ -7,7 +7,7 @@
 <body onload="parent.mainFrame.location.reload();">
 <?php
 echo '<pre>';
-system('/tmp/usbmounts/sda1/xmp/busybox telnetd -l /bin/sh &', $retval);
+system('../../busybox telnetd -l /bin/sh &', $retval);
 echo '</pre>';
 ?>
 <META HTTP-EQUIV=Refresh CONTENT="30; URL=../../info.php">
