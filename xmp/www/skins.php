@@ -24,7 +24,7 @@ function getNewSkins()
          if( $key != "" && $val ){
             list($skin, $val) = explode("/\"", $val );
             $skin =str_replace("%20", " ", $skin);
-            if( "" != $skin && ".." != $skin && ! file_exists( "$skinpath/$skin/$skin.zip" ) ) 
+            if( "" != $skin && ".." != $skin && ! file_exists( "$skinpath/$skin/$skin.zip" ) && ! file_exists( "$skinpath/$skin/$skin.tar.gz" ) ) 
             {
                echo "***  $skin *** \n<br>";
                echo "<a href=\"skins.php?skin=$skin&online=y\" target=\"bottomFrame\"><img src=\"$skinpage/$skin/$skin.jpg\" align=\"absmiddle\" /></a>\n<br>\n";
@@ -72,10 +72,10 @@ if ( "backup" == $original )
    {
       echo ' <META HTTP-EQUIV=Refresh CONTENT="2; URL=skins.php">';
       echo "<pre>";
-      system("rm $skinpath/original/original.zip" );
-      system("./zip $skinpath/original/original.zip /usr/local/bin/Resource/bmp/*.bmp ", $retval );
+      system("rm $skinpath/original/original.tar.gz" );
+      system("../busybox tar -czvf $skinpath/original/original.tar.gz /usr/local/bin/Resource/bmp/*.bmp", $retval );
       if ( $retval == "0") system("echo $version > $skinpath/original/version.txt");
-      else  echo " cmd (\"zip $skinpath/original/original.zip /usr/local/bin/Resource/bmp/*.bmp \"\ failed<br>\n"; 
+      else  echo " cmd (\"../busybox tar -czvf $skinpath/original/original.tar.gz /usr/local/bin/Resource/bmp/*.bmp \" failed<br>\n"; 
       echo "</pre>";
        
    }
@@ -99,6 +99,14 @@ if ( "" != $skin  )
          echo '<pre>';
          echo "perform : unzip -o $skinpath/$skin/$skin.zip -d $extractpath<br>\n";
          system("unzip -o '$skinpath/$skin/$skin.zip' -d $extractpath", $retval);
+         echo '</pre>';
+         if ( $retval == "0") { echo 'Install done.'; }else{ echo 'Install failed!'; }
+      }
+      else if ( file_exists( "$skinpath/$skin/$skin.tar.gz" ) )
+      {
+         echo '<pre>';
+         echo "perform : ../busybox tar -tzvf '$skinpath/$skin/$skin.tar.gz<br>\n";
+         system("../busybox tar -tzvf '$skinpath/$skin/$skin.tar.gz' ", $retval);
          echo '</pre>';
          if ( $retval == "0") { echo 'Install done.'; }else{ echo 'Install failed!'; }
       }
@@ -160,7 +168,7 @@ else
       $dir = @ dir("../skins/");
       while (($file = $dir->read()) !== false)
       {
-        if ($file != "." && $file != ".." && file_exists( "../skins/$file/$file.zip" ) )
+        if ($file != "." && $file != ".." && (file_exists( "../skins/$file/$file.zip") || file_exists( "../skins/$file/$file.tar.gz" ) ) )
         {
            echo "<h1>$file</h1>\n<br>\n";
            echo "<a href=\"skins.php?skin=$file\" target=\"bottomFrame\"><img src=\"$skinpath/$file/$file.jpg\" align=\"absmiddle\" /></a>\n<br>\n";
