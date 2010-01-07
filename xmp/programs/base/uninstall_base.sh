@@ -9,9 +9,10 @@ killall transmission-daemon
 
 sleep 15
 
-echo "Remuve all installed files."
+echo "Remove all installed files."
 
 rm -R /opt
+rm /opt
 rm /bin/mc
 rm /bin/unrar.sh
 rm /etc/init.d/S10cron

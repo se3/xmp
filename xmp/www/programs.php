@@ -17,7 +17,7 @@
 
 <!-- Table head -->
 
-<table border="0" width=80% align="center">
+<table border="0" width=80% align="center" >
   <tr>
     <td rowspan=2 align="center">Package name</td>
     <td colspan=2 align="center">Install</td>
@@ -44,13 +44,16 @@
 <!-- Table Base Install -->  
   <tr>
     <td align="center">Base install</td>
-    <td align="center"><form action="../programs/base/install.php" method="get" target="bottomFrame" title="Start the base install: IPKG, cron, NTP, hdparm, busybox">
-  <input type="submit" value="Install" <? if ($optdir) echo 'disabled="disabled"'; ?> >
-</form>
-</td>
-    <td align="center"><form action="../programs/base/uninstall.php" method="get" target="bottomFrame" title="Full uninstall">
-  <input type="submit" value="Uninstall" <? if (!$optdir) echo 'disabled="disabled"'; ?> >
-</form>
+    <td align="center">
+      <form action="../programs/base/install.php" method="get" target="bottomFrame" title="Start the base install: IPKG, cron, NTP, hdparm, busybox">
+        <input type="radio" name="installpath" value="root" checked>root<input type="radio" name="installpath" value="sda1">sda1<br><br>
+        <input type="submit" value="Install" <? if ($optdir) echo 'disabled="disabled"'; ?> ><br>
+      </form>
+    </td>
+    <td align="center">
+    <form action="../programs/base/uninstall.php" method="get" target="bottomFrame" title="Full uninstall">
+     <input type="submit" value="Uninstall" <? if (!$optdir) echo 'disabled="disabled"'; ?> >
+    </form>
 </td>
     <td align="center"></td>
     <td align="center"></td>
@@ -259,7 +262,7 @@
   <tr>
     <td align="center">DCTCS</td>
     <td align="center"><form action="../programs/dctcs/install.php" method="get" target="bottomFrame" title="DCTCS torrent client install.">
-  <input type="submit" value="Install" <? if ($dctcs) echo 'disabled="disabled"'; ?>>
+      <input type="submit" value="Install" <? if ($dctcs) echo 'disabled="disabled"'; ?>>
 </form></td>
     <td align="center"><form action="../programs/dctcs/uninstall.php" method="get" target="bottomFrame" title="DCTCS uninstall">
   <input type="submit" value="Uninstall" <? if (!$dctcs) echo 'disabled="disabled"'; ?>>
@@ -349,9 +352,6 @@
 
 </table>
 
-<table border="0" align="center">
-
-</table>
 
 <body>
 </body>

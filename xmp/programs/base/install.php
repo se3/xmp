@@ -6,8 +6,9 @@
 <link rel="stylesheet" type="text/css" href="../../xmp.css">
 <body onload="parent.mainFrame.location.reload();">
 <?php
+$installpath  = $_GET[installpath];
 echo '<pre>';
-system('./install_base.sh', $retval);
+system('./install_base.sh '. $installpath, $retval);
 echo '</pre>';
 ?>
 <META HTTP-EQUIV=Refresh CONTENT="30; URL=../../info.php">
