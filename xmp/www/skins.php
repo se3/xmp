@@ -147,14 +147,14 @@ else
       
    if ( 1 == $backup && "backup" != $original  )
    {
-      if ( file_exists( "zip" ) )
+      if ( file_exists( "../busybox" ) )
       {
          echo ' <META HTTP-EQUIV=Refresh CONTENT="2; URL=skins.php?original=backup">';
          echo "Please wait, original skin backup running...it take about 20 seconds<br>\n";  
       }
       else
       {
-         echo "zip application not found in xmp/www !";
+         echo "busybox application not found in xmp !";
       }
    }
    else
