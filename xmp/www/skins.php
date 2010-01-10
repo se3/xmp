@@ -4,6 +4,8 @@ $versionfile ="$skinpath/original/version.txt";
 $extractpath = "/usr/local/bin/Resource/bmp/";
 
 $skin = $_GET[skin];
+$urlskin = rawurlencode($skin);
+$mdskin = str_replace(" ", "\ ", $skin);
 $original = $_GET[original];
 $online = $_GET[online];
 $skinpage = "http://xtreamer-web-sdk.googlecode.com/svn/trunk/xmp/skins";
@@ -23,11 +25,11 @@ function getNewSkins()
          list($key, $val) = explode("<li><a href=\"", $line );
          if( $key != "" && $val ){
             list($skin, $val) = explode("/\"", $val );
-            $skin_ =str_replace("%20", " ", $skin);
-            if( "" != $skin && ".." != $skin && ! file_exists( "$skinpath/$skin_/$skin_.zip" ) && ! file_exists( "$skinpath/$skin_/$skin_.tar.gz" ) ) 
+            $skin =str_replace("%20", " ", $skin);
+            if( "" != $skin && ".." != $skin && ! file_exists( "$skinpath/$skin/$skin.zip" ) && ! file_exists( "$skinpath/$skin/$skin.tar.gz" ) ) 
             {
-               echo "***  $skin_ *** \n<br>";
-               echo "<a href=\"skins.php?skin=$skin&online=y\" target=\"bottomFrame\"><img src=\"$skinpage/$skin_/$skin_.jpg\" align=\"absmiddle\" /></a>\n<br>\n";
+               echo "***  $skin *** \n<br>";
+               echo "<a href=\"skins.php?skin=$skin&online=y\" target=\"bottomFrame\"><img src=\"$skinpage/$skin/$skin.jpg\" align=\"absmiddle\" /></a>\n<br>\n";
             }
          }
       }
@@ -51,7 +53,7 @@ if ( "backup" == $original )
 {
    // check if original backup is too old:
    // cat /usr/local/etc/dvdplayer/XTR_setup.dat
-   // // ♥ý VER 2.1.2☺☺dddddddddddd¶☺☺☺☺☺d☺☺☺☺/tmp/usbmounts/sda1/xmp/www
+   // content of XTR_setup.dat: ♥ý VER 2.1.2☺☺dddddddddddd¶☺☺☺☺☺d☺☺☺☺/tmp/usbmounts/sda1/xmp/www
    $versionstring = file_get_contents("/usr/local/etc/dvdplayer/XTR_setup.dat");
    $version = substr($versionstring, strpos($versionstring, "VER")+4, 5);
    
@@ -87,11 +89,9 @@ if ( "" != $skin  )
    $retval = "0";
    if ( "y" == $online )
    {
-      $skin_ =str_replace(" ", "%20", $skin);
-      echo " $skin_  - $skin \n";
-      system("mkdir \"$skinpath/$skin\"", $retval );
-      system("wget '$skinpage/$skin_/$skin_.zip' -O '$skinpath/$skin/$skin.zip'", $retval);
-      system("wget '$skinpage/$skin_/$skin_.jpg' -O '$skinpath/$skin/$skin.jpg'", $retval);
+      system("mkdir $skinpath/$mdskin", $retval );
+      system("wget '$skinpage/$urlskin/$urlskin.zip' -O $skinpath/$mdskin/$mdskin.zip", $retval);
+      system("wget '$skinpage/$urlskin/$urlskin.jpg' -O $skinpath/$mdskin/$mdskin.jpg", $retval);
    }
 
    if ( $retval == "0") 
@@ -120,7 +120,7 @@ if ( "" != $skin  )
    }
    else
    {
-      echo "file download wget -o '$skinpage/$skin/$skin.zip' -O $skinpath/$skin/$skin.zip failed - $retval";
+      echo "file download wget '$skinpage/$urlskin/$urlskin.zip' -O $skinpath/$mdskin/$mdskin.zip failed - $retval";
    }
 }
 else
@@ -128,7 +128,7 @@ else
 
    // check if original backup is too old:
    // cat /usr/local/etc/dvdplayer/XTR_setup.dat
-   // // ♥ý VER 2.1.2☺☺dddddddddddd¶☺☺☺☺☺d☺☺☺☺/tmp/usbmounts/sda1/xmp/www
+   // content of XTR_setup.dat: ♥ý VER 2.1.2☺☺dddddddddddd¶☺☺☺☺☺d☺☺☺☺/tmp/usbmounts/sda1/xmp/www
    $versionstring = file_get_contents("/usr/local/etc/dvdplayer/XTR_setup.dat");
    $version = substr($versionstring, strpos($versionstring, "VER")+4, 5);
    
