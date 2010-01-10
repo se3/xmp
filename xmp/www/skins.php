@@ -23,11 +23,11 @@ function getNewSkins()
          list($key, $val) = explode("<li><a href=\"", $line );
          if( $key != "" && $val ){
             list($skin, $val) = explode("/\"", $val );
-            $skin =str_replace("%20", " ", $skin);
-            if( "" != $skin && ".." != $skin && ! file_exists( "$skinpath/$skin/$skin.zip" ) && ! file_exists( "$skinpath/$skin/$skin.tar.gz" ) ) 
+            $skin_ =str_replace("%20", " ", $skin);
+            if( "" != $skin && ".." != $skin && ! file_exists( "$skinpath/$skin_/$skin_.zip" ) && ! file_exists( "$skinpath/$skin_/$skin_.tar.gz" ) ) 
             {
-               echo "***  $skin *** \n<br>";
-               echo "<a href=\"skins.php?skin=$skin&online=y\" target=\"bottomFrame\"><img src=\"$skinpage/$skin/$skin.jpg\" align=\"absmiddle\" /></a>\n<br>\n";
+               echo "***  $skin_ *** \n<br>";
+               echo "<a href=\"skins.php?skin=$skin&online=y\" target=\"bottomFrame\"><img src=\"$skinpage/$skin_/$skin_.jpg\" align=\"absmiddle\" /></a>\n<br>\n";
             }
          }
       }
@@ -87,8 +87,11 @@ if ( "" != $skin  )
    $retval = "0";
    if ( "y" == $online )
    {
-      system("mkdir $skinpath/$skin", $retval );
-      system("wget '$skinpage/$skin/$skin.zip' -O $skinpath/$skin/$skin.zip", $retval);
+      $skin_ =str_replace(" ", "%20", $skin);
+      echo " $skin_  - $skin \n";
+      system("mkdir \"$skinpath/$skin\"", $retval );
+      system("wget '$skinpage/$skin_/$skin_.zip' -O '$skinpath/$skin/$skin.zip'", $retval);
+      system("wget '$skinpage/$skin_/$skin_.jpg' -O '$skinpath/$skin/$skin.jpg'", $retval);
    }
 
    if ( $retval == "0") 
