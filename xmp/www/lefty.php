@@ -6,7 +6,7 @@
 <link rel="stylesheet" type="text/css" href="../xmp.css">
 </head>
 
-<body>
+<body id="leftFrame">
 
 <p><a href="programs.php" target="mainFrame" title="Start & stop programs">PROGRAMS</a></p>
 

@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="xmp.css">
 </head>
 <META HTTP-EQUIV=Refresh CONTENT="120; URL=info.php">
-<body>
+<body id="bottomFrame">
 
 <?php
 echo '<pre>';

@@ -43,7 +43,7 @@ function getNewSkins()
 <title>Skin browser</title>
 <link rel="stylesheet" type="text/css" href="../xmp.css">
 </head>
-<body>
+<body id="mainFrame">
 <?
 
 

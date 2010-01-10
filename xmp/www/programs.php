@@ -353,6 +353,6 @@
 </table>
 
 
-<body>
+<body id="mainFrame">
 </body>
 </html>

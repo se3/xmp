@@ -20,7 +20,7 @@ $dir->close();
 <link rel="stylesheet" type="text/css" href="fakeshell.css">
 </head>
 
-<body>
+<body id="mainFrame">
 
 <table border=0 cellspacing=0 cellpadding=0>
 <form name=shell method=post action=<? echo $PHP_SELF; ?>>

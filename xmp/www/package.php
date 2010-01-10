@@ -139,7 +139,7 @@ a:active {
 </style>
 </head>
 
-<body>
+<body id="mainFrame">
 <h1>The ipkg web frontend</h1>
 <form methode="GET">
 <table>
