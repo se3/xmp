@@ -1,0 +1,91 @@
+.overlay_alert_lite {
+	background-color: #b4c3d8;
+	filter:alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+}
+
+.alert_lite_sizer {
+	width:0px;
+	height:0px;
+	display:none;
+}
+
+.alert_lite_close {
+	width:0px;
+	height:0px;
+	display:none;
+}
+
+.alert_lite_minimize {
+	width:0px;
+	height:0px;
+	display:none;
+}
+
+.alert_lite_maximize {
+	width:0px;
+	height:0px;
+	display:none;
+}
+
+.alert_lite_title {
+	width:0px;
+	height:0px;
+	display:none;
+}
+
+.alert_lite_content {
+	overflow:hidden;
+	color: #000;
+	font-family: verdana, sans, arial, sans-serif;
+	font-size: 10px;
+	background: transparent;
+}
+
+
+/* For alert/confirm dialog */
+.alert_lite_window {
+	border: 0px solid #f00;	
+	background: #FFF;
+	padding:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width:400px;
+}
+
+.alert_lite_message {
+	font-size:12px;
+	font-family: verdana, sans;
+	font-weight: 600;
+	font-style: italic;
+	text-align:center;
+	width:100%;
+	color:#123;
+	padding-bottom:10px;
+}
+
+.alert_lite_buttons {
+	text-align:center;
+	width:100%;
+}
+
+.alert_lite_buttons input {
+	width:20%;
+	margin:10px;
+}
+
+.alert_lite_progress {
+	float:left;
+	margin:auto;
+	text-align: left;
+	width:100%;
+	height:34px;
+	background: #FFF url('alert/progress.gif') no-repeat center center
+}
+
+table.alert_lite_header  {
+  border:1px solid #F00;
+  background:#FFF
+}
+

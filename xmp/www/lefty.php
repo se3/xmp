@@ -6,11 +6,13 @@
 <link rel="stylesheet" type="text/css" href="../xmp.css">
 </head>
 
-<body id="leftFrame">
+<body>
 
 <p><a href="programs.php" target="mainFrame" title="Start & stop programs">PROGRAMS</a></p>
 
 <p><a href="fakeshell.php" target="mainFrame" title="Mavvys original fakeshell">MAVVY FS</a></p>
+
+<p><a href="../fm/index.php" target="mainFrame" title="Mavvys original fakeshell">FILE MANAGER</a></p>
 
 <?
 if ( file_exists( "/opt/bin/ipkg" )  )

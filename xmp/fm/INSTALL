@@ -1,0 +1,8 @@
+INSTALL
+========
+
+Unpack fm-xxx.tar.gz and copy all files somewhere to your Web-server document root directory. 
+Edit file config.php.
+Go to the address http://your_web_server_address/fm/index.php.
+
+ 
