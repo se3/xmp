@@ -109,7 +109,7 @@ function s_glob( $dir, &$dirs, $files=false, $p=false ) {
 	while(false !== ($file = @readdir($dh))) {
 	    if($p && !fnmatch($p,$file)) continue;
 	    $f=$dir.'/'.$file;
-	    if(is_dir($f)) { if($file{0} != ".")  $dirs[]=$f; }
+	    if(isDir($f)) { if($file{0} != ".")  $dirs[]=$f; }
 	    elseif($files !== false) 	$files[]=$f; 
 	}
 	@closedir($dh);
@@ -119,9 +119,19 @@ function is_dir_tree($dir) {
     if($dh=@opendir($dir)) {
     	if($dir=='/') $dir="";
 	while(false !== ($file = @readdir($dh))) {
-	    if(is_dir($dir.'/'.$file) && $file{0} != ".") { @closedir($dh); return true; }
+	    if( isDir($dir.'/'.$file ) && $file{0} != ".") { @closedir($dh); return true; }
 	}
     }
     @closedir($dh);
     return false;
+}
+
+function isDir($dir) {
+  $cwd = getcwd();
+  $returnValue = false;
+  if (@chdir($dir)) {
+    chdir($cwd);
+    $returnValue = true;
+  }
+  return $returnValue;
 }
