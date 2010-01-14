@@ -1,0 +1,25 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Bhutan</title>
+<link>./scripts/map/Bhutan.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Paro</title>
+<link>http://weather.yahooapis.com/forecastrss?p=BTXX0001&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Paro,Bhutan</forcast>
+</item>
+
+<item>
+<title>Thimphu</title>
+<link>http://weather.yahooapis.com/forecastrss?p=BTXX0002&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Thimphu,Bhutan</forcast>
+</item>
+
+
+</channel></rss>

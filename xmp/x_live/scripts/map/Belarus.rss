@@ -1,0 +1,93 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",Belarus";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>Belarus</title>
+<link>./scripts/map/Belarus.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Borisov</title>
+<cur>BOXX0001</cur>
+<for>Borisov</for>
+</item>
+<item>
+<title>Brest</title>
+<cur>BOXX0023</cur>
+<for>Brest</for>
+</item>
+<item>
+<title>Dobrush</title>
+<cur>BOXX0002</cur>
+<for>Dobrush</for>
+</item>
+<item>
+<title>Dzerzhinsk</title>
+<cur>BOXX0003</cur>
+<for>Dzerzhinsk</for>
+</item>
+<item>
+<title>Grodno</title>
+<cur>BOXX0016</cur>
+<for>Grodno</for>
+</item>
+<item>
+<title>Lepel</title>
+<cur>BOXX0013</cur>
+<for>Lepel</for>
+</item>
+<item>
+<title>Lida</title>
+<cur>BOXX0017</cur>
+<for>Lida</for>
+</item>
+<item>
+<title>Lyntupy</title>
+<cur>BOXX0012</cur>
+<for>Lyntupy</for>
+</item>
+<item>
+<title>Minsk</title>
+<cur>BOXX0005</cur>
+<for>Minsk</for>
+</item>
+<item>
+<title>Orsa</title>
+<cur>BOXX0015</cur>
+<for>Orsa</for>
+</item>
+<item>
+<title>Pinsk</title>
+<cur>BOXX0007</cur>
+<for>Pinsk</for>
+</item>
+<item>
+<title>Sluck</title>
+<cur>BOXX0021</cur>
+<for>Sluck</for>
+</item>
+<item>
+<title>Verhnedvinsk</title>
+<cur>BOXX0011</cur>
+<for>Verhnedvinsk</for>
+</item>
+<item>
+<title>Vitebsk</title>
+<cur>BOXX0014</cur>
+<for>Vitebsk</for>
+</item>
+</channel></rss>

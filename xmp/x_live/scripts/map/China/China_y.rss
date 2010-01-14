@@ -1,0 +1,297 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>China</title>
+<link>./scripts/map/China_y.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Ya'An</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0354&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Ya%27An</forcast>
+</item>
+
+<item>
+<title>Yan An</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0267&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yan%20An,China</forcast>
+</item>
+
+<item>
+<title>Yanchi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0263&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yanchi</forcast>
+</item>
+
+<item>
+<title>Yangcheng</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0273&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yangcheng</forcast>
+</item>
+
+<item>
+<title>Yangjiang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0500&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yangjiang</forcast>
+</item>
+
+<item>
+<title>Yangliuqing</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0151&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yangliuqing</forcast>
+</item>
+
+<item>
+<title>Yangquan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0152&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yangquan</forcast>
+</item>
+
+<item>
+<title>Yanji</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0291&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yanji</forcast>
+</item>
+
+<item>
+<title>Yanzhou</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0321&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yanzhou</forcast>
+</item>
+
+<item>
+<title>Yaxian</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0507&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yaxian</forcast>
+</item>
+
+<item>
+<title>Yibin</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0362&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yibin</forcast>
+</item>
+
+<item>
+<title>Yichang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0407&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yichang</forcast>
+</item>
+
+<item>
+<title>Yinchuan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0259&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yinchuan</forcast>
+</item>
+
+<item>
+<title>Yingkou</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0304&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yingkou</forcast>
+</item>
+
+<item>
+<title>Yining</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0203&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yining</forcast>
+</item>
+
+<item>
+<title>Yiwu</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0218&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yiwu</forcast>
+</item>
+
+<item>
+<title>Yiyang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0156&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yiyang</forcast>
+</item>
+
+<item>
+<title>Yiyuan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0317&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yiyuan</forcast>
+</item>
+
+<item>
+<title>Yong'An</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0473&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yong%27An</forcast>
+</item>
+
+<item>
+<title>Yongchuan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0157&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yongchuan</forcast>
+</item>
+
+<item>
+<title>Yongning</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0158&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yongning</forcast>
+</item>
+
+<item>
+<title>Yongshujiao</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0510&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yongshujiao</forcast>
+</item>
+
+<item>
+<title>Youyang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0414&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Youyang</forcast>
+</item>
+
+<item>
+<title>Yu Xian</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0258&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yu%20Xian</forcast>
+</item>
+
+<item>
+<title>Yuanjiang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0382&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yuanjiang</forcast>
+</item>
+
+<item>
+<title>Yuanling</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0415&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yuanling</forcast>
+</item>
+
+<item>
+<title>Yuanmou</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0372&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yuanmou</forcast>
+</item>
+
+<item>
+<title>Yuanping</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0261&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yuanping</forcast>
+</item>
+
+<item>
+<title>Yucheng</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0159&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yucheng</forcast>
+</item>
+
+<item>
+<title>Yuci</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0160&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yuci</forcast>
+</item>
+
+<item>
+<title>Yueyang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0411&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yueyang</forcast>
+</item>
+
+<item>
+<title>Yulin</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0260&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yulin</forcast>
+</item>
+
+<item>
+<title>Yumenzhen</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0224&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yumenzhen</forcast>
+</item>
+
+<item>
+<title>Yuncheng</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0272&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yuncheng</forcast>
+</item>
+
+<item>
+<title>Yushe</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0265&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yushe</forcast>
+</item>
+
+<item>
+<title>Yushu</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0334&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yushu</forcast>
+</item>
+
+
+</channel></rss>

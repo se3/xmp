@@ -1,0 +1,129 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>China</title>
+<link>./scripts/map/China_m.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Macau</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0512&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Macau</forcast>
+</item>
+
+<item>
+<title>Macheng</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0403&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Macheng</forcast>
+</item>
+
+<item>
+<title>Madoi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0335&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Madoi</forcast>
+</item>
+
+<item>
+<title>Manas</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0089&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Manas</forcast>
+</item>
+
+<item>
+<title>Mandal</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0242&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Mandal</forcast>
+</item>
+
+<item>
+<title>Mangnai</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0217&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Mangnai</forcast>
+</item>
+
+<item>
+<title>Mazong Shan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0221&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Mazong%20Shan</forcast>
+</item>
+
+<item>
+<title>Mei Xian</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0486&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Mei%20Xian</forcast>
+</item>
+
+<item>
+<title>Mengla</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0383&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Mengla</forcast>
+</item>
+
+<item>
+<title>Mengshan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0480&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Mengshan</forcast>
+</item>
+
+<item>
+<title>Mengzi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0385&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Mengzi</forcast>
+</item>
+
+<item>
+<title>Mianyang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0351&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Mianyang</forcast>
+</item>
+
+<item>
+<title>Minqin</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0229&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Minqin</forcast>
+</item>
+
+<item>
+<title>Mohe</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0171&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Mohe</forcast>
+</item>
+
+<item>
+<title>Mudanjiang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0278&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Mudanjiang</forcast>
+</item>
+
+
+</channel></rss>

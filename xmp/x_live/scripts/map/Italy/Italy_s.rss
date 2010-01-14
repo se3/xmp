@@ -1,0 +1,78 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",Italy";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>Italy</title>
+<link>./scripts/map/Italy_s.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Salerno</title>
+<cur>ITXX0069</cur>
+<for>Salerno</for>
+</item>
+<item>
+<title>San Marco Dei Ca</title>
+<cur>ITXX0151</cur>
+<for>San%20Marco%20Dei%20Ca</for>
+</item>
+<item>
+<title>San Remo</title>
+<cur>ITXX0070</cur>
+<for>San%20Remo</for>
+</item>
+<item>
+<title>Santa Caterina</title>
+<cur>ITXX0152</cur>
+<for>Santa%20Caterina</for>
+</item>
+<item>
+<title>Sardinia</title>
+<cur>ITXX0187</cur>
+<for>Sardinia</for>
+</item>
+<item>
+<title>Savona</title>
+<cur>ITXX0071</cur>
+<for>Savona</for>
+</item>
+<item>
+<title>Siena</title>
+<cur>ITXX0072</cur>
+<for>Siena</for>
+</item>
+<item>
+<title>Sorrento</title>
+<cur>ITXX0073</cur>
+<for>Sorrento</for>
+</item>
+<item>
+<title>Spittal an der Drau</title>
+<cur>AUXX0119</cur>
+<for>Spittal%20an%20der%20Drau</for>
+</item>
+<item>
+<title>Spoleto</title>
+<cur>ITXX0153</cur>
+<for>Spoleto</for>
+</item>
+<item>
+<title>Steyr</title>
+<cur>AUXX0083</cur>
+<for>Steyr</for>
+</item>
+</channel></rss>

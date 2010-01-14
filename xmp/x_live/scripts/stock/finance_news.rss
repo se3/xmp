@@ -1,0 +1,18 @@
+<?xml version='1.0' ?>
+
+<item>
+<title>Finance News</title>
+<link>http://finance.yahoo.com/rss/headline?s=yhoo</link>
+<media:thumbnail url="image/rss247.jpg" width="120" height="90" />
+<mediaDisplay name=onePartView sideLeftWidthPC=24
+   headerImageXPC = 25  headerXPC = 34
+   itemImageXPC = 26 itemImageYPC = 18
+   itemImageHeightPC=7 itemImageWidthPC=7
+   itemXPC = 34  itemYPC = 17
+   itemHeightPC=8 itemWidthPC=60 
+   itemPerPage=9 imageLeftSide="image/MBAnim2.gif"  
+   sideColorRight=0:0:0 backgroundColor=0:0:0
+   />
+   <canEnterItem>false</canEnterItem>
+</item>
+

@@ -1,0 +1,305 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>China</title>
+<link>./scripts/map/China_l.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Lancang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0379&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lancang</forcast>
+</item>
+
+<item>
+<title>Langzhong</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0399&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Langzhong</forcast>
+</item>
+
+<item>
+<title>Lanxi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0078&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lanxi</forcast>
+</item>
+
+<item>
+<title>Lanzhou</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0079&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lanzhou</forcast>
+</item>
+
+<item>
+<title>Lenghu</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0227&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lenghu</forcast>
+</item>
+
+<item>
+<title>Leting</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0307&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Leting</forcast>
+</item>
+
+<item>
+<title>Lhasa</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0080&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lhasa</forcast>
+</item>
+
+<item>
+<title>Lhunze</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0329&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lhunze</forcast>
+</item>
+
+<item>
+<title>Lian Xian</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0481&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lian%20Xian</forcast>
+</item>
+
+<item>
+<title>Liangping</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0405&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Liangping</forcast>
+</item>
+
+<item>
+<title>Lianping</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0484&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lianping</forcast>
+</item>
+
+<item>
+<title>Liaoyang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0081&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Liaoyang</forcast>
+</item>
+
+<item>
+<title>Lijing</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0365&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lijing</forcast>
+</item>
+
+<item>
+<title>Lincang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0378&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lincang</forcast>
+</item>
+
+<item>
+<title>Lindong</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0276&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lindong</forcast>
+</item>
+
+<item>
+<title>Lingling</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0429&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lingling</forcast>
+</item>
+
+<item>
+<title>Lingxian</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0310&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lingxian</forcast>
+</item>
+
+<item>
+<title>Linhai</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0463&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Linhai</forcast>
+</item>
+
+<item>
+<title>Linhe</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0253&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Linhe</forcast>
+</item>
+
+<item>
+<title>Linjiang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0297&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Linjiang</forcast>
+</item>
+
+<item>
+<title>Lintong</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0082&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lintong</forcast>
+</item>
+
+<item>
+<title>Linxi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0281&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Linxi</forcast>
+</item>
+
+<item>
+<title>Lishi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0264&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lishi</forcast>
+</item>
+
+<item>
+<title>Lishui</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0461&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lishui</forcast>
+</item>
+
+<item>
+<title>Litang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0353&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Litang</forcast>
+</item>
+
+<item>
+<title>Liuzhou</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0479&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Liuzhou</forcast>
+</item>
+
+<item>
+<title>Liyang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0450&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Liyang</forcast>
+</item>
+
+<item>
+<title>Longkou</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0313&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Longkou</forcast>
+</item>
+
+<item>
+<title>Longzhou</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0494&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Longzhou</forcast>
+</item>
+
+<item>
+<title>Lu Shan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0456&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lu%20Shan</forcast>
+</item>
+
+<item>
+<title>Luodian</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0431&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Luodian</forcast>
+</item>
+
+<item>
+<title>Luoyang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0086&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Luoyang</forcast>
+</item>
+
+<item>
+<title>Lushi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0389&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lushi</forcast>
+</item>
+
+<item>
+<title>Lushun</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0087&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lushun</forcast>
+</item>
+
+<item>
+<title>Lusi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0446&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lusi</forcast>
+</item>
+
+<item>
+<title>Luxi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0376&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Luxi</forcast>
+</item>
+
+<item>
+<title>Luzhou</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0088&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Luzhou</forcast>
+</item>
+
+
+</channel></rss>

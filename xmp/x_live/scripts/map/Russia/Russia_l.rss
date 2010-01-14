@@ -1,0 +1,58 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",Russia";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>Russia</title>
+<link>./scripts/map/Russia_l.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Labinsk</title>
+<cur>RSXX1423</cur>
+<for>Labinsk</for>
+</item>
+<item>
+<title>Lensk</title>
+<cur>RSXX0142</cur>
+<for>Lensk</for>
+</item>
+<item>
+<title>Lipetsk</title>
+<cur>RSXX1459</cur>
+<for>Lipetsk</for>
+</item>
+<item>
+<title>Lodeynoye Pole</title>
+<cur>RSXX1449</cur>
+<for>Lodeynoye%20Pole</for>
+</item>
+<item>
+<title>Losinoborskoe</title>
+<cur>RSXX0250</cur>
+<for>Losinoborskoe</for>
+</item>
+<item>
+<title>Lukojanov</title>
+<cur>RSXX0190</cur>
+<for>Lukojanov</for>
+</item>
+<item>
+<title>Lyuban'</title>
+<cur>RSXX1451</cur>
+<for>Lyuban%27</for>
+</item>
+</channel></rss>

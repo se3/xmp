@@ -1,0 +1,353 @@
+<?xml version="1.0" ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>China Stock Lists</title>
+        <link>./scripts_x/stock/China.rss</link>
+        <media:thumbnail url="image/stock.jpg" />
+        <item>
+            <title>上证综指</title>
+            <link>http://finance.yahoo.com/d/quotes.csv?s=%5ESSEC&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
+            <media:thumbnail url="image/stock.jpg" />
+            <mediaDisplay name="stockView" backgroundColor="79:79:79" />
+            <!--<news url="http://finance.yahoo.com/rss/headline?s=%s" />-->
+			<news url="http://rss.business.sohu.com/rss/gegudianping.xml" />
+        </item>
+        <item>
+            <title>深证成指</title>
+            <link>http://finance.yahoo.com/d/quotes.csv?s=399001.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
+            <media:thumbnail url="image/stock.jpg" />
+            <mediaDisplay name="stockView" backgroundColor="79:79:79" />
+            <news url="http://finance.yahoo.com/rss/headline?s=%s" />
+        </item>
+        <item>
+            <title>社会服务</title>
+            <link>http://localhost/x_live/scripts/stock/China/China_1.rss</link>
+            <media:thumbnail url="image/stock.jpg" />
+            <mediaDisplay name="photoView" 
+	    rowCount="7" 
+	    columnCount="5" 
+	    drawItemText="yes" 
+	    sideColorBottom="20:20:20"
+	    sideColorTop="20:20:20"
+	    backgroundColor="0:0:0"
+	    sliding="no" 
+	    itemImageWidthPC=0 
+	    itemImageHeightPC=0 />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>水泥</title>
+            <link>http://localhost/x_live/scripts/stock/China/China_2.rss</link>
+            <media:thumbnail url="image/stock.jpg" />
+            <mediaDisplay name="photoView" 
+	    rowCount="7" 
+	    columnCount="5" 
+	    drawItemText="yes" 
+	    sideColorBottom="20:20:20"
+	    sideColorTop="20:20:20"
+	    backgroundColor="0:0:0"
+	    sliding="no" 
+	    itemImageWidthPC=0 
+	    itemImageHeightPC=0 />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>医药生物</title>
+            <link>http://localhost/x_live/scripts/stock/China/China_3.rss</link>
+            <media:thumbnail url="image/stock.jpg" />
+            <mediaDisplay name="photoView" 
+	    rowCount="7" 
+	    columnCount="5" 
+	    drawItemText="yes" 
+	    sideColorBottom="20:20:20"
+	    sideColorTop="20:20:20"
+	    backgroundColor="0:0:0"
+	    sliding="no" 
+	    itemImageWidthPC=0 
+	    itemImageHeightPC=0 />
+            <showRootMenu>no</showRootMenu>
+        </item>
+	<!--
+        <item>
+            <title>电子元器件</title>
+            <link>rss_file://./scripts_x/stock/China/China_4.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>运输设施</title>
+            <link>rss_file://./scripts_x/stock/China/China_5.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>软件服务</title>
+            <link>rss_file://./scripts_x/stock/China/China_6.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>化学工业</title>
+            <link>rss_file://./scripts_x/stock/China/China_7.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>金属制品</title>
+            <link>rss_file://./scripts_x/stock/China/China_8.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>非金属制品</title>
+            <link>rss_file://./scripts_x/stock/China/China_9.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>石油化工</title>
+            <link>rss_file://./scripts_x/stock/China/China_10.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>建筑工程</title>
+            <link>rss_file://./scripts_x/stock/China/China_11.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>家用电器</title>
+            <link>rss_file://./scripts_x/stock/China/China_12.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>家用电器</title>
+            <link>rss_file://./scripts_x/stock/China/China_13.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>通信设备</title>
+            <link>rss_file://./scripts_x/stock/China/China_14.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>食品饮料</title>
+            <link>rss_file://./scripts_x/stock/China/China_15.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>计算机设备</title>
+            <link>rss_file://./scripts_x/stock/China/China_16.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>电气设备</title>
+            <link>rss_file://./scripts_x/stock/China/China_17.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>燃气水务</title>
+            <link>rss_file://./scripts_x/stock/China/China_18.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>网络服务</title>
+            <link>rss_file://./scripts_x/stock/China/China_19.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>运输设备</title>
+            <link>rss_file://./scripts_x/stock/China/China_20.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>汽车及配件</title>
+            <link>rss_file://./scripts_x/stock/China/China_21.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>电力</title>
+            <link>rss_file://./scripts_x/stock/China/China_22.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>运输服务</title>
+            <link>rss_file://./scripts_x/stock/China/China_23.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>公共交通</title>
+            <link>rss_file://./scripts_x/stock/China/China_24.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>纸业</title>
+            <link>rss_file://./scripts_x/stock/China/China_25.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>通用设备</title>
+            <link>rss_file://./scripts_x/stock/China/China_26.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>农牧渔</title>
+            <link>rss_file://./scripts_x/stock/China/China_27.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>农牧渔</title>
+            <link>rss_file://./scripts_x/stock/China/China_28.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>轻工制造业</title>
+            <link>rss_file://./scripts_x/stock/China/China_29.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>专用设备</title>
+            <link>rss_file://./scripts_x/stock/China/China_30.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>商业贸易</title>
+            <link>rss_file://./scripts_x/stock/China/China_31.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>纺织服装</title>
+            <link>rss_file://./scripts_x/stock/China/China_31.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>钢铁</title>
+            <link>rss_file://./scripts_x/stock/China/China_32.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>综合</title>
+            <link>rss_file://./scripts_x/stock/China/China_33.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>有色金属</title>
+            <link>rss_file://./scripts_x/stock/China/China_34.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>煤炭</title>
+            <link>rss_file://./scripts_x/stock/China/China_35.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>电信服务</title>
+            <link>rss_file://./scripts_x/stock/China/China_36.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>林业</title>
+            <link>rss_file://./scripts_x/stock/China/China_37.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>新能源</title>
+            <link>rss_file://./scripts_x/stock/China/China_38.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>旅游餐饮</title>
+            <link>rss_file://./scripts_x/stock/China/China_39.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>航空制造</title>
+            <link>rss_file://./scripts_x/stock/China/China_40.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>金融</title>
+            <link>rss_file://./scripts_x/stock/China/China_41.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>
+        <item>
+            <title>地产及租赁</title>
+            <link>rss_file://./scripts_x/stock/China/China_42.rss</link>
+            <media:thumbnail url="image/country/stock.jpg" />
+            <mediaDisplay name="photoView" rowCount="7" columnCount="4" drawItemText="yes" sliding="no" />
+            <showRootMenu>no</showRootMenu>
+        </item>   
+	-->
+    </channel>
+</rss>

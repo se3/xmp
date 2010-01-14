@@ -1,0 +1,719 @@
+<?xml version='1.0' ?>
+
+
+
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<script>
+print("Enter menu_lge.rss");
+</script>
+
+<onExit>
+print("Exit menu_lge.rss");
+</onExit>
+
+<channel>
+	<title>YouTube Video XMP</title>
+	<link>http://127.0.0.1/x_live/scripts/youtube.rss</link>
+	<media:thumbnail url="image/LIVE_YOUTUBE_ICON.jpg" width="100" height="90" />
+
+<item>
+  <title>Search video HD</title>
+  <link>rss_command://search</link>
+  <media:thumbnail url="image/LIVE_YOUTUBE_ICON.jpg" width="100" height="90" />
+  <search url="http://127.0.0.1/x_live/gdata.php?key=%s&amp;orderby=relevance&amp;format=5&amp;start-index=1&amp;max-results=20" />
+  <mediaDisplay name=threePartsView
+	sideColorLeft="20:20:20"
+        sideLeftWidthPC="25"
+	headerXPC="25"
+	headerYPC="3"
+	headerWidthPC="75"
+	itemImageXPC="26"
+	itemXPC="40"
+	menuXPC="3"
+	menuWidthPC="20"
+	capXPC="90"
+	capYPC="20"
+	capHeightPC="10"
+	headerCapXPC="90"
+	headerCapYPC="10"
+	headerCapWidthPC="0"
+        showDefaultInfo=yes
+  >
+
+  <itemDisplay>
+
+    <text offsetXPC=1 widthPC=100 heightPC=35 fontSize=13 backgroundColor=-1:-1:-1 foregroundColor=200:200:200>
+      <script_replace> 
+        getItemInfo("title");
+      </script_replace>
+	  <offsetYPC>
+	   <script_replace>
+	     tmp = getItemInfo("duration");
+	     if (tmp!= null) {
+		   21;
+		 }
+		 else {
+		   21;
+		 }	      
+	   </script_replace> 
+	  </offsetYPC>
+    </text>
+
+  <text offsetXPC=3 offsetYPC=62 widthPC=52 heightPC=25 fontSize=12 backgroundColor=-1:-1:-1 foregroundColor=150:150:150>
+    <script_replace> 
+      tmp = getItemInfo("duration");
+	  if (tmp!= null) {
+	    tmp + " seconds";
+	  }
+	  else {
+		null;	
+	  }
+    </script_replace>
+  </text>
+
+  <text offsetXPC=35 offsetYPC=62 widthPC=32 heightPC=25 fontSize=12 backgroundColor=-1:-1:-1 foregroundColor=150:150:150>
+    <script_replace> 
+      tmp = getItemInfo("viewcount");
+	  if (tmp!= null) {
+	    "viewed:" +  tmp;
+	  }
+	  else {
+		null;	
+	  }
+    </script_replace>
+  </text>
+
+  <text offsetXPC=80 offsetYPC=68 widthPC=20 heightPC=15 fontSize=10 backgroundColor=-1:-1:-1 foregroundColor=150:0:0>
+    <script_replace> 
+      getItemInfo("rating");
+    </script_replace>
+  </text>
+
+</itemDisplay>
+</mediaDisplay>
+</item>
+
+
+<item>
+  <title>Recently Added</title>
+  <link>http://gdata.youtube.com/feeds/api/standardfeeds/most_recent</link>
+  <media:thumbnail url="image/LIVE_YOUTUBE_ICON.jpg" width="120" height="90" />
+  <mediaDisplay name=threePartsView
+	sideColorLeft="20:20:20"
+        sideLeftWidthPC="25"
+	headerXPC="25"
+	headerYPC="3"
+	headerWidthPC="75"
+	itemImageXPC="26"
+	itemXPC="40"
+	menuXPC="3"
+	menuWidthPC="20"
+	capXPC="90"
+	capYPC="20"
+	capHeightPC="10"
+	headerCapXPC="90"
+	headerCapYPC="10"
+	headerCapWidthPC="0"
+        showDefaultInfo=yes
+  >
+
+  
+  <itemDisplay>
+
+    <text offsetXPC=1 widthPC=100 heightPC=35 fontSize=13 backgroundColor=-1:-1:-1 foregroundColor=200:200:200>
+      <script_replace> 
+        getItemInfo("title");
+      </script_replace>
+	  <offsetYPC>
+	   <script_replace>
+	     tmp = getItemInfo("duration");
+	     if (tmp!= null) {
+		   21;
+		 }
+		 else {
+		   21;
+		 }	      
+	   </script_replace> 
+	  </offsetYPC>
+    </text>
+
+  <text offsetXPC=3 offsetYPC=62 widthPC=52 heightPC=25 fontSize=12 backgroundColor=-1:-1:-1 foregroundColor=150:150:150>
+    <script_replace> 
+      tmp = getItemInfo("duration");
+	  if (tmp!= null) {
+	    tmp + " seconds";
+	  }
+	  else {
+		null;	
+	  }
+    </script_replace>
+  </text>
+
+  <text offsetXPC=35 offsetYPC=62 widthPC=32 heightPC=25 fontSize=12 backgroundColor=-1:-1:-1 foregroundColor=150:150:150>
+    <script_replace> 
+      tmp = getItemInfo("viewcount");
+	  if (tmp!= null) {
+	    "viewed:" +  tmp;
+	  }
+	  else {
+		null;	
+	  }
+    </script_replace>
+  </text>
+
+  <text offsetXPC=80 offsetYPC=68 widthPC=20 heightPC=15 fontSize=10 backgroundColor=-1:-1:-1 foregroundColor=150:0:0>
+    <script_replace> 
+      getItemInfo("rating");
+    </script_replace>
+  </text>
+
+</itemDisplay>
+</mediaDisplay>
+</item>
+
+<item>
+  <title>Recently Featured</title>
+  <link>http://gdata.youtube.com/feeds/api/standardfeeds/recently_featured</link>
+  <media:thumbnail url="image/LIVE_YOUTUBE_ICON.jpg" width="120" height="90" />
+  <mediaDisplay name=threePartsView
+	sideColorLeft="20:20:20"
+        sideLeftWidthPC="25"
+	headerXPC="25"
+	headerYPC="3"
+	headerWidthPC="75"
+	itemImageXPC="26"
+	itemXPC="40"
+	menuXPC="3"
+	menuWidthPC="20"
+	capXPC="90"
+	capYPC="20"
+	capHeightPC="10"
+	headerCapXPC="90"
+	headerCapYPC="10"
+	headerCapWidthPC="0"
+        showDefaultInfo=yes
+
+  >
+    <itemDisplay>
+
+    <text offsetXPC=1 widthPC=100 heightPC=35 fontSize=13 backgroundColor=-1:-1:-1 foregroundColor=200:200:200>
+      <script_replace> 
+        getItemInfo("title");
+      </script_replace>
+	  <offsetYPC>
+	   <script_replace>
+	     tmp = getItemInfo("duration");
+	     if (tmp!= null) {
+		   21;
+		 }
+		 else {
+		   21;
+		 }	      
+	   </script_replace> 
+	  </offsetYPC>
+    </text>
+
+  <text offsetXPC=3 offsetYPC=62 widthPC=52 heightPC=25 fontSize=12 backgroundColor=-1:-1:-1 foregroundColor=150:150:150>
+    <script_replace> 
+      tmp = getItemInfo("duration");
+	  if (tmp!= null) {
+	    tmp + " seconds";
+	  }
+	  else {
+		null;	
+	  }
+    </script_replace>
+  </text>
+
+  <text offsetXPC=35 offsetYPC=62 widthPC=32 heightPC=25 fontSize=12 backgroundColor=-1:-1:-1 foregroundColor=150:150:150>
+    <script_replace> 
+      tmp = getItemInfo("viewcount");
+	  if (tmp!= null) {
+	    "viewed:" +  tmp;
+	  }
+	  else {
+		null;	
+	  }
+    </script_replace>
+  </text>
+
+  <text offsetXPC=80 offsetYPC=68 widthPC=20 heightPC=15 fontSize=10 backgroundColor=-1:-1:-1 foregroundColor=150:0:0>
+    <script_replace> 
+      getItemInfo("rating");
+    </script_replace>
+  </text>
+
+</itemDisplay>
+
+
+
+</mediaDisplay>
+</item>
+
+
+<item>
+  <title>Top Favorites</title>
+  <link>http://gdata.youtube.com/feeds/api/standardfeeds/top_favorites</link>
+  <media:thumbnail url="image/LIVE_YOUTUBE_ICON.jpg" width="120" height="90" />
+  <mediaDisplay name=threePartsView
+	sideColorLeft="20:20:20"
+        sideLeftWidthPC="25"
+	headerXPC="25"
+	headerYPC="3"
+	headerWidthPC="75"
+	itemImageXPC="26"
+	itemXPC="40"
+	menuXPC="3"
+	menuWidthPC="20"
+	capXPC="90"
+	capYPC="20"
+	capHeightPC="10"
+	headerCapXPC="90"
+	headerCapYPC="10"
+	headerCapWidthPC="0"
+        showDefaultInfo=yes
+  >
+
+  
+  <itemDisplay>
+
+    <text offsetXPC=1 widthPC=100 heightPC=35 fontSize=13 backgroundColor=-1:-1:-1 foregroundColor=200:200:200>
+      <script_replace> 
+        getItemInfo("title");
+      </script_replace>
+	  <offsetYPC>
+	   <script_replace>
+	     tmp = getItemInfo("duration");
+	     if (tmp!= null) {
+		   21;
+		 }
+		 else {
+		   21;
+		 }	      
+	   </script_replace> 
+	  </offsetYPC>
+    </text>
+
+  <text offsetXPC=3 offsetYPC=62 widthPC=52 heightPC=25 fontSize=12 backgroundColor=-1:-1:-1 foregroundColor=150:150:150>
+    <script_replace> 
+      tmp = getItemInfo("duration");
+	  if (tmp!= null) {
+	    tmp + " seconds";
+	  }
+	  else {
+		null;	
+	  }
+    </script_replace>
+  </text>
+
+  <text offsetXPC=35 offsetYPC=62 widthPC=32 heightPC=25 fontSize=12 backgroundColor=-1:-1:-1 foregroundColor=150:150:150>
+    <script_replace> 
+      tmp = getItemInfo("viewcount");
+	  if (tmp!= null) {
+	    "viewed:" +  tmp;
+	  }
+	  else {
+		null;	
+	  }
+    </script_replace>
+  </text>
+
+  <text offsetXPC=80 offsetYPC=68 widthPC=20 heightPC=15 fontSize=10 backgroundColor=-1:-1:-1 foregroundColor=150:0:0>
+    <script_replace> 
+      getItemInfo("rating");
+    </script_replace>
+  </text>
+
+</itemDisplay>
+</mediaDisplay>
+</item>
+
+<item>
+  <title>Top Rated</title>
+  <link>http://gdata.youtube.com/feeds/api/standardfeeds/top_rated</link>
+  <media:thumbnail url="image/LIVE_YOUTUBE_ICON.jpg" width="120" height="90" />
+  <mediaDisplay name=threePartsView
+	sideColorLeft="20:20:20"
+        sideLeftWidthPC="25"
+	headerXPC="25"
+	headerYPC="3"
+	headerWidthPC="75"
+	itemImageXPC="26"
+	itemXPC="40"
+	menuXPC="3"
+	menuWidthPC="20"
+	capXPC="90"
+	capYPC="20"
+	capHeightPC="10"
+	headerCapXPC="90"
+	headerCapYPC="10"
+	headerCapWidthPC="0"
+        showDefaultInfo=yes
+  >
+
+  
+  <itemDisplay>
+
+    <text offsetXPC=1 widthPC=100 heightPC=35 fontSize=13 backgroundColor=-1:-1:-1 foregroundColor=200:200:200>
+      <script_replace> 
+        getItemInfo("title");
+      </script_replace>
+	  <offsetYPC>
+	   <script_replace>
+	     tmp = getItemInfo("duration");
+	     if (tmp!= null) {
+		   21;
+		 }
+		 else {
+		   21;
+		 }	      
+	   </script_replace> 
+	  </offsetYPC>
+    </text>
+
+  <text offsetXPC=3 offsetYPC=62 widthPC=52 heightPC=25 fontSize=12 backgroundColor=-1:-1:-1 foregroundColor=150:150:150>
+    <script_replace> 
+      tmp = getItemInfo("duration");
+	  if (tmp!= null) {
+	    tmp + " seconds";
+	  }
+	  else {
+		null;	
+	  }
+    </script_replace>
+  </text>
+
+  <text offsetXPC=35 offsetYPC=62 widthPC=32 heightPC=25 fontSize=12 backgroundColor=-1:-1:-1 foregroundColor=150:150:150>
+    <script_replace> 
+      tmp = getItemInfo("viewcount");
+	  if (tmp!= null) {
+	    "viewed:" +  tmp;
+	  }
+	  else {
+		null;	
+	  }
+    </script_replace>
+  </text>
+
+  <text offsetXPC=80 offsetYPC=68 widthPC=20 heightPC=15 fontSize=10 backgroundColor=-1:-1:-1 foregroundColor=150:0:0>
+    <script_replace> 
+      getItemInfo("rating");
+    </script_replace>
+  </text>
+
+</itemDisplay>
+</mediaDisplay>
+</item>
+
+
+<item>
+  <title>Most Viewed</title>
+  <link>http://gdata.youtube.com/feeds/api/standardfeeds/most_viewed</link>
+  <media:thumbnail url="image/LIVE_YOUTUBE_ICON.jpg" width="120" height="90" />
+  <mediaDisplay name=threePartsView
+	sideColorLeft="20:20:20"
+        sideLeftWidthPC="25"
+	headerXPC="25"
+	headerYPC="3"
+	headerWidthPC="75"
+	itemImageXPC="26"
+	itemXPC="40"
+	menuXPC="3"
+	menuWidthPC="20"
+	capXPC="90"
+	capYPC="20"
+	capHeightPC="10"
+	headerCapXPC="90"
+	headerCapYPC="10"
+	headerCapWidthPC="0"
+        showDefaultInfo=yes
+  >
+
+  
+  <itemDisplay>
+
+    <text offsetXPC=1 widthPC=100 heightPC=35 fontSize=13 backgroundColor=-1:-1:-1 foregroundColor=200:200:200>
+      <script_replace> 
+        getItemInfo("title");
+      </script_replace>
+	  <offsetYPC>
+	   <script_replace>
+	     tmp = getItemInfo("duration");
+	     if (tmp!= null) {
+		   21;
+		 }
+		 else {
+		   21;
+		 }	      
+	   </script_replace> 
+	  </offsetYPC>
+    </text>
+
+  <text offsetXPC=3 offsetYPC=62 widthPC=52 heightPC=25 fontSize=12 backgroundColor=-1:-1:-1 foregroundColor=150:150:150>
+    <script_replace> 
+      tmp = getItemInfo("duration");
+	  if (tmp!= null) {
+	    tmp + " seconds";
+	  }
+	  else {
+		null;	
+	  }
+    </script_replace>
+  </text>
+
+  <text offsetXPC=35 offsetYPC=62 widthPC=32 heightPC=25 fontSize=12 backgroundColor=-1:-1:-1 foregroundColor=150:150:150>
+    <script_replace> 
+      tmp = getItemInfo("viewcount");
+	  if (tmp!= null) {
+	    "viewed:" +  tmp;
+	  }
+	  else {
+		null;	
+	  }
+    </script_replace>
+  </text>
+
+  <text offsetXPC=80 offsetYPC=68 widthPC=20 heightPC=15 fontSize=10 backgroundColor=-1:-1:-1 foregroundColor=150:0:0>
+    <script_replace> 
+      getItemInfo("rating");
+    </script_replace>
+  </text>
+
+</itemDisplay>
+</mediaDisplay>
+</item>
+
+<item>
+  <title>Most discussed</title>
+  <link>http://gdata.youtube.com/feeds/api/standardfeeds/most_discussed</link>
+  <media:thumbnail url="image/LIVE_YOUTUBE_ICON.jpg" width="120" height="90" />
+  <mediaDisplay name=threePartsView
+	sideColorLeft="20:20:20"
+        sideLeftWidthPC="25"
+	headerXPC="25"
+	headerYPC="3"
+	headerWidthPC="75"
+	itemImageXPC="26"
+	itemXPC="40"
+	menuXPC="3"
+	menuWidthPC="20"
+	capXPC="90"
+	capYPC="20"
+	capHeightPC="10"
+	headerCapXPC="90"
+	headerCapYPC="10"
+	headerCapWidthPC="0"
+        showDefaultInfo=yes
+  >
+
+  <itemDisplay>
+
+    <text offsetXPC=1 widthPC=100 heightPC=35 fontSize=13 backgroundColor=-1:-1:-1 foregroundColor=200:200:200>
+      <script_replace> 
+        getItemInfo("title");
+      </script_replace>
+	  <offsetYPC>
+	   <script_replace>
+	     tmp = getItemInfo("duration");
+	     if (tmp!= null) {
+		   21;
+		 }
+		 else {
+		   21;
+		 }	      
+	   </script_replace> 
+	  </offsetYPC>
+    </text>
+
+  <text offsetXPC=3 offsetYPC=62 widthPC=52 heightPC=25 fontSize=12 backgroundColor=-1:-1:-1 foregroundColor=150:150:150>
+    <script_replace> 
+      tmp = getItemInfo("duration");
+	  if (tmp!= null) {
+	    tmp + " seconds";
+	  }
+	  else {
+		null;	
+	  }
+    </script_replace>
+  </text>
+
+  <text offsetXPC=35 offsetYPC=62 widthPC=32 heightPC=25 fontSize=12 backgroundColor=-1:-1:-1 foregroundColor=150:150:150>
+    <script_replace> 
+      tmp = getItemInfo("viewcount");
+	  if (tmp!= null) {
+	    "viewed:" +  tmp;
+	  }
+	  else {
+		null;	
+	  }
+    </script_replace>
+  </text>
+
+  <text offsetXPC=80 offsetYPC=68 widthPC=20 heightPC=15 fontSize=10 backgroundColor=-1:-1:-1 foregroundColor=150:0:0>
+    <script_replace> 
+      getItemInfo("rating");
+    </script_replace>
+  </text>
+
+</itemDisplay>
+</mediaDisplay>
+</item>
+
+<item>
+  <title>Most linked</title>
+  <link>http://gdata.youtube.com/feeds/api/standardfeeds/most_linked</link>
+  <media:thumbnail url="image/LIVE_YOUTUBE_ICON.jpg" width="120" height="90" />
+  <mediaDisplay name=threePartsView
+	sideColorLeft="20:20:20"
+        sideLeftWidthPC="25"
+	headerXPC="25"
+	headerYPC="3"
+	headerWidthPC="75"
+	itemImageXPC="26"
+	itemXPC="40"
+	menuXPC="3"
+	menuWidthPC="20"
+	capXPC="90"
+	capYPC="20"
+	capHeightPC="10"
+	headerCapXPC="90"
+	headerCapYPC="10"
+	headerCapWidthPC="0"
+        showDefaultInfo=yes
+  >
+
+  <itemDisplay>
+
+    <text offsetXPC=1 widthPC=100 heightPC=35 fontSize=13 backgroundColor=-1:-1:-1 foregroundColor=200:200:200>
+      <script_replace> 
+        getItemInfo("title");
+      </script_replace>
+	  <offsetYPC>
+	   <script_replace>
+	     tmp = getItemInfo("duration");
+	     if (tmp!= null) {
+		   21;
+		 }
+		 else {
+		   21;
+		 }	      
+	   </script_replace> 
+	  </offsetYPC>
+    </text>
+
+  <text offsetXPC=3 offsetYPC=62 widthPC=52 heightPC=25 fontSize=12 backgroundColor=-1:-1:-1 foregroundColor=150:150:150>
+    <script_replace> 
+      tmp = getItemInfo("duration");
+	  if (tmp!= null) {
+	    tmp + " seconds";
+	  }
+	  else {
+		null;	
+	  }
+    </script_replace>
+  </text>
+
+  <text offsetXPC=35 offsetYPC=62 widthPC=32 heightPC=25 fontSize=12 backgroundColor=-1:-1:-1 foregroundColor=150:150:150>
+    <script_replace> 
+      tmp = getItemInfo("viewcount");
+	  if (tmp!= null) {
+	    "viewed:" +  tmp;
+	  }
+	  else {
+		null;	
+	  }
+    </script_replace>
+  </text>
+
+  <text offsetXPC=80 offsetYPC=68 widthPC=20 heightPC=15 fontSize=10 backgroundColor=-1:-1:-1 foregroundColor=150:0:0>
+    <script_replace> 
+      getItemInfo("rating");
+    </script_replace>
+  </text>
+
+</itemDisplay>
+</mediaDisplay>
+</item>
+
+<item>
+  <title>Most responded</title>
+  <link>http://gdata.youtube.com/feeds/api/standardfeeds/most_responded</link>
+  <media:thumbnail url="image/LIVE_YOUTUBE_ICON.jpg" width="120" height="90" />
+  <mediaDisplay name=threePartsView
+	sideColorLeft="20:20:20"
+        sideLeftWidthPC="25"
+	headerXPC="25"
+	headerYPC="3"
+	headerWidthPC="75"
+	itemImageXPC="26"
+	itemXPC="40"
+	menuXPC="3"
+	menuWidthPC="20"
+	capXPC="90"
+	capYPC="20"
+	capHeightPC="10"
+	headerCapXPC="90"
+	headerCapYPC="10"
+	headerCapWidthPC="0"
+        showDefaultInfo=yes
+  >
+
+  <itemDisplay>
+
+    <text offsetXPC=1 widthPC=100 heightPC=35 fontSize=13 backgroundColor=-1:-1:-1 foregroundColor=200:200:200>
+      <script_replace> 
+        getItemInfo("title");
+      </script_replace>
+	  <offsetYPC>
+	   <script_replace>
+	     tmp = getItemInfo("duration");
+	     if (tmp!= null) {
+		   21;
+		 }
+		 else {
+		   21;
+		 }	      
+	   </script_replace> 
+	  </offsetYPC>
+    </text>
+
+  <text offsetXPC=3 offsetYPC=62 widthPC=52 heightPC=25 fontSize=12 backgroundColor=-1:-1:-1 foregroundColor=150:150:150>
+    <script_replace> 
+      tmp = getItemInfo("duration");
+	  if (tmp!= null) {
+	    tmp + " seconds";
+	  }
+	  else {
+		null;	
+	  }
+    </script_replace>
+  </text>
+
+  <text offsetXPC=35 offsetYPC=62 widthPC=32 heightPC=25 fontSize=12 backgroundColor=-1:-1:-1 foregroundColor=150:150:150>
+    <script_replace> 
+      tmp = getItemInfo("viewcount");
+	  if (tmp!= null) {
+	    "viewed:" +  tmp;
+	  }
+	  else {
+		null;	
+	  }
+    </script_replace>
+  </text>
+
+  <text offsetXPC=80 offsetYPC=68 widthPC=20 heightPC=15 fontSize=10 backgroundColor=-1:-1:-1 foregroundColor=150:0:0>
+    <script_replace> 
+      getItemInfo("rating");
+    </script_replace>
+  </text>
+
+</itemDisplay>
+</mediaDisplay>
+</item>
+
+</channel>
+
+
+
+</rss>

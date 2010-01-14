@@ -1,0 +1,145 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Uzbekistan</title>
+<link>./scripts/map/Uzbekistan.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Ak-Bajtal</title>
+<link>http://weather.yahooapis.com/forecastrss?p=UZXX0006&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Ak%2dBajtal</forcast>
+</item>
+
+<item>
+<title>Buzaubaj</title>
+<link>http://weather.yahooapis.com/forecastrss?p=UZXX0010&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Buzaubaj</forcast>
+</item>
+
+<item>
+<title>Chimbaj</title>
+<link>http://weather.yahooapis.com/forecastrss?p=UZXX0007&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Chimbaj</forcast>
+</item>
+
+<item>
+<title>Dzizak</title>
+<link>http://weather.yahooapis.com/forecastrss?p=UZXX0014&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dzizak</forcast>
+</item>
+
+<item>
+<title>Fergana</title>
+<link>http://weather.yahooapis.com/forecastrss?p=UZXX0017&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Fergana</forcast>
+</item>
+
+<item>
+<title>Karshi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=UZXX0019&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Karshi</forcast>
+</item>
+
+<item>
+<title>Kungrad</title>
+<link>http://weather.yahooapis.com/forecastrss?p=UZXX0005&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kungrad</forcast>
+</item>
+
+<item>
+<title>Namangan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=UZXX0016&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Namangan</forcast>
+</item>
+
+<item>
+<title>Nukus</title>
+<link>http://weather.yahooapis.com/forecastrss?p=UZXX0008&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Nukus</forcast>
+</item>
+
+<item>
+<title>Nurata</title>
+<link>http://weather.yahooapis.com/forecastrss?p=UZXX0013&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Nurata</forcast>
+</item>
+
+<item>
+<title>Pskem</title>
+<link>http://weather.yahooapis.com/forecastrss?p=UZXX0012&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Pskem</forcast>
+</item>
+
+<item>
+<title>Samarkand</title>
+<link>http://weather.yahooapis.com/forecastrss?p=UZXX0003&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Samarkand</forcast>
+</item>
+
+<item>
+<title>Syr-Dar'Ja</title>
+<link>http://weather.yahooapis.com/forecastrss?p=UZXX0015&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Syr%2dDar%27Ja</forcast>
+</item>
+
+<item>
+<title>Tamdy</title>
+<link>http://weather.yahooapis.com/forecastrss?p=UZXX0011&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tamdy</forcast>
+</item>
+
+<item>
+<title>Tashkent</title>
+<link>http://weather.yahooapis.com/forecastrss?p=UZXX0004&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tashkent</forcast>
+</item>
+
+<item>
+<title>Termez</title>
+<link>http://weather.yahooapis.com/forecastrss?p=UZXX0020&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Termez</forcast>
+</item>
+
+<item>
+<title>Urgench</title>
+<link>http://weather.yahooapis.com/forecastrss?p=UZXX0009&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Urgench</forcast>
+</item>
+
+
+</channel></rss>

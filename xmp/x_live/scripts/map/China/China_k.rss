@@ -1,0 +1,113 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>China</title>
+<link>./scripts/map/China_k.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Kaba He</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0195&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kaba%20He</forcast>
+</item>
+
+<item>
+<title>Kaifeng</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0072&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kaifeng</forcast>
+</item>
+
+<item>
+<title>Kangding</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0358&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kangding</forcast>
+</item>
+
+<item>
+<title>Karamay</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0200&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Karamay</forcast>
+</item>
+
+<item>
+<title>Kashi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0074&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kashi</forcast>
+</item>
+
+<item>
+<title>Keshan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0181&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Keshan</forcast>
+</item>
+
+<item>
+<title>King's Park</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0170&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=King%27s%20Park</forcast>
+</item>
+
+<item>
+<title>Korla</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0209&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Korla</forcast>
+</item>
+
+<item>
+<title>Kowloon</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0075&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kowloon</forcast>
+</item>
+
+<item>
+<title>Kuandian</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0305&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kuandian</forcast>
+</item>
+
+<item>
+<title>Kunming</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0076&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kunming</forcast>
+</item>
+
+<item>
+<title>Kunyang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0077&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kunyang</forcast>
+</item>
+
+<item>
+<title>Kuqa</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0208&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kuqa</forcast>
+</item>
+
+
+</channel></rss>

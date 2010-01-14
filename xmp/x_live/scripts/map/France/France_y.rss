@@ -1,0 +1,68 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",France";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>France</title>
+<link>./scripts/map/France_y.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Yffiniac</title>
+<cur>FRXX6150</cur>
+<for>Yffiniac</for>
+</item>
+<item>
+<title>Yves</title>
+<cur>FRXX6186</cur>
+<for>Yves</for>
+</item>
+<item>
+<title>Yzeures-sur-Creuse</title>
+<cur>FRXX2333</cur>
+<for>Yzeures%2dsur%2dCreuse</for>
+</item>
+<item>
+<title>Yssingeaux</title>
+<cur>FRXX1927</cur>
+<for>Yssingeaux</for>
+</item>
+<item>
+<title>Yutz</title>
+<cur>FRXX5193</cur>
+<for>Yutz</for>
+</item>
+<item>
+<title>Ydes</title>
+<cur>FRXX3970</cur>
+<for>Ydes</for>
+</item>
+<item>
+<title>Yvetot</title>
+<cur>FRXX6530</cur>
+<for>Yvetot</for>
+</item>
+<item>
+<title>Yvre-le-Polin</title>
+<cur>FRXX2668</cur>
+<for>Yvre%2dle%2dPolin</for>
+</item>
+<item>
+<title>Ygos-Saint-Saturnin</title>
+<cur>FRXX6608</cur>
+<for>Ygos%2dSaint%2dSaturnin</for>
+</item>
+</channel></rss>

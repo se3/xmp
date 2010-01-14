@@ -1,0 +1,43 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",France";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>France</title>
+<link>./scripts/map/France_o.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Orange</title>
+<cur>FRXX0167</cur>
+<for>Orange</for>
+</item>
+<item>
+<title>Orleans</title>
+<cur>FRXX0074</cur>
+<for>Orleans</for>
+</item>
+<item>
+<title>Orvault</title>
+<cur>FRXX0075</cur>
+<for>Orvault</for>
+</item>
+<item>
+<title>Ouessant</title>
+<cur>FRXX0113</cur>
+<for>Ouessant</for>
+</item>
+</channel></rss>

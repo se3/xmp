@@ -1,0 +1,241 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Vietnam</title>
+<link>./scripts/map/Vietnam.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Bac Giang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0002&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bac%20Giang</forcast>
+</item>
+
+<item>
+<title>Bach Long Vi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0024&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bach%20Long%20Vi</forcast>
+</item>
+
+<item>
+<title>Bien Hoa</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0003&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bien%20Hoa</forcast>
+</item>
+
+<item>
+<title>Ca Mau</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0031&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Ca%20Mau</forcast>
+</item>
+
+<item>
+<title>Can Tho</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0004&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Can%20Tho</forcast>
+</item>
+
+<item>
+<title>Cao Bang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0020&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Cao%20Bang</forcast>
+</item>
+
+<item>
+<title>Con Son</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0033&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Con%20Son</forcast>
+</item>
+
+<item>
+<title>Da Nang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0028&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Da%20Nang</forcast>
+</item>
+
+<item>
+<title>Dong Hoi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0027&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dong%20Hoi</forcast>
+</item>
+
+<item>
+<title>Haiphong</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0005&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Haiphong</forcast>
+</item>
+
+<item>
+<title>Hanoi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0006&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Hanoi</forcast>
+</item>
+
+<item>
+<title>Ho Chi Minh City</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0007&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Ho%20Chi%20Minh%20City</forcast>
+</item>
+
+<item>
+<title>Hoa Binh</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0008&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Hoa%20Binh</forcast>
+</item>
+
+<item>
+<title>Hue</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0009&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Hue</forcast>
+</item>
+
+<item>
+<title>Lang Son</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0023&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lang%20Son</forcast>
+</item>
+
+<item>
+<title>Lao Cai</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0019&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lao%20Cai</forcast>
+</item>
+
+<item>
+<title>My Tho</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0010&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=My%20Tho</forcast>
+</item>
+
+<item>
+<title>Nam Dinh</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0011&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Nam%20Dinh</forcast>
+</item>
+
+<item>
+<title>Nha Trang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0029&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Nha%20Trang</forcast>
+</item>
+
+<item>
+<title>Phan Thiet</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0012&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Phan%20Thiet</forcast>
+</item>
+
+<item>
+<title>Phu Lien</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0022&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Phu%20Lien</forcast>
+</item>
+
+<item>
+<title>Phu Quoc</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0032&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Phu%20Quoc</forcast>
+</item>
+
+<item>
+<title>Quy Nhon</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0013&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Quy%20Nhon</forcast>
+</item>
+
+<item>
+<title>Thai Nguyen</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0015&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Thai%20Nguyen</forcast>
+</item>
+
+<item>
+<title>Thanh Hoa</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0025&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Thanh%20Hoa</forcast>
+</item>
+
+<item>
+<title>Tuy Hoa</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0016&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tuy%20Hoa</forcast>
+</item>
+
+<item>
+<title>Viet Tri</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0017&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Viet%20Tri</forcast>
+</item>
+
+<item>
+<title>Vinh</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0026&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Vinh</forcast>
+</item>
+
+<item>
+<title>Vung Tau</title>
+<link>http://weather.yahooapis.com/forecastrss?p=VMXX0018&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Vung%20Tau</forcast>
+</item>
+
+
+</channel></rss>

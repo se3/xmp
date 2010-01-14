@@ -1,0 +1,41 @@
+﻿<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+	<title>BBC News</title>
+	<link>./scripts_x/news_taiwanStock.rss</link>
+	<media:thumbnail url="http://newsimg.bbc.co.uk/shared/bsp/xsl/rss/img/news_logo.gif" width="120" height="90" />
+
+
+<item>
+<title>News Front Page</title>
+<link>http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml#</link>
+<canEnterItem>false</canEnterItem>
+</item>
+
+<item>
+<title>Business News</title>
+<link>http://newsrss.bbc.co.uk/rss/newsonline_world_edition/business/rss.xml</link>
+<canEnterItem>false</canEnterItem>
+</item>
+
+<item>
+<title>Asia-pacific</title>
+<link>http://newsrss.bbc.co.uk/rss/newsonline_world_edition/asia-pacific/rss.xml#</link>
+<canEnterItem>false</canEnterItem>
+</item>
+
+<item>
+<title>Technology</title>
+<link>http://newsrss.bbc.co.uk/rss/newsonline_world_edition/technology/rss.xml#</link>
+<canEnterItem>false</canEnterItem>
+</item>
+
+<item>
+<title>Science/Nature</title>
+<link>http://newsrss.bbc.co.uk/rss/newsonline_world_edition//science/nature/rss.xml#</link>
+<canEnterItem>false</canEnterItem>
+</item>
+
+</channel>
+</rss>
+

@@ -1,0 +1,48 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",Lithuania";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>Lithuania</title>
+<link>./scripts/map/Lithuania.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Alytus</title>
+<cur>LHXX0001</cur>
+<for>Alytus</for>
+</item>
+<item>
+<title>Kaunas</title>
+<cur>LHXX0002</cur>
+<for>Kaunas</for>
+</item>
+<item>
+<title>Lentvaris</title>
+<cur>LHXX0003</cur>
+<for>Lentvaris</for>
+</item>
+<item>
+<title>Nemencine</title>
+<cur>LHXX0004</cur>
+<for>Nemencine</for>
+</item>
+<item>
+<title>Vilnius</title>
+<cur>LHXX0005</cur>
+<for>Vilnius</for>
+</item>
+</channel></rss>

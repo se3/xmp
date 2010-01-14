@@ -1,0 +1,48 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",Slovenia";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>Slovenia</title>
+<link>./scripts/map/Slovenia.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Celje</title>
+<cur>SIXX0004</cur>
+<for>Celje</for>
+</item>
+<item>
+<title>Kranj</title>
+<cur>SIXX0001</cur>
+<for>Kranj</for>
+</item>
+<item>
+<title>Ljubljana</title>
+<cur>SIXX0002</cur>
+<for>Ljubljana</for>
+</item>
+<item>
+<title>Murska Sobota</title>
+<cur>SIXX0005</cur>
+<for>Murska%20Sobota</for>
+</item>
+<item>
+<title>Skofljica</title>
+<cur>SIXX0003</cur>
+<for>Skofljica</for>
+</item>
+</channel></rss>

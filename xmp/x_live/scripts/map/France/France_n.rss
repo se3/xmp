@@ -1,0 +1,58 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",France";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>France</title>
+<link>./scripts/map/France_n.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Nanterre</title>
+<cur>FRXX0202</cur>
+<for>Nanterre</for>
+</item>
+<item>
+<title>Nantes</title>
+<cur>FRXX0072</cur>
+<for>Nantes</for>
+</item>
+<item>
+<title>Neuilly-sur-Seine</title>
+<cur>FRXX0295</cur>
+<for>Neuilly%2dsur%2dSeine</for>
+</item>
+<item>
+<title>Nevers</title>
+<cur>FRXX0164</cur>
+<for>Nevers</for>
+</item>
+<item>
+<title>Nice</title>
+<cur>FRXX0073</cur>
+<for>Nice</for>
+</item>
+<item>
+<title>Nimes</title>
+<cur>FRXX0165</cur>
+<for>Nimes</for>
+</item>
+<item>
+<title>Niort</title>
+<cur>FRXX0166</cur>
+<for>Niort</for>
+</item>
+</channel></rss>

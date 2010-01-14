@@ -1,0 +1,39 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+        <title>World Weather Forecast Service</title>
+        <link>./scripts_x/map/world.rss</link>
+        <media:thumbnail url="image/weather.jpg"/>
+
+<item>
+	<title>Asia</title>
+	<link>http://localhost/x_live/scripts/map/Asia.rss</link>
+	<media:thumbnail url="image/weather.jpg"/>
+	<yahoomap>
+	http://local.yahooapis.com/MapsService/V1/mapImage?location=Asia&amp;radius=1000
+	</yahoomap>
+</item>
+
+<item>
+	<title>Europe</title>
+	<link>http://localhost/x_live/scripts/map/Europe.rss</link>
+	<!--link>rss_file://./scripts_x/map/Europe.rss</link-->
+	<media:thumbnail url="image/weather.jpg"/>
+	<yahoomap>
+	http://local.yahooapis.com/MapsService/V1/mapImage?location=Europe&amp;radius=1000
+	</yahoomap>
+</item>
+
+
+<item>
+	<title>USA</title>
+	<link>http://localhost/x_live/scripts/map/United_States/United_States.rss</link>
+	<media:thumbnail url="image/weather.jpg"/>
+	<yahoomap>
+	http://local.yahooapis.com/MapsService/V1/mapImage?location=United_States&amp;radius=1000
+	</yahoomap>
+</item>
+
+</channel>
+</rss>
+

@@ -1,0 +1,225 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>China</title>
+<link>./scripts/map/China_d.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Da Xian</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0400&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Da%20Xian</forcast>
+</item>
+
+<item>
+<title>Da-Qaidam</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0230&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Da%2dQaidam</forcast>
+</item>
+
+<item>
+<title>Dachen Dao</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0464&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dachen%20Dao</forcast>
+</item>
+
+<item>
+<title>Dali</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0371&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dali</forcast>
+</item>
+
+<item>
+<title>Dalian</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0019&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dalian</forcast>
+</item>
+
+<item>
+<title>Dandong</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0306&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dandong</forcast>
+</item>
+
+<item>
+<title>Danxian</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0505&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Danxian</forcast>
+</item>
+
+<item>
+<title>Daocheng</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0357&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Daocheng</forcast>
+</item>
+
+<item>
+<title>Darlag</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0336&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Darlag</forcast>
+</item>
+
+<item>
+<title>Datong</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0251&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Datong</forcast>
+</item>
+
+<item>
+<title>Dawu</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0347&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dawu</forcast>
+</item>
+
+<item>
+<title>Daxing</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0023&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Daxing</forcast>
+</item>
+
+<item>
+<title>Dege</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0344&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dege</forcast>
+</item>
+
+<item>
+<title>Delingha</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0231&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Delingha</forcast>
+</item>
+
+<item>
+<title>Dengqen</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0342&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dengqen</forcast>
+</item>
+
+<item>
+<title>Deqen</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0360&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Deqen</forcast>
+</item>
+
+<item>
+<title>Dinghai</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0455&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dinghai</forcast>
+</item>
+
+<item>
+<title>Dingtao</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0320&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dingtao</forcast>
+</item>
+
+<item>
+<title>Dongfang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0504&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dongfang</forcast>
+</item>
+
+<item>
+<title>Dongsha Dao</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0503&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dongsha%20Dao</forcast>
+</item>
+
+<item>
+<title>Dongsheng</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0255&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dongsheng</forcast>
+</item>
+
+<item>
+<title>Dongtai</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0445&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dongtai</forcast>
+</item>
+
+<item>
+<title>Dulan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0235&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dulan</forcast>
+</item>
+
+<item>
+<title>Dunhua</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0284&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dunhua</forcast>
+</item>
+
+<item>
+<title>Dunhuang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0223&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dunhuang</forcast>
+</item>
+
+<item>
+<title>Duolun</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0285&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Duolun</forcast>
+</item>
+
+<item>
+<title>Dushan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0432&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dushan</forcast>
+</item>
+
+
+</channel></rss>

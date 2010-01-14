@@ -1,0 +1,742 @@
+<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:app='http://purl.org/atom/app#' xmlns:media='http://search.yahoo.com/mrss/' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:gd='http://schemas.google.com/g/2005' xmlns:gml='http://www.opengis.net/gml' xmlns:yt='http://gdata.youtube.com/schemas/2007' xmlns:georss='http://www.georss.org/georss'><id>http://gdata.youtube.com/feeds/api/videos</id><updated>2010-01-11T19:51:00.405Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<title type='text'>YouTube Videos matching query: maxim</title><logo>http://www.youtube.com/img/pic_youtubelogo_123x63.gif</logo><link rel='alternate' type='text/html' href='http://www.youtube.com'/>
+<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos'/>
+<link rel='http://schemas.google.com/g/2005#batch' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/batch'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos?start-index=1&amp;max-results=25&amp;vq=maxim'/>
+<link rel='next' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos?start-index=26&amp;max-results=25&amp;vq=maxim'/>
+<author><name>YouTube</name><uri>http://www.youtube.com/</uri></author><generator version='2.0' uri='http://gdata.youtube.com/'>YouTube data API</generator><openSearch:totalResults>38078</openSearch:totalResults><openSearch:startIndex>1</openSearch:startIndex><openSearch:itemsPerPage>25</openSearch:itemsPerPage><entry><id>http://gdata.youtube.com/feeds/api/videos/ZcKyTAB3b1w</id><published>2007-03-29T10:08:49.000Z</published><updated>2010-01-11T09:52:55.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Music' label='Musik'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='maxim'/>
+<title type='text'>Maxim - Znaesh li ti</title><content type='text'>Maxim</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=ZcKyTAB3b1w&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/ZcKyTAB3b1w/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/ZcKyTAB3b1w/related'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/ZcKyTAB3b1w'/>
+<author><name>extralightnik</name><uri>http://gdata.youtube.com/feeds/api/users/extralightnik</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/ZcKyTAB3b1w/comments' countHint='229'/>
+</gd:comments><media:group><media:category label='Musik' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Music</media:category><media:content url='http://www.youtube.com/v/ZcKyTAB3b1w?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='236' yt:format='5'/>
+<media:content url='rtsp://v7.cache3.c.youtube.com/CiILENy73wIaGQlcb3cATLLCZRMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='236' yt:format='1'/>
+<media:content url='rtsp://v2.cache4.c.youtube.com/CiILENy73wIaGQlcb3cATLLCZRMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='236' yt:format='6'/>
+<media:description type='plain'>Maxim</media:description><media:keywords>maxim</media:keywords><media:player url='http://www.youtube.com/watch?v=ZcKyTAB3b1w&amp;feature=youtube_gdata'/>
+<media:thumbnail url='http://i.ytimg.com/vi/ZcKyTAB3b1w/2.jpg' height='90' width='120' time='00:01:58'/>
+<media:thumbnail url='http://i.ytimg.com/vi/ZcKyTAB3b1w/1.jpg' height='90' width='120' time='00:00:59'/>
+<media:thumbnail url='http://i.ytimg.com/vi/ZcKyTAB3b1w/3.jpg' height='90' width='120' time='00:02:57'/>
+<media:thumbnail url='http://i.ytimg.com/vi/ZcKyTAB3b1w/0.jpg' height='240' width='320' time='00:01:58'/>
+<media:title type='plain'>Maxim - Znaesh li ti</media:title><yt:duration seconds='236'/>
+</media:group><gd:rating average='4.8084774' max='5' min='1' numRaters='637' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='1658' viewCount='723839'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/Zc5BF0IXZbA</id><published>2008-01-26T13:33:29.000Z</published><updated>2010-01-11T03:25:47.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Music' label='Musik'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='maxim'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='moi'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='rai'/>
+<title type='text'>maxim</title><content type='text'>moi rai</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=Zc5BF0IXZbA&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/Zc5BF0IXZbA/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/Zc5BF0IXZbA/related'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/Zc5BF0IXZbA'/>
+<author><name>irinuta1cusineta</name><uri>http://gdata.youtube.com/feeds/api/users/irinuta1cusineta</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/Zc5BF0IXZbA/comments' countHint='32'/>
+</gd:comments><media:group><media:category label='Musik' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Music</media:category><media:content url='http://www.youtube.com/v/Zc5BF0IXZbA?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='218' yt:format='5'/>
+<media:content url='rtsp://v2.cache5.c.youtube.com/CiILENy73wIaGQmwZRdCF0HOZRMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='218' yt:format='1'/>
+<media:content url='rtsp://v6.cache8.c.youtube.com/CiILENy73wIaGQmwZRdCF0HOZRMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='218' yt:format='6'/>
+<media:description type='plain'>moi rai</media:description><media:keywords>maxim, moi, rai</media:keywords><media:player url='http://www.youtube.com/watch?v=Zc5BF0IXZbA&amp;feature=youtube_gdata'/>
+<media:thumbnail url='http://i.ytimg.com/vi/Zc5BF0IXZbA/2.jpg' height='90' width='120' time='00:01:49'/>
+<media:thumbnail url='http://i.ytimg.com/vi/Zc5BF0IXZbA/1.jpg' height='90' width='120' time='00:00:54.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/Zc5BF0IXZbA/3.jpg' height='90' width='120' time='00:02:43.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/Zc5BF0IXZbA/0.jpg' height='240' width='320' time='00:01:49'/>
+<media:title type='plain'>maxim</media:title><yt:duration seconds='218'/>
+</media:group><gd:rating average='4.8067226' max='5' min='1' numRaters='119' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='226' viewCount='170136'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/DE9MGNW_l5I</id><published>2010-01-08T18:09:05.000Z</published><updated>2010-01-11T06:26:04.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Entertainment' label='Unterhaltung'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Tiger'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Woods'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Jaimee'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Grubbs'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='mistress'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='photo'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='pictures'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='maxim'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='magazine'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='relationship'/>
+<title type='text'>Video of Tiger Woods Mistress Jaimee Grubbs Sexy Maxim Shoot</title><content type='text'>Jaimee Grubbs talks about Tiger Woods and poses for racy pictures in this behind-the-scenes video for Maxim magazine.</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=DE9MGNW_l5I&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/DE9MGNW_l5I/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/DE9MGNW_l5I/related'/>
+<link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html' href='http://m.youtube.com/details?v=DE9MGNW_l5I'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/DE9MGNW_l5I'/>
+<author><name>CelebTV</name><uri>http://gdata.youtube.com/feeds/api/users/celebtv</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/DE9MGNW_l5I/comments' countHint='48'/>
+</gd:comments><media:group><media:category label='Unterhaltung' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Entertainment</media:category><media:content url='http://www.youtube.com/v/DE9MGNW_l5I?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='55' yt:format='5'/>
+<media:content url='rtsp://v1.cache1.c.youtube.com/CiILENy73wIaGQmSl7_VGExPDBMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='55' yt:format='1'/>
+<media:content url='rtsp://v2.cache3.c.youtube.com/CiILENy73wIaGQmSl7_VGExPDBMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='55' yt:format='6'/>
+<media:description type='plain'>Jaimee Grubbs talks about Tiger Woods and poses for racy pictures in this behind-the-scenes video for Maxim magazine.</media:description><media:keywords>Tiger, Woods, Jaimee, Grubbs, mistress, photo, pictures, video, maxim, magazine, relationship</media:keywords><media:player url='http://www.youtube.com/watch?v=DE9MGNW_l5I&amp;feature=youtube_gdata'/>
+<media:thumbnail url='http://i.ytimg.com/vi/DE9MGNW_l5I/2.jpg' height='90' width='120' time='00:00:27.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/DE9MGNW_l5I/1.jpg' height='90' width='120' time='00:00:13.750'/>
+<media:thumbnail url='http://i.ytimg.com/vi/DE9MGNW_l5I/3.jpg' height='90' width='120' time='00:00:41.250'/>
+<media:thumbnail url='http://i.ytimg.com/vi/DE9MGNW_l5I/0.jpg' height='240' width='320' time='00:00:27.500'/>
+<media:title type='plain'>Video of Tiger Woods Mistress Jaimee Grubbs Sexy Maxim Shoot</media:title><yt:duration seconds='55'/>
+</media:group><gd:rating average='4.32' max='5' min='1' numRaters='25' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='7' viewCount='5714'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/W7znXmjRo40</id><published>2010-01-05T13:57:46.000Z</published><updated>2010-01-10T20:31:21.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Sports' label='Sport'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='tiger'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='muay'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='thai'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='russian'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='fighter'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='pad'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='training'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='phuket'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='thailand'/>
+<title type='text'>Maxim: Tiger Muay Thai training highlight reel</title><content type='text'>Maxim Muay Thai fighter from Russia trained hard in the fighters ring with Kru Kay at Tiger Muay Thai &amp; MMA training Camp, Phuket Thailand for 3 weeks . Maxim documented his Muay Thai training using TMT Video &amp; Photo services www.d-baucheryfilms.com http</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=W7znXmjRo40&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/W7znXmjRo40/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/W7znXmjRo40/related'/>
+<link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html' href='http://m.youtube.com/details?v=W7znXmjRo40'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/W7znXmjRo40'/>
+<author><name>NakMuayThai</name><uri>http://gdata.youtube.com/feeds/api/users/nakmuaythai</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/W7znXmjRo40/comments' countHint='2'/>
+</gd:comments><yt:location>phuket, thailand</yt:location><media:group><media:category label='Sport' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Sports</media:category><media:content url='http://www.youtube.com/v/W7znXmjRo40?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='234' yt:format='5'/>
+<media:content url='rtsp://v8.cache6.c.youtube.com/CiILENy73wIaGQmNo9FoXue8WxMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='234' yt:format='1'/>
+<media:content url='rtsp://v2.cache5.c.youtube.com/CiILENy73wIaGQmNo9FoXue8WxMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='234' yt:format='6'/>
+<media:description type='plain'>Maxim Muay Thai fighter from Russia trained hard in the fighters ring with Kru Kay at Tiger Muay Thai &amp; MMA training Camp, Phuket Thailand for 3 weeks . Maxim documented his Muay Thai training using TMT Video &amp; Photo services www.d-baucheryfilms.com http</media:description><media:keywords>tiger, muay, thai, russian, fighter, pad, training, phuket, thailand</media:keywords><media:player url='http://www.youtube.com/watch?v=W7znXmjRo40&amp;feature=youtube_gdata'/>
+<media:thumbnail url='http://i.ytimg.com/vi/W7znXmjRo40/2.jpg' height='90' width='120' time='00:01:57'/>
+<media:thumbnail url='http://i.ytimg.com/vi/W7znXmjRo40/1.jpg' height='90' width='120' time='00:00:58.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/W7znXmjRo40/3.jpg' height='90' width='120' time='00:02:55.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/W7znXmjRo40/0.jpg' height='240' width='320' time='00:01:57'/>
+<media:title type='plain'>Maxim: Tiger Muay Thai training highlight reel</media:title><yt:duration seconds='234'/>
+</media:group><gd:rating average='5.0' max='5' min='1' numRaters='6' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:recorded>2010-01-05</yt:recorded><yt:statistics favoriteCount='3' viewCount='1040'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/nYfpynEV2sw</id><published>2006-11-13T12:44:12.000Z</published><updated>2010-01-11T01:08:06.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Music' label='Musik'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Skunk'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Anansie'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='feat.'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Maxim'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Carmen'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Queasy'/>
+<title type='text'>Skunk Anansie feat. Maxim - Carmen Queasy</title><content type='text'>Skunk Anansie feat. Maxim - Carmen Queasy</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=nYfpynEV2sw&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/nYfpynEV2sw/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/nYfpynEV2sw/related'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/nYfpynEV2sw'/>
+<author><name>naztynastia</name><uri>http://gdata.youtube.com/feeds/api/users/naztynastia</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/nYfpynEV2sw/comments' countHint='591'/>
+</gd:comments><media:group><media:category label='Musik' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Music</media:category><media:content url='http://www.youtube.com/v/nYfpynEV2sw?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='241' yt:format='5'/>
+<media:content url='rtsp://v4.cache1.c.youtube.com/CiILENy73wIaGQnM2hVxyumHnRMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='241' yt:format='1'/>
+<media:content url='rtsp://v8.cache6.c.youtube.com/CiILENy73wIaGQnM2hVxyumHnRMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='241' yt:format='6'/>
+<media:description type='plain'>Skunk Anansie feat. Maxim - Carmen Queasy</media:description><media:keywords>Skunk, Anansie, feat., Maxim, Carmen, Queasy</media:keywords><media:player url='http://www.youtube.com/watch?v=nYfpynEV2sw&amp;feature=youtube_gdata'/>
+<media:thumbnail url='http://i.ytimg.com/vi/nYfpynEV2sw/2.jpg' height='90' width='120' time='00:02:00.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/nYfpynEV2sw/1.jpg' height='90' width='120' time='00:01:00.250'/>
+<media:thumbnail url='http://i.ytimg.com/vi/nYfpynEV2sw/3.jpg' height='90' width='120' time='00:03:00.750'/>
+<media:thumbnail url='http://i.ytimg.com/vi/nYfpynEV2sw/0.jpg' height='240' width='320' time='00:02:00.500'/>
+<media:title type='plain'>Skunk Anansie feat. Maxim - Carmen Queasy</media:title><yt:duration seconds='241'/>
+</media:group><gd:rating average='4.8474007' max='5' min='1' numRaters='1789' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='6207' viewCount='911808'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/R9ak7illjhY</id><published>2008-10-29T04:38:37.000Z</published><updated>2010-01-11T10:19:46.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Entertainment' label='Unterhaltung'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Miss'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Maxim'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='hottie'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='sexy'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='wet'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='UK'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Rachael'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Cordingley'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='bikini'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='swimsuit'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='hot'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='wild'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='photo'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='shoot'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='United'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Kingdom'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='contest'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='beauty'/>
+<title type='text'>Miss Maxim U.K.: Rachael Cordingley</title><content type='text'>This Brit beauty likes funny guys, so act ac-Cordingley. See more maxim videos here:www.maxim.com</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=R9ak7illjhY&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/R9ak7illjhY/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/R9ak7illjhY/related'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/R9ak7illjhY'/>
+<author><name>videosbyMaxim</name><uri>http://gdata.youtube.com/feeds/api/users/videosbymaxim</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/R9ak7illjhY/comments' countHint='352'/>
+</gd:comments><georss:where><gml:Point><gml:pos>14.944785118103027 101.05224609375</gml:pos></gml:Point></georss:where><media:group><media:category label='Unterhaltung' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Entertainment</media:category><media:content url='http://www.youtube.com/v/R9ak7illjhY?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='96' yt:format='5'/>
+<media:content url='rtsp://v1.cache3.c.youtube.com/CiILENy73wIaGQkWjmUp7qTWRxMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='96' yt:format='1'/>
+<media:content url='rtsp://v4.cache4.c.youtube.com/CiILENy73wIaGQkWjmUp7qTWRxMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='96' yt:format='6'/>
+<media:description type='plain'>This Brit beauty likes funny guys, so act ac-Cordingley. See more maxim videos here:www.maxim.com</media:description><media:keywords>Miss, Maxim, hottie, sexy, wet, UK, Rachael, Cordingley, bikini, swimsuit, hot, wild, photo, shoot, United, Kingdom, contest, beauty</media:keywords><media:player url='http://www.youtube.com/watch?v=R9ak7illjhY&amp;feature=youtube_gdata'/>
+<media:rating scheme='http://gdata.youtube.com/schemas/2007#mediarating'>2</media:rating><media:thumbnail url='http://i.ytimg.com/vi/R9ak7illjhY/2.jpg' height='90' width='120' time='00:00:48'/>
+<media:thumbnail url='http://i.ytimg.com/vi/R9ak7illjhY/1.jpg' height='90' width='120' time='00:00:24'/>
+<media:thumbnail url='http://i.ytimg.com/vi/R9ak7illjhY/3.jpg' height='90' width='120' time='00:01:12'/>
+<media:thumbnail url='http://i.ytimg.com/vi/R9ak7illjhY/0.jpg' height='240' width='320' time='00:00:48'/>
+<media:title type='plain'>Miss Maxim U.K.: Rachael Cordingley</media:title><yt:duration seconds='96'/>
+</media:group><gd:rating average='4.4307694' max='5' min='1' numRaters='325' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='731' viewCount='995831'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/hZnenuWsxkU</id><published>2008-07-10T17:08:38.000Z</published><updated>2010-01-11T11:04:03.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Entertainment' label='Unterhaltung'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Maxim'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='American'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Pie'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Hottie'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='sexy'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='model'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='bikini'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Shannon'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Elizabeth'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='photo'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='wild'/>
+<title type='text'>Shannon Elizabeth: Maxim Cover Shoot</title><content type='text'>Watch the Dancing with the Stars high-stepper at her June cover shoot. See More Maxim Videos Here: www.maxim.com</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=hZnenuWsxkU&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/hZnenuWsxkU/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/hZnenuWsxkU/related'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/hZnenuWsxkU'/>
+<author><name>videosbyMaxim</name><uri>http://gdata.youtube.com/feeds/api/users/videosbymaxim</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/hZnenuWsxkU/comments' countHint='222'/>
+</gd:comments><media:group><media:category label='Unterhaltung' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Entertainment</media:category><media:content url='http://www.youtube.com/v/hZnenuWsxkU?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='76' yt:format='5'/>
+<media:content url='rtsp://v3.cache2.c.youtube.com/CiILENy73wIaGQlFxqzlnt6ZhRMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='76' yt:format='1'/>
+<media:content url='rtsp://v7.cache6.c.youtube.com/CiILENy73wIaGQlFxqzlnt6ZhRMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='76' yt:format='6'/>
+<media:description type='plain'>Watch the Dancing with the Stars high-stepper at her June cover shoot. See More Maxim Videos Here: www.maxim.com</media:description><media:keywords>Maxim, American, Pie, Hottie, sexy, model, bikini, Shannon, Elizabeth, photo, wild</media:keywords><media:player url='http://www.youtube.com/watch?v=hZnenuWsxkU&amp;feature=youtube_gdata'/>
+<media:thumbnail url='http://i.ytimg.com/vi/hZnenuWsxkU/2.jpg' height='90' width='120' time='00:00:38'/>
+<media:thumbnail url='http://i.ytimg.com/vi/hZnenuWsxkU/1.jpg' height='90' width='120' time='00:00:19'/>
+<media:thumbnail url='http://i.ytimg.com/vi/hZnenuWsxkU/3.jpg' height='90' width='120' time='00:00:57'/>
+<media:thumbnail url='http://i.ytimg.com/vi/hZnenuWsxkU/0.jpg' height='240' width='320' time='00:00:38'/>
+<media:title type='plain'>Shannon Elizabeth: Maxim Cover Shoot</media:title><yt:duration seconds='76'/>
+</media:group><gd:rating average='4.5477705' max='5' min='1' numRaters='314' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='729' viewCount='428732'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/5-pCErT1n2o</id><published>2009-08-22T04:58:58.000Z</published><updated>2010-01-10T13:43:34.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Entertainment' label='Unterhaltung'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Maxim'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='girls'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='hottie'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='sexy'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='lingerie'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='model'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='dance'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='star'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='bad'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='naughty'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='entertainment'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='news'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Campus'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Cuties'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='hot'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='wild'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='college'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='rock'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='web'/>
+<title type='text'>Maxim: Campus Cuties 2009</title><content type='text'>Maxim presents an college level education in sexy! See more Maxim videos here: www.maxim.com</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=5-pCErT1n2o&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/5-pCErT1n2o/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/5-pCErT1n2o/related'/>
+<link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html' href='http://m.youtube.com/details?v=5-pCErT1n2o'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/5-pCErT1n2o'/>
+<author><name>videosbyMaxim</name><uri>http://gdata.youtube.com/feeds/api/users/videosbymaxim</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/5-pCErT1n2o/comments' countHint='43'/>
+</gd:comments><media:group><media:category label='Unterhaltung' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Entertainment</media:category><media:content url='http://www.youtube.com/v/5-pCErT1n2o?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='86' yt:format='5'/>
+<media:content url='rtsp://v6.cache3.c.youtube.com/CiILENy73wIaGQlqn_W0EkLq5xMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='86' yt:format='1'/>
+<media:content url='rtsp://v2.cache5.c.youtube.com/CiILENy73wIaGQlqn_W0EkLq5xMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='86' yt:format='6'/>
+<media:description type='plain'>Maxim presents an college level education in sexy! See more Maxim videos here: www.maxim.com</media:description><media:keywords>Maxim, girls, hottie, sexy, lingerie, model, dance, star, bad, naughty, entertainment, news, Campus, Cuties, hot, wild, college, rock, web</media:keywords><media:player url='http://www.youtube.com/watch?v=5-pCErT1n2o&amp;feature=youtube_gdata'/>
+<media:thumbnail url='http://i.ytimg.com/vi/5-pCErT1n2o/2.jpg' height='90' width='120' time='00:00:43'/>
+<media:thumbnail url='http://i.ytimg.com/vi/5-pCErT1n2o/1.jpg' height='90' width='120' time='00:00:21.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/5-pCErT1n2o/3.jpg' height='90' width='120' time='00:01:04.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/5-pCErT1n2o/0.jpg' height='240' width='320' time='00:00:43'/>
+<media:title type='plain'>Maxim: Campus Cuties 2009</media:title><yt:duration seconds='86'/>
+</media:group><gd:rating average='4.72093' max='5' min='1' numRaters='86' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='111' viewCount='37686'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/Y16xd4Grz5o</id><published>2009-09-02T15:48:41.000Z</published><updated>2010-01-11T10:08:58.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Entertainment' label='Unterhaltung'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Maxim'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='girls'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='hottie'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='sexy'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='lingerie'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='model'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='dance'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='star'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='bad'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='naughty'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='entertainment'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='news'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='hot'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='wild'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Joanna'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Krupa'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='wet'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='tv'/>
+<title type='text'>Joanna Krupa: August 2009 Maxim Cover Shoot</title><content type='text'>The Polish superstar's quest for world domination ain't no joke. See More Maxim videos here: www.maxim.com</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=Y16xd4Grz5o&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/Y16xd4Grz5o/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/Y16xd4Grz5o/related'/>
+<link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html' href='http://m.youtube.com/details?v=Y16xd4Grz5o'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/Y16xd4Grz5o'/>
+<author><name>videosbyMaxim</name><uri>http://gdata.youtube.com/feeds/api/users/videosbymaxim</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/Y16xd4Grz5o/comments' countHint='37'/>
+</gd:comments><media:group><media:category label='Unterhaltung' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Entertainment</media:category><media:content url='http://www.youtube.com/v/Y16xd4Grz5o?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='78' yt:format='5'/>
+<media:content url='rtsp://v2.cache2.c.youtube.com/CiILENy73wIaGQmaz6uBd7FeYxMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='78' yt:format='1'/>
+<media:content url='rtsp://v5.cache2.c.youtube.com/CiILENy73wIaGQmaz6uBd7FeYxMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='78' yt:format='6'/>
+<media:description type='plain'>The Polish superstar's quest for world domination ain't no joke. See More Maxim videos here: www.maxim.com</media:description><media:keywords>Maxim, girls, hottie, sexy, lingerie, model, dance, star, bad, naughty, entertainment, news, hot, wild, Joanna, Krupa, wet, tv</media:keywords><media:player url='http://www.youtube.com/watch?v=Y16xd4Grz5o&amp;feature=youtube_gdata'/>
+<media:thumbnail url='http://i.ytimg.com/vi/Y16xd4Grz5o/2.jpg' height='90' width='120' time='00:00:39'/>
+<media:thumbnail url='http://i.ytimg.com/vi/Y16xd4Grz5o/1.jpg' height='90' width='120' time='00:00:19.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/Y16xd4Grz5o/3.jpg' height='90' width='120' time='00:00:58.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/Y16xd4Grz5o/0.jpg' height='240' width='320' time='00:00:39'/>
+<media:title type='plain'>Joanna Krupa: August 2009 Maxim Cover Shoot</media:title><yt:duration seconds='78'/>
+</media:group><gd:rating average='4.780822' max='5' min='1' numRaters='73' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='121' viewCount='61211'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/ObUfqLu1kPA</id><published>2008-02-19T20:28:37.000Z</published><updated>2010-01-10T22:00:30.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Music' label='Musik'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Skin'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Maxim'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Reality'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Skunk'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Anansie'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Carmen'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Queasy'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Prodigy'/>
+<title type='text'>Maxim Feat. Skin - Carmen Queasy</title><content type='text'>Carmen Queasy video....</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=ObUfqLu1kPA&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/ObUfqLu1kPA/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/ObUfqLu1kPA/related'/>
+<link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html' href='http://m.youtube.com/details?v=ObUfqLu1kPA'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/ObUfqLu1kPA'/>
+<author><name>Manuelprodigy</name><uri>http://gdata.youtube.com/feeds/api/users/manuelprodigy</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/ObUfqLu1kPA/comments' countHint='189'/>
+</gd:comments><media:group><media:category label='Musik' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Music</media:category><media:content url='http://www.youtube.com/v/ObUfqLu1kPA?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='241' yt:format='5'/>
+<media:content url='rtsp://v4.cache3.c.youtube.com/CiILENy73wIaGQnwkLW7qB-1ORMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='241' yt:format='1'/>
+<media:content url='rtsp://v5.cache5.c.youtube.com/CiILENy73wIaGQnwkLW7qB-1ORMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='241' yt:format='6'/>
+<media:description type='plain'>Carmen Queasy video....</media:description><media:keywords>Skin, Maxim, Reality, Skunk, Anansie, Carmen, Queasy, Prodigy</media:keywords><media:player url='http://www.youtube.com/watch?v=ObUfqLu1kPA&amp;feature=youtube_gdata'/>
+<media:thumbnail url='http://i.ytimg.com/vi/ObUfqLu1kPA/2.jpg' height='90' width='120' time='00:02:00.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/ObUfqLu1kPA/1.jpg' height='90' width='120' time='00:01:00.250'/>
+<media:thumbnail url='http://i.ytimg.com/vi/ObUfqLu1kPA/3.jpg' height='90' width='120' time='00:03:00.750'/>
+<media:thumbnail url='http://i.ytimg.com/vi/ObUfqLu1kPA/0.jpg' height='240' width='320' time='00:02:00.500'/>
+<media:title type='plain'>Maxim Feat. Skin - Carmen Queasy</media:title><yt:duration seconds='241'/>
+</media:group><gd:rating average='4.8680205' max='5' min='1' numRaters='591' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='1992' viewCount='207187'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/EicnztKHG3g</id><published>2008-05-16T20:30:38.000Z</published><updated>2010-01-11T05:18:01.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Entertainment' label='Unterhaltung'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Maxim'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Hot'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='100'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Jessica'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Biel'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Scarlett'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Johansson'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Marisa'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Miller'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Eva'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Longoria'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Tila'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Tequila'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Ruth'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Hilton'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='TV'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Guide'/>
+<title type='text'>Maxim Hot 100</title><content type='text'>Get and inside peak at Maxim's Hot 100 with the magazine's Ruth Hilton. She discusses how they chose their top picks like Jessica Biel, Scarlett Johansson and Marisa Miller.</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=EicnztKHG3g&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/EicnztKHG3g/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/EicnztKHG3g/related'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/EicnztKHG3g'/>
+<author><name>tvguide</name><uri>http://gdata.youtube.com/feeds/api/users/tvguide</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/EicnztKHG3g/comments' countHint='31'/>
+</gd:comments><media:group><media:category label='Unterhaltung' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Entertainment</media:category><media:content url='http://www.youtube.com/v/EicnztKHG3g?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='117' yt:format='5'/>
+<media:content url='rtsp://v7.cache8.c.youtube.com/CiILENy73wIaGQl4G4fSzicnEhMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='117' yt:format='1'/>
+<media:content url='rtsp://v4.cache4.c.youtube.com/CiILENy73wIaGQl4G4fSzicnEhMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='117' yt:format='6'/>
+<media:description type='plain'>Get and inside peak at Maxim's Hot 100 with the magazine's Ruth Hilton. She discusses how they chose their top picks like Jessica Biel, Scarlett Johansson and Marisa Miller.</media:description><media:keywords>Maxim, Hot, 100, Jessica, Biel, Scarlett, Johansson, Marisa, Miller, Eva, Longoria, Tila, Tequila, Ruth, Hilton, TV, Guide</media:keywords><media:player url='http://www.youtube.com/watch?v=EicnztKHG3g&amp;feature=youtube_gdata'/>
+<media:rating scheme='http://gdata.youtube.com/schemas/2007#mediarating'>2</media:rating><media:thumbnail url='http://i.ytimg.com/vi/EicnztKHG3g/2.jpg' height='90' width='120' time='00:00:58.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/EicnztKHG3g/1.jpg' height='90' width='120' time='00:00:29.250'/>
+<media:thumbnail url='http://i.ytimg.com/vi/EicnztKHG3g/3.jpg' height='90' width='120' time='00:01:27.750'/>
+<media:thumbnail url='http://i.ytimg.com/vi/EicnztKHG3g/0.jpg' height='240' width='320' time='00:00:58.500'/>
+<media:title type='plain'>Maxim Hot 100</media:title><yt:duration seconds='117'/>
+</media:group><gd:rating average='4.4814816' max='5' min='1' numRaters='81' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='61' viewCount='144494'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/cosKy57DPL8</id><published>2008-03-19T22:42:46.000Z</published><updated>2010-01-11T06:11:56.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Entertainment' label='Unterhaltung'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Fanboys'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Jaime'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='King'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='TV'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Guide'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Kyle'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Newman'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Maxim'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Hollywood'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='411'/>
+<title type='text'>Jaime King's Maxim Cover Shoot</title><content type='text'>Go behind the scenes with top model and actor Jaime King as she reveals her Sci-Fi inner geek along with her gams.</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=cosKy57DPL8&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/cosKy57DPL8/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/cosKy57DPL8/related'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/cosKy57DPL8'/>
+<author><name>tvguide</name><uri>http://gdata.youtube.com/feeds/api/users/tvguide</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/cosKy57DPL8/comments' countHint='15'/>
+</gd:comments><media:group><media:category label='Unterhaltung' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Entertainment</media:category><media:content url='http://www.youtube.com/v/cosKy57DPL8?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='77' yt:format='5'/>
+<media:content url='rtsp://v6.cache5.c.youtube.com/CiILENy73wIaGQm_PMOeywqLchMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='77' yt:format='1'/>
+<media:content url='rtsp://v7.cache3.c.youtube.com/CiILENy73wIaGQm_PMOeywqLchMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='77' yt:format='6'/>
+<media:description type='plain'>Go behind the scenes with top model and actor Jaime King as she reveals her Sci-Fi inner geek along with her gams.</media:description><media:keywords>Fanboys, Jaime, King, TV, Guide, Kyle, Newman, Maxim, Hollywood, 411</media:keywords><media:player url='http://www.youtube.com/watch?v=cosKy57DPL8&amp;feature=youtube_gdata'/>
+<media:thumbnail url='http://i.ytimg.com/vi/cosKy57DPL8/2.jpg' height='90' width='120' time='00:00:38.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/cosKy57DPL8/1.jpg' height='90' width='120' time='00:00:19.250'/>
+<media:thumbnail url='http://i.ytimg.com/vi/cosKy57DPL8/3.jpg' height='90' width='120' time='00:00:57.750'/>
+<media:thumbnail url='http://i.ytimg.com/vi/cosKy57DPL8/0.jpg' height='240' width='320' time='00:00:38.500'/>
+<media:title type='plain'>Jaime King's Maxim Cover Shoot</media:title><yt:duration seconds='77'/>
+</media:group><gd:rating average='4.5172415' max='5' min='1' numRaters='29' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='42' viewCount='39008'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/bclvq-but2E</id><published>2007-05-01T12:21:57.000Z</published><updated>2010-01-10T21:10:22.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Entertainment' label='Unterhaltung'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Arielle'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Kebbel'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Maxim'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='photoshoot'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='sexy'/>
+<title type='text'>Arielle Kebbel Maxim photoshoot</title><content type='text'>Very hot actress Arielle Kebbel in a sexy photoshoot</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=bclvq-but2E&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/bclvq-but2E/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/bclvq-but2E/related'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/bclvq-but2E'/>
+<author><name>PaceyMyk</name><uri>http://gdata.youtube.com/feeds/api/users/paceymyk</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/bclvq-but2E/comments' countHint='166'/>
+</gd:comments><media:group><media:category label='Unterhaltung' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Entertainment</media:category><media:content url='http://www.youtube.com/v/bclvq-but2E?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='103' yt:format='5'/>
+<media:content url='rtsp://v7.cache1.c.youtube.com/CiILENy73wIaGQlht-7mq2_JbRMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='103' yt:format='1'/>
+<media:content url='rtsp://v4.cache4.c.youtube.com/CiILENy73wIaGQlht-7mq2_JbRMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='103' yt:format='6'/>
+<media:description type='plain'>Very hot actress Arielle Kebbel in a sexy photoshoot</media:description><media:keywords>Arielle, Kebbel, Maxim, photoshoot, sexy</media:keywords><media:player url='http://www.youtube.com/watch?v=bclvq-but2E&amp;feature=youtube_gdata'/>
+<media:thumbnail url='http://i.ytimg.com/vi/bclvq-but2E/2.jpg' height='90' width='120' time='00:00:51.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/bclvq-but2E/1.jpg' height='90' width='120' time='00:00:25.750'/>
+<media:thumbnail url='http://i.ytimg.com/vi/bclvq-but2E/3.jpg' height='90' width='120' time='00:01:17.250'/>
+<media:thumbnail url='http://i.ytimg.com/vi/bclvq-but2E/0.jpg' height='240' width='320' time='00:00:51.500'/>
+<media:title type='plain'>Arielle Kebbel Maxim photoshoot</media:title><yt:duration seconds='103'/>
+</media:group><gd:rating average='4.7764707' max='5' min='1' numRaters='170' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='479' viewCount='174800'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/nKHQ36NOxzk</id><published>2006-03-21T06:07:30.000Z</published><updated>2010-01-11T03:58:34.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Entertainment' label='Unterhaltung'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Maxim'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Vengerov'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Violin'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Hungarian'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Brahms'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Violinist'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Dance'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Piano'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Duo'/>
+<title type='text'>Maxim Vengerov - Brahms Hungarian Dance No.5</title><content type='text'>Maxim Vengerov palying with paino the Hugarian dance No.5 by Brahms-Joachim</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=nKHQ36NOxzk&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/nKHQ36NOxzk/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/nKHQ36NOxzk/related'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/nKHQ36NOxzk'/>
+<author><name>Angyalka01</name><uri>http://gdata.youtube.com/feeds/api/users/angyalka01</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/nKHQ36NOxzk/comments' countHint='872'/>
+</gd:comments><media:group><media:category label='Unterhaltung' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Entertainment</media:category><media:content url='http://www.youtube.com/v/nKHQ36NOxzk?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='112' yt:format='5'/>
+<media:description type='plain'>Maxim Vengerov palying with paino the Hugarian dance No.5 by Brahms-Joachim</media:description><media:keywords>Maxim, Vengerov, Violin, Hungarian, Brahms, Violinist, Dance, Piano, Duo</media:keywords><media:player url='http://www.youtube.com/watch?v=nKHQ36NOxzk&amp;feature=youtube_gdata'/>
+<media:thumbnail url='http://i.ytimg.com/vi/nKHQ36NOxzk/2.jpg' height='90' width='120' time='00:00:56'/>
+<media:thumbnail url='http://i.ytimg.com/vi/nKHQ36NOxzk/1.jpg' height='90' width='120' time='00:00:28'/>
+<media:thumbnail url='http://i.ytimg.com/vi/nKHQ36NOxzk/3.jpg' height='90' width='120' time='00:01:24'/>
+<media:thumbnail url='http://i.ytimg.com/vi/nKHQ36NOxzk/0.jpg' height='240' width='320' time='00:00:56'/>
+<media:title type='plain'>Maxim Vengerov - Brahms Hungarian Dance No.5</media:title><yt:duration seconds='112'/>
+</media:group><gd:rating average='4.6377244' max='5' min='1' numRaters='1336' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='2247' viewCount='570283'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/xLPrLw3NgbQ</id><published>2009-04-24T02:14:47.000Z</published><updated>2010-01-11T10:43:13.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Entertainment' label='Unterhaltung'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Jennifer'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Love'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Hewitt'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Ghost'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Whisperer'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Maxim'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='hot'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='sexy'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='photos'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='model'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='star'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='actress'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Party'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='of'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Five'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='interview'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='entertainment'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='news'/>
+<title type='text'>Jennifer Love Hewitt: Maxim Cover Shoot</title><content type='text'>Go behind-the-scenes with the Ghostess with the mostest. See More Maxim Videos Here: www.maxim.com</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=xLPrLw3NgbQ&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/xLPrLw3NgbQ/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/xLPrLw3NgbQ/related'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/xLPrLw3NgbQ'/>
+<author><name>videosbyMaxim</name><uri>http://gdata.youtube.com/feeds/api/users/videosbymaxim</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/xLPrLw3NgbQ/comments' countHint='343'/>
+</gd:comments><yt:location>Los Angeles</yt:location><media:group><media:category label='Unterhaltung' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Entertainment</media:category><media:content url='http://www.youtube.com/v/xLPrLw3NgbQ?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='242' yt:format='5'/>
+<media:content url='rtsp://v1.cache6.c.youtube.com/CiILENy73wIaGQm0gc0NL-uzxBMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='242' yt:format='1'/>
+<media:content url='rtsp://v2.cache6.c.youtube.com/CiILENy73wIaGQm0gc0NL-uzxBMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='242' yt:format='6'/>
+<media:description type='plain'>Go behind-the-scenes with the Ghostess with the mostest. See More Maxim Videos Here: www.maxim.com</media:description><media:keywords>Jennifer, Love, Hewitt, Ghost, Whisperer, Maxim, hot, sexy, photos, model, star, actress, Party, of, Five, interview, entertainment, news</media:keywords><media:player url='http://www.youtube.com/watch?v=xLPrLw3NgbQ&amp;feature=youtube_gdata'/>
+<media:thumbnail url='http://i.ytimg.com/vi/xLPrLw3NgbQ/2.jpg' height='90' width='120' time='00:02:01'/>
+<media:thumbnail url='http://i.ytimg.com/vi/xLPrLw3NgbQ/1.jpg' height='90' width='120' time='00:01:00.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/xLPrLw3NgbQ/3.jpg' height='90' width='120' time='00:03:01.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/xLPrLw3NgbQ/0.jpg' height='240' width='320' time='00:02:01'/>
+<media:title type='plain'>Jennifer Love Hewitt: Maxim Cover Shoot</media:title><yt:duration seconds='242'/>
+</media:group><gd:rating average='4.7293386' max='5' min='1' numRaters='484' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='814' viewCount='469089'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/EGjAwI1lwT8</id><published>2009-07-05T22:28:47.000Z</published><updated>2010-01-11T10:17:27.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Entertainment' label='Unterhaltung'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Maxim'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='girls'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='hottie'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='sexy'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='lingerie'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='model'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='dance'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='star'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='bad'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='naughty'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='entertainment'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='news'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Lady'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Gaga'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='music'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Pokerface'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='leather'/>
+<title type='text'>Lady GaGa: Maxim Photo Shoot July '09</title><content type='text'>A dizzying, twisted, intoxicating encounter with the first lady of the dance floor. See More Maxim Videos here: www.maxim.com</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=EGjAwI1lwT8&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/EGjAwI1lwT8/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/EGjAwI1lwT8/related'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/EGjAwI1lwT8'/>
+<author><name>videosbyMaxim</name><uri>http://gdata.youtube.com/feeds/api/users/videosbymaxim</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/EGjAwI1lwT8/comments' countHint='325'/>
+</gd:comments><yt:location>Los Angeles</yt:location><media:group><media:category label='Unterhaltung' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Entertainment</media:category><media:content url='http://www.youtube.com/v/EGjAwI1lwT8?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='123' yt:format='5'/>
+<media:content url='rtsp://v5.cache6.c.youtube.com/CiILENy73wIaGQk_wWWNwMBoEBMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='123' yt:format='1'/>
+<media:content url='rtsp://v2.cache5.c.youtube.com/CiILENy73wIaGQk_wWWNwMBoEBMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='123' yt:format='6'/>
+<media:description type='plain'>A dizzying, twisted, intoxicating encounter with the first lady of the dance floor. See More Maxim Videos here: www.maxim.com</media:description><media:keywords>Maxim, girls, hottie, sexy, lingerie, model, dance, star, bad, naughty, entertainment, news, Lady, Gaga, music, Pokerface, leather</media:keywords><media:player url='http://www.youtube.com/watch?v=EGjAwI1lwT8&amp;feature=youtube_gdata'/>
+<media:thumbnail url='http://i.ytimg.com/vi/EGjAwI1lwT8/2.jpg' height='90' width='120' time='00:01:01.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/EGjAwI1lwT8/1.jpg' height='90' width='120' time='00:00:30.750'/>
+<media:thumbnail url='http://i.ytimg.com/vi/EGjAwI1lwT8/3.jpg' height='90' width='120' time='00:01:32.250'/>
+<media:thumbnail url='http://i.ytimg.com/vi/EGjAwI1lwT8/0.jpg' height='240' width='320' time='00:01:01.500'/>
+<media:title type='plain'>Lady GaGa: Maxim Photo Shoot July '09</media:title><yt:duration seconds='123'/>
+</media:group><gd:rating average='4.520161' max='5' min='1' numRaters='248' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='376' viewCount='154333'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/QgUeo-aocP8</id><published>2009-03-30T15:47:36.000Z</published><updated>2010-01-11T10:52:38.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Entertainment' label='Unterhaltung'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Malin'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Akerman'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Maxim'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='hottie'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='sexy'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='superhero'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Watchmen'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='photo'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='shoot'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='entertainment'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='news'/>
+<title type='text'>Malin Akerman: Maxim Cover Shoot</title><content type='text'>Now that you've watched the Watchmen, watch our April '09 cover girl become everyones new favorite partially costumed hero. See More Maxim videos here: www.maxim.com</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=QgUeo-aocP8&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/QgUeo-aocP8/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/QgUeo-aocP8/related'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/QgUeo-aocP8'/>
+<author><name>videosbyMaxim</name><uri>http://gdata.youtube.com/feeds/api/users/videosbymaxim</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/QgUeo-aocP8/comments' countHint='57'/>
+</gd:comments><media:group><media:category label='Unterhaltung' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Entertainment</media:category><media:content url='http://www.youtube.com/v/QgUeo-aocP8?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='138' yt:format='5'/>
+<media:content url='rtsp://v1.cache7.c.youtube.com/CiILENy73wIaGQn_cKjmox4FQhMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='138' yt:format='1'/>
+<media:content url='rtsp://v6.cache4.c.youtube.com/CiILENy73wIaGQn_cKjmox4FQhMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='138' yt:format='6'/>
+<media:description type='plain'>Now that you've watched the Watchmen, watch our April '09 cover girl become everyones new favorite partially costumed hero. See More Maxim videos here: www.maxim.com</media:description><media:keywords>Malin, Akerman, Maxim, hottie, sexy, superhero, Watchmen, photo, shoot, entertainment, news</media:keywords><media:player url='http://www.youtube.com/watch?v=QgUeo-aocP8&amp;feature=youtube_gdata'/>
+<media:thumbnail url='http://i.ytimg.com/vi/QgUeo-aocP8/2.jpg' height='90' width='120' time='00:01:09'/>
+<media:thumbnail url='http://i.ytimg.com/vi/QgUeo-aocP8/1.jpg' height='90' width='120' time='00:00:34.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/QgUeo-aocP8/3.jpg' height='90' width='120' time='00:01:43.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/QgUeo-aocP8/0.jpg' height='240' width='320' time='00:01:09'/>
+<media:title type='plain'>Malin Akerman: Maxim Cover Shoot</media:title><yt:duration seconds='138'/>
+</media:group><gd:rating average='4.734177' max='5' min='1' numRaters='79' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='98' viewCount='58998'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/S97qmWrsD0U</id><published>2009-12-28T21:22:50.000Z</published><updated>2010-01-11T09:53:32.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Entertainment' label='Unterhaltung'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Hotties'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Hometown'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='finalist'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='2009'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='hot'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='sexy'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='wet'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='wild'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='girls'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='models'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Vegas'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Maxim'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Lais'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='photoshoot'/>
+<title type='text'>2009 Hometown Hotties Finalist: Lais</title><content type='text'>The Hometown Hotties from Albuquerque, NM serves up some sexy at her finalist shoot from the Hard Rock in Las Vegas. Enter the 2010 Maxim Hometown Hotties Contest: contest.maxim.com See all 2009 Hometown Hotties Finalists Here: www.maxim.com See more Hometown Hotties Here: www.maxim.com See More Maxim Videos Here: www.maxim.com ... Hotties Hometown finalist 2009 hot sexy wet wild girls models Vegas Maxim Lais photoshoot </content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=S97qmWrsD0U&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/S97qmWrsD0U/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/S97qmWrsD0U/related'/>
+<link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html' href='http://m.youtube.com/details?v=S97qmWrsD0U'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/S97qmWrsD0U'/>
+<author><name>videosbyMaxim</name><uri>http://gdata.youtube.com/feeds/api/users/videosbymaxim</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/S97qmWrsD0U/comments' countHint='15'/>
+</gd:comments><yt:location>Vegas</yt:location><media:group><media:category label='Unterhaltung' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Entertainment</media:category><media:content url='http://www.youtube.com/v/S97qmWrsD0U?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='64' yt:format='5'/>
+<media:content url='rtsp://v2.cache8.c.youtube.com/CiILENy73wIaGQlFD-xqmereSxMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='64' yt:format='1'/>
+<media:content url='rtsp://v1.cache8.c.youtube.com/CiILENy73wIaGQlFD-xqmereSxMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='64' yt:format='6'/>
+<media:description type='plain'>The Hometown Hotties from Albuquerque, NM serves up some sexy at her finalist shoot from the Hard Rock in Las Vegas. Enter the 2010 Maxim Hometown Hotties Contest: contest.maxim.com See all 2009 Hometown Hotties Finalists Here: www.maxim.com See more Hometown Hotties Here: www.maxim.com See More Maxim Videos Here: www.maxim.com ... Hotties Hometown finalist 2009 hot sexy wet wild girls models Vegas Maxim Lais photoshoot </media:description><media:keywords>Hotties, Hometown, finalist, 2009, hot, sexy, wet, wild, girls, models, Vegas, Maxim, Lais, photoshoot</media:keywords><media:player url='http://www.youtube.com/watch?v=S97qmWrsD0U&amp;feature=youtube_gdata'/>
+<media:thumbnail url='http://i.ytimg.com/vi/S97qmWrsD0U/2.jpg' height='90' width='120' time='00:00:32'/>
+<media:thumbnail url='http://i.ytimg.com/vi/S97qmWrsD0U/1.jpg' height='90' width='120' time='00:00:16'/>
+<media:thumbnail url='http://i.ytimg.com/vi/S97qmWrsD0U/3.jpg' height='90' width='120' time='00:00:48'/>
+<media:thumbnail url='http://i.ytimg.com/vi/S97qmWrsD0U/0.jpg' height='240' width='320' time='00:00:32'/>
+<media:title type='plain'>2009 Hometown Hotties Finalist: Lais</media:title><yt:duration seconds='64'/>
+</media:group><gd:rating average='4.5833335' max='5' min='1' numRaters='36' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='17' viewCount='13790'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/wN_cK-xdJOM</id><published>2009-05-06T19:06:37.000Z</published><updated>2010-01-11T10:43:03.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Entertainment' label='Unterhaltung'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Maxim'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='May'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='&apos;09'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Photo'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Shoot'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Jordana'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Brewster'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Fast'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='and'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Furious'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='hottie'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='sexy'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='lingerie'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='hot'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='entertainment'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='news'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='movies'/>
+<title type='text'>Jordana Brewster: Maxim Photo Shoot May '09</title><content type='text'>Buckle up. The Fast &amp; Furious star is taking you for a bumpy ride. See More Maxim Videos Here: www.maxim.com</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=wN_cK-xdJOM&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/wN_cK-xdJOM/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/wN_cK-xdJOM/related'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/wN_cK-xdJOM'/>
+<author><name>videosbyMaxim</name><uri>http://gdata.youtube.com/feeds/api/users/videosbymaxim</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/wN_cK-xdJOM/comments' countHint='98'/>
+</gd:comments><yt:location>Los Angeles</yt:location><media:group><media:category label='Unterhaltung' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Entertainment</media:category><media:content url='http://www.youtube.com/v/wN_cK-xdJOM?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='131' yt:format='5'/>
+<media:content url='rtsp://v1.cache6.c.youtube.com/CiILENy73wIaGQnjJF3sK9zfwBMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='131' yt:format='1'/>
+<media:content url='rtsp://v5.cache1.c.youtube.com/CiILENy73wIaGQnjJF3sK9zfwBMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='131' yt:format='6'/>
+<media:description type='plain'>Buckle up. The Fast &amp; Furious star is taking you for a bumpy ride. See More Maxim Videos Here: www.maxim.com</media:description><media:keywords>Maxim, May, '09, Photo, Shoot, Jordana, Brewster, Fast, and, Furious, hottie, sexy, lingerie, hot, entertainment, news, movies</media:keywords><media:player url='http://www.youtube.com/watch?v=wN_cK-xdJOM&amp;feature=youtube_gdata'/>
+<media:thumbnail url='http://i.ytimg.com/vi/wN_cK-xdJOM/2.jpg' height='90' width='120' time='00:01:05.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/wN_cK-xdJOM/1.jpg' height='90' width='120' time='00:00:32.750'/>
+<media:thumbnail url='http://i.ytimg.com/vi/wN_cK-xdJOM/3.jpg' height='90' width='120' time='00:01:38.250'/>
+<media:thumbnail url='http://i.ytimg.com/vi/wN_cK-xdJOM/0.jpg' height='240' width='320' time='00:01:05.500'/>
+<media:title type='plain'>Jordana Brewster: Maxim Photo Shoot May '09</media:title><yt:duration seconds='131'/>
+</media:group><gd:rating average='4.915254' max='5' min='1' numRaters='177' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='360' viewCount='99796'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/ZsprUbb4i6Q</id><published>2009-06-06T13:25:26.000Z</published><updated>2010-01-11T05:13:41.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Film' label='Film &amp; Animation'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='objectif'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='lune'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='maxim'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='rosenbauer'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='carsten'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='beneker'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='barney'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='berlin'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='skateboard'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='skate'/>
+<title type='text'>Objectif Lune - Maxim Rosenbauer &amp; Carsten Beneker</title><content type='text'>Maxim &amp; Barney's part - "Objectif Lune" is an independant skateboard movie shot in the streets of Berlin between June 2006 and June 2007. It features parts of Lennie Burmeister, Valeri Rosomako, Maxim Rosenbauer &amp; Carsten Beneker. www.jonathan-peters.com</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=ZsprUbb4i6Q&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/ZsprUbb4i6Q/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/ZsprUbb4i6Q/related'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/ZsprUbb4i6Q'/>
+<author><name>jostar67</name><uri>http://gdata.youtube.com/feeds/api/users/jostar67</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/ZsprUbb4i6Q/comments' countHint='8'/>
+</gd:comments><yt:location>Berlin</yt:location><media:group><media:category label='Film &amp; Animation' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Film</media:category><media:content url='http://www.youtube.com/v/ZsprUbb4i6Q?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='326' yt:format='5'/>
+<media:content url='rtsp://v3.cache8.c.youtube.com/CiILENy73wIaGQmki_i2UWvKZhMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='326' yt:format='1'/>
+<media:content url='rtsp://v2.cache2.c.youtube.com/CiILENy73wIaGQmki_i2UWvKZhMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='326' yt:format='6'/>
+<media:description type='plain'>Maxim &amp; Barney's part - "Objectif Lune" is an independant skateboard movie shot in the streets of Berlin between June 2006 and June 2007. It features parts of Lennie Burmeister, Valeri Rosomako, Maxim Rosenbauer &amp; Carsten Beneker. www.jonathan-peters.com</media:description><media:keywords>objectif, lune, maxim, rosenbauer, carsten, beneker, barney, berlin, skateboard, skate</media:keywords><media:player url='http://www.youtube.com/watch?v=ZsprUbb4i6Q&amp;feature=youtube_gdata'/>
+<media:thumbnail url='http://i.ytimg.com/vi/ZsprUbb4i6Q/2.jpg' height='90' width='120' time='00:02:43'/>
+<media:thumbnail url='http://i.ytimg.com/vi/ZsprUbb4i6Q/1.jpg' height='90' width='120' time='00:01:21.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/ZsprUbb4i6Q/3.jpg' height='90' width='120' time='00:04:04.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/ZsprUbb4i6Q/0.jpg' height='240' width='320' time='00:02:43'/>
+<media:title type='plain'>Objectif Lune - Maxim Rosenbauer &amp; Carsten Beneker</media:title><yt:duration seconds='326'/>
+</media:group><gd:rating average='4.76' max='5' min='1' numRaters='25' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:recorded>2008-06-01</yt:recorded><yt:statistics favoriteCount='51' viewCount='3100'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/OWvc3Pda0Hg</id><published>2010-01-08T22:34:54.000Z</published><updated>2010-01-11T10:39:51.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Entertainment' label='Unterhaltung'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Maxim'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='mistress'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='sexy'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='hot'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='wild'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Tiger'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Woods'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='lingerie'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='hottie'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='model'/>
+<title type='text'>Jaimee Grubbs</title><content type='text'>See Tiger's texting temptress in her sexy Maxim photo shoot. See Jaimee's pictures here: www.maxim.com See More Maxim Videos here: www.maxim.com ... Maxim mistress sexy hot wild Tiger Woods lingerie hottie model </content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=OWvc3Pda0Hg&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/OWvc3Pda0Hg/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/OWvc3Pda0Hg/related'/>
+<link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html' href='http://m.youtube.com/details?v=OWvc3Pda0Hg'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/OWvc3Pda0Hg'/>
+<author><name>videosbyMaxim</name><uri>http://gdata.youtube.com/feeds/api/users/videosbymaxim</uri></author><yt:location>Los Angeles</yt:location><media:group><media:category label='Unterhaltung' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Entertainment</media:category><media:content url='http://www.youtube.com/v/OWvc3Pda0Hg?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='83' yt:format='5'/>
+<media:content url='rtsp://v1.cache2.c.youtube.com/CiILENy73wIaGQl40Fr33NxrORMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='83' yt:format='1'/>
+<media:content url='rtsp://v7.cache8.c.youtube.com/CiILENy73wIaGQl40Fr33NxrORMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='83' yt:format='6'/>
+<media:description type='plain'>See Tiger's texting temptress in her sexy Maxim photo shoot. See Jaimee's pictures here: www.maxim.com See More Maxim Videos here: www.maxim.com ... Maxim mistress sexy hot wild Tiger Woods lingerie hottie model </media:description><media:keywords>Maxim, mistress, sexy, hot, wild, Tiger, Woods, lingerie, hottie, model</media:keywords><media:player url='http://www.youtube.com/watch?v=OWvc3Pda0Hg&amp;feature=youtube_gdata'/>
+<media:rating scheme='http://gdata.youtube.com/schemas/2007#mediarating'>2</media:rating><media:thumbnail url='http://i.ytimg.com/vi/OWvc3Pda0Hg/2.jpg' height='90' width='120' time='00:00:41.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/OWvc3Pda0Hg/1.jpg' height='90' width='120' time='00:00:20.750'/>
+<media:thumbnail url='http://i.ytimg.com/vi/OWvc3Pda0Hg/3.jpg' height='90' width='120' time='00:01:02.250'/>
+<media:thumbnail url='http://i.ytimg.com/vi/OWvc3Pda0Hg/0.jpg' height='240' width='320' time='00:00:41.500'/>
+<media:title type='plain'>Jaimee Grubbs</media:title><yt:duration seconds='83'/>
+</media:group><gd:rating average='3.862745' max='5' min='1' numRaters='51' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='35' viewCount='3649'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/wIqBtKJ2T_M</id><published>2006-04-08T03:26:16.000Z</published><updated>2010-01-11T04:17:26.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Music' label='Musik'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Maxim'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Vengerov'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Bass'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Contrabass'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Violin'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Violinist'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Gypsy'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Czardas'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Monty'/>
+<title type='text'>Czardas by Monti - Maxim Vengerov</title><content type='text'>Maxim Vengerov playing with a Bass player &amp; Bass trio the piece Czardas by Monti</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=wIqBtKJ2T_M&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/wIqBtKJ2T_M/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/wIqBtKJ2T_M/related'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/wIqBtKJ2T_M'/>
+<author><name>Angyalka01</name><uri>http://gdata.youtube.com/feeds/api/users/angyalka01</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/wIqBtKJ2T_M/comments' countHint='318'/>
+</gd:comments><media:group><media:category label='Musik' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Music</media:category><media:content url='http://www.youtube.com/v/wIqBtKJ2T_M?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='126' yt:format='5'/>
+<media:content url='rtsp://v2.cache1.c.youtube.com/CiILENy73wIaGQnzT3aitIGKwBMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='126' yt:format='1'/>
+<media:content url='rtsp://v7.cache4.c.youtube.com/CiILENy73wIaGQnzT3aitIGKwBMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='126' yt:format='6'/>
+<media:description type='plain'>Maxim Vengerov playing with a Bass player &amp; Bass trio the piece Czardas by Monti</media:description><media:keywords>Maxim, Vengerov, Bass, Contrabass, Violin, Violinist, Gypsy, Czardas, Monty</media:keywords><media:player url='http://www.youtube.com/watch?v=wIqBtKJ2T_M&amp;feature=youtube_gdata'/>
+<media:thumbnail url='http://i.ytimg.com/vi/wIqBtKJ2T_M/2.jpg' height='90' width='120' time='00:01:03'/>
+<media:thumbnail url='http://i.ytimg.com/vi/wIqBtKJ2T_M/1.jpg' height='90' width='120' time='00:00:31.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/wIqBtKJ2T_M/3.jpg' height='90' width='120' time='00:01:34.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/wIqBtKJ2T_M/0.jpg' height='240' width='320' time='00:01:03'/>
+<media:title type='plain'>Czardas by Monti - Maxim Vengerov</media:title><yt:duration seconds='126'/>
+</media:group><gd:rating average='4.819932' max='5' min='1' numRaters='883' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='1968' viewCount='371878'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/4cXDGJF1wzc</id><published>2008-05-28T01:12:49.000Z</published><updated>2010-01-10T15:05:55.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Entertainment' label='Unterhaltung'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='arianny'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='celeste'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='ufc84'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='ufc'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='mma'/>
+<title type='text'>Rated Exclusive: Arianny Celeste Maxim Video</title><content type='text'>A behind-the-scenes look at AC's Hometown Hotties shoot</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=4cXDGJF1wzc&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/4cXDGJF1wzc/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/4cXDGJF1wzc/related'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/4cXDGJF1wzc'/>
+<author><name>mmarated</name><uri>http://gdata.youtube.com/feeds/api/users/mmarated</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/4cXDGJF1wzc/comments' countHint='183'/>
+</gd:comments><media:group><media:category label='Unterhaltung' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Entertainment</media:category><media:content url='http://www.youtube.com/v/4cXDGJF1wzc?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='146' yt:format='5'/>
+<media:content url='rtsp://v2.cache1.c.youtube.com/CiILENy73wIaGQk3w3WRGMPF4RMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='146' yt:format='1'/>
+<media:content url='rtsp://v7.cache1.c.youtube.com/CiILENy73wIaGQk3w3WRGMPF4RMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='146' yt:format='6'/>
+<media:description type='plain'>A behind-the-scenes look at AC's Hometown Hotties shoot</media:description><media:keywords>arianny, celeste, ufc84, ufc, mma</media:keywords><media:player url='http://www.youtube.com/watch?v=4cXDGJF1wzc&amp;feature=youtube_gdata'/>
+<media:thumbnail url='http://i.ytimg.com/vi/4cXDGJF1wzc/2.jpg' height='90' width='120' time='00:01:13'/>
+<media:thumbnail url='http://i.ytimg.com/vi/4cXDGJF1wzc/1.jpg' height='90' width='120' time='00:00:36.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/4cXDGJF1wzc/3.jpg' height='90' width='120' time='00:01:49.500'/>
+<media:thumbnail url='http://i.ytimg.com/vi/4cXDGJF1wzc/0.jpg' height='240' width='320' time='00:01:13'/>
+<media:title type='plain'>Rated Exclusive: Arianny Celeste Maxim Video</media:title><yt:duration seconds='146'/>
+</media:group><gd:rating average='4.568421' max='5' min='1' numRaters='190' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='404' viewCount='159964'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/jJRZz4fDbWU</id><published>2008-10-25T20:45:25.000Z</published><updated>2010-01-11T13:44:18.000Z</updated><app:control><yt:state name='restricted' reasonCode='limitedSyndication'>Syndication of this video was restricted by its owner.</yt:state></app:control><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Comedy' label='Comedy'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='communitychannel'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='would'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='love'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='to'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='be'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='in'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='the'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='same'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='area'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='as'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='maxim'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='model'/>
+<title type='text'>Maxim models and women of the web? Quick weekend rant</title><content type='text'>Sorry, sorry, guys, guys! I'm not fishing for compliments, it's just a fun rant about we mere mortals. sorry, done after a night of no sleep lol. Hope your weekend is going well!</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=jJRZz4fDbWU&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/jJRZz4fDbWU/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/jJRZz4fDbWU/related'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/jJRZz4fDbWU'/>
+<author><name>communitychannel</name><uri>http://gdata.youtube.com/feeds/api/users/communitychannel</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/jJRZz4fDbWU/comments' countHint='7291'/>
+</gd:comments><media:group><media:category label='Comedy' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Comedy</media:category><media:content url='http://www.youtube.com/v/jJRZz4fDbWU?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='184' yt:format='5'/>
+<media:description type='plain'>Sorry, sorry, guys, guys! I'm not fishing for compliments, it's just a fun rant about we mere mortals. sorry, done after a night of no sleep lol. Hope your weekend is going well!</media:description><media:keywords>communitychannel, would, love, to, be, in, the, same, area, as, maxim, model</media:keywords><media:player url='http://www.youtube.com/watch?v=jJRZz4fDbWU&amp;feature=youtube_gdata'/>
+<media:thumbnail url='http://i.ytimg.com/vi/jJRZz4fDbWU/2.jpg' height='90' width='120' time='00:01:32'/>
+<media:thumbnail url='http://i.ytimg.com/vi/jJRZz4fDbWU/1.jpg' height='90' width='120' time='00:00:46'/>
+<media:thumbnail url='http://i.ytimg.com/vi/jJRZz4fDbWU/3.jpg' height='90' width='120' time='00:02:18'/>
+<media:thumbnail url='http://i.ytimg.com/vi/jJRZz4fDbWU/0.jpg' height='240' width='320' time='00:01:32'/>
+<media:title type='plain'>Maxim models and women of the web? Quick weekend rant</media:title><yt:duration seconds='184'/>
+</media:group><gd:rating average='4.817082' max='5' min='1' numRaters='8512' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='2883' viewCount='701575'/>
+</entry><entry><id>http://gdata.youtube.com/feeds/api/videos/xwcQw5dVisI</id><published>2009-01-06T19:15:28.000Z</published><updated>2010-01-11T10:26:58.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Entertainment' label='Unterhaltung'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Maxim'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='hottie'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Nicole'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Hometown'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='sexy'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='hot'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='lingerie'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='bikini'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='girls'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='model'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='NYC'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='New'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='York'/>
+<category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='photoshoot'/>
+<title type='text'>Maxim Hometown Hotties Finalist 2008: Nicole</title><content type='text'>The Port Richey, FL product flaunts the object of other women's affection in footage from her photo shoot. See More Maxim videos here: www.maxim.com</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=xwcQw5dVisI&amp;feature=youtube_gdata'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/xwcQw5dVisI/responses'/>
+<link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/xwcQw5dVisI/related'/>
+<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/xwcQw5dVisI'/>
+<author><name>videosbyMaxim</name><uri>http://gdata.youtube.com/feeds/api/users/videosbymaxim</uri></author><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/xwcQw5dVisI/comments' countHint='33'/>
+</gd:comments><yt:location>Manhattan</yt:location><media:group><media:category label='Unterhaltung' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Entertainment</media:category><media:content url='http://www.youtube.com/v/xwcQw5dVisI?f=videos&amp;app=youtube_gdata' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='152' yt:format='5'/>
+<media:content url='rtsp://v2.cache4.c.youtube.com/CiILENy73wIaGQnCilWXwxAHxxMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='152' yt:format='1'/>
+<media:content url='rtsp://v1.cache6.c.youtube.com/CiILENy73wIaGQnCilWXwxAHxxMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='152' yt:format='6'/>
+<media:description type='plain'>The Port Richey, FL product flaunts the object of other women's affection in footage from her photo shoot. See More Maxim videos here: www.maxim.com</media:description><media:keywords>Maxim, hottie, Nicole, Hometown, sexy, hot, lingerie, bikini, girls, model, NYC, New, York, photoshoot</media:keywords><media:player url='http://www.youtube.com/watch?v=xwcQw5dVisI&amp;feature=youtube_gdata'/>
+<media:thumbnail url='http://i.ytimg.com/vi/xwcQw5dVisI/2.jpg' height='90' width='120' time='00:01:16'/>
+<media:thumbnail url='http://i.ytimg.com/vi/xwcQw5dVisI/1.jpg' height='90' width='120' time='00:00:38'/>
+<media:thumbnail url='http://i.ytimg.com/vi/xwcQw5dVisI/3.jpg' height='90' width='120' time='00:01:54'/>
+<media:thumbnail url='http://i.ytimg.com/vi/xwcQw5dVisI/0.jpg' height='240' width='320' time='00:01:16'/>
+<media:title type='plain'>Maxim Hometown Hotties Finalist 2008: Nicole</media:title><yt:duration seconds='152'/>
+</media:group><gd:rating average='4.6769233' max='5' min='1' numRaters='65' rel='http://schemas.google.com/g/2005#overall'/>
+<yt:statistics favoriteCount='125' viewCount='68905'/>
+
+</entry></feed>

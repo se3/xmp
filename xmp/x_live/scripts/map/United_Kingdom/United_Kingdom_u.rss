@@ -1,0 +1,53 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",United%20Kingdom";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>United Kingdom</title>
+<link>./scripts/map/United_kingdom_u.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Ullapool</title>
+<cur>UKXX1071</cur>
+<for>Ullapool</for>
+</item>
+<item>
+<title>Ulverston</title>
+<cur>UKXX1283</cur>
+<for>Ulverston</for>
+</item>
+<item>
+<title>Urmston</title>
+<cur>UKXX1528</cur>
+<for>Urmston</for>
+</item>
+<item>
+<title>Usk</title>
+<cur>UKXX1492</cur>
+<for>Usk</for>
+</item>
+<item>
+<title>Uttoxeter</title>
+<cur>UKXX1415</cur>
+<for>Uttoxeter</for>
+</item>
+<item>
+<title>Uxbridge</title>
+<cur>UKXX1421</cur>
+<for>Uxbridge</for>
+</item>
+</channel></rss>

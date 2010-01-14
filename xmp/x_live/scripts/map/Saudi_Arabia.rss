@@ -1,0 +1,265 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Saudi Arabia</title>
+<link>./scripts/map/Saudi_Arabia.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Abha</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0036&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Abha,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Ad Dammam</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0002&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Ad%20Dammam,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Al Ahsa</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0031&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Al%20Ahsa,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Al Hariq</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0003&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Al%20Hariq,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Al Hulwah</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0004&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Al%20Hulwah,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Al Jawf</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0005&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Al%20Jawf,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Al Khubar</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0006&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Al%20Khubar,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Al Lith</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0007&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Al%20Lith,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Al Qabiyah</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0008&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Al%20Qabiyah,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Al Qaysumah</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0026&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Al%20Qaysumah,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Arar</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0023&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Arar,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>As Sulaymaniyah</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0009&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=As%20Sulaymaniyah,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Bisha</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0035&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bisha,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Gassim</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0030&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Gassim,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Gizan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0040&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Gizan,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Guriat</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0024&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Guriat,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Hail</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0028&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Hail,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Jiddah</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0012&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jiddah,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Khamis Mushait</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0037&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Khamis%20Mushait,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Mecca</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0013&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Mecca,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Medina</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0014&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Medina,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Najran</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0038&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Najran,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Rabigh</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0016&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Rabigh,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Rafha</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0025&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Rafha,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Riyadh</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0017&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Riyadh,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Sharurah</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0039&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Sharurah,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Tabuk</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0027&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tabuk,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Taif</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0033&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Taif,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Turaif</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0022&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Turaif,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Wadi Al Dawasser Airport</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0034&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Wadi%20Al%20Dawasser%20Airport,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Wejh</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0029&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Wejh,Saudi%20Arabia</forcast>
+</item>
+
+<item>
+<title>Yenbo</title>
+<link>http://weather.yahooapis.com/forecastrss?p=SAXX0032&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yenbo,Saudi%20Arabia</forcast>
+</item>
+
+
+</channel></rss>

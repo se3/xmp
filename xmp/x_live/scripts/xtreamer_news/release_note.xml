@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>Release Note</title>
+    <link>http://localhost/x_live/scripts/xtreamer_news/release_note.html</link>
+    <description>Xtreamer Release Note</description>
+    <language>en-us</language>
+    <pubDate>Wed, 22 July 2009 04:00:00 GMT</pubDate>
+    <lastBuildDate>Wed, 22 July 2009 04:00:00 GMT</lastBuildDate>
+    <docs>http://localhost/x_live/scripts/xtreamer_news/release_note.xml</docs>
+    <generator>Weblog Editor 2.0</generator>
+    <managingEditor></managingEditor>
+    <webMaster></webMaster>
+    <ttl>5</ttl>
+ 
+    <item>
+      <title>Xtreamer release ver:1.0.1</title>
+	  <link>http://localhost/x_live/scripts/xtreamer_news/release_note.html</link>
+      <description>Here we are presenting Xtreamer Release Note for version 1.0.1. Read it carefully.</description>
+      <pubDate>Wed, 22 July 2009 04:00:00 GMT</pubDate>
+      <guid>http://localhost/x_live/scripts/xtreamer_news/release_note.html</guid>
+	  <media:thumbnail width="66" height="49" url="http://192.168.124.43/x_live/image/releasenote.jpg"/>
+    </item>
+
+  </channel>
+</rss>

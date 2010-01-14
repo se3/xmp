@@ -1,0 +1,28 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",San%20Marino";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>San Marino</title>
+<link>./scripts/map/San_Marino.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>San Marino</title>
+<cur>SMXX0001</cur>
+<for>San%20Marino</for>
+</item>
+</channel></rss>

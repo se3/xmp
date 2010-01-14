@@ -1,0 +1,169 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>China</title>
+<link>./scripts/map/China_z.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Zadoi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0332&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Zadoi</forcast>
+</item>
+
+<item>
+<title>Zaoyang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0397&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Zaoyang</forcast>
+</item>
+
+<item>
+<title>Zhang Ping</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0474&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Zhang%20Ping</forcast>
+</item>
+
+<item>
+<title>Zhangjiakou</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0300&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Zhangjiakou</forcast>
+</item>
+
+<item>
+<title>Zhangwu</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0288&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Zhangwu</forcast>
+</item>
+
+<item>
+<title>Zhangye</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0228&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Zhangye</forcast>
+</item>
+
+<item>
+<title>Zhangzhou</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0162&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Zhangzhou</forcast>
+</item>
+
+<item>
+<title>Zhanjiang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0163&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Zhanjiang</forcast>
+</item>
+
+<item>
+<title>Zhanyi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0374&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Zhanyi</forcast>
+</item>
+
+<item>
+<title>Zhaotong</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0364&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Zhaotong</forcast>
+</item>
+
+<item>
+<title>Zhengding</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0164&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Zhengding</forcast>
+</item>
+
+<item>
+<title>Zhengzhou</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0165&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Zhengzhou</forcast>
+</item>
+
+<item>
+<title>Zhenjiang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0166&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Zhenjiang</forcast>
+</item>
+
+<item>
+<title>Zhijiang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0421&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Zhijiang</forcast>
+</item>
+
+<item>
+<title>Zhongning</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0262&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Zhongning</forcast>
+</item>
+
+<item>
+<title>Zhongxiang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0402&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Zhongxiang</forcast>
+</item>
+
+<item>
+<title>Zhoucun</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0167&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Zhoucun</forcast>
+</item>
+
+<item>
+<title>Zhumadian</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0398&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Zhumadian</forcast>
+</item>
+
+<item>
+<title>Zibo</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0169&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Zibo</forcast>
+</item>
+
+<item>
+<title>Zunyi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0419&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Zunyi</forcast>
+</item>
+
+
+</channel></rss>

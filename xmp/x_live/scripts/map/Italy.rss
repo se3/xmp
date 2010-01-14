@@ -1,0 +1,150 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Italy</title>
+<link>./scripts_x/map/Italy.rss</link>
+<media:thumbnail url="image/weather.jpg" />
+<zoom>country</zoom>
+<Latitude>42.502998</Latitude>
+<Longitude>12.573410</Longitude>
+
+<item>
+<title>A</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_a.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+<item>
+<title>B</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_b.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+<item>
+<title>C</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_c.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+<item>
+<title>D</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_d.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+<item>
+<title>E</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_e.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+<item>
+<title>F</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_f.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+<item>
+<title>G</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_g.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+<item>
+<title>H</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_h.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+<item>
+<title>I</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_i.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+<item>
+<title>J</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_j.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+<item>
+<title>K</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_k.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+<item>
+<title>L</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_l.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+<item>
+<title>M</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_m.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+<item>
+<title>N</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_n.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+<item>
+<title>O</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_o.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+<item>
+<title>P</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_p.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+<item>
+<title>Q</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_q.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+<item>
+<title>R</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_r.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+<item>
+<title>S</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_s.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+<item>
+<title>T</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_t.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+<item>
+<title>U</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_u.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+<item>
+<title>V</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_v.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+<item>
+<title>W</title>
+<link>http://localhost/x_live/scripts/map/Italy/Italy_w.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+</item>
+
+</channel>
+</rss>

@@ -1,0 +1,1369 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>India</title>
+<link>./scripts/map/India.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Agartala</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0153&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Agartala</forcast>
+</item>
+
+<item>
+<title>Agra</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0203&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Agra</forcast>
+</item>
+
+<item>
+<title>Ahmadabad</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0001&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Ahmadabad</forcast>
+</item>
+
+<item>
+<title>Ajmer</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0002&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Ajmer</forcast>
+</item>
+
+<item>
+<title>Akola</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0160&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Akola</forcast>
+</item>
+
+<item>
+<title>Allahabad</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0003&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Allahabad</forcast>
+</item>
+
+<item>
+<title>Alleppey</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0004&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Alleppey</forcast>
+</item>
+
+<item>
+<title>Amravati</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0006&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Amravati</forcast>
+</item>
+
+<item>
+<title>Amritsar</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0007&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Amritsar</forcast>
+</item>
+
+<item>
+<title>Anakapalle</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0008&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Anakapalle</forcast>
+</item>
+
+<item>
+<title>Anantapur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0174&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Anantapur</forcast>
+</item>
+
+<item>
+<title>Ara</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0009&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Ara</forcast>
+</item>
+
+<item>
+<title>Aruppukkottai</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0010&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Aruppukkottai</forcast>
+</item>
+
+<item>
+<title>Auraiya</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0011&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Auraiya</forcast>
+</item>
+
+<item>
+<title>Aurangabad</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0184&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Aurangabad</forcast>
+</item>
+
+<item>
+<title>Aurangabad Chikalthan Aerodrome</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0162&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Aurangabad%20Chikalthan%20Aerodrome</forcast>
+</item>
+
+<item>
+<title>Balasore</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0158&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Balasore</forcast>
+</item>
+
+<item>
+<title>Bangalore</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0012&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bangalore</forcast>
+</item>
+
+<item>
+<title>Barddhaman</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0013&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Barddhaman</forcast>
+</item>
+
+<item>
+<title>Batala</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0015&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Batala</forcast>
+</item>
+
+<item>
+<title>Benares</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0016&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Benares</forcast>
+</item>
+
+<item>
+<title>Bhandara</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0017&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bhandara</forcast>
+</item>
+
+<item>
+<title>Bhatkal</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0018&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bhatkal</forcast>
+</item>
+
+<item>
+<title>Bhatpara</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0019&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bhatpara</forcast>
+</item>
+
+<item>
+<title>Bhiwandi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0020&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bhiwandi</forcast>
+</item>
+
+<item>
+<title>Bhiwani</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0021&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bhiwani</forcast>
+</item>
+
+<item>
+<title>Bhongir</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0022&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bhongir</forcast>
+</item>
+
+<item>
+<title>Bhopal</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0023&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bhopal</forcast>
+</item>
+
+<item>
+<title>Bhubaneshwar</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0024&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bhubaneshwar</forcast>
+</item>
+
+<item>
+<title>Bikaner</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0141&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bikaner</forcast>
+</item>
+
+<item>
+<title>Bombay</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0026&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bombay</forcast>
+</item>
+
+<item>
+<title>Bulandshahr</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0027&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bulandshahr</forcast>
+</item>
+
+<item>
+<title>Calcutta</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0028&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Calcutta</forcast>
+</item>
+
+<item>
+<title>Chandigarh</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0185&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Chandigarh</forcast>
+</item>
+
+<item>
+<title>Chavakkad</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0029&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Chavakkad</forcast>
+</item>
+
+<item>
+<title>Chitradurga</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0173&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Chitradurga</forcast>
+</item>
+
+<item>
+<title>Cochin</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0032&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Cochin</forcast>
+</item>
+
+<item>
+<title>Cuddalore</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0178&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Cuddalore</forcast>
+</item>
+
+<item>
+<title>Cuttack</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0033&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Cuttack</forcast>
+</item>
+
+<item>
+<title>Daman</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0034&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Daman</forcast>
+</item>
+
+<item>
+<title>Darjiling</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0036&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Darjiling</forcast>
+</item>
+
+<item>
+<title>Daund</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0037&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Daund</forcast>
+</item>
+
+<item>
+<title>Dehradun</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0140&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dehradun</forcast>
+</item>
+
+<item>
+<title>Delhi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0038&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Delhi</forcast>
+</item>
+
+<item>
+<title>Dewas</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0039&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dewas</forcast>
+</item>
+
+<item>
+<title>Dindigul</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0040&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dindigul</forcast>
+</item>
+
+<item>
+<title>Dod Ballapur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0041&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dod%20Ballapur</forcast>
+</item>
+
+<item>
+<title>Elamanchili</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0043&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Elamanchili</forcast>
+</item>
+
+<item>
+<title>Etawah</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0044&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Etawah</forcast>
+</item>
+
+<item>
+<title>Faizabad</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0045&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Faizabad</forcast>
+</item>
+
+<item>
+<title>Faridabad</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0046&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Faridabad</forcast>
+</item>
+
+<item>
+<title>Fatehpur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0047&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Fatehpur</forcast>
+</item>
+
+<item>
+<title>Gadag</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0171&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Gadag</forcast>
+</item>
+
+<item>
+<title>Gandhinagar</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0048&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Gandhinagar</forcast>
+</item>
+
+<item>
+<title>Gangtok</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0049&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Gangtok</forcast>
+</item>
+
+<item>
+<title>Gauhati</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0147&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Gauhati</forcast>
+</item>
+
+<item>
+<title>Gaya</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0050&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Gaya</forcast>
+</item>
+
+<item>
+<title>Ghaziabad</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0051&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Ghaziabad</forcast>
+</item>
+
+<item>
+<title>Ghazipur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0052&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Ghazipur</forcast>
+</item>
+
+<item>
+<title>Godhra</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0053&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Godhra</forcast>
+</item>
+
+<item>
+<title>Guwahati</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0188&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Guwahati</forcast>
+</item>
+
+<item>
+<title>Gwalior</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0146&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Gwalior</forcast>
+</item>
+
+<item>
+<title>Haora</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0054&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Haora</forcast>
+</item>
+
+<item>
+<title>Hisar</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0055&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Hisar</forcast>
+</item>
+
+<item>
+<title>Hoshiarpur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0056&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Hoshiarpur</forcast>
+</item>
+
+<item>
+<title>Hyderabad</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0057&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Hyderabad</forcast>
+</item>
+
+<item>
+<title>Imphal</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0189&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Imphal</forcast>
+</item>
+
+<item>
+<title>Indore</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0058&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Indore</forcast>
+</item>
+
+<item>
+<title>Itanagar</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0190&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Itanagar</forcast>
+</item>
+
+<item>
+<title>Jabalpur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0151&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jabalpur</forcast>
+</item>
+
+<item>
+<title>Jagdalpur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0163&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jagdalpur</forcast>
+</item>
+
+<item>
+<title>Jaipur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0059&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jaipur</forcast>
+</item>
+
+<item>
+<title>Jaisalmer</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0144&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jaisalmer</forcast>
+</item>
+
+<item>
+<title>Jalandhar</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0060&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jalandhar</forcast>
+</item>
+
+<item>
+<title>Jamshedpur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0156&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jamshedpur</forcast>
+</item>
+
+<item>
+<title>Jaunpur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0062&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jaunpur</forcast>
+</item>
+
+<item>
+<title>Jharsuguda</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0063&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jharsuguda</forcast>
+</item>
+
+<item>
+<title>Jodhpur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0145&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jodhpur</forcast>
+</item>
+
+<item>
+<title>Kakinada</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0168&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kakinada</forcast>
+</item>
+
+<item>
+<title>Kalyan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0065&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kalyan</forcast>
+</item>
+
+<item>
+<title>Kamthi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0066&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kamthi</forcast>
+</item>
+
+<item>
+<title>Kanpur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0067&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kanpur</forcast>
+</item>
+
+<item>
+<title>Kasaragod</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0068&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kasaragod</forcast>
+</item>
+
+<item>
+<title>Khadki</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0069&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Khadki</forcast>
+</item>
+
+<item>
+<title>Khammam</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0070&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Khammam</forcast>
+</item>
+
+<item>
+<title>Kharagpur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0071&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kharagpur</forcast>
+</item>
+
+<item>
+<title>Kohima</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0191&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kohima</forcast>
+</item>
+
+<item>
+<title>Kolar</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0072&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kolar</forcast>
+</item>
+
+<item>
+<title>Kolhapur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0192&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kolhapur</forcast>
+</item>
+
+<item>
+<title>Koregaon</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0073&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Koregaon</forcast>
+</item>
+
+<item>
+<title>Kozhikode</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0176&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kozhikode</forcast>
+</item>
+
+<item>
+<title>Kurnool</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0172&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kurnool</forcast>
+</item>
+
+<item>
+<title>Lucknow</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0074&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Lucknow</forcast>
+</item>
+
+<item>
+<title>Ludhiana</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0193&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Ludhiana</forcast>
+</item>
+
+<item>
+<title>Machilipatnam</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0167&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Machilipatnam</forcast>
+</item>
+
+<item>
+<title>Madras</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0075&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Madras</forcast>
+</item>
+
+<item>
+<title>Madurai</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0076&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Madurai</forcast>
+</item>
+
+<item>
+<title>Mahbubnagar</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0077&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Mahbubnagar</forcast>
+</item>
+
+<item>
+<title>Malegaon</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0079&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Malegaon</forcast>
+</item>
+
+<item>
+<title>Mandya</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0080&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Mandya</forcast>
+</item>
+
+<item>
+<title>Mangalore</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0081&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Mangalore</forcast>
+</item>
+
+<item>
+<title>Meerut</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0083&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Meerut</forcast>
+</item>
+
+<item>
+<title>Minicoy</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0181&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Minicoy</forcast>
+</item>
+
+<item>
+<title>Mirzapur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0085&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Mirzapur</forcast>
+</item>
+
+<item>
+<title>Moga</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0086&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Moga</forcast>
+</item>
+
+<item>
+<title>Mumbai</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0087&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Mumbai</forcast>
+</item>
+
+<item>
+<title>Murud</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0088&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Murud</forcast>
+</item>
+
+<item>
+<title>Muzaffarnagar</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0089&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Muzaffarnagar</forcast>
+</item>
+
+<item>
+<title>Muzaffarpur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0090&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Muzaffarpur</forcast>
+</item>
+
+<item>
+<title>Nadiad</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0091&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Nadiad</forcast>
+</item>
+
+<item>
+<title>Nagercoil</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0092&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Nagercoil</forcast>
+</item>
+
+<item>
+<title>Nagpur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0093&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Nagpur</forcast>
+</item>
+
+<item>
+<title>Nasik</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0194&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Nasik</forcast>
+</item>
+
+<item>
+<title>Nawabganj</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0094&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Nawabganj</forcast>
+</item>
+
+<item>
+<title>Nellore</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0095&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Nellore</forcast>
+</item>
+
+<item>
+<title>New Delhi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0096&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=New%20Delhi</forcast>
+</item>
+
+<item>
+<title>New Delhi/Safdarjung</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0142&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=New%20Delhi%2fSafdarjung</forcast>
+</item>
+
+<item>
+<title>Neyyattinkara</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0097&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Neyyattinkara</forcast>
+</item>
+
+<item>
+<title>Nizamabad</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0098&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Nizamabad</forcast>
+</item>
+
+<item>
+<title>Panvel</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0099&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Panvel</forcast>
+</item>
+
+<item>
+<title>Patiala</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0139&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Patiala</forcast>
+</item>
+
+<item>
+<title>Patna</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0100&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Patna</forcast>
+</item>
+
+<item>
+<title>Pendra Road</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0155&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Pendra%20Road</forcast>
+</item>
+
+<item>
+<title>Pondicherry</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0101&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Pondicherry</forcast>
+</item>
+
+<item>
+<title>Poona</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0164&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Poona</forcast>
+</item>
+
+<item>
+<title>Port Blair</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0179&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Port%20Blair</forcast>
+</item>
+
+<item>
+<title>Pune</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0102&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Pune</forcast>
+</item>
+
+<item>
+<title>Puri</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0103&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Puri</forcast>
+</item>
+
+<item>
+<title>Quilon</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0104&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Quilon</forcast>
+</item>
+
+<item>
+<title>Rae Bareli</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0105&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Rae%20Bareli</forcast>
+</item>
+
+<item>
+<title>Raigarh</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0106&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Raigarh</forcast>
+</item>
+
+<item>
+<title>Rajapalaiyam</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0107&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Rajapalaiyam</forcast>
+</item>
+
+<item>
+<title>Rajkot</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0154&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Rajkot</forcast>
+</item>
+
+<item>
+<title>Ratnagiri</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0165&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Ratnagiri</forcast>
+</item>
+
+<item>
+<title>Rohtak</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0108&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Rohtak</forcast>
+</item>
+
+<item>
+<title>Sambalpur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0109&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Sambalpur</forcast>
+</item>
+
+<item>
+<title>Sanwer</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0110&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Sanwer</forcast>
+</item>
+
+<item>
+<title>Saraipali</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0111&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Saraipali</forcast>
+</item>
+
+<item>
+<title>Satara</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0112&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Satara</forcast>
+</item>
+
+<item>
+<title>Satna</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0149&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Satna</forcast>
+</item>
+
+<item>
+<title>Sehore</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0113&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Sehore</forcast>
+</item>
+
+<item>
+<title>Shertallai</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0114&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Shertallai</forcast>
+</item>
+
+<item>
+<title>Shillong</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0196&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Shillong</forcast>
+</item>
+
+<item>
+<title>Shimla</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0195&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Shimla</forcast>
+</item>
+
+<item>
+<title>Sholapur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0166&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Sholapur</forcast>
+</item>
+
+<item>
+<title>Sitapur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0115&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Sitapur</forcast>
+</item>
+
+<item>
+<title>Sivakasi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0116&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Sivakasi</forcast>
+</item>
+
+<item>
+<title>Solapur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0117&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Solapur</forcast>
+</item>
+
+<item>
+<title>Sonipat</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0118&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Sonipat</forcast>
+</item>
+
+<item>
+<title>Srikakulam</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0119&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Srikakulam</forcast>
+</item>
+
+<item>
+<title>Srinagar</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0197&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Srinagar</forcast>
+</item>
+
+<item>
+<title>Surat</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0157&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Surat</forcast>
+</item>
+
+<item>
+<title>Tambaram</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0120&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tambaram</forcast>
+</item>
+
+<item>
+<title>Tezpur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0148&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tezpur</forcast>
+</item>
+
+<item>
+<title>Tirupati</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0122&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tirupati</forcast>
+</item>
+
+<item>
+<title>Tonk</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0124&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tonk</forcast>
+</item>
+
+<item>
+<title>Trivandrum</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0125&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Trivandrum</forcast>
+</item>
+
+<item>
+<title>Tumkur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0126&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tumkur</forcast>
+</item>
+
+<item>
+<title>Ulhasnagar</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0128&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Ulhasnagar</forcast>
+</item>
+
+<item>
+<title>Unnao</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0129&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Unnao</forcast>
+</item>
+
+<item>
+<title>Vadodara</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0130&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Vadodara</forcast>
+</item>
+
+<item>
+<title>Varanasi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0199&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Varanasi</forcast>
+</item>
+
+<item>
+<title>Vellore</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0131&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Vellore</forcast>
+</item>
+
+<item>
+<title>Veraval</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0159&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Veraval</forcast>
+</item>
+
+<item>
+<title>Vidisha</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0132&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Vidisha</forcast>
+</item>
+
+<item>
+<title>Virudunagar</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0133&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Virudunagar</forcast>
+</item>
+
+<item>
+<title>Vizianagaram</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0135&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Vizianagaram</forcast>
+</item>
+
+<item>
+<title>Warangal</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0136&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Warangal</forcast>
+</item>
+
+<item>
+<title>Wardha</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0137&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Wardha</forcast>
+</item>
+
+<item>
+<title>Zahirabad</title>
+<link>http://weather.yahooapis.com/forecastrss?p=INXX0138&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Zahirabad</forcast>
+</item>
+
+
+</channel></rss>

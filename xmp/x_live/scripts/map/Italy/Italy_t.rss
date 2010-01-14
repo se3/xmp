@@ -1,0 +1,93 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",Italy";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>Italy</title>
+<link>./scripts/map/Italy_t.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Tamsweg</title>
+<cur>AUXX0077</cur>
+<for>Tamsweg</for>
+</item>
+<item>
+<title>Taranto</title>
+<cur>ITXX0158</cur>
+<for>Taranto</for>
+</item>
+<item>
+<title>Termoli</title>
+<cur>ITXX0162</cur>
+<for>Termoli</for>
+</item>
+<item>
+<title>Terni</title>
+<cur>ITXX0074</cur>
+<for>Terni</for>
+</item>
+<item>
+<title>Terracina</title>
+<cur>ITXX0159</cur>
+<for>Terracina</for>
+</item>
+<item>
+<title>Tirano</title>
+<cur>ITXX0161</cur>
+<for>Tirano</for>
+</item>
+<item>
+<title>Tivoli</title>
+<cur>ITXX0075</cur>
+<for>Tivoli</for>
+</item>
+<item>
+<title>Torre del Greco</title>
+<cur>ITXX0076</cur>
+<for>Torre%20del%20Greco</for>
+</item>
+<item>
+<title>Trapani</title>
+<cur>ITXX0077</cur>
+<for>Trapani</for>
+</item>
+<item>
+<title>Trento</title>
+<cur>ITXX0078</cur>
+<for>Trento</for>
+</item>
+<item>
+<title>Treviso</title>
+<cur>ITXX0079</cur>
+<for>Treviso</for>
+</item>
+<item>
+<title>Trieste</title>
+<cur>ITXX0080</cur>
+<for>Trieste</for>
+</item>
+<item>
+<title>Tulln</title>
+<cur>AUXX0089</cur>
+<for>Tulln</for>
+</item>
+<item>
+<title>Turin</title>
+<cur>ITXX0081</cur>
+<for>Turin</for>
+</item>
+</channel></rss>

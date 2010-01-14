@@ -1,0 +1,58 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",Germany";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>Germany</title>
+<link>./scripts/map/Germany_q.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Quakenbruck</title>
+<cur>GMXX4111</cur>
+<for>Quakenbruck</for>
+</item>
+<item>
+<title>Quedlinburg</title>
+<cur>GMXX4749</cur>
+<for>Quedlinburg</for>
+</item>
+<item>
+<title>Queidersbach</title>
+<cur>GMXX3702</cur>
+<for>Queidersbach</for>
+</item>
+<item>
+<title>Querfurt</title>
+<cur>GMXX3329</cur>
+<for>Querfurt</for>
+</item>
+<item>
+<title>Quern</title>
+<cur>GMXX4489</cur>
+<for>Quern</for>
+</item>
+<item>
+<title>Quickborn</title>
+<cur>GMXX0262</cur>
+<for>Quickborn</for>
+</item>
+<item>
+<title>Quierschied</title>
+<cur>GMXX2534</cur>
+<for>Quierschied</for>
+</item>
+</channel></rss>

@@ -1,0 +1,17 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>China</title>
+<link>./scripts/map/China_o.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Otog Qi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0254&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Otog%20Qi</forcast>
+</item>
+
+
+</channel></rss>

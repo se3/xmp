@@ -1,0 +1,43 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",United%20Kingdom";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>United Kingdom</title>
+<link>./scripts/map/United_kingdom_v.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Valley</title>
+<cur>UKXX0175</cur>
+<for>Valley</for>
+</item>
+<item>
+<title>Ventnor</title>
+<cur>UKXX0901</cur>
+<for>Ventnor</for>
+</item>
+<item>
+<title>Verwood</title>
+<cur>UKXX0539</cur>
+<for>Verwood</for>
+</item>
+<item>
+<title>Virginia Water</title>
+<cur>UKXX0667</cur>
+<for>Virginia%20Water</for>
+</item>
+</channel></rss>

@@ -1,0 +1,25 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Bahrain</title>
+<link>./scripts/map/Bahrain.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Al Manama</title>
+<link>http://weather.yahooapis.com/forecastrss?p=BAXX0001&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Al%20Manama,Bahrain</forcast>
+</item>
+
+<item>
+<title>Al Muharraq</title>
+<link>http://weather.yahooapis.com/forecastrss?p=BAXX0002&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Al%20Muharraq,Bahrain</forcast>
+</item>
+
+
+</channel></rss>

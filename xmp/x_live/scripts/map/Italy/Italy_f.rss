@@ -1,0 +1,68 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",Italy";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>Italy</title>
+<link>./scripts/map/Italy_f.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Feldbach</title>
+<cur>AUXX0111</cur>
+<for>Feldbach</for>
+</item>
+<item>
+<title>Feldkirch</title>
+<cur>AUXX0072</cur>
+<for>Feldkirch</for>
+</item>
+<item>
+<title>Feldkirchen</title>
+<cur>AUXX0117</cur>
+<for>Feldkirchen</for>
+</item>
+<item>
+<title>Ferrara</title>
+<cur>ITXX0027</cur>
+<for>Ferrara</for>
+</item>
+<item>
+<title>Florence</title>
+<cur>ITXX0028</cur>
+<for>Florence</for>
+</item>
+<item>
+<title>Foggia</title>
+<cur>ITXX0119</cur>
+<for>Foggia</for>
+</item>
+<item>
+<title>Freistadt</title>
+<cur>AUXX0079</cur>
+<for>Freistadt</for>
+</item>
+<item>
+<title>Frontone</title>
+<cur>ITXX0120</cur>
+<for>Frontone</for>
+</item>
+<item>
+<title>Furstenfeld</title>
+<cur>AUXX0110</cur>
+<for>Furstenfeld</for>
+</item>
+</channel></rss>

@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>RSS News</title>
+        <link>http://localhost/x_live/scripts/menu.rss</link>
+        <media:thumbnail url="image/rss.png" width="120" height="90" />
+        <menu>main menu</menu>
+
+	<item>
+            <title>ABC News</title>
+            <link>http://localhost/x_live/scripts/abc_news.rss</link>
+            <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mn.jpg" width="100" height="90" />
+	    <mediaDisplay  name="onePartView" imageLeftSide="image/LIVE_MAIN_BG_2.jpg"
+	    sideLeftWidthPC="10"
+            sideRightWidthPC="0"
+	    sideColorRight="0:0:0"
+	    sideColorLeft="0:0:0"
+            headerImageWidthPC="0"
+            headerImageXPC="10"
+            headerXPC="10"
+            itemImageXPC="12" itemImageYPC="18"
+            itemImageHeightPC="8" itemImageWidthPC="7"
+            capXPC="20"
+            capYPC="17"
+            capWidthPC="70"
+            capHeightPC="7"
+            itemXPC="20"
+            itemYPC="18"
+            itemHeightPC="8"
+            itemWidthPC="60"
+            itemPerPage="9"
+	    backgroundColor="0:0:0" />
+        </item>
+
+	<item>
+            <title>BBC News</title>
+            <link>http://localhost/x_live/scripts/news_bbc.rss</link>
+            <media:thumbnail url="http://newsimg.bbc.co.uk/shared/bsp/xsl/rss/img/news_logo.gif" width="100" height="90" />
+	    <media:thumbnail url="image/LIVE_NEWS_ICON.jpg" width="120" height="90" />
+            <mediaDisplay  name="onePartView" imageLeftSide="image/LIVE_MAIN_BG_2.jpg"
+	    sideLeftWidthPC="10"
+            sideRightWidthPC="0"
+	    sideColorRight="0:0:0"
+	    sideColorLeft="0:0:0"
+            headerImageWidthPC="0"
+            headerImageXPC="10"
+            headerXPC="10"
+            itemImageXPC="12" itemImageYPC="18"
+            itemImageHeightPC="8" itemImageWidthPC="7"
+            capXPC="20"
+            capYPC="17"
+            capWidthPC="70"
+            capHeightPC="7"
+            itemXPC="20"
+            itemYPC="18"
+            itemHeightPC="8"
+            itemWidthPC="60"
+            itemPerPage="9"
+	    backgroundColor="0:0:0" />
+        </item>
+
+
+        <item>
+            <title>CNN News</title>
+            <link>http://localhost/x_live/scripts/cnn.rss</link>
+            <media:thumbnail url="image/cnn.jpg" width="100" height="90" />
+	    <mediaDisplay  name="onePartView" imageLeftSide="image/LIVE_MAIN_BG_2.jpg"
+	    sideLeftWidthPC="10"
+            sideRightWidthPC="0"
+	    sideColorRight="0:0:0"
+	    sideColorLeft="0:0:0"
+            headerImageWidthPC="0"
+            headerImageXPC="10"
+            headerXPC="10"
+            itemImageXPC="12" itemImageYPC="18"
+            itemImageHeightPC="8" itemImageWidthPC="7"
+            capXPC="20"
+            capYPC="17"
+            capWidthPC="70"
+            capHeightPC="7"
+            itemXPC="20"
+            itemYPC="18"
+            itemHeightPC="8"
+            itemWidthPC="60"
+            itemPerPage="9"
+	    backgroundColor="0:0:0" />
+        </item>
+
+        <item>
+            <title>NPR News</title>
+            <link>http://localhost/x_live/scripts/news_npr.rss</link>
+            <media:thumbnail url="http://media.npr.org/chrome/npr-medium_r.gif" width="100" height="90" />
+	    <mediaDisplay  name="onePartView" imageLeftSide="image/LIVE_MAIN_BG_2.jpg"
+            sideLeftWidthPC="10"
+            sideRightWidthPC="0"
+	    sideColorRight="0:0:0"
+	    sideColorLeft="0:0:0"
+            headerImageWidthPC="0"
+            headerImageXPC="10"
+            headerXPC="10"
+            itemImageXPC="12" itemImageYPC="18"
+            itemImageHeightPC="8" itemImageWidthPC="7"
+            capXPC="20"
+            capYPC="17"
+            capWidthPC="70"
+            capHeightPC="7"
+            itemXPC="20"
+            itemYPC="18"
+            itemHeightPC="8"
+            itemWidthPC="60"
+            itemPerPage="9"
+	    backgroundColor="0:0:0" />
+        </item>
+
+	<item>
+            <title>Yahoo News</title>
+            <link>http://localhost/x_live/scripts/yahoo_news.rss</link>
+	    <media:thumbnail url="image/yahoo.jpg" width="120" height="90" />
+            <mediaDisplay  name="onePartView" imageLeftSide="image/LIVE_MAIN_BG_2.jpg"
+	    sideLeftWidthPC="10"
+            sideRightWidthPC="0"
+	    sideColorRight="0:0:0"
+	    sideColorLeft="0:0:0"
+            headerImageWidthPC="0"
+            headerImageXPC="10"
+            headerXPC="10"
+            itemImageXPC="12" itemImageYPC="18"
+            itemImageHeightPC="8" itemImageWidthPC="7"
+            capXPC="20"
+            capYPC="17"
+            capWidthPC="70"
+            capHeightPC="7"
+            itemXPC="20"
+            itemYPC="18"
+            itemHeightPC="8"
+            itemWidthPC="60"
+            itemPerPage="9"
+	    backgroundColor="0:0:0" />
+        </item>
+
+    </channel>
+</rss>

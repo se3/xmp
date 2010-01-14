@@ -1,0 +1,180 @@
+<?xml version="1.0" ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<!--
+    <script>
+      setRefreshTime(100); 
+      priceArray = null;
+      symbolArray_keep = null;
+      symbolArray = getItemInfoArray("symbol");     
+      stockNameArray = getItemInfoArray("stockName"); 
+      print(symbolArray);
+      print(stockNameArray);
+      symbols = catStringArray(symbolArray, "+"); 
+      print("symbols ::" , symbols);
+    </script>
+    
+    <onRefresh>    
+    setRefreshTime(4000); 
+    print("onRefresh"); 
+    symbolArray = getItemInfoArray("symbol"); 
+    if (symbolArray != symbolArray_keep) {
+        stockNameArray = getItemInfoArray("stockName"); 
+        symbols = catStringArray(symbolArray, "+"); 
+    }
+    symbolArray_keep = symbolArray;
+    url = "http://download.finance.yahoo.com/d/quotes.csv?s="; 
+    url = url + symbols; url = url + "&amp;f=l1c6p2";
+    priceArray = getURLforStock(url); 
+    print(priceArray);
+    </onRefresh>
+    <onUpdate>setRefreshTime(500); print("onUpdate");</onUpdate>
+    <item_template>
+        <title>
+            <script>
+                 tmp = "\\e[30;255;255;250;205m" + getStringArrayAt(stockNameArray , -1) + getStringArrayAt(priceArray, -1);
+				 tmp;
+            </script>
+        </title>
+        <link>
+            <script>"http://finance.yahoo.com/d/quotes.csv?s=" + getStringArrayAt(symbolArray, -1) + "&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb" ;
+            </script>
+        </link>
+        <media:thumbnail url="image/stock.jpg" />
+        <mediaDisplay name="stockView" backgroundColor="79:79:79" />
+        <canDelete>yes</canDelete>
+    </item_template>
+
+    <submenu>
+            <title>USA</title>
+            <link>http://localhost/x_live/scripts/stock/USA.rss</link>
+            <media:thumbnail url="image/country/usa.jpg" />
+            <mediaDisplay name="photoView" 
+	    rowCount="7" 
+	    columnCount="4" 
+	    drawItemText="yes"
+	    menuBorderColor="20:20:20"
+	    sideColorBottom="20:20:20"
+	    sideColorTop="20:20:20"
+	    backgroundColor="0:0:0"
+	    sliding="no" 
+	    />
+            <showRootMenu>no</showRootMenu>
+    </submenu> 
+
+
+    <submenu>
+            <title>China2</title>
+            <link>http://localhost/x_live/scripts/stock/China.rss</link>
+            <media:thumbnail url="image/country/china.jpg" />
+            <mediaDisplay name="photoView" 
+	    rowCount="7" 
+	    columnCount="4" 
+	    drawItemText="yes"
+	    menuBorderColor="20:20:20"
+	    sideColorBottom="20:20:20"
+	    sideColorTop="20:20:20"
+	    backgroundColor="0:0:0"
+	    sliding="no" 
+	    />
+            <showRootMenu>no</showRootMenu>            
+    </submenu> 
+  -->
+   <!--
+    <submenu>
+            <title>Taiwan</title>
+            <link>http://localhost/x_live/scripts/stock/Taiwan.rss</link>
+            <media:thumbnail url="image/country/taiwan.jpg" />
+            <mediaDisplay name="photoView" 
+	    rowCount="7" 
+	    columnCount="4" 
+	    drawItemText="yes" 
+	    sideColorBottom="20:20:20"
+	    sideColorTop="20:20:20"
+	    backgroundColor="0:0:0"
+	    sliding="no" 
+	    />
+            <showRootMenu>no</showRootMenu>
+    </submenu>        
+   -->
+                                   
+    <channel>
+        <title>Stocks Service</title>
+        <link>http://localhost/x_live/scripts/stock/world.rss</link>
+        <media:thumbnail url="image/stock.jpg" />
+        <!-- favorite element indicate this document will collect the links from its child documents when child element throw link to favorite list -->
+        <favorite list="stock" />
+        <!-- test purpose for putting USA here since submenu jump is not ready yet -->
+<item>
+    <title>USA</title>
+    <link>http://localhost/x_live/scripts/stock/USA.rss</link>
+    <media:thumbnail url="image/country/usa.jpg" />
+    <mediaDisplay name="photoView" 
+    rowCount="7" 
+    columnCount="4" 
+    drawItemText="yes"
+    menuBorderColor="20:20:20"
+    sideColorBottom="20:20:20"
+    sideColorTop="20:20:20"
+    backgroundColor="0:0:0"
+    sliding="no" 
+    />
+    <showRootMenu>no</showRootMenu>
+</item>
+
+
+<item>
+    <title>China</title>
+    <link>http://localhost/x_live/scripts/stock/China.rss</link>
+    <media:thumbnail url="image/country/china.jpg" />
+    <mediaDisplay name="photoView" 
+    rowCount="7" 
+    columnCount="4" 
+    drawItemText="yes"
+    menuBorderColor="20:20:20"
+    sideColorBottom="20:20:20"
+    sideColorTop="20:20:20"
+    backgroundColor="0:0:0"
+    sliding="no" 
+    />
+    <showRootMenu>no</showRootMenu>            
+</item>
+
+
+<!--
+        <item>
+            <symbol>3534.tw</symbol>
+            <stockName>Ralink</stockName>
+            <news url="http://tw.stock.yahoo.com/rss/s/3534" />
+        </item>     
+        <item>
+            <symbol>2882.tw</symbol>
+            <stockName>Cathay</stockName>
+            <news url="http://tw.stock.yahoo.com/rss/s/2882" />
+        </item>
+        <item>
+            <symbol>2379.tw</symbol>
+            <stockName>Rtlk</stockName>
+            <news url="http://tw.stock.yahoo.com/rss/s/%s" />
+        </item>
+        <item>
+            <symbol>ibm</symbol>
+            <stockName>ibm</stockName>
+            <news url="http://finance.yahoo.com/rss/headline?s=ibm" />
+            <canDelete>yes</canDelete>
+        </item>
+        <item>
+            <symbol>msft</symbol>
+            <stockName>msft</stockName>
+            <news url="http://finance.yahoo.com/rss/headline?s=msft" />
+            <canDelete>yes</canDelete>
+        </item>
+        <item>
+            <symbol>brcm</symbol>
+            <stockName>brcm</stockName>
+            <news url="http://finance.yahoo.com/rss/headline?s=brcm" />
+            <canDelete>yes</canDelete>
+        </item>
+-->
+    </channel>
+</rss>
+

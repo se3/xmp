@@ -1,0 +1,58 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",Croatia";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>Croatia</title>
+<link>./scripts/map/Croatia.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Dubrovnik</title>
+<cur>HRXX0001</cur>
+<for>Dubrovnik</for>
+</item>
+<item>
+<title>Karlovac</title>
+<cur>HRXX0002</cur>
+<for>Karlovac</for>
+</item>
+<item>
+<title>Osijek</title>
+<cur>HRXX0003</cur>
+<for>Osijek</for>
+</item>
+<item>
+<title>Pula</title>
+<cur>HRXX0007</cur>
+<for>Pula</for>
+</item>
+<item>
+<title>Rijeka</title>
+<cur>HRXX0006</cur>
+<for>Rijeka</for>
+</item>
+<item>
+<title>Split</title>
+<cur>HRXX0004</cur>
+<for>Split</for>
+</item>
+<item>
+<title>Zagreb</title>
+<cur>HRXX0005</cur>
+<for>Zagreb</for>
+</item>
+</channel></rss>

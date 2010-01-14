@@ -1,0 +1,43 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",Italy";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>Italy</title>
+<link>./scripts/map/Italy_w.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Waidhofen an der Thaya</title>
+<cur>AUXX0085</cur>
+<for>Waidhofen%20an%20der%20Thaya</for>
+</item>
+<item>
+<title>Waidhofen an der Ybbs</title>
+<cur>AUXX0094</cur>
+<for>Waidhofen%20an%20der%20Ybbs</for>
+</item>
+<item>
+<title>Weiz</title>
+<cur>AUXX0107</cur>
+<for>Weiz</for>
+</item>
+<item>
+<title>Wolfsberg</title>
+<cur>AUXX0114</cur>
+<for>Wolfsberg</for>
+</item>
+</channel></rss>

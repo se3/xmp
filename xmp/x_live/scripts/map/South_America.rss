@@ -1,0 +1,135 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>South America</title>
+<link>./scripts/map/South_America.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Argentina</title>
+<link>http://localhost/x_live/scripts/map/Argentina.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>-37.090698</Latitude>
+<Longitude>-63.584808</Longitude>
+</item>
+
+<item>
+<title>Ascension Island</title>
+<link>http://localhost/x_live/scripts/map/Ascension_Island.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>-7.946590</Latitude>
+<Longitude>-14.342330</Longitude>
+</item>
+
+<item>
+<title>Bolivia</title>
+<link>http://localhost/x_live/scripts/map/Bolivia.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>-16.288349</Latitude>
+<Longitude>-63.549419</Longitude>
+</item>
+
+<item>
+<title>Brazil</title>
+<link>http://localhost/x_live/scripts/map/Brazil.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>-14.242920</Latitude>
+<Longitude>-54.387829</Longitude>
+</item>
+
+<item>
+<title>Chile</title>
+<link>http://localhost/x_live/scripts/map/Chile.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>-35.705219</Latitude>
+<Longitude>-71.341087</Longitude>
+</item>
+
+<item>
+<title>Colombia</title>
+<link>http://localhost/x_live/scripts/map/Colombia.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>4.116410</Latitude>
+<Longitude>-72.958527</Longitude>
+</item>
+
+<item>
+<title>Ecuador</title>
+<link>http://localhost/x_live/scripts/map/Ecuador.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>-1.789940</Latitude>
+<Longitude>-78.095787</Longitude>
+</item>
+
+<item>
+<title>French Guiana</title>
+<link>http://localhost/x_live/scripts/map/French_Guiana.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>3.951790</Latitude>
+<Longitude>-53.078232</Longitude>
+</item>
+
+<item>
+<title>Guyana</title>
+<link>http://localhost/x_live/scripts/map/Guyana.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>4.866320</Latitude>
+<Longitude>-58.938259</Longitude>
+</item>
+
+<item>
+<title>Paraguay</title>
+<link>http://localhost/x_live/scripts/map/Paraguay.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>-23.451389</Latitude>
+<Longitude>-58.453209</Longitude>
+</item>
+
+<item>
+<title>Peru</title>
+<link>http://localhost/x_live/scripts/map/Peru.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>-9.181340</Latitude>
+<Longitude>-75.002357</Longitude>
+</item>
+
+<item>
+<title>Suriname</title>
+<link>http://localhost/x_live/scripts/map/Suriname.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>3.917840</Latitude>
+<Longitude>-56.032028</Longitude>
+</item>
+
+<item>
+<title>Uruguay</title>
+<link>http://localhost/x_live/scripts/map/Uruguay.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>-32.531509</Latitude>
+<Longitude>-55.758331</Longitude>
+</item>
+
+<item>
+<title>Venezuela</title>
+<link>http://localhost/x_live/scripts/map/Venezuela.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>6.472790</Latitude>
+<Longitude>-66.589043</Longitude>
+</item>
+
+
+</channel></rss>

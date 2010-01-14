@@ -1,0 +1,88 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",Russia";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>Russia</title>
+<link>./scripts/map/Russia_z.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Zametcino</title>
+<cur>RSXX0203</cur>
+<for>Zametcino</for>
+</item>
+<item>
+<title>Zamokta</title>
+<cur>RSXX0329</cur>
+<for>Zamokta</for>
+</item>
+<item>
+<title>Zavodoukovsk</title>
+<cur>RSXX1600</cur>
+<for>Zavodoukovsk</for>
+</item>
+<item>
+<title>Zeja</title>
+<cur>RSXX0358</cur>
+<for>Zeja</for>
+</item>
+<item>
+<title>Zelenogorsk</title>
+<cur>RSXX1457</cur>
+<for>Zelenogorsk</for>
+</item>
+<item>
+<title>Zerdevka</title>
+<cur>RSXX0411</cur>
+<for>Zerdevka</for>
+</item>
+<item>
+<title>Zhigansk</title>
+<cur>RSXX1627</cur>
+<for>Zhigansk</for>
+</item>
+<item>
+<title>Zilair</title>
+<cur>RSXX0432</cur>
+<for>Zilair</for>
+</item>
+<item>
+<title>Zima</title>
+<cur>RSXX0127</cur>
+<for>Zima</for>
+</item>
+<item>
+<title>Zlatoust</title>
+<cur>RSXX1334</cur>
+<for>Zlatoust</for>
+</item>
+<item>
+<title>Zmeinogorsk</title>
+<cur>RSXX0437</cur>
+<for>Zmeinogorsk</for>
+</item>
+<item>
+<title>Zolotoj</title>
+<cur>RSXX0384</cur>
+<for>Zolotoj</for>
+</item>
+<item>
+<title>Zvenigorod</title>
+<cur>RSXX1505</cur>
+<for>Zvenigorod</for>
+</item>
+</channel></rss>

@@ -1,0 +1,17 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Brunei</title>
+<link>./scripts/map/Brunei.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Kuala Belait</title>
+<link>http://weather.yahooapis.com/forecastrss?p=BXXX0002&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kuala%20Belait,Brunei</forcast>
+</item>
+
+
+</channel></rss>

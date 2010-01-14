@@ -1,0 +1,473 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Turkey</title>
+<link>./scripts/map/Turkey.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Adana</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0061&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Adana</forcast>
+</item>
+
+<item>
+<title>Afyon</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0046&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Afyon</forcast>
+</item>
+
+<item>
+<title>Akhisar</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0044&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Akhisar</forcast>
+</item>
+
+<item>
+<title>Anamur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0066&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Anamur</forcast>
+</item>
+
+<item>
+<title>Ankara</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0002&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Ankara</forcast>
+</item>
+
+<item>
+<title>Antalya</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0004&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Antalya</forcast>
+</item>
+
+<item>
+<title>Askale</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0005&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Askale</forcast>
+</item>
+
+<item>
+<title>Aydin</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0051&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Aydin</forcast>
+</item>
+
+<item>
+<title>Bafra</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0006&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bafra</forcast>
+</item>
+
+<item>
+<title>Balikesir</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0041&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Balikesir</forcast>
+</item>
+
+<item>
+<title>Bandirma</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0038&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bandirma</forcast>
+</item>
+
+<item>
+<title>Bismil</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0007&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bismil</forcast>
+</item>
+
+<item>
+<title>Bodrum</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0056&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bodrum</forcast>
+</item>
+
+<item>
+<title>Bolu</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0032&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bolu</forcast>
+</item>
+
+<item>
+<title>Bursa</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0039&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bursa</forcast>
+</item>
+
+<item>
+<title>Canakkale</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0037&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Canakkale</forcast>
+</item>
+
+<item>
+<title>Ceyhan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0008&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Ceyhan</forcast>
+</item>
+
+<item>
+<title>Corum</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0033&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Corum</forcast>
+</item>
+
+<item>
+<title>Cubuk</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0009&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Cubuk</forcast>
+</item>
+
+<item>
+<title>Dalaman</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0060&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Dalaman</forcast>
+</item>
+
+<item>
+<title>Diyarbakir</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0010&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Diyarbakir</forcast>
+</item>
+
+<item>
+<title>Edirne</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0030&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Edirne</forcast>
+</item>
+
+<item>
+<title>Elazig</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0049&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Elazig</forcast>
+</item>
+
+<item>
+<title>Elmadag</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0011&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Elmadag</forcast>
+</item>
+
+<item>
+<title>Ergani</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0012&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Ergani</forcast>
+</item>
+
+<item>
+<title>Erzincan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0035&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Erzincan</forcast>
+</item>
+
+<item>
+<title>Erzurum</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0013&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Erzurum</forcast>
+</item>
+
+<item>
+<title>Eskisehir</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0040&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Eskisehir</forcast>
+</item>
+
+<item>
+<title>Gaziantep</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0055&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Gaziantep</forcast>
+</item>
+
+<item>
+<title>Iskenderun</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0059&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Iskenderun</forcast>
+</item>
+
+<item>
+<title>Isparta</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0052&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Isparta</forcast>
+</item>
+
+<item>
+<title>Istanbul</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0014&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Istanbul</forcast>
+</item>
+
+<item>
+<title>Izmir</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0015&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Izmir</forcast>
+</item>
+
+<item>
+<title>Kars</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0036&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kars</forcast>
+</item>
+
+<item>
+<title>Kartal</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0018&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kartal</forcast>
+</item>
+
+<item>
+<title>Kirikkale</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0019&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kirikkale</forcast>
+</item>
+
+<item>
+<title>Kirsehir</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0042&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kirsehir</forcast>
+</item>
+
+<item>
+<title>Konya</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0053&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Konya</forcast>
+</item>
+
+<item>
+<title>Manavgat</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0020&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Manavgat</forcast>
+</item>
+
+<item>
+<title>Merzifon</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0064&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Merzifon</forcast>
+</item>
+
+<item>
+<title>Mugla</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0057&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Mugla</forcast>
+</item>
+
+<item>
+<title>Mus</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0062&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Mus</forcast>
+</item>
+
+<item>
+<title>Nevsehir</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0065&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Nevsehir</forcast>
+</item>
+
+<item>
+<title>Pasinler</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0021&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Pasinler</forcast>
+</item>
+
+<item>
+<title>Sakarya</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0022&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Sakarya</forcast>
+</item>
+
+<item>
+<title>Samsun</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0023&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Samsun</forcast>
+</item>
+
+<item>
+<title>Sariyer</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0024&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Sariyer</forcast>
+</item>
+
+<item>
+<title>Siirt</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0050&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Siirt</forcast>
+</item>
+
+<item>
+<title>Silifke</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0058&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Silifke</forcast>
+</item>
+
+<item>
+<title>Sivas</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0034&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Sivas</forcast>
+</item>
+
+<item>
+<title>Tarsus</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0025&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tarsus</forcast>
+</item>
+
+<item>
+<title>Tekirdag</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0031&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tekirdag</forcast>
+</item>
+
+<item>
+<title>Torbali</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0026&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Torbali</forcast>
+</item>
+
+<item>
+<title>Trabzon</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0029&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Trabzon</forcast>
+</item>
+
+<item>
+<title>Urla</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0027&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Urla</forcast>
+</item>
+
+<item>
+<title>Usak</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0045&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Usak</forcast>
+</item>
+
+<item>
+<title>Van</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0043&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Van</forcast>
+</item>
+
+<item>
+<title>Zonguldak</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TUXX0028&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Zonguldak</forcast>
+</item>
+
+
+</channel></rss>

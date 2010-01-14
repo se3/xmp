@@ -1,0 +1,121 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<item_template>
+   
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>     
+</item_template>
+
+
+
+<channel>
+<title>China</title>
+<link>./scripts/map/China_a.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Abag Qi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0243&amp;u=c</link>
+
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Abag%20Qi</forcast>
+</item>
+
+<item>
+<title>Acheng</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0001&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Acheng</forcast>
+</item>
+
+<item>
+<title>Aihui</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0174&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Aihui</forcast>
+</item>
+
+<item>
+<title>Akqi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0210&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Akqi</forcast>
+</item>
+
+<item>
+<title>Alar</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0212&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Alar</forcast>
+</item>
+
+<item>
+<title>Altay</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0196&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Altay</forcast>
+</item>
+
+<item>
+<title>Anda</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0187&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Anda</forcast>
+</item>
+
+<item>
+<title>Ankang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0394&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Ankang</forcast>
+</item>
+
+<item>
+<title>Anqing</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0452&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Anqing</forcast>
+</item>
+
+<item>
+<title>Anshan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0004&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Anshan</forcast>
+</item>
+
+<item>
+<title>Anshun</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0005&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Anshun</forcast>
+</item>
+
+<item>
+<title>Anyang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0269&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Anyang</forcast>
+</item>
+
+<item>
+<title>Arxan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0182&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Arxan</forcast>
+</item>
+
+
+</channel></rss>

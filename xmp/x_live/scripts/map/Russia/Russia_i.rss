@@ -1,0 +1,88 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",Russia";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>Russia</title>
+<link>./scripts/map/Russia_i.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Idrinskoe</title>
+<cur>RSXX0289</cur>
+<for>Idrinskoe</for>
+</item>
+<item>
+<title>Igarka</title>
+<cur>RSXX1387</cur>
+<for>Igarka</for>
+</item>
+<item>
+<title>Iglino</title>
+<cur>RSXX0036</cur>
+<for>Iglino</for>
+</item>
+<item>
+<title>Ignasino</title>
+<cur>RSXX0323</cur>
+<for>Ignasino</for>
+</item>
+<item>
+<title>Ilyinskiy</title>
+<cur>RSXX0401</cur>
+<for>Ilyinskiy</for>
+</item>
+<item>
+<title>Im Poliny Osipenko</title>
+<cur>RSXX0364</cur>
+<for>Im%20Poliny%20Osipenko</for>
+</item>
+<item>
+<title>Irbejskoe</title>
+<cur>RSXX0270</cur>
+<for>Irbejskoe</for>
+</item>
+<item>
+<title>Irbit</title>
+<cur>RSXX1574</cur>
+<for>Irbit</for>
+</item>
+<item>
+<title>Irkutsk</title>
+<cur>RSXX0038</cur>
+<for>Irkutsk</for>
+</item>
+<item>
+<title>Isim</title>
+<cur>RSXX1236</cur>
+<for>Isim</for>
+</item>
+<item>
+<title>Istra</title>
+<cur>RSXX0039</cur>
+<for>Istra</for>
+</item>
+<item>
+<title>Ivangorod</title>
+<cur>RSXX1253</cur>
+<for>Ivangorod</for>
+</item>
+<item>
+<title>Ivanovo</title>
+<cur>RSXX1366</cur>
+<for>Ivanovo</for>
+</item>
+</channel></rss>

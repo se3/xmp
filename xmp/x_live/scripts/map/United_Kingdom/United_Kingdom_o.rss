@@ -1,0 +1,103 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",United%20Kingdom";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>United Kingdom</title>
+<link>./scripts/map/United_kingdom_o.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Oakham</title>
+<cur>UKXX0777</cur>
+<for>Oakham</for>
+</item>
+<item>
+<title>Oban</title>
+<cur>UKXX0703</cur>
+<for>Oban</for>
+</item>
+<item>
+<title>Odiham</title>
+<cur>UKXX2061</cur>
+<for>Odiham</for>
+</item>
+<item>
+<title>Okehampton</title>
+<cur>UKXX0280</cur>
+<for>Okehampton</for>
+</item>
+<item>
+<title>Old Wolverton</title>
+<cur>UKXX0489</cur>
+<for>Old%20Wolverton</for>
+</item>
+<item>
+<title>Oldham</title>
+<cur>UKXX0105</cur>
+<for>Oldham</for>
+</item>
+<item>
+<title>Olney</title>
+<cur>UKXX0782</cur>
+<for>Olney</for>
+</item>
+<item>
+<title>Omagh</title>
+<cur>UKXX0353</cur>
+<for>Omagh</for>
+</item>
+<item>
+<title>Orford</title>
+<cur>UKXX0279</cur>
+<for>Orford</for>
+</item>
+<item>
+<title>Orkney</title>
+<cur>UKXX0871</cur>
+<for>Orkney</for>
+</item>
+<item>
+<title>Ormskirk</title>
+<cur>UKXX0281</cur>
+<for>Ormskirk</for>
+</item>
+<item>
+<title>Ossett</title>
+<cur>UKXX1222</cur>
+<for>Ossett</for>
+</item>
+<item>
+<title>Oswestry</title>
+<cur>UKXX0611</cur>
+<for>Oswestry</for>
+</item>
+<item>
+<title>Ottery St. Mary</title>
+<cur>UKXX1562</cur>
+<for>Ottery%20St%2e%20Mary</for>
+</item>
+<item>
+<title>Oxford</title>
+<cur>UKXX0106</cur>
+<for>Oxford</for>
+</item>
+<item>
+<title>Oxted</title>
+<cur>UKXX1401</cur>
+<for>Oxted</for>
+</item>
+</channel></rss>

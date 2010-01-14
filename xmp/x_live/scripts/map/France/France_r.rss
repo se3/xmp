@@ -1,0 +1,73 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",France";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>France</title>
+<link>./scripts/map/France_r.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Reims</title>
+<cur>FRXX0080</cur>
+<for>Reims</for>
+</item>
+<item>
+<title>Rennes</title>
+<cur>FRXX0114</cur>
+<for>Rennes</for>
+</item>
+<item>
+<title>Reze</title>
+<cur>FRXX0081</cur>
+<for>Reze</for>
+</item>
+<item>
+<title>Roanne</title>
+<cur>FRXX0082</cur>
+<for>Roanne</for>
+</item>
+<item>
+<title>Roche</title>
+<cur>FRXX0258</cur>
+<for>Roche</for>
+</item>
+<item>
+<title>Rochefort</title>
+<cur>FRXX0083</cur>
+<for>Rochefort</for>
+</item>
+<item>
+<title>Rodez</title>
+<cur>FRXX0171</cur>
+<for>Rodez</for>
+</item>
+<item>
+<title>Roubaix</title>
+<cur>FRXX0084</cur>
+<for>Roubaix</for>
+</item>
+<item>
+<title>Rouen</title>
+<cur>FRXX0085</cur>
+<for>Rouen</for>
+</item>
+<item>
+<title>Rueil-Malmaison</title>
+<cur>FRXX0289</cur>
+<for>Rueil%2dMalmaison</for>
+</item>
+</channel></rss>

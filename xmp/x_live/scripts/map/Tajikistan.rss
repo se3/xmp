@@ -1,0 +1,43 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Tajikistan</title>
+<link>./scripts/map/Tajikistan.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>38.858189</Latitude>
+<Longitude>71.262177</Longitude>
+
+
+<item>
+<title>Dushanbe</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TIXX0001&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>38.573700</Latitude>
+<Longitude>68.773800</Longitude>
+</item>
+
+<item>
+<title>Khudzhand</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TIXX0003&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>40.294400</Latitude>
+<Longitude>69.647900</Longitude>
+</item>
+
+<item>
+<title>Ordhonikidzeabad</title>
+<link>http://weather.yahooapis.com/forecastrss?p=TIXX0002&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>38.560100</Latitude>
+<Longitude>69.010900</Longitude>
+</item>
+
+
+</channel></rss>

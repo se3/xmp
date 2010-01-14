@@ -1,0 +1,169 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Oman</title>
+<link>./scripts/map/Oman.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Adam</title>
+<link>http://weather.yahooapis.com/forecastrss?p=MUXX0013&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Adam</forcast>
+</item>
+
+<item>
+<title>Al Rustaq</title>
+<link>http://weather.yahooapis.com/forecastrss?p=MUXX0015&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Al%20Rustaq</forcast>
+</item>
+
+<item>
+<title>As Sib</title>
+<link>http://weather.yahooapis.com/forecastrss?p=MUXX0001&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=As%20Sib</forcast>
+</item>
+
+<item>
+<title>Bahla</title>
+<link>http://weather.yahooapis.com/forecastrss?p=MUXX0020&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bahla</forcast>
+</item>
+
+<item>
+<title>Buraimi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=MUXX0005&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Buraimi</forcast>
+</item>
+
+<item>
+<title>Fahud</title>
+<link>http://weather.yahooapis.com/forecastrss?p=MUXX0007&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Fahud</forcast>
+</item>
+
+<item>
+<title>Haima</title>
+<link>http://weather.yahooapis.com/forecastrss?p=MUXX0017&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Haima</forcast>
+</item>
+
+<item>
+<title>Ibra</title>
+<link>http://weather.yahooapis.com/forecastrss?p=MUXX0016&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Ibra</forcast>
+</item>
+
+<item>
+<title>Khassab</title>
+<link>http://weather.yahooapis.com/forecastrss?p=MUXX0004&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Khassab</forcast>
+</item>
+
+<item>
+<title>Marmul</title>
+<link>http://weather.yahooapis.com/forecastrss?p=MUXX0010&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Marmul</forcast>
+</item>
+
+<item>
+<title>Masirah</title>
+<link>http://weather.yahooapis.com/forecastrss?p=MUXX0009&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Masirah</forcast>
+</item>
+
+<item>
+<title>Muscat</title>
+<link>http://weather.yahooapis.com/forecastrss?p=MUXX0003&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Muscat</forcast>
+</item>
+
+<item>
+<title>Nizwa</title>
+<link>http://weather.yahooapis.com/forecastrss?p=MUXX0018&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Nizwa</forcast>
+</item>
+
+<item>
+<title>Qairoon Hairiti</title>
+<link>http://weather.yahooapis.com/forecastrss?p=MUXX0014&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Qairoon%20Hairiti</forcast>
+</item>
+
+<item>
+<title>Saiq</title>
+<link>http://weather.yahooapis.com/forecastrss?p=MUXX0021&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Saiq</forcast>
+</item>
+
+<item>
+<title>Salalah</title>
+<link>http://weather.yahooapis.com/forecastrss?p=MUXX0012&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Salalah</forcast>
+</item>
+
+<item>
+<title>Samail</title>
+<link>http://weather.yahooapis.com/forecastrss?p=MUXX0019&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Samail</forcast>
+</item>
+
+<item>
+<title>Sohar Majis</title>
+<link>http://weather.yahooapis.com/forecastrss?p=MUXX0006&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Sohar%20Majis</forcast>
+</item>
+
+<item>
+<title>Sur</title>
+<link>http://weather.yahooapis.com/forecastrss?p=MUXX0008&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Sur</forcast>
+</item>
+
+<item>
+<title>Thumrait</title>
+<link>http://weather.yahooapis.com/forecastrss?p=MUXX0011&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Thumrait</forcast>
+</item>
+
+
+</channel></rss>

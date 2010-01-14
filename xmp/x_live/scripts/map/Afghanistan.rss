@@ -1,0 +1,25 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Afghanistan</title>
+<link>./scripts/map/Afghanistan.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Herat</title>
+<link>http://weather.yahooapis.com/forecastrss?p=AFXX0002&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Herat,Afghanistan</forcast>
+</item>
+
+<item>
+<title>Kabul</title>
+<link>http://weather.yahooapis.com/forecastrss?p=AFXX0003&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Kabul,Afghanistan</forcast>
+</item>
+
+
+</channel></rss>

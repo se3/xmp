@@ -1,0 +1,78 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",France";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>France</title>
+<link>./scripts/map/France_k.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Kedange-sur-Canner</title>
+<cur>FRXX1487</cur>
+<for>Kedange%2dsur%2dCanner</for>
+</item>
+<item>
+<title>Kunheim</title>
+<cur>FRXX2888</cur>
+<for>Kunheim</for>
+</item>
+<item>
+<title>Kaysersberg</title>
+<cur>FRXX2178</cur>
+<for>Kaysersberg</for>
+</item>
+<item>
+<title>Kruth</title>
+<cur>FRXX4149</cur>
+<for>Kruth</for>
+</item>
+<item>
+<title>Krautergersheim</title>
+<cur>FRXX3645</cur>
+<for>Krautergersheim</for>
+</item>
+<item>
+<title>Kembs</title>
+<cur>FRXX1195</cur>
+<for>Kembs</for>
+</item>
+<item>
+<title>Kerbach</title>
+<cur>FRXX1952</cur>
+<for>Kerbach</for>
+</item>
+<item>
+<title>Kerlouan</title>
+<cur>FRXX3953</cur>
+<for>Kerlouan</for>
+</item>
+<item>
+<title>Kertzfeld</title>
+<cur>FRXX6551</cur>
+<for>Kertzfeld</for>
+</item>
+<item>
+<title>Kilstett</title>
+<cur>FRXX6595</cur>
+<for>Kilstett</for>
+</item>
+<item>
+<title>Kingersheim</title>
+<cur>FRXX6612</cur>
+<for>Kingersheim</for>
+</item>
+</channel></rss>

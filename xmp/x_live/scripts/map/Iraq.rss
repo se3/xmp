@@ -1,0 +1,105 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Iraq</title>
+<link>./scripts/map/Iraq.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Al Azamiyah</title>
+<link>http://weather.yahooapis.com/forecastrss?p=IZXX0001&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Al%20Azamiyah</forcast>
+</item>
+
+<item>
+<title>Al Basrah</title>
+<link>http://weather.yahooapis.com/forecastrss?p=IZXX0002&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Al%20Basrah</forcast>
+</item>
+
+<item>
+<title>Al Hillah</title>
+<link>http://weather.yahooapis.com/forecastrss?p=IZXX0003&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Al%20Hillah</forcast>
+</item>
+
+<item>
+<title>Al Karkh</title>
+<link>http://weather.yahooapis.com/forecastrss?p=IZXX0004&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Al%20Karkh</forcast>
+</item>
+
+<item>
+<title>Al Kazimiyah</title>
+<link>http://weather.yahooapis.com/forecastrss?p=IZXX0005&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Al%20Kazimiyah</forcast>
+</item>
+
+<item>
+<title>Al Kut</title>
+<link>http://weather.yahooapis.com/forecastrss?p=IZXX0006&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Al%20Kut</forcast>
+</item>
+
+<item>
+<title>An Nasiriyah</title>
+<link>http://weather.yahooapis.com/forecastrss?p=IZXX0007&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=An%20Nasiriyah</forcast>
+</item>
+
+<item>
+<title>Baghdad</title>
+<link>http://weather.yahooapis.com/forecastrss?p=IZXX0008&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Baghdad</forcast>
+</item>
+
+<item>
+<title>Mosul</title>
+<link>http://weather.yahooapis.com/forecastrss?p=IZXX0010&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Mosul</forcast>
+</item>
+
+<item>
+<title>Najaf</title>
+<link>http://weather.yahooapis.com/forecastrss?p=IZXX0013&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Najaf</forcast>
+</item>
+
+<item>
+<title>Nineveh</title>
+<link>http://weather.yahooapis.com/forecastrss?p=IZXX0011&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Nineveh</forcast>
+</item>
+
+<item>
+<title>Tall Kayf</title>
+<link>http://weather.yahooapis.com/forecastrss?p=IZXX0012&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tall%20Kayf</forcast>
+</item>
+
+
+</channel></rss>

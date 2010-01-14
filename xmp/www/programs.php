@@ -8,6 +8,7 @@
 <? 
    //$xmp_root = getcwd();
    $optdir = file_exists('/opt'); 
+   $xlive = file_exists('/sbin/www/x_live/WAN_OK'); 
    $sshdfile = file_exists('/opt/sbin/sshd');
    $transfile = file_exists('/opt/bin/transmission-daemon');
    $dctcs = file_exists('/usr/local/bin/dctcs');
@@ -342,6 +343,20 @@
 </form></td>
 </tr>
 
+<!-- Table horisontal line -->
+
+  <tr>
+    <td colspan=10 align="center"><hr />
+</td>
+  </tr>
+<tr>
+<td align="center">Use own RSS</td>
+<td align="center"><form action="../x_live/symlink_xlive.php" method="get" target="bottomFrame" title="Make X_LIVE access local">
+  <input type="submit" <? if (!$xlive) { echo 'value="action"'; } else{ echo 'value="x_live hacked"'; echo 'disabled="disabled"'; } ?> >
+</form></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
 
 <!-- Table horisontal line -->
 

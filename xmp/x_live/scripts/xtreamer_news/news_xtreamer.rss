@@ -1,0 +1,28 @@
+﻿<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+	<title>Xtreamer News</title>
+	<link>http://localhost/x_live/scripts/xtreamer_news/news_xtreamer.rss</link>
+	<media:thumbnail url="http://192.168.124.43/x_live/image/news.jpg" width="255" height="255" />
+
+<item>
+<title>News</title>
+<link>http://localhost/x_live/scripts/xtreamer_news/xtreamer_news.xml</link>
+<canEnterItem>false</canEnterItem>
+</item>
+
+<item>
+<title>Release Notes</title>
+<link>http://localhost/x_live/scripts/xtreamer_news/release_note.xml#</link>
+<canEnterItem>false</canEnterItem>
+</item>
+
+<item>
+<title>Tips</title>
+<link>http://localhost/x_live/scripts/xtreamer_news/tips.xml</link>
+<canEnterItem>false</canEnterItem>
+</item>
+
+</channel>
+</rss>
+

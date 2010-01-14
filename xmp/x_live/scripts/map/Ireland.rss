@@ -1,0 +1,916 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Ireland</title>
+<link>./scripts/map/Ireland.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>53.419609</Latitude>
+<Longitude>-8.240550</Longitude>
+
+<item>
+<title>Aasleagh</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0052&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.613417</Latitude>
+<Longitude>-9.668720</Longitude>
+</item>
+
+<item>
+<title>Arklow</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0001&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>52.796358</Latitude>
+<Longitude>-6.157193</Longitude>
+</item>
+
+<item>
+<title>Athlone</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0055&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>31.611128</Latitude>
+<Longitude>-91.741394</Longitude>
+</item>
+
+<item>
+<title>Ballina/Mayo</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0056&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>54.111900</Latitude>
+<Longitude>-9.157326</Longitude>
+</item>
+
+<item>
+<title>Ballinafad</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0100&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>54.027741</Latitude>
+<Longitude>-8.334795</Longitude>
+</item>
+
+<item>
+<title>Ballinasloe</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0058&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.334036</Latitude>
+<Longitude>-8.203742</Longitude>
+</item>
+
+<item>
+<title>Ballincollig</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0002&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>51.886007</Latitude>
+<Longitude>-8.586469</Longitude>
+</item>
+
+<item>
+<title>Ballycanew</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0057&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>52.608213</Latitude>
+<Longitude>-6.305041</Longitude>
+</item>
+
+<item>
+<title>Ballymahon</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0063&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.562644</Latitude>
+<Longitude>-7.764143</Longitude>
+</item>
+
+<item>
+<title>Belmullet</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0050&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>54.224686</Latitude>
+<Longitude>-9.991002</Longitude>
+</item>
+
+<item>
+<title>Blackhead</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0059&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>-45.927134</Latitude>
+<Longitude>170.429571</Longitude>
+</item>
+
+<item>
+<title>Carlow</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0003&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>52.835983</Latitude>
+<Longitude>-6.924652</Longitude>
+</item>
+
+<item>
+<title>Carrick on Shannon</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0004&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.943551</Latitude>
+<Longitude>-8.095493</Longitude>
+</item>
+
+<item>
+<title>Carrick On Suir</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0092&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>52.346632</Latitude>
+<Longitude>-7.414667</Longitude>
+</item>
+
+<item>
+<title>Carrickmacross</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0064&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.977744</Latitude>
+<Longitude>-6.719579</Longitude>
+</item>
+
+<item>
+<title>Carrigaline</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0005&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>51.813189</Latitude>
+<Longitude>-8.393963</Longitude>
+</item>
+
+<item>
+<title>Castlebar</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0006&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.854158</Latitude>
+<Longitude>-9.301738</Longitude>
+</item>
+
+<item>
+<title>Castleconnell</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0007&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>52.712828</Latitude>
+<Longitude>-8.502963</Longitude>
+</item>
+
+<item>
+<title>Castlemartyr</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0008&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>51.909164</Latitude>
+<Longitude>-8.057629</Longitude>
+</item>
+
+<item>
+<title>Cavan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0009&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.994210</Latitude>
+<Longitude>-7.360896</Longitude>
+</item>
+
+<item>
+<title>Claremorris</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0060&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.722032</Latitude>
+<Longitude>-8.995482</Longitude>
+</item>
+
+<item>
+<title>Clifden</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0010&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.489126</Latitude>
+<Longitude>-10.020269</Longitude>
+</item>
+
+<item>
+<title>Clonakilty</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0094&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>51.620867</Latitude>
+<Longitude>-8.894256</Longitude>
+</item>
+
+<item>
+<title>Clones</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0090&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>54.183038</Latitude>
+<Longitude>-7.233714</Longitude>
+</item>
+
+<item>
+<title>Connaught Airport</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0062&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>51.879630</Latitude>
+<Longitude>-0.419884</Longitude>
+</item>
+
+<item>
+<title>Cork</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0011&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>51.897865</Latitude>
+<Longitude>-8.471094</Longitude>
+</item>
+
+<item>
+<title>Crookhaven</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0061&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>-34.905727</Latitude>
+<Longitude>150.763253</Longitude>
+</item>
+
+<item>
+<title>Crookstown</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0012&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>51.841773</Latitude>
+<Longitude>-8.830266</Longitude>
+</item>
+
+<item>
+<title>Drogheda</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0013&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.716772</Latitude>
+<Longitude>-6.354354</Longitude>
+</item>
+
+<item>
+<title>Dromond</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0067&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>51.481721</Latitude>
+<Longitude>-0.174857</Longitude>
+</item>
+
+<item>
+<title>Dublin</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0014&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.344104</Latitude>
+<Longitude>-6.267494</Longitude>
+</item>
+
+<item>
+<title>Dun Laoghaire</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0015&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.295895</Latitude>
+<Longitude>-6.138749</Longitude>
+</item>
+
+<item>
+<title>Dunmore</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0066&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>41.417771</Latitude>
+<Longitude>-75.611763</Longitude>
+</item>
+
+<item>
+<title>Edenderry</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0065&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.342039</Latitude>
+<Longitude>-7.049536</Longitude>
+</item>
+
+<item>
+<title>Ennis</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0016&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>32.325362</Latitude>
+<Longitude>-96.645506</Longitude>
+</item>
+
+<item>
+<title>Galway</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0017&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.279918</Latitude>
+<Longitude>-9.064611</Longitude>
+</item>
+
+<item>
+<title>Gorunna</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0070&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>43.371491</Latitude>
+<Longitude>-8.395970</Longitude>
+</item>
+
+<item>
+<title>Greenslough</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0069&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>46.132709</Latitude>
+<Longitude>-123.872128</Longitude>
+</item>
+
+<item>
+<title>Greystones</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0018&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.139113</Latitude>
+<Longitude>-6.075536</Longitude>
+</item>
+
+<item>
+<title>Irish Sea</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0084&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>55.177077</Latitude>
+<Longitude>-4.980400</Longitude>
+</item>
+
+<item>
+<title>Kilcolgan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0019&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.212467</Latitude>
+<Longitude>-8.872431</Longitude>
+</item>
+
+<item>
+<title>Kildare</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0020&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.159829</Latitude>
+<Longitude>-6.908998</Longitude>
+</item>
+
+<item>
+<title>Kilkenny</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0021&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>52.653754</Latitude>
+<Longitude>-7.247983</Longitude>
+</item>
+
+<item>
+<title>Killadysert</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0022&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>52.673766</Latitude>
+<Longitude>-9.109524</Longitude>
+</item>
+
+<item>
+<title>Killarney</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0023&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>-28.340099</Latitude>
+<Longitude>152.294194</Longitude>
+</item>
+
+<item>
+<title>Kilrush</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0071&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>52.636296</Latitude>
+<Longitude>-9.487204</Longitude>
+</item>
+
+<item>
+<title>Leixlip</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0024&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.366819</Latitude>
+<Longitude>-6.488998</Longitude>
+</item>
+
+<item>
+<title>Letterkenny</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0025&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>54.949037</Latitude>
+<Longitude>-7.734217</Longitude>
+</item>
+
+<item>
+<title>Limerick</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0026&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>52.663857</Latitude>
+<Longitude>-8.626773</Longitude>
+</item>
+
+<item>
+<title>Longford</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0027&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>39.173141</Latitude>
+<Longitude>-97.329222</Longitude>
+</item>
+
+<item>
+<title>Loughrea</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0072&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.200030</Latitude>
+<Longitude>-8.569612</Longitude>
+</item>
+
+<item>
+<title>Malin Head</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0091&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>55.334604</Latitude>
+<Longitude>-7.242754</Longitude>
+</item>
+
+<item>
+<title>Mallow</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0028&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>-5.638993</Latitude>
+<Longitude>144.414093</Longitude>
+</item>
+
+<item>
+<title>Midleton</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0029&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>51.916070</Latitude>
+<Longitude>-8.181637</Longitude>
+</item>
+
+<item>
+<title>Milestone</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0073&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>29.446518</Latitude>
+<Longitude>-98.716449</Longitude>
+</item>
+
+<item>
+<title>Monaghan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0030&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>54.248530</Latitude>
+<Longitude>-6.969160</Longitude>
+</item>
+
+<item>
+<title>Moycullen</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0031&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.339096</Latitude>
+<Longitude>-9.180416</Longitude>
+</item>
+
+<item>
+<title>Mullingar</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0032&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.524766</Latitude>
+<Longitude>-7.337866</Longitude>
+</item>
+
+<item>
+<title>Naas</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0033&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>47.249887</Latitude>
+<Longitude>15.596006</Longitude>
+</item>
+
+<item>
+<title>Navan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0034&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.654602</Latitude>
+<Longitude>-6.688817</Longitude>
+</item>
+
+<item>
+<title>Newmarket on Fergus</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0035&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>52.760528</Latitude>
+<Longitude>-8.895742</Longitude>
+</item>
+
+<item>
+<title>Oldcastle</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0074&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.769346</Latitude>
+<Longitude>-7.162510</Longitude>
+</item>
+
+<item>
+<title>Oranmore</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0036&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.268811</Latitude>
+<Longitude>-8.929017</Longitude>
+</item>
+
+<item>
+<title>Pallaskenry</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0037&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>52.644050</Latitude>
+<Longitude>-8.865416</Longitude>
+</item>
+
+<item>
+<title>Portlaoise</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0038&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.034305</Latitude>
+<Longitude>-7.301866</Longitude>
+</item>
+
+<item>
+<title>Portlaw</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0075&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>52.289325</Latitude>
+<Longitude>-7.314648</Longitude>
+</item>
+
+<item>
+<title>Portmarnock</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0039&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.421634</Latitude>
+<Longitude>-6.135209</Longitude>
+</item>
+
+<item>
+<title>Ringaskiddy</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0040&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>51.830090</Latitude>
+<Longitude>-8.324371</Longitude>
+</item>
+
+<item>
+<title>Roscommon</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0041&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>44.490138</Latitude>
+<Longitude>-84.596845</Longitude>
+</item>
+
+<item>
+<title>Roscrea</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0076&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>52.955096</Latitude>
+<Longitude>-7.799178</Longitude>
+</item>
+
+<item>
+<title>Rosslare</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0054&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>52.273252</Latitude>
+<Longitude>-6.386616</Longitude>
+</item>
+
+<item>
+<title>Sea Blackhead</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0083&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>47.541969</Latitude>
+<Longitude>-53.236973</Longitude>
+</item>
+
+<item>
+<title>Sea Malinhead</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0085&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>55.376671</Latitude>
+<Longitude>-7.392500</Longitude>
+</item>
+
+<item>
+<title>Sea Valentia</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0087&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+</item>
+
+<item>
+<title>Shercock</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0077&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.993208</Latitude>
+<Longitude>-6.897060</Longitude>
+</item>
+
+<item>
+<title>Sligo</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0042&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>54.270607</Latitude>
+<Longitude>-8.471528</Longitude>
+</item>
+
+<item>
+<title>St Georges Chan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0086&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+</item>
+
+<item>
+<title>Swords</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0043&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.457344</Latitude>
+<Longitude>-6.219369</Longitude>
+</item>
+
+<item>
+<title>Tallaght</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0044&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.287276</Latitude>
+<Longitude>-6.366404</Longitude>
+</item>
+
+<item>
+<title>Thurles</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0079&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>52.680522</Latitude>
+<Longitude>-7.814502</Longitude>
+</item>
+
+<item>
+<title>Tipperary</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0045&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>52.474876</Latitude>
+<Longitude>-8.157204</Longitude>
+</item>
+
+<item>
+<title>Tralee</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0078&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>52.269611</Latitude>
+<Longitude>-9.700100</Longitude>
+</item>
+
+<item>
+<title>Tramore</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0101&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>29.670734</Latitude>
+<Longitude>-98.491983</Longitude>
+</item>
+
+<item>
+<title>Tuam</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0080&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>53.514862</Latitude>
+<Longitude>-8.851281</Longitude>
+</item>
+
+<item>
+<title>Tullamore</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0046&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>-32.631463</Latitude>
+<Longitude>147.564026</Longitude>
+</item>
+
+<item>
+<title>Valentia Observatory</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0053&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+</item>
+
+<item>
+<title>Waterford</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0047&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>52.256787</Latitude>
+<Longitude>-7.129204</Longitude>
+</item>
+
+<item>
+<title>West Arran</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0081&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>30.190655</Latitude>
+<Longitude>-84.416607</Longitude>
+</item>
+
+<item>
+<title>Wexford</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0048&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>52.339161</Latitude>
+<Longitude>-6.460125</Longitude>
+</item>
+
+<item>
+<title>Wicklow</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0049&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>52.979238</Latitude>
+<Longitude>-6.042252</Longitude>
+</item>
+
+<item>
+<title>Youghal</title>
+<link>http://weather.yahooapis.com/forecastrss?p=EIXX0082&amp;u=c</link>
+<media:thumbnail url="image/weather.jpg"/>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<Latitude>51.953240</Latitude>
+<Longitude>-7.850476</Longitude>
+</item>
+
+
+</channel></rss>

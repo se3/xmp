@@ -1,0 +1,169 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Israel</title>
+<link>./scripts/map/Israel.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Ariel</title>
+<link>http://weather.yahooapis.com/forecastrss?p=ISXX0029&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Ariel</forcast>
+</item>
+
+<item>
+<title>Bat Yam</title>
+<link>http://weather.yahooapis.com/forecastrss?p=ISXX0002&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bat%20Yam</forcast>
+</item>
+
+<item>
+<title>Bene Beraq</title>
+<link>http://weather.yahooapis.com/forecastrss?p=ISXX0004&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Bene%20Beraq</forcast>
+</item>
+
+<item>
+<title>Elat</title>
+<link>http://weather.yahooapis.com/forecastrss?p=ISXX0005&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Elat</forcast>
+</item>
+
+<item>
+<title>Hadera</title>
+<link>http://weather.yahooapis.com/forecastrss?p=ISXX0006&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Hadera</forcast>
+</item>
+
+<item>
+<title>Haifa</title>
+<link>http://weather.yahooapis.com/forecastrss?p=ISXX0007&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Haifa</forcast>
+</item>
+
+<item>
+<title>Holon</title>
+<link>http://weather.yahooapis.com/forecastrss?p=ISXX0009&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Holon</forcast>
+</item>
+
+<item>
+<title>Jerusalem</title>
+<link>http://weather.yahooapis.com/forecastrss?p=ISXX0010&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jerusalem</forcast>
+</item>
+
+<item>
+<title>Nahariyya</title>
+<link>http://weather.yahooapis.com/forecastrss?p=ISXX0012&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Nahariyya</forcast>
+</item>
+
+<item>
+<title>Nazareth</title>
+<link>http://weather.yahooapis.com/forecastrss?p=ISXX0013&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Nazareth</forcast>
+</item>
+
+<item>
+<title>Nesher</title>
+<link>http://weather.yahooapis.com/forecastrss?p=ISXX0014&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Nesher</forcast>
+</item>
+
+<item>
+<title>Netanya</title>
+<link>http://weather.yahooapis.com/forecastrss?p=ISXX0015&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Netanya</forcast>
+</item>
+
+<item>
+<title>Qiryat Ata</title>
+<link>http://weather.yahooapis.com/forecastrss?p=ISXX0018&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Qiryat%20Ata</forcast>
+</item>
+
+<item>
+<title>Qiryat Bialik</title>
+<link>http://weather.yahooapis.com/forecastrss?p=ISXX0019&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Qiryat%20Bialik</forcast>
+</item>
+
+<item>
+<title>Qiryat Motzkin</title>
+<link>http://weather.yahooapis.com/forecastrss?p=ISXX0020&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Qiryat%20Motzkin</forcast>
+</item>
+
+<item>
+<title>Qiryat Yam</title>
+<link>http://weather.yahooapis.com/forecastrss?p=ISXX0021&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Qiryat%20Yam</forcast>
+</item>
+
+<item>
+<title>Ramat Gan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=ISXX0022&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Ramat%20Gan</forcast>
+</item>
+
+<item>
+<title>Ramla</title>
+<link>http://weather.yahooapis.com/forecastrss?p=ISXX0023&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Ramla</forcast>
+</item>
+
+<item>
+<title>Rishon LeZiyyon</title>
+<link>http://weather.yahooapis.com/forecastrss?p=ISXX0025&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Rishon%20LeZiyyon</forcast>
+</item>
+
+<item>
+<title>Tel Aviv-Yafo</title>
+<link>http://weather.yahooapis.com/forecastrss?p=ISXX0026&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tel%20Aviv%2dYafo</forcast>
+</item>
+
+
+</channel></rss>

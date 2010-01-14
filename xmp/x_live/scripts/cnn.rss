@@ -1,0 +1,82 @@
+﻿<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+	<title>CNN News Feed</title>
+	<link>./scripts_x/cnn.rss</link>
+	<media:thumbnail url="image/cnn.jpg" width="120" height="90" />
+
+
+
+
+<item>
+<title>Fortune</title>
+<link>http://rss.cnn.com/rss/magazines_fortune.rss</link>
+<canEnterItem>false</canEnterItem>
+</item>
+
+<item>
+<title>Money Magazine</title>
+<link>http://rss.cnn.com/rss/magazines_moneymag.rss</link>
+<canEnterItem>false</canEnterItem>
+</item>
+
+
+<item>
+<title>Technology</title>
+<link>http://rss.cnn.com/rss/money_technology.rss</link>
+<canEnterItem>false</canEnterItem>
+</item>
+
+
+<item>
+<title>Fortune International</title>
+<link>http://rss.cnn.com/rss/magazines_fortuneintl.rss</link>
+<canEnterItem>false</canEnterItem>
+</item>
+
+<item>
+<title>Personal Finance</title>
+<link>http://rss.cnn.com/rss/money_pf.rss</link>
+<canEnterItem>false</canEnterItem>
+</item>
+
+
+<item>
+<title>Money Market</title>
+<link>http://rss.cnn.com/rss/money_markets.rss</link>
+<canEnterItem>false</canEnterItem>
+</item>
+
+<item>
+<title>Top Stories</title>
+<link>http://rss.cnn.com/rss/money_topstories.rss</link>
+<canEnterItem>false</canEnterItem>
+</item>
+
+<item>
+<title>Most Popular</title>
+<link>http://rss.cnn.com/rss/money_mostpopular.rss</link>
+<canEnterItem>false</canEnterItem>
+</item>
+
+
+<item>
+<title>International</title>
+<link>http://rss.cnn.com/rss/money_news_international.rss</link>
+<canEnterItem>false</canEnterItem>
+</item>
+
+<item>
+<title>Economy</title>
+<link>http://rss.cnn.com/rss/money_news_economy.rss</link>
+<canEnterItem>false</canEnterItem>
+</item>
+
+</channel>
+</rss>
+
+<item>
+<title> China Business News - Atom format</title>
+<link>http://china-business4u.blogspot.com/atom.xml</link>
+</item>
+

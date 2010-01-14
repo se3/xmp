@@ -1,0 +1,145 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>China</title>
+<link>./scripts/map/China_t.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Tacheng</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0198&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tacheng</forcast>
+</item>
+
+<item>
+<title>Tai Shan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0316&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tai%20Shan</forcast>
+</item>
+
+<item>
+<title>Tailai</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0186&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tailai</forcast>
+</item>
+
+<item>
+<title>Taiyuan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0129&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Taiyuan</forcast>
+</item>
+
+<item>
+<title>Tanggu</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0130&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tanggu</forcast>
+</item>
+
+<item>
+<title>Tangshan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0131&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tangshan</forcast>
+</item>
+
+<item>
+<title>Tengchong</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0369&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tengchong</forcast>
+</item>
+
+<item>
+<title>Tianshui</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0386&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tianshui</forcast>
+</item>
+
+<item>
+<title>Tieling</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0134&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tieling</forcast>
+</item>
+
+<item>
+<title>Tikanlik</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0213&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tikanlik</forcast>
+</item>
+
+<item>
+<title>Tingri</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0328&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tingri</forcast>
+</item>
+
+<item>
+<title>Tongdao</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0427&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tongdao</forcast>
+</item>
+
+<item>
+<title>Tonghe</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0191&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tonghe</forcast>
+</item>
+
+<item>
+<title>Tongliao</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0282&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tongliao</forcast>
+</item>
+
+<item>
+<title>Tulihe</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0173&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tulihe</forcast>
+</item>
+
+<item>
+<title>Tuotuohe</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0331&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Tuotuohe</forcast>
+</item>
+
+<item>
+<title>Turpan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0207&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Turpan</forcast>
+</item>
+
+
+</channel></rss>

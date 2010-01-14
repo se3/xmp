@@ -1,0 +1,405 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Europe</title>
+<link>./scripts_x/map/Europe.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Albania</title>
+<link>http://localhost/x_live/scripts/map/Albania.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>41.156799</Latitude>
+<Longitude>20.181061</Longitude>
+</item>
+
+<item>
+<title>Andorra</title>
+<link>http://localhost/x_live/scripts/map/Andorra.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>42.541821</Latitude>
+<Longitude>1.598370</Longitude>
+</item>
+
+<item>
+<title>Austria</title>
+<link>http://localhost/x_live/scripts/map/Austria.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>47.696510</Latitude>
+<Longitude>13.345770</Longitude>
+</item>
+
+<item>
+<title>Belarus</title>
+<link>http://localhost/x_live/scripts/map/Belarus.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>53.711048</Latitude>
+<Longitude>27.973749</Longitude>
+</item>
+
+<item>
+<title>Belgium</title>
+<link>http://localhost/x_live/scripts/map/Belgium.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>50.500992</Latitude>
+<Longitude>4.476770</Longitude>
+</item>
+
+<item>
+<title>Bosnia and Herzegovina</title>
+<link>http://localhost/x_live/scripts/map/Bosnia_and_Herzegovina.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>43.920250</Latitude>
+<Longitude>17.689079</Longitude>
+</item>
+
+<item>
+<title>Bulgaria</title>
+<link>http://localhost/x_live/scripts/map/Bulgaria.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>42.729759</Latitude>
+<Longitude>25.491590</Longitude>
+</item>
+
+<item>
+<title>Croatia</title>
+<link>http://localhost/x_live/scripts/map/Croatia.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>44.736759</Latitude>
+<Longitude>15.408430</Longitude>
+</item>
+
+<item>
+<title>Czech Republic</title>
+<link>http://localhost/x_live/scripts/map/Czech_Republic.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>49.803791</Latitude>
+<Longitude>15.475270</Longitude>
+</item>
+
+<item>
+<title>Denmark</title>
+<link>http://localhost/x_live/scripts/map/Denmark.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>56.275700</Latitude>
+<Longitude>9.516680</Longitude>
+</item>
+
+<item>
+<title>Estonia</title>
+<link>http://localhost/x_live/scripts/map/Estonia.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>58.596161</Latitude>
+<Longitude>25.815950</Longitude>
+</item>
+
+<item>
+<title>Finland</title>
+<link>http://localhost/x_live/scripts/map/Finland.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>64.950371</Latitude>
+<Longitude>26.064140</Longitude>
+</item>
+
+<item>
+<title>France</title>
+<link>http://localhost/x_live/scripts/map/France.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>46.712448</Latitude>
+<Longitude>1.718320</Longitude>
+</item>
+
+<item>
+<title>Germany</title>
+<link>http://localhost/x_live/scripts/map/Germany.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>51.090839</Latitude>
+<Longitude>10.454240</Longitude>
+</item>
+
+<item>
+<title>Greece</title>
+<link>http://localhost/x_live/scripts/map/Greece.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>39.072449</Latitude>
+<Longitude>21.845560</Longitude>
+</item>
+
+<item>
+<title>Hungary</title>
+<link>http://localhost/x_live/scripts/map/Hungary.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>47.164509</Latitude>
+<Longitude>19.509600</Longitude>
+</item>
+
+<item>
+<title>Iceland</title>
+<link>http://localhost/x_live/scripts/map/Iceland.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>64.963943</Latitude>
+<Longitude>-19.021160</Longitude>
+</item>
+
+<item>
+<title>Ireland</title>
+<link>http://localhost/x_live/scripts/map/Ireland.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>53.419609</Latitude>
+<Longitude>-8.240550</Longitude>
+</item>
+
+<item>
+<title>Isle of Man</title>
+<link>http://localhost/x_live/scripts/map/Isle_of_Man.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>54.237610</Latitude>
+<Longitude>-4.555250</Longitude>
+</item>
+
+<item>
+<title>Italy</title>
+<link>http://localhost/x_live/scripts/map/Italy.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>42.502998</Latitude>
+<Longitude>12.573410</Longitude>
+</item>
+
+<item>
+<title>Latvia</title>
+<link>http://localhost/x_live/scripts/map/Latvia.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>56.875462</Latitude>
+<Longitude>24.607500</Longitude>
+</item>
+
+<item>
+<title>Liechtenstein</title>
+<link>http://localhost/x_live/scripts/map/Liechtenstein.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>47.159500</Latitude>
+<Longitude>9.553800</Longitude>
+</item>
+
+<item>
+<title>Lithuania</title>
+<link>http://localhost/x_live/scripts/map/Lithuania.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>55.174000</Latitude>
+<Longitude>23.959900</Longitude>
+</item>
+
+<item>
+<title>Luxembourg</title>
+<link>http://localhost/x_live/scripts/map/Luxembourg.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>49.815281</Latitude>
+<Longitude>6.133300</Longitude>
+</item>
+
+<item>
+<title>Macedonia</title>
+<link>http://localhost/x_live/scripts/map/Macedonia.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>41.602810</Latitude>
+<Longitude>21.751289</Longitude>
+</item>
+
+<item>
+<title>Malta</title>
+<link>http://localhost/x_live/scripts/map/Malta.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>35.904072</Latitude>
+<Longitude>14.450810</Longitude>
+</item>
+
+<item>
+<title>Moldova</title>
+<link>http://localhost/x_live/scripts/map/Moldova.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>46.979328</Latitude>
+<Longitude>28.391310</Longitude>
+</item>
+
+<item>
+<title>Netherlands</title>
+<link>http://localhost/x_live/scripts/map/Netherlands.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>52.108089</Latitude>
+<Longitude>5.330330</Longitude>
+</item>
+
+<item>
+<title>Norway</title>
+<link>http://localhost/x_live/scripts/map/Norway.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>64.556534</Latitude>
+<Longitude>12.665380</Longitude>
+</item>
+
+<item>
+<title>Poland</title>
+<link>http://localhost/x_live/scripts/map/Poland.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>51.922508</Latitude>
+<Longitude>19.136471</Longitude>
+</item>
+
+<item>
+<title>Portugal</title>
+<link>http://localhost/x_live/scripts/map/Portugal.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>39.565990</Latitude>
+<Longitude>-7.845160</Longitude>
+</item>
+
+<item>
+<title>Romania</title>
+<link>http://localhost/x_live/scripts/map/Romania.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>45.946949</Latitude>
+<Longitude>24.980400</Longitude>
+</item>
+
+<item>
+<title>Russia</title>
+<link>http://localhost/x_live/scripts/map/Russia.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>59.461479</Latitude>
+<Longitude>108.831779</Longitude>
+</item>
+
+<item>
+<title>San Marino</title>
+<link>http://localhost/x_live/scripts/map/San_Marino.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>43.942730</Latitude>
+<Longitude>12.459790</Longitude>
+</item>
+
+<item>
+<title>Serbia and Montenegro</title>
+<link>http://localhost/x_live/scripts/map/Serbia_and_Montenegro.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>44.020561</Latitude>
+<Longitude>20.731039</Longitude>
+</item>
+
+<item>
+<title>Slovakia</title>
+<link>http://localhost/x_live/scripts/map/Slovakia.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>48.665501</Latitude>
+<Longitude>19.701740</Longitude>
+</item>
+
+<item>
+<title>Slovenia</title>
+<link>http://localhost/x_live/scripts/map/Slovenia.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>46.146938</Latitude>
+<Longitude>14.955050</Longitude>
+</item>
+
+<item>
+<title>Spain</title>
+<link>http://localhost/x_live/scripts/map/Spain.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>39.895020</Latitude>
+<Longitude>-2.988680</Longitude>
+</item>
+
+<item>
+<title>Sweden</title>
+<link>http://localhost/x_live/scripts/map/Sweden.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>62.198448</Latitude>
+<Longitude>17.551420</Longitude>
+</item>
+
+<item>
+<title>Switzerland</title>
+<link>http://localhost/x_live/scripts/map/Switzerland.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>46.813091</Latitude>
+<Longitude>8.224140</Longitude>
+</item>
+
+<item>
+<title>Turkey</title>
+<link>http://localhost/x_live/scripts/map/Turkey.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>38.958500</Latitude>
+<Longitude>35.449200</Longitude>
+</item>
+
+<item>
+<title>Turkmenistan</title>
+<link>http://localhost/x_live/scripts/map/Turkmenistan.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>38.968319</Latitude>
+<Longitude>59.562870</Longitude>
+</item>
+
+<item>
+<title>Ukraine</title>
+<link>http://localhost/x_live/scripts/map/Ukraine.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>48.382881</Latitude>
+<Longitude>31.173441</Longitude>
+</item>
+
+<item>
+<title>United Kingdom</title>
+<link>http://localhost/x_live/scripts/map/United_Kingdom.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+<zoom>country</zoom>
+<Latitude>54.313919</Latitude>
+<Longitude>-2.232180</Longitude>
+</item>
+
+
+</channel></rss>

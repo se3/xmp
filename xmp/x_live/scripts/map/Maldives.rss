@@ -1,0 +1,17 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Maldives</title>
+<link>./scripts/map/Maldives.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Male</title>
+<link>http://weather.yahooapis.com/forecastrss?p=MVXX0001&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Male</forcast>
+</item>
+
+
+</channel></rss>

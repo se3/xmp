@@ -1,0 +1,43 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",Iceland";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>Iceland</title>
+<link>./scripts/map/Iceland.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Akureyri</title>
+<cur>ICXX0005</cur>
+<for>Akureyri</for>
+</item>
+<item>
+<title>Hveragerdi</title>
+<cur>ICXX0001</cur>
+<for>Hveragerdi</for>
+</item>
+<item>
+<title>Reykjavik</title>
+<cur>ICXX0002</cur>
+<for>Reykjavik</for>
+</item>
+<item>
+<title>Vestmannaeyjar</title>
+<cur>ICXX0004</cur>
+<for>Vestmannaeyjar</for>
+</item>
+</channel></rss>

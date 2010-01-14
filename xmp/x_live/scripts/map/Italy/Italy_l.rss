@@ -1,0 +1,98 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",Italy";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>Italy</title>
+<link>./scripts/map/Italy_l.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>L'Aquila</title>
+<cur>ITXX0105</cur>
+<for>L%27Aquila</for>
+</item>
+<item>
+<title>La Spezia</title>
+<cur>ITXX0033</cur>
+<for>La%20Spezia</for>
+</item>
+<item>
+<title>Lanciano</title>
+<cur>ITXX0035</cur>
+<for>Lanciano</for>
+</item>
+<item>
+<title>Landeck</title>
+<cur>AUXX0075</cur>
+<for>Landeck</for>
+</item>
+<item>
+<title>Laurino</title>
+<cur>ITXX0123</cur>
+<for>Laurino</for>
+</item>
+<item>
+<title>Lavello</title>
+<cur>ITXX0127</cur>
+<for>Lavello</for>
+</item>
+<item>
+<title>Lecce</title>
+<cur>ITXX0124</cur>
+<for>Lecce</for>
+</item>
+<item>
+<title>Lech</title>
+<cur>AUXX0067</cur>
+<for>Lech</for>
+</item>
+<item>
+<title>Leoben</title>
+<cur>AUXX0104</cur>
+<for>Leoben</for>
+</item>
+<item>
+<title>Liezen</title>
+<cur>AUXX0102</cur>
+<for>Liezen</for>
+</item>
+<item>
+<title>Lilienfeld</title>
+<cur>AUXX0093</cur>
+<for>Lilienfeld</for>
+</item>
+<item>
+<title>Livigno</title>
+<cur>ITXX0185</cur>
+<for>Livigno</for>
+</item>
+<item>
+<title>Livorno</title>
+<cur>ITXX0036</cur>
+<for>Livorno</for>
+</item>
+<item>
+<title>Loano</title>
+<cur>ITXX0126</cur>
+<for>Loano</for>
+</item>
+<item>
+<title>Lucca</title>
+<cur>ITXX0037</cur>
+<for>Lucca</for>
+</item>
+</channel></rss>

@@ -1,0 +1,201 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>China</title>
+<link>./scripts/map/China_j.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Jartai</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0252&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jartai</forcast>
+</item>
+
+<item>
+<title>Jarud Qi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0275&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jarud%20Qi</forcast>
+</item>
+
+<item>
+<title>Ji'An</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0425&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Ji%27An</forcast>
+</item>
+
+<item>
+<title>Jiangcheng</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0384&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jiangcheng</forcast>
+</item>
+
+<item>
+<title>Jiangjin</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0057&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jiangjin</forcast>
+</item>
+
+<item>
+<title>Jiangling</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0408&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jiangling</forcast>
+</item>
+
+<item>
+<title>Jiangmen</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0058&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jiangmen</forcast>
+</item>
+
+<item>
+<title>Jiaonan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0060&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jiaonan</forcast>
+</item>
+
+<item>
+<title>Jiaxing</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0062&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jiaxing</forcast>
+</item>
+
+<item>
+<title>Jiexiu</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0268&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jiexiu</forcast>
+</item>
+
+<item>
+<title>Jinan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0064&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jinan</forcast>
+</item>
+
+<item>
+<title>Jingdezhen</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0457&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jingdezhen</forcast>
+</item>
+
+<item>
+<title>Jinghe</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0202&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jinghe</forcast>
+</item>
+
+<item>
+<title>Jinghong</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0380&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jinghong</forcast>
+</item>
+
+<item>
+<title>Jingyuan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0066&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jingyuan</forcast>
+</item>
+
+<item>
+<title>Jining</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0250&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jining</forcast>
+</item>
+
+<item>
+<title>Jinzhou</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0067&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jinzhou</forcast>
+</item>
+
+<item>
+<title>Jiujiang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0068&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jiujiang</forcast>
+</item>
+
+<item>
+<title>Jiulong</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0361&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jiulong</forcast>
+</item>
+
+<item>
+<title>Jiuquan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0226&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jiuquan</forcast>
+</item>
+
+<item>
+<title>Jiutai</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0069&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jiutai</forcast>
+</item>
+
+<item>
+<title>Jiuxian Shan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0475&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jiuxian%20Shan</forcast>
+</item>
+
+<item>
+<title>Jixi</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0193&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jixi</forcast>
+</item>
+
+<item>
+<title>Jurh</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0245&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Jurh</forcast>
+</item>
+
+
+</channel></rss>

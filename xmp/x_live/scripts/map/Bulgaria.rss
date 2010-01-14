@@ -1,0 +1,93 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",Bulgaria";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>Bulgaria</title>
+<link>./scripts/map/Bulgaria.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Burgas</title>
+<cur>BUXX0001</cur>
+<for>Burgas</for>
+</item>
+<item>
+<title>Kurdjali</title>
+<cur>BUXX0016</cur>
+<for>Kurdjali</for>
+</item>
+<item>
+<title>Lovetch</title>
+<cur>BUXX0010</cur>
+<for>Lovetch</for>
+</item>
+<item>
+<title>Mussala Top/Sommet</title>
+<cur>BUXX0013</cur>
+<for>Mussala%20Top%2fSommet</for>
+</item>
+<item>
+<title>Pernik</title>
+<cur>BUXX0002</cur>
+<for>Pernik</for>
+</item>
+<item>
+<title>Pleven</title>
+<cur>BUXX0003</cur>
+<for>Pleven</for>
+</item>
+<item>
+<title>Plovdiv</title>
+<cur>BUXX0004</cur>
+<for>Plovdiv</for>
+</item>
+<item>
+<title>Razgrad</title>
+<cur>BUXX0012</cur>
+<for>Razgrad</for>
+</item>
+<item>
+<title>Rousse</title>
+<cur>BUXX0011</cur>
+<for>Rousse</for>
+</item>
+<item>
+<title>Sandanski</title>
+<cur>BUXX0015</cur>
+<for>Sandanski</for>
+</item>
+<item>
+<title>Sofia</title>
+<cur>BUXX0005</cur>
+<for>Sofia</for>
+</item>
+<item>
+<title>Stara Zagora</title>
+<cur>BUXX0006</cur>
+<for>Stara%20Zagora</for>
+</item>
+<item>
+<title>Varna</title>
+<cur>BUXX0007</cur>
+<for>Varna</for>
+</item>
+<item>
+<title>Vidin</title>
+<cur>BUXX0009</cur>
+<for>Vidin</for>
+</item>
+</channel></rss>

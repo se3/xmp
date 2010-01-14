@@ -1,0 +1,38 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",Isle%20of%20Man";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>Isle of Man</title>
+<link>./scripts/map/Isle_of_Man.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Douglas</title>
+<cur>IMXX0002</cur>
+<for>Douglas</for>
+</item>
+<item>
+<title>Isle Of Man/Ronaldsway Airport</title>
+<cur>IMXX0001</cur>
+<for>Isle%20Of%20Man%2fRonaldsway%20Airport</for>
+</item>
+<item>
+<title>Point Of Ayre</title>
+<cur>IMXX0003</cur>
+<for>Point%20Of%20Ayre</for>
+</item>
+</channel></rss>

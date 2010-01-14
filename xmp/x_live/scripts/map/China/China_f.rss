@@ -1,0 +1,113 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>China</title>
+<link>./scripts/map/China_f.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Fangxian</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0395&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Fangxian</forcast>
+</item>
+
+<item>
+<title>Fengcheng</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0026&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Fengcheng</forcast>
+</item>
+
+<item>
+<title>Fengjie</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0401&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Fengjie</forcast>
+</item>
+
+<item>
+<title>Fengning</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0292&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Fengning</forcast>
+</item>
+
+<item>
+<title>Fengtai</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0027&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Fengtai</forcast>
+</item>
+
+<item>
+<title>Fogang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0483&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Fogang</forcast>
+</item>
+
+<item>
+<title>Foshan</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0028&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Foshan</forcast>
+</item>
+
+<item>
+<title>Fuding</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0469&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Fuding</forcast>
+</item>
+
+<item>
+<title>Fujin</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0185&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Fujin</forcast>
+</item>
+
+<item>
+<title>Fushun</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0029&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Fushun</forcast>
+</item>
+
+<item>
+<title>Fuyang</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0442&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Fuyang</forcast>
+</item>
+
+<item>
+<title>Fuyun</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0197&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Fuyun</forcast>
+</item>
+
+<item>
+<title>Fuzhou</title>
+<link>http://weather.yahooapis.com/forecastrss?p=CHXX0031&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Fuzhou</forcast>
+</item>
+
+
+</channel></rss>

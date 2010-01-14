@@ -1,0 +1,43 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",Bosnia%20and%20Herzegovina";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>Bosnia and Herzegovina</title>
+<link>./scripts/map/Bosnia_and_Herzegovina.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Banja Luka</title>
+<cur>BKXX0001</cur>
+<for>Banja%20Luka</for>
+</item>
+<item>
+<title>Kotor-Varos</title>
+<cur>BKXX0002</cur>
+<for>Kotor%2dVaros</for>
+</item>
+<item>
+<title>Sanski Most</title>
+<cur>BKXX0003</cur>
+<for>Sanski%20Most</for>
+</item>
+<item>
+<title>Sarajevo</title>
+<cur>BKXX0004</cur>
+<for>Sarajevo</for>
+</item>
+</channel></rss>

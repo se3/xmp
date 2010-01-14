@@ -1,0 +1,41 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Myanmar</title>
+<link>./scripts/map/Myanmar.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Mandalay</title>
+<link>http://weather.yahooapis.com/forecastrss?p=BMXX0001&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Mandalay</forcast>
+</item>
+
+<item>
+<title>Pathein</title>
+<link>http://weather.yahooapis.com/forecastrss?p=BMXX0002&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Pathein</forcast>
+</item>
+
+<item>
+<title>Rangoon</title>
+<link>http://weather.yahooapis.com/forecastrss?p=BMXX0004&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Rangoon</forcast>
+</item>
+
+<item>
+<title>Yangon</title>
+<link>http://weather.yahooapis.com/forecastrss?p=BMXX0005&amp;u=c</link>
+<mediaDisplay name=weatherView />
+<zoom>city</zoom>
+<forcast>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=Yangon</forcast>
+</item>
+
+
+</channel></rss>

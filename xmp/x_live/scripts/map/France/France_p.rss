@@ -1,0 +1,68 @@
+<?xml version='1.0' ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<script>
+la = getItemInfoArray("cur");
+fa = getItemInfoArray("for");
+</script>
+<item_template>
+<link>
+<script>"http://weather.yahooapis.com/forecastrss?p="+getStringArrayAt(la, -1)+"&amp;u=c";
+</script>
+</link>
+<forcast>
+<script>"http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query="+getStringArrayAt(fa, -1)+",France";
+</script>
+</forcast>
+<mediaDisplay name=weatherView />
+</item_template>
+<channel>
+<title>France</title>
+<link>./scripts/map/France_p.rss</link>
+<media:thumbnail url="image/weather.jpg"/>
+
+<item>
+<title>Paris</title>
+<cur>FRXX0076</cur>
+<for>Paris</for>
+</item>
+<item>
+<title>Pau</title>
+<cur>FRXX0168</cur>
+<for>Pau</for>
+</item>
+<item>
+<title>Perigueux</title>
+<cur>FRXX0169</cur>
+<for>Perigueux</for>
+</item>
+<item>
+<title>Perpignan</title>
+<cur>FRXX0128</cur>
+<for>Perpignan</for>
+</item>
+<item>
+<title>Pessac</title>
+<cur>FRXX0078</cur>
+<for>Pessac</for>
+</item>
+<item>
+<title>Pierre Besse</title>
+<cur>FRXX0254</cur>
+<for>Pierre%20Besse</for>
+</item>
+<item>
+<title>Poitiers</title>
+<cur>FRXX0170</cur>
+<for>Poitiers</for>
+</item>
+<item>
+<title>Porquerolles</title>
+<cur>FRXX0180</cur>
+<for>Porquerolles</for>
+</item>
+<item>
+<title>Privas</title>
+<cur>FRXX0208</cur>
+<for>Privas</for>
+</item>
+</channel></rss>
