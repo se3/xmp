@@ -10,7 +10,7 @@ idArray     = null;
 farmArray   = null;
 serverArray = null;
 secretArray = null;
-loadXMLFile("http://api.flickr.com/services/rest/?method=flickr.people.getPublicPhotos&amp;user_id=21775245@N06&amp;api_key=a145a8e29296de321e273148be64ec04");
+loadXMLFile("http://api.flickr.com/services/rest/?method=flickr.people.getPublicPhotos&amp;user_id=12345678@N06&amp;api_key=a145a8e29296de321e273148be64ec04");
 itemSize = getXMLElementCount("rsp", "photos", "photo");
 print("Item Size = ", itemSize);
 
