@@ -53,6 +53,30 @@
 	/>
 </item>
 
+<item>
+	<title>YouTube HD XMP</title>
+	<link>http://127.0.0.1/x_live/scripts/menu_HD.rss</link>
+	<mediaDisplay name="threePartsView"
+	     sideColorLeft="20:20:20"
+	     sideLeftWidthPC="25"
+		 sideColorRight="0:0:0"
+		 headerImageWidthPC="0"
+		 headerXPC="25"
+		 headerYPC="3"
+		 headerWidthPC="75"
+		 itemImageXPC="26"
+		 itemXPC="40"
+		 menuXPC="3"
+		 menuWidthPC="20"
+		 capXPC="90"
+		 capYPC="20"
+		 capHeightPC="10"
+		 headerCapXPC="90"
+		 headerCapYPC="10"
+		 headerCapWidthPC="0"
+		 backgroundColor="0:0:0"
+	/>
+</item>
 
 <item>
 	<title>Picasa XMP</title>
@@ -74,6 +98,23 @@
 <item>
 	<title>Flickr XMP</title>
 	<link>http://localhost/x_live/scripts/flickr.rss</link>
+	<media:thumbnail url="image/searchvideo.jpg"/>
+	<mediaDisplay name=photoView
+	rowCount=6 
+	columnCount=3
+	drawItemText="yes"
+	menuBorderColor="20:20:20"
+	sideColorBottom="20:20:20"
+	sideColorTop="20:20:20"
+	itemImageXPC="10"
+	backgroundColor="0:0:0"
+	sliding="no"
+	/>
+</item>
+
+<item>
+	<title>My Flickr</title>
+	<link>http://localhost/x_live/scripts/flickr_personal.rss</link>
 	<media:thumbnail url="image/searchvideo.jpg"/>
 	<mediaDisplay name=photoView
 	rowCount=6 

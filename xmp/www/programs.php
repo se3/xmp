@@ -14,6 +14,13 @@
    $dctcs = file_exists('/usr/local/bin/dctcs');
    $nzbgetfile = file_exists('/opt/bin/nzbget');
    $mcfile = file_exists('/bin/mc');
+   $userid = "12345678@N06";
+   $useridpath = "../x_live/userid";
+   
+   if(file_exists($useridpath))
+   {
+      $userid = rtrim( file_get_contents( $useridpath ) );
+   }
 ?>
 
 <!-- Table head -->
@@ -351,10 +358,13 @@
   </tr>
 <tr>
 <td align="center">Use own RSS</td>
-<td align="center"><form action="../x_live/symlink_xlive.php" method="get" target="bottomFrame" title="Make X_LIVE access local">
+<td align="center"><form action="../x_live/symlink_xlive.php" method="get" target="bottomFrame" title="Make X_LIVE local">
   <input type="submit" <? if (!$xlive) { echo 'value="action"'; } else{ echo 'value="x_live hacked"'; echo 'disabled="disabled"'; } ?> >
 </form></td>
-<td align="center"></td>
+<td align="center">My Flickr USER_ID<form action="../x_live/myflickr.php" method="get" target="bottomFrame" title="12345678@N06">
+   <input name="userid" size="12" value="<? echo $userid; ?>">
+  <input type="submit" <? if (!$xlive) { echo 'value="acivate x_live"'; echo 'disabled="disabled"'; } else{ echo 'value="change"';  } ?> >
+</form></td>
 <td align="center"></td>
 </tr>
 
