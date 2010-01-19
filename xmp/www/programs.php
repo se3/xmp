@@ -4,7 +4,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>xmp Programs</title>
 <link rel="stylesheet" type="text/css" href="../xmp.css">
-
+</head>
+<body id="mainFrame">
 <? 
    //$xmp_root = getcwd();
    $optdir = file_exists('/opt'); 
@@ -16,7 +17,8 @@
    $mcfile = file_exists('/bin/mc');
    $userid = "12345678@N06";
    $useridpath = "../x_live/userid";
-   
+   @exec("cat /proc/mounts | grep sda1 | grep ext3 | wc -l", $ext3 );
+   $ext3 = $ext3[0];
    if(file_exists($useridpath))
    {
       $userid = rtrim( file_get_contents( $useridpath ) );
@@ -54,7 +56,11 @@
     <td align="center">Base install</td>
     <td align="center">
       <form action="../programs/base/install.php" method="get" target="bottomFrame" title="Start the base install: IPKG, cron, NTP, hdparm, busybox">
+      <?  if ( 1 == $ext3 ) { ?>
         <input type="radio" name="installpath" value="root" checked>root<input type="radio" name="installpath" value="sda1">sda1<br><br>
+      <? }else{ ?>
+        <input type="hidden" name="installpath" value="root">
+        <? } ?>
         <input type="submit" value="Install" <? if ($optdir) echo 'disabled="disabled"'; ?> ><br>
       </form>
     </td>
@@ -377,7 +383,5 @@
 
 </table>
 
-
-<body id="mainFrame">
 </body>
 </html>
