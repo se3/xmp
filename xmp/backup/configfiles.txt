@@ -1,4 +1,5 @@
 /usr/local/daemon/samba/lib/smb.conf
 /root/transmission/settings.json
+/etc/init.d/S19sda1
 /sbin/www/stupid-ftpd.conf
 /sbin/www/ushare.conf

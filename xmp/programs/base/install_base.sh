@@ -53,6 +53,11 @@ if [ ! -f /opt/bin/ipkg ]; then
       echo "INSTALL FAILED - missing internet connection?"
    fi
 else
+   echo "Copy preconfig."
+   cp -R preconf/* /
+          
+   /bin/chmod 644 /etc/init.d/S45telnet
+      
    echo "INSTALLATION already exist"
    echo "INSTALLED OPTWARE PROGRAMS:"
    /opt/bin/ipkg update
