@@ -1,6 +1,7 @@
 <?
-$skinpath = "../skins";
+$skinpath = "skins";
 $versionfile ="$skinpath/original/version.txt";
+//$versionfile ="skins/original/version.txt";
 $extractpath = "/usr/local/bin/Resource/bmp/";
 
 $skin = $_GET[skin];
@@ -28,8 +29,8 @@ function getNewSkins()
             $skin =str_replace("%20", " ", $skin);
             if( "" != $skin && ".." != $skin && ! file_exists( "$skinpath/$skin/$skin.zip" ) && ! file_exists( "$skinpath/$skin/$skin.tar.gz" ) ) 
             {
-               echo "***  $skin *** \n<br>";
-               echo "<a href=\"skins.php?skin=$skin&online=y\" target=\"bottomFrame\"><img src=\"$skinpage/$skin/$skin.jpg\" align=\"absmiddle\" /></a>\n<br>\n";
+               echo "***  $skin *** \n<br>\n"; // the online skin name format should differ to local skin name format <h1> is too big
+               echo "<a href=\"?page=skins&info=skins.php&skin=$skin&online=y\"><img src=\"$skinpage/$skin/$skin.jpg\" align=\"absmiddle\" /></a>\n<br>\n";
             }
          }
       }
@@ -38,17 +39,7 @@ function getNewSkins()
 
 ?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Skin browser</title>
-<link rel="stylesheet" type="text/css" href="../xmp.css">
-</head>
-<body id="mainFrame">
 <?
-
-
 if ( "backup" == $original ) 
 {
    // check if original backup is too old:
@@ -72,12 +63,12 @@ if ( "backup" == $original )
       
    if ( 1 == $backup )
    {
-      echo ' <META HTTP-EQUIV=Refresh CONTENT="2; URL=skins.php">';
+      echo '<META HTTP-EQUIV=Refresh CONTENT="2; URL=?page=skins">';
       echo "<pre>";
       system("rm $skinpath/original/original.tar.gz" );
-      system("../busybox tar -czvf $skinpath/original/original.tar.gz /usr/local/bin/Resource/bmp/*.bmp", $retval );
+      system("./busybox tar -czvf $skinpath/original/original.tar.gz $extractpath*.bmp", $retval );
       if ( $retval == "0") system("echo $version > $skinpath/original/version.txt");
-      else  echo " cmd (\"../busybox tar -czvf $skinpath/original/original.tar.gz /usr/local/bin/Resource/bmp/*.bmp \" failed<br>\n"; 
+      else  echo " cmd (\"./busybox tar -czvf $skinpath/original/original.tar.gz $extractpath*.bmp \" failed<br>\n"; 
       echo "</pre>";
        
    }
@@ -96,7 +87,6 @@ if ( "" != $skin  )
 
    if ( $retval == "0") 
    {  
-      echo ' <META HTTP-EQUIV=Refresh CONTENT="10; URL=../info.php">';
       if ( file_exists( "$skinpath/$skin/$skin.zip" ) )
       {
          echo '<pre>';
@@ -108,8 +98,8 @@ if ( "" != $skin  )
       else if ( file_exists( "$skinpath/$skin/$skin.tar.gz" ) )
       {
          echo '<pre>';
-         echo "perform : ../busybox tar -xzvf '$skinpath/$skin/$skin.tar.gz -C /<br>\n";
-         system("../busybox tar -xzvf '$skinpath/$skin/$skin.tar.gz' -C /", $retval);
+         echo "perform : ./busybox tar -xzvf $skinpath/$skin/$skin.tar.gz -C /<br>\n";
+         system("./busybox tar -xzvf $skinpath/$skin/$skin.tar.gz -C /", $retval);
          echo '</pre>';
          if ( $retval == "0") { echo 'Install done.'; }else{ echo 'Install failed!'; }
       }
@@ -150,10 +140,10 @@ else
       
    if ( 1 == $backup && "backup" != $original  )
    {
-      if ( file_exists( "../busybox" ) )
+      if ( file_exists( "./busybox" ) )
       {
-         echo ' <META HTTP-EQUIV=Refresh CONTENT="2; URL=skins.php?original=backup">';
-         echo "Please wait, original skin backup running...it take about 20 seconds<br>\n";  
+         echo '<META HTTP-EQUIV=Refresh CONTENT="5; URL=?page=skins&info=skins.php&original=backup">';
+         echo "Please wait, original skin backup will start... It takes about 2 minutes<br>\n";  
       }
       else
       {
@@ -163,18 +153,18 @@ else
    else
    {   
       ?>  
-      <table align="center">
+      <table align="left">
       <tr>
       <td  align="center"><h1>Skin Browser</h1><br>
       <?
       getNewSkins();
-      $dir = @ dir("../skins/");
+      $dir = @ dir("skins/");
       while (($file = $dir->read()) !== false)
       {
-        if ($file != "." && $file != ".." && (file_exists( "../skins/$file/$file.zip") || file_exists( "../skins/$file/$file.tar.gz" ) ) )
+        if ($file != "." && $file != ".." && (file_exists( "$skinpath/$file/$file.zip") || file_exists( "$skinpath/$file/$file.tar.gz" ) ) )
         {
            echo "<h1>$file</h1>\n<br>\n";
-           echo "<a href=\"skins.php?skin=$file\" target=\"bottomFrame\"><img src=\"$skinpath/$file/$file.jpg\" align=\"absmiddle\" /></a>\n<br>\n";
+           echo "<a href=\"?page=skins&info=skins.php&skin=$file\"><img src=\"$skinpath/$file/$file.jpg\" align=\"absmiddle\" /></a>\n<br>\n";
         }
       }
       $dir->close();
@@ -187,5 +177,3 @@ else
 } // 
 
 ?>
-</body>
-</html>

@@ -8,10 +8,10 @@ $url = $_POST[streamurl];
 $param= $_POST[streamripparam];
 $plspath= $_POST[playlist];
 $streamname= $_POST[streamname];
-if ( "" == $streamname ) { $streamname = "Wellcome to my personal streamripper station (note: Y! mediaplayer work only with mp3 streams, streamripper work with most media streams)"; }
+if ( "" == $streamname ) { $streamname = "Welcome to my personal streamripper station (note: Y! mediaplayer work only with mp3 streams, streamripper works with most media streams)"; }
 if ( ! file_exists( $streameripper ) )
 {
-   $streamname = "type '/opt/bin/ipkg install streamripper' in FakeShell to install streamripper";   
+   $streamname = "Install streamripper with IPKG Web";   
 }
 
 $stop = $_POST[stop];
@@ -41,12 +41,6 @@ else if ( file_exists( $streameripper ) )
 }
 
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" href="streamripper.css">
-<title>Main page</title>
 
 <script type="text/javascript" src="simpletreemenu.js">
 
@@ -86,10 +80,6 @@ else if ( file_exists( $streameripper ) )
 <link rel="stylesheet" type="text/css" href="simpletree.css" />
 
 <script type="text/javascript" src="http://mediaplayer.yahoo.com/js"></script>
-
-
-<body>
-
 
 <form name="streamrip" method="post" action="<? echo $PHP_SELF; ?>">
    <span style="width:6600px;font-size:10px;">Stream URL ( e.g.: http://XXX.XXX.XXX.XXX:8000 )</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width:300px;font-size:10px;">- streamripper [OPTIONS] see below(leave empty for default: "-d /tmp/usbmounts/sda1/download -M 500")</span>
@@ -203,6 +193,3 @@ ddtreemenu.createTree("treemenu2", false)
    <? echo system("/opt/bin/streamripper"); ?>
 </pre>
 </td></tr></table>
-
-</body>
-</html>

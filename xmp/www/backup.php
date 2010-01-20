@@ -1,3 +1,20 @@
+<style type="text/css">
+
+th, td {
+text-align: right;
+padding: 3px 2px 5px;
+}
+
+table a {
+text-decoration: none;
+padding: 2px 4px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 85%;
+background: #BBB;
+}
+
+</style>
+
 <?
 class fakeShell {
 
@@ -11,28 +28,19 @@ class fakeShell {
 
 	function fakeShell() {
 
-		$this->version = "bassed on v1.0.5.1 modified for backup";
+		$this->version = "based on v1.0.5.1 modified for backup";
 
-		chdir("../");
 		$this->uname = $this->getLinux();
 		$this->path = $this->getPath();
 		
 		$this->configpath = $this->path ."/backup/";
 		$this->configfile = $this->configpath.'configfiles.txt';
-		$this->webpad = '../webpad';
+		$this->webpad = 'webpad';
 
-           $this->configitems = explode("\n", file_get_contents($this->configfile) );
-		//$this->configitems = array(  "/usr/local/daemon/samba/lib/smb.conf", "/root/transmission/settings.json", "/sbin/www/stupid-ftpd.conf", "/sbin/www/ushare.conf"  );
+                $this->configitems = explode("\n", file_get_contents($this->configfile) );
 
-		$this->pasteHeader();
-		
-		print '<table><tr><td valign=top>';
 		$this->pasteTabs();
-		print '</td><td valign=top>';		
-      	$this->pasteShell();
-		print '</td></tr></table>';
-      	
-		$this->pasteFooter();
+         	$this->pasteShell();
 	}
 
 	function getLinux() {
@@ -45,34 +53,21 @@ class fakeShell {
 		return $path[0];
 	}
 
-	function pasteHeader() {
-		print '<html>';
-		print '<head>';
-		print '<title>mavvy\'s fakeshell '.$this->version.'</title>';
-		print '<link rel="stylesheet" type="text/css" href="backup.css">';
-		print '</head>';
-		print '<body>';
-	}
-
-	function pasteFooter() {
-		print '</body>';
-		print '</html>';
-	}
-
 	function pasteTabs() {
-		print '<div id="tabs">';
-		print '<a href="#" onclick="document.location.href = \''. $this->webpad .'?t=server&f='.$this->configfile .'\'";">edit configuration file</a><br><br>';
+		print '<table><tr><td><a href="#" onclick="document.location.href = \''. $this->webpad .'?t=server&f='.$this->configfile .'\'";">edit configuration file</a></td></tr></table><br />';
 
+		print '<table>';
 		foreach ($this->configitems as $configitem ) {
-		     $configitem = rtrim($configitem);
-		     print '<ul>';
-			print '<li><a href="#" onclick="document.shell.cmd.value=\'cp '.$configitem.' '.$this->configpath.' | ls -l '.$this->configpath.'\';document.shell.cmd.focus();">save</a></li>';
-			print '<li><a href="#" onclick="document.shell.cmd.value=\' cp '.$this->configpath . basename($configitem).' '.$configitem.' | ls -l '.$this->configpath.'\';document.shell.cmd.focus();">restore</a></li>';
-			print '<li><a href="#" onclick="document.location.href = \''. $this->webpad .'?t=server&f='.$this->configpath . basename($configitem).'\' ";">edit backup</a></li>';
-			print '<li><a href="#" onclick="document.location.href = \''. $this->webpad .'?t=server&f='.$configitem .'\'";">edit local</a></li>';
-		     print ' '.basename($configitem).'</ul>';
+			$configitem = rtrim($configitem);
+			print '<tr>';
+                        print '<td>'.basename($configitem).'</td>';
+			print '<td><a href="#" onclick="document.shell.cmd.value=\'cp '.$configitem.' '.$this->configpath.' | ls -l '.$this->configpath.'\';document.shell.cmd.focus();">save</a></td>';
+			print '<td><a href="#" onclick="document.shell.cmd.value=\' cp '.$this->configpath . basename($configitem).' '.$configitem.' | ls -l '.$this->configpath.'\';document.shell.cmd.focus();">restore</a></td>';
+			print '<td><a href="#" onclick="document.location.href = \''. $this->webpad .'?t=server&f='.$this->configpath . basename($configitem).'\' ";">edit backup</a></td>';
+			print '<td><a href="#" onclick="document.location.href = \''. $this->webpad .'?t=server&f='.$configitem .'\'";">edit local</a></td>';
+			print '</tr>';
 		}
-		print '</div>';
+		print '</table><br />';
 	}
 	
 	

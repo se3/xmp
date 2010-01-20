@@ -1,11 +1,11 @@
 <?php
 
-$dir = @ dir("../guifont/");
+$dir = @ dir("guifont/");
 
 while (($file = $dir->read()) !== false)
   {
   if ($file <> ".") if ($file <> "..")
-  $menu[$file] = "cp ../guifont/$file /usr/local/bin/Resource/cwheib.ttf";
+  $menu[$file] = "cp guifont/$file /usr/local/bin/Resource/cwheib.ttf";
 	
   }
 
@@ -13,19 +13,25 @@ $dir->close();
 @exec("uname -a", $uname);
 ?>
 
-<html>
+<style type="text/css">
 
-<head>
-<title>mavvy's fakeshell</title>
-<link rel="stylesheet" type="text/css" href="fakeshell.css">
-</head>
+span {
+text-decoration: none;
+padding: 2px 4px;
+margin: 3px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 85%;
+color: #900;
+background-color: #BBB;
+cursor: pointer;
+}
 
-<body id="mainFrame">
+</style>
 
 <table border=0 cellspacing=0 cellpadding=0>
-<form name=shell method=post action=<? echo $PHP_SELF; ?>>
+<form name=shell method=post action="?page=fontinstaller.php">
 	<tr>
-		<td><p>[ <? $counter = count($menu); foreach ($menu as $k => $v) { echo "<span onclick=\"document.shell.cmd.value='".$v."';document.shell.cmd.focus();\">".$k."</span>"; $counter--; if ($counter) { print " | ";} } ?> ]</p></td>
+		<td><? $counter = count($menu); foreach ($menu as $k => $v) { echo "<span onclick=\"document.shell.cmd.value='".$v."';document.shell.cmd.focus();\">".$k."</span>"; $counter--; } ?></td>
 	</tr>
 	<tr>
 		<td><pre># <input type=text name=cmd size=110 value="<? if(isset($_POST[cmd])){echo $cmd;} ?>"><script> document.shell.cmd.focus(); </script></pre></td>
@@ -38,6 +44,3 @@ $dir->close();
 
 </table>
 
-</body>
-
-</html>

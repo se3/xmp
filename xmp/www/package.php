@@ -1,147 +1,73 @@
 <?
-
 $task  = $_GET[task];
 $installed  = $_GET[installed];
-$submit = $_GET[submit];
+$submit = $_POST[submit];
 $package = $_GET[package];
-$updatedb = $_GET[updatedb];
-$namefilter = $_GET[namefilter];
-$typefilter = $_GET[typefilter];
-			//<option selected value="none">NONE</option>
-			//<option value="update">Updates</option>
-			//<option value="installed">Installed</option>
-			//<option value="not">Not installed</option>
-
+$updatedb = $_POST[updatedb];
+$namefilter = $_POST[namefilter];
+$typefilter = $_POST[typefilter];
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>ipkg web</title>
-<link rel="stylesheet" type="text/css" href="../xmp.css">
-
-
 <style type="text/css">
 h1, h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #900;
+font-family: Arial, Helvetica, sans-serif;
+color: #900;
 }
 
 table {
-  border-top: 1px solid #eee;
-  border-right: 1px solid #eee;
-  width: 100%;
+border-top: 1px solid #eee;
+border-right: 1px solid #eee;
+width: 100%;
 }
 
 th, td {
-  padding: 2px 4px;
-  border-left: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+padding: 2px 4px;
+border-left: 1px solid #eee;
+border-bottom: 1px solid #eee;
 }
 
 
 table a.ins {
-  background: #ddd;
-  color: #004;
-  text-decoration: none;
-  margin: 1px;
-  padding: 2px 4px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 75%;
-  background: #dfd;
-  border-left: 1px solid #cec;
-  border-bottom: 1px solid #cec;
+background: #ddd;
+color: #004;
+text-decoration: none;
+margin: 1px;
+padding: 2px 4px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 75%;
+background: #dfd;
+border-left: 1px solid #cec;
+border-bottom: 1px solid #cec;
 }
 
 table a.upd {
-  background: #ddd;
-  color: #004;
-  text-decoration: none;
-  margin: 1px;
-  padding: 2px 4px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 75%;
-  background: #ddf;
-  border-left: 1px solid #cce;
-  border-bottom: 1px solid #cce;
+background: #ddd;
+color: #004;
+text-decoration: none;
+margin: 1px;
+padding: 2px 4px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 75%;
+background: #ddf;
+border-left: 1px solid #cce;
+border-bottom: 1px solid #cce;
 }
 
 table a.del {
-  background: #ddd;
-  color: #004;
-  text-decoration: none;
-  margin: 1px;
-  padding: 2px 4px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 75%;
-  background: #fdd;
-  border-left: 1px solid #ecc;
-  border-bottom: 1px solid #ecc;
+background: #ddd;
+color: #004;
+text-decoration: none;
+margin: 1px;
+padding: 2px 4px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 75%;
+background: #fdd;
+border-left: 1px solid #ecc;
+border-bottom: 1px solid #ecc;
 }
-
-input {
- background-color: #999;
- color: DfD;
- cursor: pointer;
-}
-
-input[disabled='disabled'] {
-  background: #888;
-  color: #AAA;
-  cursor:default;
-}
-
-body,td,th {
-	background-color: #000;
-	font-size: 14px;
-	color: #BBB;
-	font-weight: bold;
-	font-family: Verdana, Geneva, sans-serif;
-}
-a {
-	font-size: 14px;
-	color: #900;
-}
-a:link {
-	text-decoration: none;
-}
-a:visited {
-	text-decoration: none;
-	color: #900;
-}
-a:hover {
-	text-decoration: underline;
-	color: #F00;
-}
-a:active {
-	text-decoration: none;
-}
-
-#leftFrame {
- background-color: #200;
-}
-#mainFrame {
- background-color: #000;
-}
-#bottomFrame {
- background-color: #100;
-}
-
-
-#borderFrame {
- background-color: #333;
-}
-
-#border2Frame {
- background-color: #333;
-}
-
 </style>
-</head>
 
-<body id="mainFrame">
 <h1>The ipkg web frontend</h1>
-<form methode="GET">
+<form action="?page=package.php" method="POST">
 <table>
 <tr>
 	<td>Sync packages</td>
@@ -169,11 +95,8 @@ a:active {
 <input type="submit" name="submit">&nbsp;<input type="reset">
 </form>
 
-
-
-
 <?
-if ( "info" == $task  && "" != $package )
+if ( "info" == $task && "" != $package )
 {
      echo "<h2>Package Info</h2><pre>\n";
      system("/opt/bin/ipkg info $package");
@@ -238,11 +161,11 @@ if ( "" != $submit  ){
             list($nameinstalled , $versioninstalled, $descriptioninstalled ) = explode(" - ", $packinstalled );      
             if ( $nameinstalled == $listname )
             {
-               $info ="<a title=\"package info $nameinstalled\" href='package.php?task=info&installed=y&package=$nameinstalled'>$nameinstalled</a>";
+               $info ="<a title=\"package info $nameinstalled\" href='?page=package.php&task=info&installed=y&package=$nameinstalled'>$nameinstalled</a>";
                $del = "<a href='package.php?task=delete&package=$nameinstalled' class='del'>delete</a>";
                if ( $versioninstalled != $listversion )
                {
-                  $task = "<a href='package.php?task=update&package=$nameinstalled' class='upd'>update</a>";
+                  $task = "<a href='?page=package.php&task=update&package=$nameinstalled' class='upd'>update</a>";
                   $version = $versioninstalled;
                }
                else
@@ -255,12 +178,12 @@ if ( "" != $submit  ){
          }
          if ( "" == $task )
          {
-            $task ="<a title=\"package info $listname\" href='package.php?task=install&package=$listname' class='ins'>install</a>";
+            $task ="<a title=\"package info $listname\" href='?page=package.php&task=install&package=$listname' class='ins'>install</a>";
          }
          
          if ( "" == $info )
          {
-            $info ="<a href='package.php?task=info&package=$listname'>$listname</a>";
+            $info ="<a href='?page=package.php&task=info&package=$listname'>$listname</a>";
          }
          
         switch ( $typefilter ) 
@@ -289,5 +212,4 @@ if ( "" != $submit  ){
 
 
 ?>
-</body>
-</html>
+

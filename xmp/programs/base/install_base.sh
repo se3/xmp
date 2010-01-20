@@ -1,12 +1,12 @@
 #!/bin/sh
 
-if [ $1 = "sda1" ]; then
-   echo "make symbolic link from /opt to /tmp/usbmounts/sda1/opt"
-   if [ -d /tmp/usbmounts/sda1 ]; then 
-      mkdir /tmp/usbmounts/sda1/opt
-      ln -s /tmp/usbmounts/sda1/opt /opt
+if [ ! $1 = "root" ]; then
+   echo "make symbolic link from /opt to /tmp/usbmounts/"$1"/opt"
+   if [ -d /tmp/usbmounts/$1 ]; then 
+      mkdir /tmp/usbmounts/$1/opt
+      ln -s /tmp/usbmounts/$1/opt /opt
    else
-      echo "make symbolic link failed => /tmp/usbmounts/sda1 does not exist restart system"
+      echo "make symbolic link failed => /tmp/usbmounts/$1 does not exist. Restart system and try again."
    fi
 fi
 

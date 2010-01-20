@@ -1,3 +1,19 @@
+<style type="text/css">
+
+th, td {
+padding: 0px;
+}
+
+table a {
+text-decoration: none;
+padding: 2px 4px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 85%;
+background: #BBB;
+}
+
+</style>
+
 <?
 class fakeShell {
 
@@ -10,7 +26,6 @@ class fakeShell {
 	function fakeShell() {
 
 		$this->version = "1.0.5.1";
-		chdir("../");
 		$this->uname = $this->getLinux();
 		$this->path = $this->getPath();
             
@@ -20,7 +35,6 @@ class fakeShell {
 
 		$this->area = $_GET['area'];
 
-		$this->pasteHeader();
 		$this->pasteTabs();
 
 		switch ($this->area) {
@@ -31,8 +45,6 @@ class fakeShell {
 				$this->pasteShell();
 				break;
 		}
-
-		$this->pasteFooter();
 	}
 
 	function getLinux() {
@@ -45,40 +57,25 @@ class fakeShell {
 		return $path[0];
 	}
 
-	function pasteHeader() {
-		print '<html>';
-		print '<head>';
-		print '<title>mavvy\'s fakeshell v'.$this->version.'</title>';
-		print '<link rel="stylesheet" type="text/css" href="fakeshell.css">';
-		print '</head>';
-		print '<body>';
-	}
-
-	function pasteFooter() {
-		print '</body>';
-		print '</html>';
-	}
-
 	function pasteTabs() {
-		print '<div id="tabs">';
-		print '<ul>';
-
+		print '<table>';
 		switch ($this->area) {
 			case 'diskinfo':
-				print '<a href="'.$PHP_SELF.'?area=shell" style="padding-left:5px;">shell</a>';
+				print '<tr><td><a href="?page=fakeshell.php&area=shell" style="padding-left:5px;">shell</a></td></tr>';
 				break;
 			default:
+				print '<tr>';
 				foreach ($this->menu as $k => $v) {
-					print '<li><a href="#" onclick="document.shell.cmd.value=\''.$v.'\';document.shell.cmd.focus();">'.$k.'</a></li>';
+					print '<td><a href="#" onclick="document.shell.cmd.value=\''.$v.'\';document.shell.cmd.focus();">'.$k.'</a></td>';
 				}
-				print '<li><a href="#" onclick="document.shell.cmd.value=\'sleep \'+prompt(\'Shutdown Xtreamer after how many minutes?\')*60+\' && echo -n O > /tmp/ir\';document.shell.cmd.focus();">SLEEP</a></li>';
-				print '<li><a href="#" onclick="document.shell.cmd.value=\'reboot\';document.shell.cmd.focus();">REBOOT</a></li>';
-				print ' <a href="'.$PHP_SELF.'?area=diskinfo">diskinfo</a>';
+				print '<td><a href="#" onclick="document.shell.cmd.value=\'sleep \'+prompt(\'Shutdown Xtreamer after how many minutes?\')*60+\' && echo -n O > /tmp/ir\';document.shell.cmd.focus();">SLEEP</a></td>';
+				print '<td><a href="#" onclick="document.shell.cmd.value=\'reboot\';document.shell.cmd.focus();">REBOOT</a></td>';
+				print '<td><a href="?page=fakeshell.php&area=diskinfo">diskinfo</a></td>';
+				print '</tr>';
 				break;
 		}
 
-		print '</ul>';
-		print '</div>';
+		print '</table><br />';
 	}
 
 	function pasteShell() {
