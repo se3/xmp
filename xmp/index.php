@@ -30,18 +30,19 @@ $('#bottomFrame').load('www/info.php');
   <div id="leftFrame">
     <? include('www/lefty.php'); ?>
   </div>
-  <div id="mainFrame">
-    <? 
-    if (isset($_GET["page"])) $page = $_GET["page"];
-    else $page = 'main.php';
-    include("www/$page"); 
-    ?>
-  </div>
   <div id="bottomFrame">
     <? 
     if (isset($_GET["info"])) $info = $_GET["info"];
     else $info = 'info.php';
     include("www/$info"); 
+    ?>
+  </div>
+  flush();
+  <div id="mainFrame">
+    <? 
+    if (isset($_GET["page"])) $page = $_GET["page"];
+    else $page = 'main.php';
+    include("www/$page"); 
     ?>
   </div>
 </body>

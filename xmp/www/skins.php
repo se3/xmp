@@ -30,7 +30,7 @@ function getNewSkins()
             if( "" != $skin && ".." != $skin && ! file_exists( "$skinpath/$skin/$skin.zip" ) && ! file_exists( "$skinpath/$skin/$skin.tar.gz" ) ) 
             {
                echo "***  $skin *** \n<br>\n"; // the online skin name format should differ to local skin name format <h1> is too big
-               echo "<a href=\"?page=skins&info=skins.php&skin=$skin&online=y\"><img src=\"$skinpage/$skin/$skin.jpg\" align=\"absmiddle\" /></a>\n<br>\n";
+               echo "<a href=\"?page=skins&info=skins.php&skin=$skin&online=y\"><img src=\"$skinpage/$skin/$skin.jpg\" width=\"640\" /></a>\n<br>\n";
             }
          }
       }
@@ -40,40 +40,6 @@ function getNewSkins()
 ?>
 
 <?
-if ( "backup" == $original ) 
-{
-   // check if original backup is too old:
-   // cat /usr/local/etc/dvdplayer/XTR_setup.dat
-   // content of XTR_setup.dat: ♥ý VER 2.1.2☺☺dddddddddddd¶☺☺☺☺☺d☺☺☺☺/tmp/usbmounts/sda1/xmp/www
-   $versionstring = file_get_contents("/usr/local/etc/dvdplayer/XTR_setup.dat");
-   $version = substr($versionstring, strpos($versionstring, "VER")+4, 5);
-   
-   $backup = 0;
-   if ( file_exists( $versionfile ) )
-   {
-      if ( $version != file_get_contents("$skinpath/original/version.txt") )
-      {
-         $backup = 1;      
-      } 
-   }
-   else
-   {
-      $backup = 1; 
-   }
-      
-   if ( 1 == $backup )
-   {
-      echo '<META HTTP-EQUIV=Refresh CONTENT="2; URL=?page=skins">';
-      echo "<pre>";
-      system("rm $skinpath/original/original.tar.gz" );
-      system("./busybox tar -czvf $skinpath/original/original.tar.gz $extractpath*.bmp", $retval );
-      if ( $retval == "0") system("echo $version > $skinpath/original/version.txt");
-      else  echo " cmd (\"./busybox tar -czvf $skinpath/original/original.tar.gz $extractpath*.bmp \" failed<br>\n"; 
-      echo "</pre>";
-       
-   }
-}
-
 
 if ( "" != $skin  )
 {
@@ -138,12 +104,20 @@ else
       $backup = 1; 
    }
       
-   if ( 1 == $backup && "backup" != $original  )
+   if ( 1 == $backup )
    {
       if ( file_exists( "./busybox" ) )
       {
-         echo '<META HTTP-EQUIV=Refresh CONTENT="5; URL=?page=skins&info=skins.php&original=backup">';
-         echo "Please wait, original skin backup will start... It takes about 2 minutes<br>\n";  
+         echo "Please wait, original skin backup will start... It takes about 2 minutes<br>\n";        
+         flush();
+         echo "<pre>";
+         system("rm $skinpath/original/original.tar.gz" );
+         system("./busybox tar -czvf $skinpath/original/original.tar.gz $extractpath*.bmp", $retval );
+         if ( $retval == "0") system("echo $version > $skinpath/original/version.txt");
+         else  echo " cmd (\"./busybox tar -czvf $skinpath/original/original.tar.gz $extractpath*.bmp \" failed<br>\n";
+         flush();
+         echo '<META HTTP-EQUIV=Refresh CONTENT="1; URL=?page=skins.php">';
+         echo "</pre>";
       }
       else
       {
@@ -153,7 +127,7 @@ else
    else
    {   
       ?>  
-      <table align="left">
+      <table align="center">
       <tr>
       <td  align="center"><h1>Skin Browser</h1><br>
       <?
@@ -164,7 +138,7 @@ else
         if ($file != "." && $file != ".." && (file_exists( "$skinpath/$file/$file.zip") || file_exists( "$skinpath/$file/$file.tar.gz" ) ) )
         {
            echo "<h1>$file</h1>\n<br>\n";
-           echo "<a href=\"?page=skins&info=skins.php&skin=$file\"><img src=\"$skinpath/$file/$file.jpg\" align=\"absmiddle\" /></a>\n<br>\n";
+           echo "<a href=\"?page=skins&info=skins.php&skin=$file\"><img src=\"$skinpath/$file/$file.jpg\" width=\"640\" align=\"absmiddle\" /></a>\n<br>\n";
         }
       }
       $dir->close();
