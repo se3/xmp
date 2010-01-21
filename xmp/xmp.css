@@ -1,6 +1,6 @@
 input {
  background-color: #999;
- color: DfD;
+ color: #DFD;
  cursor: pointer;
 }
 
@@ -35,22 +35,43 @@ a:active {
 	text-decoration: none;
 }
 
-#leftFrame {
+div#leftFrame {
+ overflow:auto;
+ position: fixed;
+ width:170px;
+ top: 0;
+ right: auto;
+ bottom: 0;
+ left: 0;
+ padding:10px;
  background-color: #200;
+ border-right: solid 3px;
+ border-color: #333;
 }
-#mainFrame {
+
+div#mainFrame {
+ overflow:auto;
+ position: fixed;
+ width:auto;
+ top: 0;
+ bottom: 180px;
+ left: 193px;
+ right: 0;
+ padding:10px;
  background-color: #000;
+ border-bottom: solid 3px;
+ border-color: #333;
 }
-#bottomFrame {
+
+div#bottomFrame {
+ overflow:auto;
+ position: fixed;
+ width:auto;
+ bottom: 0;
+ left: 193px;
+ right: 0;
+ height:160px;
+ padding:10px;
  background-color: #100;
-}
-
-
-#borderFrame {
- background-color: #333;
-}
-
-#border2Frame {
- background-color: #333;
 }
                                                                                                                                                                                                       

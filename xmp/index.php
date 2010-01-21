@@ -4,7 +4,6 @@ session_start();
 error_reporting(0);
 $_SESSION['redirect'] = $_SERVER['REQUEST_URI'];
 include "www/login_test.php";
-define('OK_INC',1);
 php?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
