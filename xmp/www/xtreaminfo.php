@@ -60,7 +60,8 @@ echo "</pre>";
 
 echo '<a id="samba"><h2>Samba</h2></a>';
 echo "<pre>";
-
+system ("/usr/local/daemon/samba/sbin/smbd -V");
+echo "<br />";
 system ("cat /usr/local/daemon/samba/lib/smb.conf");
 # showfile /etc/samba/user_smb.conf
 #showfile /var/log/samba/log.smbd
