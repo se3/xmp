@@ -42,7 +42,7 @@ if ( file_exists( "/opt/bin/transmission-daemon" ) )
 
 <p>&nbsp;</p>
 
-<p><a href="?page=phpinfo.php" title="PHP info">PHP INFO</a></p>
+<p><a href="www/phpinfo.php" target="_new" title="PHP info">PHP INFO</a></p>
 
 <p><a href="?page=xtreaminfo.php" title="Xtreamer Information">XTREAMER INFO</a></p>
 
