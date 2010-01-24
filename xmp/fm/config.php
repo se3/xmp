@@ -2,12 +2,12 @@
 
 /*******************************/
 
-$www_dir="/fm"; //directory where FileManager is (relatively Web-server Document Root directory)
+$www_dir="/media/sda1/xmp/fm"; //directory where FileManager is (relatively Web-server Document Root directory)
 $tmp_dir="/tmp"; //must be writable
 
 /********* FileManager work directories *******/
 
-$filemanager_dirs=array('ROOT'=>'/','HDD'=>'/tmp/usbmounts');
+$filemanager_dirs=array('ROOT'=>'/','SDA1'=>'/tmp/usbmounts/sda1','HDD'=>'/tmp/usbmounts');
 
 
 /******** Timeouts (sec) ***********/

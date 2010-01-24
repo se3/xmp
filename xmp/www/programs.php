@@ -9,18 +9,36 @@
    $ext3 = exec("mount | grep $pwd | awk '{ print $5 }'");
    $busyboxbin = "/tmp/usbmounts/$pwd/xmp/busybox";
    
-   function plot_prog_install( $progname, $progpath, $progcheck )
+   
+   function plot_prog_all( $optdir, $progname, $prognamefull, $installmsg, $xmpsubpath, $progbinary,  $psname, $bootscript, $editmsg, $editconfig, $runcheck )
    {
-      global $optdir;
+      echo "<tr><td align=\"left\">\n";
+      plot_prog_install( $progname, $xmpsubpath, $progbinary, $optdir );
+      echo "</td><td align=\"center\">\n";
+      plot_prog_start( $prognamefull, $xmpsubpath, $psname, $progbinary );
+      echo "</td><td align=\"center\">\n";
+      plot_running_status( $psname );
+      echo "</td><td align=\"center\">\n";
+      plot_boot_status( $bootscript );
+      echo "</td><td align=\"center\">\n";
+      plot_enable( $bootscript, $xmpsubpath );
+      echo "</td><td align=\"center\">\n";
+      plot_edit_config( $editmsg , $editconfig, $runcheck );
+      echo "</td></tr>\n";
+   }
+   
+   function plot_prog_install( $progname, $progpath, $progcheck, $optdir )
+   {
       $progexist = file_exists($progcheck);         
       echo $progname.'</td><td align="center">'; 
       if($optdir) {
+         $style = "xmpgreen";
          if (!$progexist) { 
             $job="Install"; $cmd="programs/$progpath/install.php"; 
          }else { 
-            $job="Uninstall"; $cmd="programs/$progpath/uninstall.php"; 
+            $job="Uninstall"; $cmd="programs/$progpath/uninstall.php"; $style = "xmpred";
          }
-         echo "<a class=\"small awesome\" title=\"$job $progname\" onclick=\"$('#bottomFrame').load('$cmd');\">$job</a>\n";
+         echo "<a class=\"small $style awesome\" title=\"$job $progname\" onclick=\"$('#bottomFrame').load('$cmd');\">$job</a>\n";
       }
    }
    
@@ -29,11 +47,12 @@
       $exist = is_file($enableprog);
       
       if ($exist) {
+         $style = "xmpgreen";
          $permission = substr( sprintf('%o', fileperms($enableprog) ), -4 );
           if ($permission != "755") { $job = "Enable"; $cmd="programs/$progpath/bt_start.php"; }
-                                     else  { $job = "Disable"; $cmd="programs/$progpath/bt_stop.php"; }
+                                     else  { $job = "Disable"; $cmd="programs/$progpath/bt_stop.php"; $style = "xmpred"; }
                             
-          echo "<a class=\"small awesome\" title=\"$job $progpath daemon at boot\" onclick=\"$('#bottomFrame').load('$cmd'); $('#mainFrame').load('www/programs.php');\" >$job</a>\n";
+          echo "<a class=\"small $style awesome\" title=\"$job $progpath daemon at boot\" onclick=\"$('#bottomFrame').load('$cmd'); $('#mainFrame').load('www/programs.php');\" >$job</a>\n";
        } 
    }
 
@@ -55,15 +74,17 @@
    
    function plot_prog_start( $progname, $progpath, $progcheck, $progbin )
    {
+      $style = "xmpgreen";
       $exist = is_file( $progbin );
-      if ( $exist ) {
+      if ( $exist && '' != $progcheck ) {
          $running = ( "" != exec('ps | grep '.$progcheck.' | grep -v grep') );
          if ($running == "1") { 
             $job="Stop"; $cmd="programs/$progpath/stop.php"; 
+            $style = "xmpred";
          }else { 
             $job="Start"; $cmd="programs/$progpath/start.php"; 
          }
-         echo "<a class=\"small awesome\" title=\"$job $progname\" onclick=\"$('#bottomFrame').load('$cmd'); \">$job</a>\n";
+         echo "<a class=\"small $style awesome\" title=\"$job $progname\" onclick=\"$('#bottomFrame').load('$cmd'); \">$job</a>\n";
       }
       else {
          //echo "$progbin not found";
@@ -71,19 +92,22 @@
    }
    
    function plot_edit_config( $editmessage, $config, $progcheck )
-   { 
-      $exist = file_exists( $config );
-      $running = 'false';
-      
-      if ("" != $progcheck ){
-         $running = exec('ps | grep '.$progcheck.' | grep -v grep');
-      }
-      
-      if (!$running && $exist) {
-         echo "<a class=\"small awesome\"  title=\"$editmessage\" href=\"webpad/?t=server&f=$config\" target=\"_new\">Edit</a>\n";
+   {
+      if ('' != $config){
+         $exist = file_exists( $config );
+         $running = false;
+         
+         if ( "" != $progcheck ){
+            $running = exec('ps | grep '.$progcheck.' | grep -v grep');
+         }
+         
+         if (!$running && $exist) {
+            echo "<a class=\"small awesome\"  title=\"$editmessage\" href=\"webpad/?t=server&f=$config\" target=\"_new\">Edit</a>\n";
+         }
       }
    }
-   if(file_exists($useridpath))
+   
+   if(file_exists($useridpath)) 
    {
       $userid = rtrim( file_get_contents( $useridpath ) );
    }
@@ -109,13 +133,16 @@
 <a class="small red awesome">Awesome Red Button &raquo;</a> <br /><br />
 <a class="small orange awesome">Awesome Orange Button &raquo;</a> <br /><br />
 <a class="small yellow awesome">Awesome Yellow Button &raquo;</a> 
+
+<a class="small xmpgreen awesome">Awesome xmp Button &raquo;</a> 
+<a class="small xmpred awesome">Awesome xmp Button &raquo;</a> 
 -->
 
-<table border="0" width="80%" align="center" >
+<table class="programs" valign="middle" border="0" width="800px" >
   <tr>
    <td align="left">Package name</td><td align="center">Install/Uninstall</td><td align="center">Start / Stop</td><td align="center">Running status</td><td align="center">Boot status</td><td align="center">Enable/Disable</td><td align="center">More</td>
   </tr>
-  
+    
   <tr><td colspan="7" align="center"><hr /></td></tr> <!-- Table horisontal line -->
 
 <!-- Table Base Install -->  
@@ -126,13 +153,13 @@
           echo '<input type="radio" name="installpath" value="root" checked>root<br />';
           if ($ext3 == "ext3" ) {  echo '<input type="radio" name="installpath" value="'.$pwd.'">'.$pwd.'<br />';  } 
 ?>
-          <a class="small awesome" onclick="$('#bottomFrame').load('programs/base/install.php?installpath=' + $('input:radio[name=installpath]:checked').val());" >Install &raquo;</a>
+          <a class="small xmpgreen awesome" onclick="$('#bottomFrame').load('programs/base/install.php?installpath=' + $('input:radio[name=installpath]:checked').val());" >Install &raquo;</a>
 
 <?  }else {  ?>
-         <a class="small awesome" title="Full uninstall" onclick="$('#bottomFrame').load('programs/base/uninstall.php'); ">Uninstall</a>      
+         <a class="small xmpred awesome" title="Full uninstall" onclick="$('#bottomFrame').load('programs/base/uninstall.php'); ">Uninstall</a>      
 <?  } ?>
    </td>
-   <td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td>
+   <td colspan=5 align="center"></td>
   </tr>
 
 <!-- Table horisontal line -->
@@ -143,10 +170,8 @@
    <td align="left">Cron</td>
    <td align="center"></td><td align="center"></td>
    <td align="center"><? plot_running_status('cron');  ?></td>
-   <td align="center">
-      
-<?  plot_boot_status( '/etc/init.d/S10cron', 'cron' ); ?>
-
+   <td align="center">      
+      <?  plot_boot_status( '/etc/init.d/S10cron', 'cron' ); ?>
    </td>
    <td align="center">
       <? plot_enable( '/etc/init.d/S10cron', 'cron' ); ?>
@@ -161,151 +186,40 @@
 
   <tr>
    <td align="left">Time sync</td>
-   <td align="center"></td>
-   <td align="center"></td>
-   <td align="center"></td>
-   <td align="center">
-      <?  plot_boot_status('/etc/init.d/S77ntp'); ?>
-   </td>
+   <td colspan=3 align="center"></td>
+   <td align="center">      <?  plot_boot_status('/etc/init.d/S77ntp'); ?>   </td>
    <td align="center">
       <? if ('true' == file_exists('/opt/bin/ntpdate') ) { ?>
-      <a class="small awesome" title="Manual time synchronize." onclick="$('#bottomFrame').load('programs/ntp/sync.php'); $('#mainFrame').load('www/programs.php');" >Manual sync</a>
+         <a class="small awesome" title="Manual time synchronize." onclick="$('#bottomFrame').load('programs/ntp/sync.php'); $('#mainFrame').load('www/programs.php');" >Manual sync</a>
       <? } ?>
    </td>
    <td align="center"></td>
   </tr>
 
 <!-- Table Telnet -->
+<?
+//plot_prog_all( $progname, $prognamefull, $installmsg, $xmpsubpath, $progbinary,  $psname, $bootscript, $editmsg, $editconfig, $runcheck )
 
-  <tr>
-   <td align="left">Telnet</td>
-   <td align="center"></td>
-   <td align="center">
-      <?  plot_prog_start("telnet daemon", "telnet", 'telnetd', $busyboxbin  ); ?>
-   </td>
-   <td align="center">
-      <? plot_running_status(  'telnetd'  );  ?>
-   </td>
-   <td align="center">
-      <? plot_boot_status('/etc/init.d/S45telnet'); ?>
-   </td>
-   <td align="center">
-      <?  plot_enable( '/etc/init.d/S45telnet', 'telnet'); ?>
-   </td>
-   <td align="center"></td>
-  </tr>
-
-
-<!-- Table horisontal line -->  
-
-  <tr>
-   <td colspan=7 align="center"><hr />
-</td>
-  </tr>
-
-<!-- Table Midnight Commander -->
-  
-  <tr>
-   <td align="left">
-      <? plot_prog_install('Midnight Commander', 'mc', '/bin/mc'); ?>
-   </td>   
-   <td align="center"></td>
-   <td align="center"></td>
-   <td align="center"></td>
-   <td align="center"></td>
-   <td align="center"></td>
-  </tr>
-
-<!-- Table Open SSH -->
-  
-  <tr>
-   <td align="left">
-      <?  plot_prog_install('Openssh', 'openssh', '/opt/sbin/sshd' );  ?>
-   </td>
-   <td align="center">
-      <?  plot_prog_start("sshd daemon", "openssh", "sshd", '/opt/sbin/sshd'  );  ?>
-   </td>
-   <td align="center">
-      <? plot_running_status( "sshd" ); ?>
-   </td>
-   <td align="center">      
-      <? plot_boot_status( '/etc/init.d/S40sshd' ); ?>
-   </td>
-   <td align="center">
-      <?  plot_enable( '/etc/init.d/S40sshd', 'openssh'); ?>
-   </td>
-   <td align="center">
-      <? plot_edit_config( "Edit OpenSSH config. Need to restart the SSH daemon after save your edit." , "/opt/etc/openssh/sshd_config", "" ); ?>
-   </td>
-  </tr>
-
-
-<!-- Table Transmission -->
-  
-  <tr>
-   <td align="left">
-      <?  plot_prog_install('Transmission', 'transmission', '/opt/bin/transmission-daemon' );  ?>
-   </td>   
-   <td align="center">
-      <?  plot_prog_start("transmission daemon", "transmission", "transmission" , '/opt/bin/transmission-daemon'  );  ?>
-   </td>
-   <td align="center">
-      <? plot_running_status( "transmission" ); ?>
-   </td>
-   <td align="center">
-      <? plot_boot_status( '/etc/init.d/S227transmission' ); ?>
-   </td>
-   <td align="center">
-      <?  plot_enable( '/etc/init.d/S227transmission', 'transmission'); ?>
-   </td>
-   <td align="center">
-      <? plot_edit_config( "Edit Transmission daemon config" , "/root/transmission/settings.json", "" ); ?>      
-   </td>
-  </tr>
-  
-<!-- Table DCTCS -->
-  
-  <tr>
-   <td align="left">
-       <?  plot_prog_install('DCTCS', 'dctcs', '/usr/local/bin/dctcs' );  ?>
-   </td>
-   <td align="center">
-      <?  plot_prog_start("DCTCS daemon", "dctcs", "dctcs" , '/usr/local/bin/dctcs' );  ?>
-   </td>
-   <td align="center"> 
-      <? plot_running_status( "dctcs" ); ?>
-   </td>
-   <td align="center">
-      <? plot_boot_status( '/etc/init.d/S228dctcs' ); ?>
-   </td>
-   <td align="center">
-      <?  plot_enable( '/etc/init.d/S228dctcs', 'dctcs'); ?>
-   </td>
-   <td align="center">
-      <? plot_edit_config( "Edit DCTCS daemon config" , "/etc/dctcs.conf", "dctcs" ); ?>
-	</td>
-  </tr>
-
- 
-<!-- Table NZBGet -->
-  <tr>
-   <td align="left">
-      <?  plot_prog_install('NZBGet', 'nzbget', '/opt/bin/nzbget' );  ?>
-   </td>
-   <td align="center"></td>
-   <td align="center"></td>
-   <td align="center"><? plot_boot_status( '/opt/bin/nzbget' ); ?></td>
-   <td align="center"></td>
-   <td align="center">
-      <? plot_edit_config( "Edit NZBGet config" , "/opt/etc/nzbget.conf'", "nzbget" ); ?>
-    </td>
-  </tr>
-
+plot_prog_all( 0, 'Telnet' , "telnet daemon", "telnet deamon",  'telnet', $busyboxbin,  "telnetd", '/etc/init.d/S45telnet', "", "", "" );  
+?>
 <!-- Table horisontal line -->
+  <tr> <td colspan=7 align="center"><hr /></td></tr>
 
-  <tr>   <td colspan=7 align="center"><hr /></td>  </tr>
+<!-- Table Midnight Commander -->  
+  <tr>
+   <td align="left"><? plot_prog_install('Midnight Commander', 'mc', '/bin/mc', $optdir ); ?></td>   
+   <td colspan=5 align="center"></td>
+  </tr>
 
-<!-- Table DVD speed -->
+  <?
+  //   function plot_prog_all( $optdir, $progname, $prognamefull, $installmsg, $xmpsubpath, $progbinary,  $psname, $bootscript, $editmsg, $editconfig, $runcheck )
+
+  plot_prog_all( $optdir, 'Openssh' , "sshd daemon", "secure your xtreamer",  'openssh', '/opt/sbin/sshd',  "sshd", '/etc/init.d/S40sshd', "Edit OpenSSH config. Need to restart the SSH daemon after save your edit.", "/opt/etc/openssh/sshd_config", "" );  
+  plot_prog_all( $optdir, 'Transmission' , "transmission daemon", "ext3 file system needed on sda1",  'transmission', '/opt/bin/transmission-daemon',  "transmission", '/etc/init.d/S227transmission', "Edit Transmission daemon config.", "/root/transmission/settings.json", 'transmission' );  
+  plot_prog_all( $optdir, 'DCTCS' , "DCTCS daemon", "Yet another torrent client",  'dctcs', '/usr/local/bin/dctcs',  "dctcs", '/etc/init.d/S228dctcs', "Edit DCTCS daemon config", "/etc/dctcs.conf", "dctcs" );  
+  plot_prog_all( $optdir, 'NZBGet' , "NZBGet application", "Yet another torrent client",  'nzbget', '/opt/bin/nzbget',  "", '', "Edit DCTCS daemon config", "/opt/etc/nzbget.conf'", "nzbget" );
+  echo '<tr>   <td colspan="7" align="center"><hr /></td>  </tr>';
+  ?>
 
 <tr>
  <td align="left">DVD speed</td>
@@ -318,13 +232,9 @@
 </tr>
 
 <!-- Table horisontal line -->
-
-  <tr>
-   <td colspan=7 align="center"><hr />
-</td>
-  </tr>
-<tr>
-<td align="left">Use own RSS</td>
+ <tr><td colspan=7 align="center"><hr /></td></tr>
+ <tr>
+ <td align="left">Use own RSS</td>
 <? if ($xlive ) { ?>
 <td align="center"><a class="small awesome" title="Restore X_LIVE" onclick="$('#bottomFrame').load('x_live/symlink_xlive.php?restore=true'); $('#mainFrame').load('www/programs.php');" >Restore x_live</a></td>
 <?}else { ?>
@@ -337,7 +247,6 @@
 </tr>
 
 <!-- Table horisontal line -->
-
-  <tr>   <td colspan=7 align="center"><hr /></td>  </tr>
+ <tr><td colspan=7 align="center"><hr /></td></tr>
 
 </table>

@@ -10,7 +10,11 @@ input[disabled='disabled'] {
   cursor:default;
 }
 
+body{
+background-color: #333;
+}
 body,td,th {
+     
 	font-size: 14px;
 	color: #BBB;
 	font-weight: bold;
@@ -35,10 +39,19 @@ a:active {
 	text-decoration: none;
 }
 
+table.programs {
+     background-color: #333;
+     -moz-border-radius: 10px; 
+     -webkit-border-radius: 10px;
+     padding:20px;
+     margin:20px;
+}
+
+
 div#leftFrame {
  overflow:auto;
  position: fixed;
- width:170px;
+ width:150px;
  top: 0;
  right: auto;
  bottom: 0;
@@ -47,6 +60,8 @@ div#leftFrame {
  background-color: #200;
  border-right: solid 3px;
  border-color: #333;
+ -moz-border-radius: 20px; 
+ -webkit-border-radius: 20px;
 }
 
 div#mainFrame {
@@ -55,12 +70,14 @@ div#mainFrame {
  width:auto;
  top: 0;
  bottom: 180px;
- left: 193px;
+ left: 173px;
  right: 0;
  padding:10px;
  background-color: #000;
  border-bottom: solid 3px;
  border-color: #333;
+ -moz-border-radius: 20px; 
+ -webkit-border-radius: 20px;
 }
 
 div#bottomFrame {
@@ -68,11 +85,13 @@ div#bottomFrame {
  position: fixed;
  width:auto;
  bottom: 0;
- left: 193px;
+ left: 173px;
  right: 0;
  height:160px;
  padding:10px;
  background-color: #100;
+ -moz-border-radius: 20px; 
+ -webkit-border-radius: 20px;
 }
 
 			div.wrapper { width: 940px; margin: 0 auto; padding: 0 30px 36px; position: relative; }
@@ -116,6 +135,10 @@ div#bottomFrame {
 	.red.awesome:hover							{ background-color: #872300; }
 	.magenta.awesome, .magenta.awesome:visited		{ background-color: #a9014b; }
 	.magenta.awesome:hover							{ background-color: #630030; }
+	.xmpred.awesome, .xmpred.awesome:visited		{ background-color: #440000; }
+	.xmpred.awesome:hover							{ background-color: #990000;  }
+	.xmpgreen.awesome, .xmpgreen.awesome:visited		{ background-color: #116600; }
+	.xmpgreen.awesome:hover							{ background-color: #66aa00;  }
 	.orange.awesome, .orange.awesome:visited		{ background-color: #ff5c00; }
 	.orange.awesome:hover							{ background-color: #d45500; }
 	.yellow.awesome, .yellow.awesome:visited		{ background-color: #ffb515; }

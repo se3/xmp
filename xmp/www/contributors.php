@@ -4,6 +4,7 @@
 <p>All Xtreamer forum members - Lots of tips &amp; ideas</p>
 <p>RTT - Scripts, Web, Configs</p>
 <p>Glenn - MePo Skin Design</p>
-<p>jaffa - skin master</p>
+<p>jaffa - Skin master</p>
 <p>exe - Repository, ipkg-web frontend, Backup....</p>
+<p>ozolli - Security, Scripts, Web frontend...</p>
 

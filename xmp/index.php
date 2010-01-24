@@ -37,7 +37,7 @@ $('#bottomFrame').load('www/info.php');
     include("www/$info"); 
     ?>
   </div>
-  flush();
+    <? flush(); ?>
   <div id="mainFrame">
     <? 
     if (isset($_GET["page"])) $page = $_GET["page"];
