@@ -1,13 +1,13 @@
 <?php
 
 /*******************************/
-
-$www_dir="/media/sda1/xmp/fm"; //directory where FileManager is (relatively Web-server Document Root directory)
+$pwd = exec("pwd | awk 'match($0,/\/sd[a-d][0-9]?\//){print substr($0,RSTART+1,RLENGTH-2)}'");
+$www_dir="/media/$pwd/xmp/fm"; //directory where FileManager is (relatively Web-server Document Root directory)
 $tmp_dir="/tmp"; //must be writable
 
 /********* FileManager work directories *******/
 
-$filemanager_dirs=array('ROOT'=>'/','SDA1'=>'/tmp/usbmounts/sda1','HDD'=>'/tmp/usbmounts');
+$filemanager_dirs=array('ROOT'=>'/',$pwd =>'/tmp/usbmounts/'.$pwd ,'HDD'=>'/tmp/usbmounts');
 
 
 /******** Timeouts (sec) ***********/
