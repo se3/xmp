@@ -44,8 +44,17 @@ table.programs {
      -moz-border-radius: 10px; 
      -webkit-border-radius: 10px;
      padding:20px;
-     margin:20px;
+     margin:20px;   
 }
+
+.transparent {
+     filter:alpha(opacity:30);
+     KHTMLOpacity:0.30;
+     MozOpacity:0.30;
+     opacity:0.30;
+}
+
+
 
 
 div#leftFrame {

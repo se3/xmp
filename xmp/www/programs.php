@@ -38,7 +38,7 @@
          }else { 
             $job="Uninstall"; $cmd="programs/$progpath/uninstall.php"; $style = "xmpred";
          }
-         echo "<a class=\"small $style awesome\" title=\"$job $progname\" onclick=\"$('#bottomFrame').load('$cmd');\">$job</a>\n";
+         echo "<a class=\"small $style awesome\" title=\"$job $progname\" onclick=\"$('#bottomFrame').load('$cmd'); document.getElementById('ptable').className='transparent';\">$job</a>\n";
       }
    }
    
@@ -52,7 +52,7 @@
           if ($permission != "755") { $job = "Enable"; $cmd="programs/$progpath/bt_start.php"; }
                                      else  { $job = "Disable"; $cmd="programs/$progpath/bt_stop.php"; $style = "xmpred"; }
                             
-          echo "<a class=\"small $style awesome\" title=\"$job $progpath daemon at boot\" onclick=\"$('#bottomFrame').load('$cmd'); $('#mainFrame').load('www/programs.php');\" >$job</a>\n";
+          echo "<a class=\"small $style awesome\" title=\"$job $progpath daemon at boot\" onclick=\"$('#bottomFrame').load('$cmd'); $('#mainFrame').load('www/programs.php'); document.getElementById('ptable').className='transparent';\" >$job</a>\n";
        } 
    }
 
@@ -84,7 +84,7 @@
          }else { 
             $job="Start"; $cmd="programs/$progpath/start.php"; 
          }
-         echo "<a class=\"small $style awesome\" title=\"$job $progname\" onclick=\"$('#bottomFrame').load('$cmd'); \">$job</a>\n";
+         echo "<a class=\"small $style awesome\" title=\"$job $progname\" onclick=\"$('#bottomFrame').load('$cmd'); document.getElementById('ptable').className='transparent'; \">$job</a>\n";
       }
       else {
          //echo "$progbin not found";
@@ -137,7 +137,7 @@
 <a class="small xmpgreen awesome">Awesome xmp Button &raquo;</a> 
 <a class="small xmpred awesome">Awesome xmp Button &raquo;</a> 
 -->
-
+<div id="ptable" class="" >
 <table class="programs" valign="middle" border="0" width="800px" >
   <tr>
    <td align="left">Package name</td><td align="center">Install/Uninstall</td><td align="center">Start / Stop</td><td align="center">Running status</td><td align="center">Boot status</td><td align="center">Enable/Disable</td><td align="center">More</td>
@@ -153,10 +153,10 @@
           echo '<input type="radio" name="installpath" value="root" checked>root<br />';
           if ($ext3 == "ext3" ) {  echo '<input type="radio" name="installpath" value="'.$pwd.'">'.$pwd.'<br />';  } 
 ?>
-          <a class="small xmpgreen awesome" onclick="$('#bottomFrame').load('programs/base/install.php?installpath=' + $('input:radio[name=installpath]:checked').val());" >Install &raquo;</a>
+          <a class="small xmpgreen awesome" onclick="$('#bottomFrame').load('programs/base/install.php?installpath=' + $('input:radio[name=installpath]:checked').val()); document.getElementById('ptable').className='transparent';" >Install &raquo;</a>
 
 <?  }else {  ?>
-         <a class="small xmpred awesome" title="Full uninstall" onclick="$('#bottomFrame').load('programs/base/uninstall.php'); ">Uninstall</a>      
+         <a class="small xmpred awesome" title="Full uninstall" onclick="$('#bottomFrame').load('programs/base/uninstall.php'); document.getElementById('ptable').className='transparent';">Uninstall</a>      
 <?  } ?>
    </td>
    <td colspan=5 align="center"></td>
@@ -190,7 +190,7 @@
    <td align="center">      <?  plot_boot_status('/etc/init.d/S77ntp'); ?>   </td>
    <td align="center">
       <? if ('true' == file_exists('/opt/bin/ntpdate') ) { ?>
-         <a class="small awesome" title="Manual time synchronize." onclick="$('#bottomFrame').load('programs/ntp/sync.php'); $('#mainFrame').load('www/programs.php');" >Manual sync</a>
+         <a class="small awesome" title="Manual time synchronize." onclick="$('#bottomFrame').load('programs/ntp/sync.php'); $('#mainFrame').load('www/programs.php'); " >Manual sync</a>
       <? } ?>
    </td>
    <td align="center"></td>
@@ -236,13 +236,13 @@ plot_prog_all( 0, 'Telnet' , "telnet daemon", "telnet deamon",  'telnet', $busyb
  <tr>
  <td align="left">Use own RSS</td>
 <? if ($xlive ) { ?>
-<td align="center"><a class="small awesome" title="Restore X_LIVE" onclick="$('#bottomFrame').load('x_live/symlink_xlive.php?restore=true'); $('#mainFrame').load('www/programs.php');" >Restore x_live</a></td>
+<td align="center"><a class="small awesome" title="Restore X_LIVE" onclick="$('#bottomFrame').load('x_live/symlink_xlive.php?restore=true'); $('#mainFrame').load('www/programs.php'); document.getElementById('ptable').className='transparent';" >Restore x_live</a></td>
 <?}else { ?>
-<td align="center"><a class="small awesome" title="Use local X_LIVE" onclick="$('#bottomFrame').load('x_live/symlink_xlive.php'); $('#mainFrame').load('www/programs.php');" >Hack x_live</a></td>
+<td align="center"><a class="small awesome" title="Use local X_LIVE" onclick="$('#bottomFrame').load('x_live/symlink_xlive.php'); $('#mainFrame').load('www/programs.php'); document.getElementById('ptable').className='transparent';" >Hack x_live</a></td>
 <?} ?>
 <td align="center" colspan=3>
    My Flickr USER_ID<br/><input name="userid" size="12" value="<? echo $userid; ?>">
-   <a class="small awesome" title="12345678@N06"  onclick="$('#bottomFrame').load('x_live/myflickr.php?userid=' + $('[name=userid]').val()); $('#mainFrame').load('www/programs.php');" >Change</a></td>
+   <a class="small awesome" title="12345678@N06"  onclick="$('#bottomFrame').load('x_live/myflickr.php?userid=' + $('[name=userid]').val()); $('#mainFrame').load('www/programs.php'); document.getElementById('ptable').className='transparent';" >Change</a></td>
 <td colspan=2 align="center"></td>
 </tr>
 
@@ -250,3 +250,4 @@ plot_prog_all( 0, 'Telnet' , "telnet daemon", "telnet deamon",  'telnet', $busyb
  <tr><td colspan=7 align="center"><hr /></td></tr>
 
 </table>
+</div>
