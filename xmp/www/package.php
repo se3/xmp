@@ -162,7 +162,7 @@ if ( "" != $submit  ){
             if ( $nameinstalled == $listname )
             {
                $info ="<a title=\"package info $nameinstalled\" href='?page=package.php&task=info&installed=y&package=$nameinstalled'>$nameinstalled</a>";
-               $del = "<a href='package.php?task=delete&package=$nameinstalled' class='del'>delete</a>";
+               $del = "<a href='?page=package.php&task=delete&package=$nameinstalled' class='del'>delete</a>";
                if ( $versioninstalled != $listversion )
                {
                   $task = "<a href='?page=package.php&task=update&package=$nameinstalled' class='upd'>update</a>";

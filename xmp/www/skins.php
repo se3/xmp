@@ -64,8 +64,8 @@ if ( "" != $skin  )
       else if ( file_exists( "$skinpath/$skin/$skin.tar.gz" ) )
       {
          echo '<pre>';
-         echo "perform : ./busybox tar -xzvf $skinpath/$skin/$skin.tar.gz -C /<br>\n";
-         system("./busybox tar -xzvf $skinpath/$skin/$skin.tar.gz -C /", $retval);
+         echo "perform : ./busybox tar -xzvf '$skinpath/$skin/$skin.tar.gz' -C /<br>\n";
+         system("./busybox tar -xzvf '$skinpath/$skin/$skin.tar.gz' -C /", $retval);
          echo '</pre>';
          if ( $retval == "0") { echo 'Install done.'; }else{ echo 'Install failed!'; }
       }

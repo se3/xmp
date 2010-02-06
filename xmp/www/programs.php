@@ -137,7 +137,7 @@
 <a class="small xmpgreen awesome">Awesome xmp Button &raquo;</a> 
 <a class="small xmpred awesome">Awesome xmp Button &raquo;</a> 
 -->
-<div id="ptable" class="" >
+<div id="ptable" class="programs" >
 <table class="programs" valign="middle" border="0" width="800px" >
   <tr>
    <td align="left">Package name</td><td align="center">Install/Uninstall</td><td align="center">Start / Stop</td><td align="center">Running status</td><td align="center">Boot status</td><td align="center">Enable/Disable</td><td align="center">More</td>
