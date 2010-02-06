@@ -18,10 +18,11 @@ function getNewSkins()
    //echo "------ ". substr_count( $retval[0] , "is alive!") . "-- $retval[0] ----";
 
    if ( substr_count( $retval[0] , "is alive!") == 1) 
-   {  
+   {
       global $skinpage, $skinpath;
       $filecontent = explode("\n", @file_get_contents( $skinpage ) );
-      
+      $counter = 0;
+      echo "<tr>";
       foreach( $filecontent as $line ){
          list($key, $val) = explode("<li><a href=\"", $line );
          if( $key != "" && $val ){
@@ -29,11 +30,16 @@ function getNewSkins()
             $skin =str_replace("%20", " ", $skin);
             if( "" != $skin && ".." != $skin && ! file_exists( "$skinpath/$skin/$skin.zip" ) && ! file_exists( "$skinpath/$skin/$skin.tar.gz" ) ) 
             {
-               echo "***  $skin *** \n<br>\n"; // the online skin name format should differ to local skin name format <h1> is too big
-               echo "<a href=\"?page=skins&info=skins.php&skin=$skin&online=y\"><img src=\"$skinpage/$skin/$skin.jpg\" width=\"640\" /></a>\n<br>\n";
+               echo "<td align=\"center\">***  $skin *** \n<br>\n"; // the online skin name format should differ to local skin name format <h1> is too big
+               echo "<a href=\"?page=skins&info=skins.php&skin=$skin&online=y\"><img src=\"$skinpage/$skin/$skin.jpg\" width=\"500\" /></a></td>\n";
+               if ( $counter++ %2 )
+               {
+                  echo "</tr><tr>\n";
+               }
             }
-         }
-      }
+         }         
+      } // end foreach
+      echo "</tr>";
    }
 }
 
@@ -127,23 +133,28 @@ else
    else
    {   
       ?>  
-      <table align="center">
+      <table align="left">
       <tr>
-      <td  align="center"><h1>Skin Browser</h1><br>
+      <th colspan="2" align="center"><h1>Skin Browser</h1></th>
+      </tr>
       <?
       getNewSkins();
       $dir = @ dir("skins/");
-      while (($file = $dir->read()) !== false)
+      $counter = 0;
+      echo "<tr>";
+      while (($file = $dir->read() ) !== false)
       {
-        if ($file != "." && $file != ".." && (file_exists( "$skinpath/$file/$file.zip") || file_exists( "$skinpath/$file/$file.tar.gz" ) ) )
-        {
-           echo "<h1>$file</h1>\n<br>\n";
-           echo "<a href=\"?page=skins&info=skins.php&skin=$file\"><img src=\"$skinpath/$file/$file.jpg\" width=\"640\" align=\"absmiddle\" /></a>\n<br>\n";
+        if ($file != "." && $file != ".." && (file_exists( "$skinpath/$file/$file.zip") || file_exists( "$skinpath/$file/$file.tar.gz" ) ) )        {
+           echo "<td align=\"center\"><h1>$file</h1>\n<br>\n";
+           echo "<a href=\"?page=skins&info=skins.php&skin=$file\"><img src=\"$skinpath/$file/$file.jpg\" width=\"500\" align=\"absmiddle\" /></a>\n</td>\n";
         }
-      }
+        if ($counter %2)        {
+         echo "</tr><tr>";
+        }
+        $counter ++;
+      }      
       $dir->close();
       ?>
-      </td>
       </tr>
       </table>
    <?

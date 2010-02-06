@@ -14,6 +14,7 @@ php?>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Xtreamer Mod Pack</title>
 <link rel="stylesheet" type="text/css" href="xmp.css" />
+<script type="text/javascript" src="www/simpletreemenu.js"></script>
 <script type="text/javascript" src="jquery.js"></script>
 
 <script type="text/javascript">

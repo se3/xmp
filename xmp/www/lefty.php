@@ -39,7 +39,7 @@ if ( file_exists( "/opt/bin/streamripper" ) )
 if ( file_exists( "/opt/bin/transmission-daemon" ) )
 { 
 ?>
-   <p><a href="http://<? echo $_SERVER["SERVER_ADDR"]; ?>:9091/transmission/web/" title="Transmission web"><img src="www/transmission.png" border="0"></a></p>
+   <p><a href="http://<? echo $_SERVER["SERVER_ADDR"]; ?>:9091/transmission/web/" title="Transmission web">TRANSMISSION</a></p>
 <?
 }
 ?>
