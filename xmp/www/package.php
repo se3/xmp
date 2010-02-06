@@ -6,6 +6,8 @@ $package = $_GET[package];
 $updatedb = $_POST[updatedb];
 $namefilter = $_POST[namefilter];
 $typefilter = $_POST[typefilter];
+if ("" == $typefilter) $typefilter = $_GET[typefilter];
+if ("" == $submit) $submit = $_GET[submit];
 ?>
 <style type="text/css">
 h1, h2 {

@@ -12,25 +12,13 @@ if ( file_exists( "/opt/bin/ipkg" )  )
 <?
 }
 
-if ( file_exists( "/opt/bin/streamripper" ) )
-{ 
-?>
-   <p><a href="?page=streamripper.php" title="Streamripper">STREAMRIPPER</a></p>
-<?
-}
-
-if ( file_exists( "/opt/bin/transmission-daemon" ) )
-{ 
-?>
-   <p><a href="http://<? echo $_SERVER["SERVER_ADDR"]; ?>:9091/transmission/web/" title="Transmission web">TRANSMISSION WEB</a></p>
-<?
-}
 ?>
 
 <p><a href="?page=backup.php" title="Backup configuration files">BACKUP</a></p>
 <p>&nbsp;</p>
 
 <p><a href="?page=skins.php" title="Skin installer">SKINS</a></p>
+<!-- <p><a href="?page=plsx_maker.php" title="PLSX MAKER">PLSX MAKER</a></p> -->
 
 <p><a href="?page=fontinstaller.php" title="Font installer">FONTS</a></p>
 
@@ -41,10 +29,25 @@ if ( file_exists( "/opt/bin/transmission-daemon" ) )
 <p><a href="?page=contributors.php">CONTRIBUTORS</a></p>
 
 <p>&nbsp;</p>
-
+<?
+if ( file_exists( "/opt/bin/streamripper" ) )
+{ 
+?>
+   <p><a href="?page=streamripper.php" title="Streamripper">STREAMRIPPER</a></p>
+<?
+}
+if ( file_exists( "/opt/bin/transmission-daemon" ) )
+{ 
+?>
+   <p><a href="http://<? echo $_SERVER["SERVER_ADDR"]; ?>:9091/transmission/web/" title="Transmission web"><img src="www/transmission.png" border="0"></a></p>
+<?
+}
+?>
 <p><a href="www/phpinfo.php" target="_new" title="PHP info">PHP INFO</a></p>
 
 <p><a href="?page=xtreaminfo.php" title="Xtreamer Information">XTREAMER INFO</a></p>
+
+<p><a href="?page=versioninfo.php" title="Xtreamer Information">VERSION INFO</a></p>
 
 <p><a href="/" title="Xtreamer Web GUI">Xt WEB GUI</a></p>
 
