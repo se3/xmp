@@ -6,4 +6,4 @@ echo "NZBGet install started."
 echo "NZBGet install done."
 echo ""
 
-cp -R /tmp/usbmounts/sda1/xmp/programs/nzbget/preconf/* /
+cp -R /sbin/www/xmp/programs/nzbget/preconf/* /

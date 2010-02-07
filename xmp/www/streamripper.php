@@ -1,9 +1,9 @@
 <?
 $streameripper = "/opt/bin/streamripper";
-$savedir = "-d /tmp/usbmounts/sda1/download ";
+$savedir = "-d /sbin/www/xmproot/download ";
 $filemax = "-M 500 ";
 $streamlog = $_POST[streamlog];
-if ( "" == $streamlog ) { $streamlog = "/tmp/usbmounts/sda1/streamer.txt"; }
+if ( "" == $streamlog ) { $streamlog = "/sbin/www/xmproot/streamer.txt"; }
 $url = $_POST[streamurl];
 $param= $_POST[streamripparam];
 $plspath= $_POST[playlist];
@@ -82,7 +82,7 @@ else if ( file_exists( $streameripper ) )
 <script type="text/javascript" src="http://mediaplayer.yahoo.com/js"></script>
 
 <form name="streamrip" method="post" action="<? echo $PHP_SELF; ?>">
-   <span style="width:6600px;font-size:10px;">Stream URL ( e.g.: http://XXX.XXX.XXX.XXX:8000 )</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width:300px;font-size:10px;">- streamripper [OPTIONS] see below(leave empty for default: "-d /tmp/usbmounts/sda1/download -M 500")</span>
+   <span style="width:6600px;font-size:10px;">Stream URL ( e.g.: http://XXX.XXX.XXX.XXX:8000 )</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width:300px;font-size:10px;">- streamripper [OPTIONS] see below(leave empty for default: "-d /sbin/www/xmproot/download -M 500")</span>
    <br><input type=text name="streamurl" size=50 value="http://scfire-dtc-aa05.stream.aol.com:80/stream/1035"/> - <input type=text name="streamripparam" size=50 value=""/>
    <input type="hidden" name="streamname" value="<? echo $streamname ; ?>">
    <input type="hidden" name="streamlog" value="<? echo $streamlog ; ?>">

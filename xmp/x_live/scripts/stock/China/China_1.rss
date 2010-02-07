@@ -1,29 +1,0 @@
-<?xml version="1.0" ?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
-	<channel>
-		<title>社会服务類股</title>
-		<link>./scripts/stock/China.rss</link>
-		<media:thumbnail url="image/stock.jpg"/>
-		<item>
-			<title>中成股份</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000151.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000151.xml"/>
-		</item>
-		<item>
-			<title>中山公用</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000685.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000685.xml"/>
-		</item>
-		<item>
-			<title>海星科技</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600185.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600185.xml"/>
-		</item>
-	</channel>
-</rss>

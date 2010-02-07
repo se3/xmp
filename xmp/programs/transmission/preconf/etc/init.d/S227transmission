@@ -1,6 +1,6 @@
 #!/bin/sh
 sleep 60
 /bin/transmission_start.sh
-echo "Transmission_daemon started (`date`) "  >> /tmp/usbmounts/sda1/xmp/startup.log
+echo "Transmission_daemon started (`date`) "  >> /sbin/www/xmp/startup.log
 
 exit 0

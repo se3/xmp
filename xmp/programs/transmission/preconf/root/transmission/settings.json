@@ -10,7 +10,7 @@
     "bind-address-ipv6": "::", 
     "blocklist-enabled": false, 
     "dht-enabled": false, 
-    "download-dir": "\/tmp\/usbmounts\/sda1\/download", 
+    "download-dir": "\/sbin\/www\/xmproot\/download", 
     "encryption": 0, 
     "lazy-bitfield-enabled": true, 
     "message-level": 2, 

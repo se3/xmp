@@ -8,8 +8,8 @@ $program[] = new proginfo( 'Linux Kernel Version', '/proc/version', 'cat /proc/v
 $program[] = new proginfo( 'BusyBox', '/bin/busybox', '/bin/busybox', "grep 'BusyBox v' ");
 if( file_exists( '/opt/bin/busybox' ) )
    $program[] = new proginfo( 'BusyBox', '/opt/bin/busybox', '/opt/bin/busybox', "grep 'BusyBox v' ");
-if( file_exists( '/tmp/usbmounts/sda1/xmp/busybox' ) )
-   $program[] = new proginfo( 'BusyBox', '/tmp/usbmounts/sda1/xmp/busybox', '/tmp/usbmounts/sda1/xmp/busybox', "grep 'BusyBox v' ");
+if( file_exists( '/sbin/www/xmp/busybox' ) )
+   $program[] = new proginfo( 'BusyBox', '/sbin/www/xmp/busybox', '/sbin/www/xmp/busybox', "grep 'BusyBox v' ");
 
 //$program[] = new proginfo( 'PHP', '/sbin/www/php', '/sbin/www/php -v', "grep built:" ); // php info not possible, php hangs after this call
 $program[] = new proginfo( 'a light and fast webserver', '/sbin/www/lighttpd', '/sbin/www/lighttpd -v');

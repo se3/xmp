@@ -1,120 +1,0 @@
-<?xml version="1.0" ?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
-	<channel>
-		<title>水泥類股</title>
-		<link>./scripts/stock/China.rss</link>
-		<media:thumbnail url="image/stock.jpg"/>
-		<item>
-			<title>深天地Ａ</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000023.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000023.xml"/>
-		</item>
-		<item>
-			<title>冀东水泥</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000401.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000401.xml"/>
-		</item>
-		<item>
-			<title>江西水泥</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000789.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000789.xml"/>
-		</item>
-		<item>
-			<title>天山股份</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000877.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000877.xml"/>
-		</item>
-		<item>
-			<title>同力水泥</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000885.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000885.xml"/>
-		</item>
-		<item>
-			<title>塔牌集团</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=002233.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/002233.xml"/>
-		</item>
-		<item>
-			<title>ST秦岭</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600217.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600217.xml"/>
-		</item>
-		<item>
-			<title>巢东股份</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600318.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600318.xml"/>
-		</item>
-		<item>
-			<title>赛马实业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600449.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600449.xml"/>
-		</item>
-		<item>
-			<title>狮头股份</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600539.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600539.xml"/>
-		</item>
-		<item>
-			<title>太行水泥</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600553.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600553.xml"/>
-		</item>
-		<item>
-			<title>海螺水泥</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600585.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600585.xml"/>
-		</item>
-		<item>
-			<title>祁连山</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600720.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600720.xml"/>
-		</item>
-		<item>
-			<title>华新水泥</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600801.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600801.xml"/>
-		</item>
-		<item>
-			<title>福建水泥</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600802.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600802.xml"/>
-		</item>
-		<item>
-			<title>亚泰集团</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600881.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600881.xml"/>
-		</item>
-	</channel>
-</rss>

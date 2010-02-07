@@ -1,10 +1,6 @@
 <?php 
    //$xmp_root = getcwd();
    $optdir = file_exists('/opt'); 
-   $xlive = file_exists('/sbin/www/x_live/WAN_OK'); 
-      
-   $userid = "12345678@N06";
-   $useridpath = "x_live/userid";
    $pwd = exec("pwd | awk 'match($0,/\/sd[a-d][0-9]?\//){print substr($0,RSTART+1,RLENGTH-2)}'");
    $ext3 = exec("mount | grep $pwd | awk '{ print $5 }'");
    $busyboxbin = "/tmp/usbmounts/$pwd/xmp/busybox";
@@ -215,7 +211,7 @@ plot_prog_all( 0, 'Telnet' , "telnet daemon", "telnet deamon",  'telnet', $busyb
   //   function plot_prog_all( $optdir, $progname, $prognamefull, $installmsg, $xmpsubpath, $progbinary,  $psname, $bootscript, $editmsg, $editconfig, $runcheck )
 
   plot_prog_all( $optdir, 'Openssh' , "sshd daemon", "secure your xtreamer",  'openssh', '/opt/sbin/sshd',  "sshd", '/etc/init.d/S40sshd', "Edit OpenSSH config. Need to restart the SSH daemon after save your edit.", "/opt/etc/openssh/sshd_config", "" );  
-  plot_prog_all( $optdir, 'Transmission' , "transmission daemon", "ext3 file system needed on sda1",  'transmission', '/opt/bin/transmission-daemon',  "transmission", '/etc/init.d/S227transmission', "Edit Transmission daemon config.", "/root/transmission/settings.json", 'transmission' );  
+  plot_prog_all( $optdir, 'Transmission' , "transmission daemon", "ext3 file system needed on sdx",  'transmission', '/opt/bin/transmission-daemon',  "transmission", '/etc/init.d/S227transmission', "Edit Transmission daemon config.", "/root/transmission/settings.json", 'transmission' );  
   plot_prog_all( $optdir, 'DCTCS' , "DCTCS daemon", "Yet another torrent client",  'dctcs', '/usr/local/bin/dctcs',  "dctcs", '/etc/init.d/S228dctcs', "Edit DCTCS daemon config", "/etc/dctcs.conf", "dctcs" );  
   plot_prog_all( $optdir, 'NZBGet' , "NZBGet application", "Yet another torrent client",  'nzbget', '/opt/bin/nzbget',  "", '', "Edit DCTCS daemon config", "/opt/etc/nzbget.conf'", "nzbget" );
   echo '<tr>   <td colspan="7" align="center"><hr /></td>  </tr>';
@@ -229,21 +225,6 @@ plot_prog_all( 0, 'Telnet' , "telnet daemon", "telnet deamon",  'telnet', $busyb
    <td align="center"><a class="small awesome" title="Set DVD speed 4x" onclick="$('#bottomFrame').load('programs/hdparm/4.php'); $('#mainFrame').load('www/programs.php');" >4x</a></td>
    <td colspan=3 align="center"></td>
 <? }else { echo '<td colspan=7 align="center"></td>'; } ?>
-</tr>
-
-<!-- Table horisontal line -->
- <tr><td colspan=7 align="center"><hr /></td></tr>
- <tr>
- <td align="left">Use own RSS</td>
-<? if ($xlive ) { ?>
-<td align="center"><a class="small awesome" title="Restore X_LIVE" onclick="$('#bottomFrame').load('x_live/symlink_xlive.php?restore=true'); $('#mainFrame').load('www/programs.php'); document.getElementById('ptable').className='transparent';" >Restore x_live</a></td>
-<?}else { ?>
-<td align="center"><a class="small awesome" title="Use local X_LIVE" onclick="$('#bottomFrame').load('x_live/symlink_xlive.php'); $('#mainFrame').load('www/programs.php'); document.getElementById('ptable').className='transparent';" >Hack x_live</a></td>
-<?} ?>
-<td align="center" colspan=3>
-   My Flickr USER_ID<br/><input name="userid" size="12" value="<? echo $userid; ?>">
-   <a class="small awesome" title="12345678@N06"  onclick="$('#bottomFrame').load('x_live/myflickr.php?userid=' + $('[name=userid]').val()); $('#mainFrame').load('www/programs.php'); document.getElementById('ptable').className='transparent';" >Change</a></td>
-<td colspan=2 align="center"></td>
 </tr>
 
 <!-- Table horisontal line -->

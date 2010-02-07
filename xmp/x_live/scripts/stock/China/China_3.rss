@@ -1,687 +1,0 @@
-<?xml version="1.0" ?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
-	<channel>
-		<title>医药生物類股</title>
-		<link>./scripts/stock/China.rss</link>
-		<media:thumbnail url="image/stock.jpg"/>
-		<item>
-			<title>一致药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000028.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000028.xml"/>
-		</item>
-		<item>
-			<title>海王生物</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000078.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000078.xml"/>
-		</item>
-		<item>
-			<title>丰原药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000153.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000153.xml"/>
-		</item>
-		<item>
-			<title>东阿阿胶</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000423.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000423.xml"/>
-		</item>
-		<item>
-			<title>丽珠集团</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000513.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000513.xml"/>
-		</item>
-		<item>
-			<title>白云山Ａ</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000522.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000522.xml"/>
-		</item>
-		<item>
-			<title>云南白药</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000538.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000538.xml"/>
-		</item>
-		<item>
-			<title>吉林制药</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600318.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600318.xml"/>
-		</item>
-		<item>
-			<title>海南海药</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000566.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000566.xml"/>
-		</item>
-		<item>
-			<title>桐 君 阁</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000591.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000591.xml"/>
-		</item>
-		<item>
-			<title>东北制药</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000597.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000597.xml"/>
-		</item>
-		<item>
-			<title>ST 四 环</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000605.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000605.xml"/>
-		</item>
-		<item>
-			<title>华立药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000607.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000607.xml"/>
-		</item>
-		<item>
-			<title>吉林敖东</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000623.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000623.xml"/>
-		</item>
-		<item>
-			<title>天茂集团</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000627.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000627.xml"/>
-		</item>
-		<item>
-			<title>仁和药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000650.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000650.xml"/>
-		</item>
-		<item>
-			<title>长春高新</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000661.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000661.xml"/>
-		</item>
-		<item>
-			<title>普洛股份</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000739.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000739.xml"/>
-		</item>
-		<item>
-			<title>新华制药</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000756.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000756.xml"/>
-		</item>
-		<item>
-			<title>华神集团</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000790.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000790.xml"/>
-		</item>
-		<item>
-			<title>岳阳兴长</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000819.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000819.xml"/>
-		</item>
-		<item>
-			<title>张 裕Ａ</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000869.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000869.xml"/>
-		</item>
-		<item>
-			<title>金陵药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000919.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000919.xml"/>
-		</item>
-		<item>
-			<title>建峰化工</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000950.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000950.xml"/>
-		</item>
-		<item>
-			<title>广济药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000952.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000952.xml"/>
-		</item>
-		<item>
-			<title>华东医药</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000963.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000963.xml"/>
-		</item>
-		<item>
-			<title>九 芝 堂</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000989.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000989.xml"/>
-		</item>
-		<item>
-			<title>诚志股份</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=000990.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/000990.xml"/>
-		</item>
-		<item>
-			<title>华邦制药</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=002004.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/002004.xml"/>
-		</item>
-		<item>
-			<title>华兰生物</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=002007.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/002007.xml"/>
-		</item>
-		<item>
-			<title>世荣兆业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=002016.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/002016.xml"/>
-		</item>
-		<item>
-			<title>鑫富药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=002019.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/002019.xml"/>
-		</item>
-		<item>
-			<title>京新药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=002020.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/002020.xml"/>
-		</item>
-		<item>
-			<title>科华生物</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=002022.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/002022.xml"/>
-		</item>
-		<item>
-			<title>达安基因</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=002030.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/002030.xml"/>
-		</item>
-		<item>
-			<title>双鹭药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=002038.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/002038.xml"/>
-		</item>
-		<item>
-			<title>宏润建设</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=002062.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/002062.xml"/>
-		</item>
-		<item>
-			<title>海翔药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=002099.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/002099.xml"/>
-		</item>
-		<item>
-			<title>天康生物</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=002100.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/002100.xml"/>
-		</item>
-		<item>
-			<title>沃华医药</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=002107.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/002107.xml"/>
-		</item>
-		<item>
-			<title>紫鑫药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=002118.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/002118.xml"/>
-		</item>
-		<item>
-			<title>莱茵生物</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=002166.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/002166.xml"/>
-		</item>
-		<item>
-			<title>嘉应制药</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=002198.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/002198.xml"/>
-		</item>
-		<item>
-			<title>独 一 味</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=002219.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/002219.xml"/>
-		</item>
-		<item>
-			<title>鱼跃医疗</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=002223.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/002223.xml"/>
-		</item>
-		<item>
-			<title>上海莱士</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=002252.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/002252.xml"/>
-		</item>
-		<item>
-			<title>恩华药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=002262.SZ&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/002262.xml"/>
-		</item>
-		<item>
-			<title>万东医疗</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600055.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600055.xml"/>
-		</item>
-		<item>
-			<title>双鹤药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600062.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600062.xml"/>
-		</item>
-		<item>
-			<title>人福科技</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600079.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600079.xml"/>
-		</item>
-		<item>
-			<title>ST金花</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600080.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600080.xml"/>
-		</item>
-		<item>
-			<title>同仁堂</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600085.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600085.xml"/>
-		</item>
-		<item>
-			<title>太极集团</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600129.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600129.xml"/>
-		</item>
-		<item>
-			<title>天坛生物</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600161.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600161.xml"/>
-		</item>
-		<item>
-			<title>复星医药</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600196.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600196.xml"/>
-		</item>
-		<item>
-			<title>金宇集团</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600201.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600201.xml"/>
-		</item>
-		<item>
-			<title>西藏药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600211.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600211.xml"/>
-		</item>
-		<item>
-			<title>浙江医药</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600216.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600216.xml"/>
-		</item>
-		<item>
-			<title>太龙药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600222.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600222.xml"/>
-		</item>
-		<item>
-			<title>中恒集团</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600252.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600252.xml"/>
-		</item>
-		<item>
-			<title>海正药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600267.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600267.xml"/>
-		</item>
-		<item>
-			<title>恒瑞医药</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600276.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600276.xml"/>
-		</item>
-		<item>
-			<title>羚锐股份</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600285.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600285.xml"/>
-		</item>
-		<item>
-			<title>天房发展</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600322.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600322.xml"/>
-		</item>
-		<item>
-			<title>*ST中新</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600329.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600329.xml"/>
-		</item>
-		<item>
-			<title>广州药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600332.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600332.xml"/>
-		</item>
-		<item>
-			<title>亚宝药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600351.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600351.xml"/>
-		</item>
-		<item>
-			<title>健康元</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600380.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600380.xml"/>
-		</item>
-		<item>
-			<title>现代制药</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600420.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600420.xml"/>
-		</item>
-		<item>
-			<title>昆明制药</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600422.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600422.xml"/>
-		</item>
-		<item>
-			<title>片仔癀</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600436.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600436.xml"/>
-		</item>
-		<item>
-			<title>千金药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600479.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600479.xml"/>
-		</item>
-		<item>
-			<title>天药股份</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600488.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600488.xml"/>
-		</item>
-		<item>
-			<title>国药股份</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600511.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600511.xml"/>
-		</item>
-		<item>
-			<title>康美药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600518.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600518.xml"/>
-		</item>
-		<item>
-			<title>华海药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600521.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600521.xml"/>
-		</item>
-		<item>
-			<title>山东药玻</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600529.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600529.xml"/>
-		</item>
-		<item>
-			<title>天士力</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600535.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600535.xml"/>
-		</item>
-		<item>
-			<title>康缘药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600557.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600557.xml"/>
-		</item>
-		<item>
-			<title>康恩贝</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600572.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600572.xml"/>
-		</item>
-		<item>
-			<title>新华医疗</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600587.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600587.xml"/>
-		</item>
-		<item>
-			<title>益佰制药</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600594.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600594.xml"/>
-		</item>
-		<item>
-			<title>上实医药</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600607.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600607.xml"/>
-		</item>
-		<item>
-			<title>哈药股份</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600664.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600664.xml"/>
-		</item>
-		<item>
-			<title>西南药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600666.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600666.xml"/>
-		</item>
-		<item>
-			<title>南京医药</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600713.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600713.xml"/>
-		</item>
-		<item>
-			<title>江中药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600750.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600750.xml"/>
-		</item>
-		<item>
-			<title>通策医疗</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600763.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600763.xml"/>
-		</item>
-		<item>
-			<title>华北制药</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600812.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600812.xml"/>
-		</item>
-		<item>
-			<title>三精制药</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600829.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600829.xml"/>
-		</item>
-		<item>
-			<title>中西药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600842.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600842.xml"/>
-		</item>
-		<item>
-			<title>上海医药</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600849.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600849.xml"/>
-		</item>
-		<item>
-			<title>星湖科技</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600866.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600866.xml"/>
-		</item>
-		<item>
-			<title>通化东宝</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600867.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600867.xml"/>
-		</item>
-		<item>
-			<title>三普药业</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600869.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600869.xml"/>
-		</item>
-		<item>
-			<title>武汉健民</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600976.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600976.xml"/>
-		</item>
-		<item>
-			<title>马应龙</title>
-			<link>http://finance.yahoo.com/d/quotes.csv?s=600993.SS&amp;f=nl1c6p2vt1d1ohgps1j1kja2redyb</link>
-			<media:thumbnail url="image/stock.jpg"/>
-			<mediaDisplay name="stockView" backgroundColor="79:79:79"/>
-			<news url="http://www.p5w.net/stocknews/xml/600993.xml"/>
-		</item>
-	</channel>
-</rss>

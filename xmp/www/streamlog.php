@@ -3,7 +3,7 @@
 $ripstatus = "";
 
 $streamlog = $_POST[streamlog];
-if ( "" == $streamlog ) { $streamlog = "/tmp/usbmounts/sda1/streamer.txt"; 
+if ( "" == $streamlog ) { $streamlog = "/sbin/www/xmproot/streamer.txt"; 
 
 
 if ( file_exists( $streamlog ) )
