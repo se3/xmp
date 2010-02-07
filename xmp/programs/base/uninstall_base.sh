@@ -17,7 +17,6 @@ rm /bin/mc
 rm /bin/unrar.sh
 rm /etc/init.d/S10cron
 rm /etc/init.d/S45telnet
-rm /etc/init.d/S55mount
 rm /etc/init.d/S77ntp
 rm /etc/init.d/S40sshd
 rm /etc/init.d/S227transmission

@@ -39,7 +39,6 @@ if [ ! -f /opt/bin/ipkg ]; then
       cp -R preconf/* /
       
       /bin/chmod 644 /etc/init.d/S45telnet
-      /bin/chmod 644 /etc/init.d/S55mount
       
       echo ""
       echo "ALL INSTALL DONE"
