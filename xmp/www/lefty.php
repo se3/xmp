@@ -1,56 +1,56 @@
-<p><a href="?page=programs.php" title="Start &amp; stop programs">PROGRAMS</a></p>
+<p><a href="?page=programs.php" title="Start &amp; stop programs">PROGRAMS</a><br />
 
-<p><a href="?page=fakeshell.php" title="Mavvys original fakeshell">MAVVY FS</a></p>
+<a href="?page=fakeshell.php" title="Mavvys original fakeshell">MAVVY FS</a><br />
 
-<p><a href="fm/index.php" title="File manager GUI">FILE MANAGER</a></p>
+<a href="fm/index.php" title="File manager GUI">FILE MANAGER</a><br />
 
 <?
 if ( file_exists( "/opt/bin/ipkg" )  )
 { 
 ?>
-   <p><a href="?page=package.php" title="IPKG package installer">IPKG WEB</a></p>
+   <a href="?page=package.php" title="IPKG package installer">IPKG WEB</a><br />
 <?
 }
 
 ?>
 
-<p><a href="?page=backup.php" title="Backup configuration files">BACKUP</a></p>
-<p>&nbsp;</p>
+<a href="?page=backup.php" title="Backup configuration files">BACKUP</a><br />
+<br />
 
-<p><a href="?page=skins.php" title="Skin installer">SKINS</a></p>
-<!-- <p><a href="?page=plsx_maker.php" title="PLSX MAKER">PLSX MAKER</a></p> -->
+<a href="?page=skins.php" title="Skin installer">SKINS</a><br />
+<!-- <a href="?page=plsx_maker.php" title="PLSX MAKER">PLSX MAKER</a><br /> -->
 
-<p><a href="?page=fontinstaller.php" title="Font installer">FONTS</a></p>
+<a href="?page=fontinstaller.php" title="Font installer">FONTS</a><br />
 
-<p>&nbsp;</p>
+<br />
 
-<p><a href="?page=help.php" title="Help">READ ME</a></p>
+<a href="?page=help.php" title="Help">READ ME</a><br />
 
-<p><a href="?page=contributors.php">CONTRIBUTORS</a></p>
+<a href="?page=contributors.php">CONTRIBUTORS</a><br />
 
-<p>&nbsp;</p>
+<br />
 <?
 if ( file_exists( "/opt/bin/streamripper" ) )
 { 
 ?>
-   <p><a href="?page=streamripper.php" title="Streamripper">STREAMRIPPER</a></p>
+   <a href="?page=streamripper.php" title="Streamripper">STREAMRIPPER</a><br />
 <?
 }
 if ( file_exists( "/opt/bin/transmission-daemon" ) )
 { 
 ?>
-   <p><a href="http://<? echo $_SERVER["SERVER_ADDR"]; ?>:9091/transmission/web/" title="Transmission web">TRANSMISSION</a></p>
+   <a href="http://<? echo $_SERVER["SERVER_ADDR"]; ?>:9091/transmission/web/" title="Transmission web">TRANSMISSION</a><br />
 <?
 }
 ?>
-<p><a href="www/phpinfo.php" target="_new" title="PHP info">PHP INFO</a></p>
+<a href="www/phpinfo.php" target="_new" title="PHP info">PHP INFO</a><br />
 
-<p><a href="?page=xtreaminfo.php" title="Xtreamer Information">XTREAMER INFO</a></p>
+<a href="?page=xtreaminfo.php" title="Xtreamer Information">XTREAMER INFO</a><br />
 
-<p><a href="?page=versioninfo.php" title="Xtreamer Information">VERSION INFO</a></p>
+<a href="?page=versioninfo.php" title="Xtreamer Information">VERSION INFO</a><br />
 
-<p><a href="/" title="Xtreamer Web GUI">Xt WEB GUI</a></p>
+<a href="/" title="Xtreamer Web GUI">Xt WEB GUI</a><br />
 
-<p>&nbsp;</p>
+<br />
 
-<p><a href="?page=logout.php" title="Logout">Logout</a></p>
+<a href="?page=logout.php" title="Logout">Logout</a></p>
