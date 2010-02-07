@@ -1,6 +1,11 @@
 <?php
 session_start();
 error_reporting(0);
+
+if($_SESSION['loggedIn'] == 1){
+   header("Location:index.php");
+   exit();
+}
 ?>
 
 <html>
@@ -17,15 +22,8 @@ error_reporting(0);
 	<tr><td>&nbsp;</td></tr>
 	<tr><td>&nbsp;</td></tr>
 	<tr><td>&nbsp;</td></tr>
-<?
-if($_SESSION['loggedIn'] == 1){
-?>
-	<tr><td>
-<?
-	echo "You are already logged in.";
-	echo "<a href=main.php>Go to Home Page</a></td></tr>";
-	exit();
-}
+
+<?php
 //if password file dont exists create it with admin auth...
 $data = "Mvix=UPnP\n"."Login=false\n"."User=admin".':'.crypt(md5("pass"), md5("admin"))."\n"."Port=80\n"."DDNS=\n"."Lang=english\n"."Region=0\n"."DST=0\n";
 $file = "/usr/local/etc/setup.php";

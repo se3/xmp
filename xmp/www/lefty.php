@@ -1,4 +1,5 @@
-<p><a href="?page=programs.php" title="Start &amp; stop programs">PROGRAMS</a><br />
+<p>
+<a href="?page=programs.php" title="Start &amp; stop programs">PROGRAMS</a><br />
 
 <a href="?page=fakeshell.php" title="Mavvys original fakeshell">MAVVY FS</a><br />
 
@@ -51,6 +52,13 @@ if ( file_exists( "/opt/bin/transmission-daemon" ) )
 
 <a href="/" title="Xtreamer Web GUI">Xt WEB GUI</a><br />
 
+<?
+if ($_SESSION['loggedIn'] == 1) {
+?>
 <br />
+   <a href="?page=logout.php" title="Logout">Logout</a>
+<?
+}
+?>
 
-<a href="?page=logout.php" title="Logout">Logout</a></p>
+</p>

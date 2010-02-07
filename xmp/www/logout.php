@@ -17,8 +17,7 @@ session_destroy();
 ?>
 <tr><td>
 <?
-echo "You have been logged out of the system.<br>";
-echo "<a href=login_form.php>Go back to login page</a>.";
-echo "<script>document.location.href='www/login_form.php';</script>";
+echo "You have been logged out of the system.<br />";
+echo "<a href='www/login_form.php'>Go back to login page</a>";
 ?>
 </td></tr></table></center>
