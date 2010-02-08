@@ -1,6 +1,8 @@
 #!/bin/sh
+while [ ! -d /opt ]; do
+sleep 2
+done
 
-sleep 30
 /sbin/www/xmp/busybox telnetd -l /bin/sh &
 
 exit 0

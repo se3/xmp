@@ -1,4 +1,7 @@
 #!/bin/sh
+while [ ! -d /opt ]; do
+sleep 2
+done
 
 [ -e /opt/etc/default/openssh ] && . /opt/etc/default/openssh
 

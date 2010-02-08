@@ -1,5 +1,8 @@
 #!/bin/sh
-sleep 60
+while [ ! -d /opt ]; do
+sleep 2
+done
+
 /bin/transmission_start.sh
 echo "Transmission_daemon started (`date`) "  >> /sbin/www/xmp/startup.log
 

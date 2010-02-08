@@ -1,4 +1,7 @@
 #!/bin/sh
-sleep 60
+while [ ! -d /opt ]; do
+sleep 2
+done
+
 /usr/local/bin/dctcs
 exit 0

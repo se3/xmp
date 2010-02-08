@@ -194,7 +194,7 @@
 
 <!-- Table Telnet -->
 <?
-//plot_prog_all( $progname, $prognamefull, $installmsg, $xmpsubpath, $progbinary,  $psname, $bootscript, $editmsg, $editconfig, $runcheck )
+//plot_prog_all( $optdir, $progname, $prognamefull, $installmsg, $xmpsubpath, $progbinary,  $psname, $bootscript, $editmsg, $editconfig, $runcheck )
 
 plot_prog_all( 0, 'Telnet' , "telnet daemon", "telnet deamon",  'telnet', $busyboxbin,  "telnetd", '/etc/init.d/S45telnet', "", "", "" );  
 ?>

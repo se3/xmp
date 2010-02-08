@@ -38,6 +38,10 @@ if [ ! -f /opt/bin/ipkg ]; then
       echo "Copy preconfig."
       cp -R preconf/* /
       
+      # Trying to cp source opt/ to / fails as dest /opt is a symlink.
+      # Must use the following trick to make it work :
+      cp -R preconf/opt/* /opt/
+      
       /bin/chmod 644 /etc/init.d/S45telnet
       
       echo ""
