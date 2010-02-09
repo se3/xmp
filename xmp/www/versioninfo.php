@@ -13,7 +13,7 @@ if( file_exists( '/sbin/www/xmp/busybox' ) )
 
 //$program[] = new proginfo( 'PHP', '/sbin/www/php', '/sbin/www/php -v', "grep built:" ); // php info not possible, php hangs after this call
 $program[] = new proginfo( 'a light and fast webserver', '/sbin/www/lighttpd', '/sbin/www/lighttpd -v');
-
+$program[] = new proginfo( 'Samba', '/usr/local/daemon/samba/sbin/smbd', '/usr/local/daemon/samba/sbin/smbd -V');
 
 ###########################
 

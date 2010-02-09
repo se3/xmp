@@ -1,4 +1,4 @@
-<?php 
+<?php
    //$xmp_root = getcwd();
    $optdir = file_exists('/opt'); 
    $pwd = exec("pwd | awk 'match($0,/\/sd[a-d][0-9]?\//){print substr($0,RSTART+1,RLENGTH-2)}'");
@@ -211,7 +211,7 @@ plot_prog_all( 0, 'Telnet' , "telnet daemon", "telnet deamon",  'telnet', $busyb
   //   function plot_prog_all( $optdir, $progname, $prognamefull, $installmsg, $xmpsubpath, $progbinary,  $psname, $bootscript, $editmsg, $editconfig, $runcheck )
 
   plot_prog_all( $optdir, 'Openssh' , "sshd daemon", "secure your xtreamer",  'openssh', '/opt/sbin/sshd',  "sshd", '/etc/init.d/S40sshd', "Edit OpenSSH config. Need to restart the SSH daemon after save your edit.", "/opt/etc/openssh/sshd_config", "" );  
-  plot_prog_all( $optdir, 'Transmission' , "transmission daemon", "ext3 file system needed on sdx",  'transmission', '/opt/bin/transmission-daemon',  "transmission", '/etc/init.d/S227transmission', "Edit Transmission daemon config.", "/root/transmission/settings.json", 'transmission' );  
+  plot_prog_all( $optdir, 'Transmission' , "transmission daemon", "ext3 file system needed on sdx",  'transmission', '/opt/bin/transmission-daemon',  "transmission", '/etc/init.d/S227transmission', "Edit Transmission daemon config.", "/sbin/www/xmproot/.transmissionconfig/", 'transmission' );
   plot_prog_all( $optdir, 'DCTCS' , "DCTCS daemon", "Yet another torrent client",  'dctcs', '/usr/local/bin/dctcs',  "dctcs", '/etc/init.d/S228dctcs', "Edit DCTCS daemon config", "/etc/dctcs.conf", "dctcs" );  
   plot_prog_all( $optdir, 'NZBGet' , "NZBGet application", "Yet another torrent client",  'nzbget', '/opt/bin/nzbget',  "", '', "Edit DCTCS daemon config", "/opt/etc/nzbget.conf'", "nzbget" );
   echo '<tr>   <td colspan="7" align="center"><hr /></td>  </tr>';

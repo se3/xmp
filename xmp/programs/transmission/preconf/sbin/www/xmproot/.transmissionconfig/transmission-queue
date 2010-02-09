@@ -7,7 +7,7 @@ USERNAME="admin"
 PASSWORD="admin1234"
 MAXDOWN="2"
 MAXACTIVE="10"
-CONFIG="/root/transmission/settings.json"
+CONFIG="/sbin/www/xmproot/.transmissionconfig/settings.json"
 
 # *************
 # Set-up variables
