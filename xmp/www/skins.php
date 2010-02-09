@@ -92,7 +92,7 @@ else
    // cat /usr/local/etc/dvdplayer/XTR_setup.dat
    // content of XTR_setup.dat: ♥ý VER 2.1.2☺☺dddddddddddd¶☺☺☺☺☺d☺☺☺☺/tmp/usbmounts/sda1/xmp/www
    $versionstring = file_get_contents("/usr/local/etc/dvdplayer/XTR_setup.dat");
-   $version = substr($versionstring, strpos($versionstring, "VER")+4, 5);
+   $version = substr($versionstring, strpos($versionstring, "VER")+4, 3);
    
    $backup = 0;
    if ( file_exists( $versionfile ) )
