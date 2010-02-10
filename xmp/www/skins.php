@@ -117,12 +117,23 @@ else
          echo "Please wait, original skin backup will start... It takes about 2 minutes<br>\n";        
          flush();
          echo "<pre>";
-         system("rm $skinpath/original/original.tar.gz" );
+         if (! file_exists("$skinpath/original") )  {
+            system("mkdir $skinpath/original" );        
+            system("wget '$skinpage/original/original.jpg' -O $skinpath/original/original.jpg");    
+         }
+         if (! file_exists("$skinpath/original/original.jpg") )  {    
+            system("wget '$skinpage/original/original.jpg' -O $skinpath/original/original.jpg");    
+         }
+         
+         if (! file_exists("$skinpath/original/original.tar.gz") )  {
+            system("rm -f $skinpath/original/original.tar.gz" );
+         }
+
          system("./busybox tar -czvf $skinpath/original/original.tar.gz $extractpath*.bmp", $retval );
          if ( $retval == "0") system("echo $version > $skinpath/original/version.txt");
          else  echo " cmd (\"./busybox tar -czvf $skinpath/original/original.tar.gz $extractpath*.bmp \" failed<br>\n";
-         flush();
          echo '<META HTTP-EQUIV=Refresh CONTENT="1; URL=?page=skins.php">';
+         flush();
          echo "</pre>";
       }
       else
