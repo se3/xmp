@@ -6,6 +6,8 @@ if ( file_exists( "/sbin/www/xmproot/xmp" ) ){
 else if ( chdir("..") ) {
    $xmppath =  getcwd();
    
+   system("rm /sbin/www/xmproot", $result);
+   system("rm /sbin/www/xmp", $result);
    system("ln -s $xmppath /sbin/www/xmproot", $result);
    system("ln -s /sbin/www/xmproot/xmp /sbin/www/xmp", $result);
 }

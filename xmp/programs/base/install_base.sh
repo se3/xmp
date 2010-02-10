@@ -3,6 +3,8 @@
 if [ ! $1 = "root" ]; then
    echo "make symbolic link from /opt to /tmp/usbmounts/"$1"/opt"
    if [ -d /tmp/usbmounts/$1 ]; then 
+      rm /opt
+      rm -R /opt
       mkdir /tmp/usbmounts/$1/opt
       ln -s /tmp/usbmounts/$1/opt /opt
    else

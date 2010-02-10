@@ -54,7 +54,7 @@
           if ($permission != "755") { $job = "Enable"; $cmd="programs/$progpath/bt_start.php"; }
                                      else  { $job = "Disable"; $cmd="programs/$progpath/bt_stop.php"; $style = "xmpred"; }
                             
-          echo "<a class=\"small $style awesome\" title=\"$job $progpath daemon at boot\" onclick=\"$('#bottomFrame').load('$cmd'); $('#mainFrame').load('www/programs.php'); document.getElementById('ptable').className='transparent';\" >$job</a>\n";
+          echo "<a class=\"small $style awesome\" title=\"$job $progpath daemon at boot\" onclick=\"$('#bottomFrame').load('$cmd'); document.getElementById('ptable').className='transparent';\" >$job</a>\n";
        } 
    }
 
@@ -192,7 +192,7 @@
    <td align="center">      <?  plot_boot_status('/etc/init.d/S77ntp'); ?>   </td>
    <td align="center">
       <? if ('true' == file_exists('/opt/bin/ntpdate') ) { ?>
-         <a class="small awesome" title="Manual time synchronize." onclick="$('#bottomFrame').load('programs/ntp/sync.php'); $('#mainFrame').load('www/programs.php'); " >Manual sync</a>
+         <a class="small awesome" title="Manual time synchronize." onclick="$('#bottomFrame').load('programs/ntp/sync.php'); document.getElementById('ptable').className='transparent';" >Manual sync</a>
       <? } ?>
    </td>
    <td align="center"></td>
@@ -209,7 +209,7 @@ plot_prog_all( 0, 'Telnet' , "telnet daemon", "telnet deamon",  'telnet', $busyb
 
 <!-- Table Midnight Commander -->  
   <tr>
-   <td align="left"><? plot_prog_install('Midnight Commander', 'mc', '/bin/mc', $optdir ); ?></td>   
+   <td align="left"><? plot_prog_install('Midnight Commander', 'mc', '/bin/mc', '', $optdir  ); ?></td> 
    <td colspan=5 align="center"></td>
   </tr>
 
@@ -226,9 +226,9 @@ plot_prog_all( 0, 'Telnet' , "telnet daemon", "telnet deamon",  'telnet', $busyb
 <tr>
  <td align="left">DVD speed</td>
    <? if ($optdir) { ?>
-   <td align="center"><a class="small awesome" title="Set DVD speed 1x" onclick="$('#bottomFrame').load('programs/hdparm/1.php'); $('#mainFrame').load('www/programs.php');" >1x</a></td>
-   <td align="center"><a class="small awesome" title="Set DVD speed 2x" onclick="$('#bottomFrame').load('programs/hdparm/2.php'); $('#mainFrame').load('www/programs.php');" >2x</a></td>
-   <td align="center"><a class="small awesome" title="Set DVD speed 4x" onclick="$('#bottomFrame').load('programs/hdparm/4.php'); $('#mainFrame').load('www/programs.php');" >4x</a></td>
+   <td align="center"><a class="small awesome" title="Set DVD speed 1x" onclick="$('#bottomFrame').load('programs/hdparm/1.php');document.getElementById('ptable').className='transparent';" >1x</a></td>
+   <td align="center"><a class="small awesome" title="Set DVD speed 2x" onclick="$('#bottomFrame').load('programs/hdparm/2.php');document.getElementById('ptable').className='transparent';" >2x</a></td>
+   <td align="center"><a class="small awesome" title="Set DVD speed 4x" onclick="$('#bottomFrame').load('programs/hdparm/4.php');document.getElementById('ptable').className='transparent';" >4x</a></td>
    <td colspan=3 align="center"></td>
 <? }else { echo '<td colspan=7 align="center"></td>'; } ?>
 </tr>
@@ -236,17 +236,16 @@ plot_prog_all( 0, 'Telnet' , "telnet daemon", "telnet deamon",  'telnet', $busyb
 <!-- Table horisontal line -->
  <tr><td colspan=7 align="center"><hr /></td></tr>
 
-<!-- Table horisontal line -->
-<tr><td colspan=7 align="center"><hr /></td></tr>
-
 <?
-   $fs_sda1 = exec("mount | grep /dev/scsi/host0 | grep -v ext3");
+   $fs_sda1 = exec("mount | grep /dev/scsi/host0 | grep ext3");
    $sda1 = exec("mount | grep sda1 | awk '{ print $5 }'");
 
-    if ( file_exists( "/dev/scsi/host0/bus0/target0/lun0" ) && $fs_sda1 != "" ) { ?>
+    if ( file_exists( "/dev/scsi/host0/bus0/target0/lun0" ) && $fs_sda1 == "") 
+    
+{ ?>
          <tr>
-          <td align="left">format internal drive with ext3 file system</td>
-          <td align="center"><a class="small awesome red" title="Format hdd" onclick="$('#bottomFrame').load('programs/hddext3/format.php');" >format hdd</a></td>
+          <td align="left">format first partition of internal drive with ext3 file system (All files on internal hdd and first partition will be deleted/lost)</td>
+          <td align="center"><a class="small awesome red" title="Format hdd" onclick="$('#bottomFrame').load('programs/hddext3/format.php'); document.getElementById('ptable').className='transparent';" >format hdd</a></td>
           <td colspan=6 align="center"></td>
          </tr>
 
@@ -263,6 +262,5 @@ else if(  file_exists( "/dev/scsi/host0" ) && "ext3" != $sda1 && "sda1" == $pwd 
 
 <? }  ?>
 
-</table>
 </table>
 </div>
