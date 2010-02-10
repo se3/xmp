@@ -9,7 +9,7 @@
    function plot_prog_all( $optdir, $progname, $prognamefull, $installmsg, $xmpsubpath, $progbinary,  $psname, $bootscript, $editmsg, $editconfig, $runcheck )
    {
       echo "<tr><td align=\"left\">\n";
-      plot_prog_install( $progname, $xmpsubpath, $progbinary, $optdir );
+      plot_prog_install( $progname, $xmpsubpath, $progbinary, $bootscript, $optdir );
       echo "</td><td align=\"center\">\n";
       plot_prog_start( $prognamefull, $xmpsubpath, $psname, $progbinary );
       echo "</td><td align=\"center\">\n";
@@ -23,16 +23,22 @@
       echo "</td></tr>\n";
    }
    
-   function plot_prog_install( $progname, $progpath, $progcheck, $optdir )
+   function plot_prog_install( $progname, $progpath, $progcheck, $bootscript, $optdir )
    {
       $progexist = file_exists($progcheck);         
+      $bootscriptexist = is_file($bootscript);
       echo $progname.'</td><td align="center">'; 
       if($optdir) {
          $style = "xmpgreen";
          if (!$progexist) { 
             $job="Install"; $cmd="programs/$progpath/install.php"; 
          }else { 
+            if (!$bootscriptexist && $bootscript != '') {
+               $job="Reinstall"; $cmd="programs/$progpath/install.php";
+               $progname = $progname." boot script";
+            }else {
             $job="Uninstall"; $cmd="programs/$progpath/uninstall.php"; $style = "xmpred";
+         }
          }
          echo "<a class=\"small $style awesome\" title=\"$job $progname\" onclick=\"$('#bottomFrame').load('$cmd'); document.getElementById('ptable').className='transparent';\">$job</a>\n";
       }
@@ -211,8 +217,8 @@ plot_prog_all( 0, 'Telnet' , "telnet daemon", "telnet deamon",  'telnet', $busyb
   //   function plot_prog_all( $optdir, $progname, $prognamefull, $installmsg, $xmpsubpath, $progbinary,  $psname, $bootscript, $editmsg, $editconfig, $runcheck )
 
   plot_prog_all( $optdir, 'Openssh' , "sshd daemon", "secure your xtreamer",  'openssh', '/opt/sbin/sshd',  "sshd", '/etc/init.d/S40sshd', "Edit OpenSSH config. Need to restart the SSH daemon after save your edit.", "/opt/etc/openssh/sshd_config", "" );  
-  plot_prog_all( $optdir, 'Transmission' , "transmission daemon", "ext3 file system needed on sdx",  'transmission', '/opt/bin/transmission-daemon',  "transmission", '/etc/init.d/S227transmission', "Edit Transmission daemon config.", "/sbin/www/xmproot/.transmissionconfig/", 'transmission' );
-  plot_prog_all( $optdir, 'DCTCS' , "DCTCS daemon", "Yet another torrent client",  'dctcs', '/usr/local/bin/dctcs',  "dctcs", '/etc/init.d/S228dctcs', "Edit DCTCS daemon config", "/etc/dctcs.conf", "dctcs" );  
+  plot_prog_all( $optdir, 'Transmission' , "transmission daemon", "ext3 file system needed on sdx",  'transmission', '/opt/bin/transmission-daemon',  "transmission", '/etc/init.d/S227transmission', "Edit Transmission daemon config.", "/sbin/www/xmproot/.transmissionconfig/settings.json", 'transmission' );  
+  plot_prog_all( $optdir, 'DCTCS and enhanced-ctorrent' , "DCTCS daemon", "Yet another torrent client",  'dctcs', '/opt/local/bin/dctcs',  "dctcs", '/etc/init.d/S228dctcs', "Edit DCTCS daemon config", "/opt/etc/dctcs.conf", "dctcs" );
   plot_prog_all( $optdir, 'NZBGet' , "NZBGet application", "Yet another torrent client",  'nzbget', '/opt/bin/nzbget',  "", '', "Edit DCTCS daemon config", "/opt/etc/nzbget.conf'", "nzbget" );
   echo '<tr>   <td colspan="7" align="center"><hr /></td>  </tr>';
   ?>
@@ -230,5 +236,33 @@ plot_prog_all( 0, 'Telnet' , "telnet daemon", "telnet deamon",  'telnet', $busyb
 <!-- Table horisontal line -->
  <tr><td colspan=7 align="center"><hr /></td></tr>
 
+<!-- Table horisontal line -->
+<tr><td colspan=7 align="center"><hr /></td></tr>
+
+<?
+   $fs_sda1 = exec("mount | grep /dev/scsi/host0 | grep -v ext3");
+   $sda1 = exec("mount | grep sda1 | awk '{ print $5 }'");
+
+    if ( file_exists( "/dev/scsi/host0/bus0/target0/lun0" ) && $fs_sda1 != "" ) { ?>
+         <tr>
+          <td align="left">format internal drive with ext3 file system</td>
+          <td align="center"><a class="small awesome red" title="Format hdd" onclick="$('#bottomFrame').load('programs/hddext3/format.php');" >format hdd</a></td>
+          <td colspan=6 align="center"></td>
+         </tr>
+
+          <!-- Table horisontal line -->
+          <tr><td colspan=7 align="center"><hr /></td></tr>
+
+<? }
+else if(  file_exists( "/dev/scsi/host0" ) && "ext3" != $sda1 && "sda1" == $pwd ){
+  ?>
+   <tr>
+     <td align="left">Your internal drive has <? echo $sda1; ?> file system. Copy XMP to external USB-drive and run from it. From external USB-drive you are able to format your internal drive in ext3 format.</td>
+     <td colspan=6 align="center"></td>
+   </tr>
+
+<? }  ?>
+
+</table>
 </table>
 </div>

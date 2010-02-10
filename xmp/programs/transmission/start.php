@@ -1,6 +1,6 @@
 <?php
 echo '<pre>';
-system('/bin/transmission_start.sh', $retval);
+system('/sbin/www/xmproot/.transmissionconfig/transmission_start.sh', $retval);
 echo '</pre>';
 if ( $retval == "0") echo 'Done.'; else echo 'Failed!';
 ?>

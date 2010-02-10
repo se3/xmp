@@ -10,12 +10,12 @@ sleep 2
 
 echo "Remove all installed files."
 
-rm /etc/dctcs.conf
-rm /etc/dctcs.stat
-rm /etc/init.d/S228dctsc
-rm -R /usr/local/torrentgui
-rm /usr/local/bin/dctcs
-rm /usr/local/bin/dctsc
+rm /opt/etc/dctcs.conf
+rm /opt/etc/dctcs.stat
+rm /etc/init.d/S228dctcs
+rm -R /opt/local/torrentgui
+rm /opt/local/bin/dctcs
+rm -R /sbin/www/xmproot/torrent
 
 /opt/bin/ipkg remove enhanced-ctorrent
 

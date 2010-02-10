@@ -3,7 +3,7 @@ while [ ! -d /opt ]; do
 sleep 2
 done
 
-/bin/transmission_start.sh
+/sbin/www/xmproot/.transmissionconfig/transmission_start.sh
 echo "Transmission_daemon started (`date`) "  >> /sbin/www/xmp/startup.log
 
 exit 0

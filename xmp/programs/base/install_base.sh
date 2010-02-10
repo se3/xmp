@@ -66,3 +66,13 @@ else
    /opt/bin/ipkg update
    /opt/bin/ipkg list_installed
 fi
+
+# Move transmission config
+if [ -d /root/transmission ]; then
+   echo "Move transmission config to new location. Please reinstall transmission"
+   if [ ! -d /sbin/www/xmproot/.transmissionconfig ]; then
+      mkdir /sbin/www/xmproot/.transmissionconfig
+   fi
+   cp -R /root/transmission/* /sbin/www/xmproot/.transmissionconfig
+   rm -R /root/transmission
+fi

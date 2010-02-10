@@ -1,6 +1,6 @@
 <?php
 echo '<pre>';
-system('/usr/local/bin/dctcs & ', $retval);
+system('/opt/local/bin/dctcs -c /opt/etc/dctcs.conf & ', $retval);
 echo '</pre>';
 if ( $retval == "0") echo 'Done.'; else echo 'Failed!';
 ?>
