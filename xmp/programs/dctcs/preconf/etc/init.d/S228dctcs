@@ -3,5 +3,5 @@ while [ ! -d /opt ]; do
 sleep 2
 done
 
-/usr/local/bin/dctcs
+nice -n 19 /opt/local/bin/dctcs -c /opt/etc/dctcs.conf
 exit 0
