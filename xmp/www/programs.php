@@ -244,9 +244,9 @@ plot_prog_all( 0, 'Telnet' , "telnet daemon", "telnet deamon",  'telnet', $busyb
     
 { ?>
          <tr>
-          <td align="left">format first partition of internal drive with ext3 file system (All files on internal hdd and first partition will be deleted/lost)</td>
+          <td align="left">format first partition of internal drive with ext3 file system </td>
           <td align="center"><a class="small awesome red" title="Format hdd" onclick="$('#bottomFrame').load('programs/hddext3/format.php'); document.getElementById('ptable').className='transparent';" >format hdd</a></td>
-          <td colspan=6 align="center"></td>
+          <td colspan=6 align="left">All files on internal hdd and first partition will be deleted/lost!!<br>This can take more than 3 minutes<br>xtreamer reboot automatically after format is done!</td>
          </tr>
 
           <!-- Table horisontal line -->
