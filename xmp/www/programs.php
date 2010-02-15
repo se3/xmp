@@ -240,7 +240,7 @@ plot_prog_all( 0, 'Telnet' , "telnet daemon", "telnet deamon",  'telnet', $busyb
    $fs_sda1 = exec("mount | grep /dev/scsi/host0 | grep ext3");
    $sda1 = exec("mount | grep sda1 | awk '{ print $5 }'");
 
-    if ( file_exists( "/dev/scsi/host0/bus0/target0/lun0" ) && $fs_sda1 != "") 
+    if ( file_exists( "/dev/scsi/host0/bus0/target0/lun0" ) && $fs_sda1 == "") 
     
 { ?>
          <tr>
