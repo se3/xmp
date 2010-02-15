@@ -216,10 +216,10 @@ plot_prog_all( 0, 'Telnet' , "telnet daemon", "telnet deamon",  'telnet', $busyb
   <?
   //   function plot_prog_all( $optdir, $progname, $prognamefull, $installmsg, $xmpsubpath, $progbinary,  $psname, $bootscript, $editmsg, $editconfig, $runcheck )
 
-  plot_prog_all( $optdir, 'Openssh' , "sshd daemon", "secure your xtreamer",  'openssh', '/opt/sbin/sshd',  "sshd", '/etc/init.d/S40sshd', "Edit OpenSSH config. Need to restart the SSH daemon after save your edit.", "/opt/etc/openssh/sshd_config", "" );  
-  plot_prog_all( $optdir, 'Transmission' , "transmission daemon", "ext3 file system needed on sdx",  'transmission', '/opt/bin/transmission-daemon',  "transmission", '/etc/init.d/S227transmission', "Edit Transmission daemon config.", "/sbin/www/xmproot/.transmissionconfig/settings.json", 'transmission' );  
-  plot_prog_all( $optdir, 'DCTCS and enhanced-ctorrent' , "DCTCS daemon", "Yet another torrent client",  'dctcs', '/opt/local/bin/dctcs',  "dctcs", '/etc/init.d/S228dctcs', "Edit DCTCS daemon config", "/opt/etc/dctcs.conf", "dctcs" );
-  plot_prog_all( $optdir, 'NZBGet' , "NZBGet application", "Yet another torrent client",  'nzbget', '/opt/bin/nzbget',  "", '', "Edit DCTCS daemon config", "/opt/etc/nzbget.conf'", "nzbget" );
+  plot_prog_all( $optdir, "Openssh" , "sshd daemon", "secure your xtreamer",  "openssh", "/opt/sbin/sshd",  "sshd", "/etc/init.d/S40sshd", "Edit OpenSSH config. Need to restart the SSH daemon after save your edit.", "/opt/etc/openssh/sshd_config", "" );  
+  plot_prog_all( $optdir, "Transmission" , "transmission daemon", "ext3 file system needed on sdx",  "transmission", "/opt/bin/transmission-daemon",  "transmission", "/etc/init.d/S227transmission", "Edit Transmission daemon config.", "/sbin/www/xmproot/.transmissionconfig/settings.json", "transmission" );  
+  plot_prog_all( $optdir, "DCTCS and enhanced-ctorrent" , "DCTCS daemon", "Yet another torrent client",  "dctcs", "/opt/local/bin/dctcs",  "dctcs", "/etc/init.d/S228dctcs", "Edit DCTCS daemon config", "/opt/etc/dctcs.conf", "dctcs" );
+  plot_prog_all( $optdir, "NZBGet" , "NZBGet application", "Yet another torrent client",  "nzbget", "/opt/bin/nzbget",  "", "", "Edit DCTCS daemon config", "/opt/etc/nzbget.conf", "nzbget" );
   echo '<tr>   <td colspan="7" align="center"><hr /></td>  </tr>';
   ?>
 
@@ -240,13 +240,13 @@ plot_prog_all( 0, 'Telnet' , "telnet daemon", "telnet deamon",  'telnet', $busyb
    $fs_sda1 = exec("mount | grep /dev/scsi/host0 | grep ext3");
    $sda1 = exec("mount | grep sda1 | awk '{ print $5 }'");
 
-    if ( file_exists( "/dev/scsi/host0/bus0/target0/lun0" ) && $fs_sda1 == "") 
+    if ( file_exists( "/dev/scsi/host0/bus0/target0/lun0" ) && $fs_sda1 != "") 
     
 { ?>
          <tr>
-          <td align="left">format first partition of internal drive with ext3 file system </td>
-          <td align="center"><a class="small awesome red" title="Format hdd" onclick="$('#bottomFrame').load('programs/hddext3/format.php'); document.getElementById('ptable').className='transparent';" >format hdd</a></td>
-          <td colspan=6 align="left">All files on internal hdd and first partition will be deleted/lost!!<br>This can take more than 3 minutes<br>xtreamer reboot automatically after format is done!</td>
+          <td align="left">format internal drive with ext3 file system </td>
+          <td align="center"><a class="small awesome red" title="Format hdd" href="programs/hddext3/format.php" onclick="document.getElementById('ptable').className='transparent'; " >format hdd</a></td>
+          <td colspan=6 align="left">All files on internal hdd will be deleted/lost!!<br>This can take more than 3 minutes<br>xtreamer reboot automatically after format is done!</td>
          </tr>
 
           <!-- Table horisontal line -->

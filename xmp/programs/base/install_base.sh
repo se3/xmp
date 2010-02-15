@@ -1,5 +1,17 @@
 #!/bin/sh
 
+base=`pwd`
+programs=`dirname $base`
+xmp=`dirname $programs`
+xmproot=`dirname $xmp`
+
+if [ -e /sbin/www/xmp ] ; then
+   rm /sbin/www/xmproot
+   rm /sbin/www/xmp
+   ln -s $xmproot /sbin/www/xmproot
+   ln -s /sbin/www/xmproot/xmp /sbin/www/xmp
+fi
+
 if [ ! $1 = "root" ]; then
    echo "make symbolic link from /opt to /tmp/usbmounts/"$1"/opt"
    if [ -d /tmp/usbmounts/$1 ]; then 
