@@ -2,16 +2,21 @@
 <p>You can customize your mediabox, and can do lots of more things.</p>
 <p>Enjoy it! :)</p>
 <?
-$result = 1;
-if ( chdir("..") ) {
-   $xmppath =  getcwd();
-   
-   system("rm /sbin/www/xmproot", $result);
-   system("rm /sbin/www/xmp", $result);
-   system("ln -s $xmppath /sbin/www/xmproot", $result);
-   system("ln -s /sbin/www/xmproot/xmp /sbin/www/xmp", $result);
+$xmppath =  getcwd();
+chdir("..");
+$xmproot =  getcwd();
+
+if( file_exists("/sbin/www/xmp") && file_exists("/sbin/www/xmproot") ){
+   if ( $xmproot == readlink("/sbin/www/xmproot") ){
+      echo"<p>XMP is installed on $xmproot andreachable on address http://myxtreamer/xmp</p>\n";
+   }else{
+      echo "$xmproot - ".readlink("/sbin/www/xmproot") ;
+      
+      echo"<p>XMP is already installed on ".readlink("/sbin/www/xmproot")." andreachable on address http://myxtreamer/xmp</p>\n";
+      echo"<p>Please perform base uninstall if you want use XMP on this drive</p>\n";
+   }
+}else{
+   echo"<p>XMP without base install detected. You can use Fakeshell and skins without base install.</p>\n";
 }
-if ($result == 0){
-   echo"<p>XMP has changed the root to $xmppath and is now reachable on address http://myxtreamer/xmp</p>\n";
-}
+
 ?>

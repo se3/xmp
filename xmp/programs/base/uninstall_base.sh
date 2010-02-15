@@ -25,5 +25,7 @@ rm /bin/transmission_start.sh
 rm /bin/transmission_stop.sh
 rm -R /root
 
+rm /sbin/www/xmproot
+rm /sbin/www/xmp
 
 echo "Uninstall done."

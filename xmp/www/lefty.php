@@ -1,4 +1,6 @@
 <p>
+<a href="?page=main.php" title="Main page">MAIN</a><br />
+
 <a href="?page=programs.php" title="Start &amp; stop programs">PROGRAMS</a><br />
 
 <a href="?page=fakeshell.php" title="Mavvys original fakeshell">MAVVY FS</a><br />

@@ -66,7 +66,7 @@ if [ ! -f /opt/bin/ipkg ]; then
       
    else   
 
-      echo "INSTALL FAILED - missing internet connection?"
+      echo "INSTALL FAILED - missing internet connection or file system mounted read only?"
    fi
 else
    echo "Copy preconfig."
