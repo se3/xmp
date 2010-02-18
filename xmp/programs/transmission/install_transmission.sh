@@ -2,8 +2,8 @@
 
 echo "Transmission install started."
 
-if [ ! -f /sbin/www/xmproot/.transmissionconfig/settings.json ]; then
-   /opt/bin/ipkg install transmission
+if [ ! -f /opt/bin/transmission-daemon ]; then
+   /opt/bin/ipkg install ./transmission_1.76-1_mipsel.ipk
    cp -R preconf/* /
    cp -R .transmissionconfig /sbin/www/xmproot/
    echo "*/5 * * * * root /root/transmission/transmission-queue" >> /opt/var/cron/crontabs/root

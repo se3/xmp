@@ -5,5 +5,5 @@ echo "Transmission uninstall started."
 echo "Transmission uninstall done."
 echo ""
 rm /bin/transmission*
-rm -R /sbin/www/xmproot/.transmissionconfig
+rm /sbin/www/xmproot/.transmissionconfig/settings.json
 rm /etc/init.d/S227transmission

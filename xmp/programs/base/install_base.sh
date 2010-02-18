@@ -8,10 +8,12 @@ xmproot=`dirname $xmp`
 if [ -e /sbin/www/xmp ] ; then
    rm /sbin/www/xmproot
    rm /sbin/www/xmp
-   ln -s $xmproot /sbin/www/xmproot
-   ln -s /sbin/www/xmproot/xmp /sbin/www/xmp
 fi
 
+ln -s $xmproot /sbin/www/xmproot
+ln -s /sbin/www/xmproot/xmp /sbin/www/xmp
+   
+   
 if [ ! $1 = "root" ]; then
    echo "make symbolic link from /opt to /tmp/usbmounts/"$1"/opt"
    if [ -d /tmp/usbmounts/$1 ]; then 
@@ -26,13 +28,20 @@ fi
 if [ ! -f /opt/bin/ipkg ]; then
 
    echo "installing uclibc-opt "
-   if [ ! -f uclibc-opt_0.9.28-13_mipsel.ipk ]; then wget http://ipkg.nslu2-linux.org/feeds/optware/oleg/cross/stable/uclibc-opt_0.9.28-13_mipsel.ipk; fi
-   ./ipkg-cl install uclibc-opt_0.9.28-13_mipsel.ipk 
+   if [ ! -f ./uclibc-opt_0.9.28-13_mipsel.ipk ]; then 
+      wget http://ipkg.nslu2-linux.org/feeds/optware/oleg/cross/stable/uclibc-opt_0.9.28-13_mipsel.ipk;
+   fi
    
-   echo "installing ipkg-opt"
-   if [ ! -f ipkg-opt_0.99.163-10_mipsel.ipk ]; then wget http://ipkg.nslu2-linux.org/feeds/optware/oleg/cross/stable/ipkg-opt_0.99.163-10_mipsel.ipk; fi
-   ./ipkg-cl install ipkg-opt_0.99.163-10_mipsel.ipk
-   
+   if [ ! -f ./uclibc-opt_0.9.28-13_mipsel.ipk ]; then 
+      echo "INSTALL FAILED - missing internet connection or host ipkg.nslu2-linux.org is down!"; 
+   else
+      ./ipkg-cl install uclibc-opt_0.9.28-13_mipsel.ipk 
+       
+      echo "installing ipkg-opt"
+      if [ ! -f ipkg-opt_0.99.163-10_mipsel.ipk ]; then wget http://ipkg.nslu2-linux.org/feeds/optware/oleg/cross/stable/ipkg-opt_0.99.163-10_mipsel.ipk; fi
+      ./ipkg-cl install ipkg-opt_0.99.163-10_mipsel.ipk
+   fi
+
    # check if /opt/bin/ipkg installed properly
    if [ -f /opt/bin/ipkg ]; then
    
