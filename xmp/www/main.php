@@ -8,11 +8,11 @@ $xmproot =  getcwd();
 
 if( file_exists("/sbin/www/xmp") && file_exists("/sbin/www/xmproot") ){
    if ( $xmproot == readlink("/sbin/www/xmproot") ){
-      echo"<p>XMP is installed on $xmproot andreachable on address http://myxtreamer/xmp</p>\n";
+      echo"<p>XMP is installed on $xmproot and reachable on address http://myxtreamer/xmp</p>\n";
    }else{
       echo "$xmproot - ".readlink("/sbin/www/xmproot") ;
       
-      echo"<p>XMP is already installed on ".readlink("/sbin/www/xmproot")." andreachable on address http://myxtreamer/xmp</p>\n";
+      echo"<p>XMP is already installed on ".readlink("/sbin/www/xmproot")." and reachable on address http://myxtreamer/xmp</p>\n";
       echo"<p>Please perform base uninstall if you want use XMP on this drive</p>\n";
    }
 }else{
